@@ -1,0 +1,647 @@
+/*Tempered Legacy*/
+.cellGoals {
+  background-color: whitesmoke !important;
+  color: #2d2d2d;
+  border: none;
+  border-radius: 1em;
+  padding: 20px 20px 5px 20px;
+}
+
+.dataCol {
+    border: 1px solid #2d2d2d;
+}
+
+.dataCol p{
+  border-bottom: 1px solid grey;
+}
+
+.notransition {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
+
+.temperedP {
+  margin-top: -0.5em;
+  margin-bottom: 3em;
+  line-height: 1;
+}
+
+.cellLegacies {
+  background-color: #2d2d2d !important;
+  color: whitesmoke;
+  border: none;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  border-radius: 1em;
+  padding: 20px 20px 5px 20px;
+}
+
+.temperedRows {
+  border: 2px solid black;
+  margin-bottom: 10px;
+  background: #2d2d2d;
+  line-height: 1.5em;
+  border-radius: 1em;
+}
+
+/* SPOILER TEXT */
+details p{
+  margin-left: 1.2rem;
+}
+
+summary {
+  cursor: pointer;
+  font-size: 1.2em;
+  &::after {
+    padding-left: 10px;
+  }
+  &::-webkit-details-marker {
+    display: none
+  }
+}
+
+summary:hover{
+  color: #4fb1ba;
+}
+
+/* Lowcountry Crawl */
+.lcc-btn {
+  color: black;
+  background: #F0DDC3;
+  width: 100%;
+  border-radius: initial;
+  border: 1px solid #96515C;
+  outline: 1px rgb(38, 38, 38);
+  white-space: normal !important;
+}
+
+.lcc-btn h3 {
+  margin-top: 5px;
+  margin-bottom: 6px;
+  color: #96515C;
+}
+
+.lcc-btn:hover {
+  color: black;
+  background: whitesmoke;
+}
+
+/** TEMPERED LEGACY **/
+.tempered-btn-sm {
+    color: black;
+    background: #D4D4BA;
+    border-radius: initial;
+    border: 1px solid whitesmoke;
+    outline: 1px black;
+    white-space: normal !important;
+}
+
+.tempered-btn-sm p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.tempered-btn-sm:hover {
+    color: whitesmoke;
+    background-image: linear-gradient(to right, #836042, rgb(177, 140, 86), #CA868F, #3B75AF, rgb(52, 118, 142), #6E99A0);
+}
+
+.tempered-btn {
+  color: black;
+  background: #D4D4BA;
+  width: 100%;
+  border-radius: initial;
+  border: 1px solid whitesmoke;
+  outline: 1px darkslategrey;
+  white-space: normal !important;
+    margin-bottom: 6px;
+}
+
+.tempered-btn h3 {
+  margin-top: 5px;
+  margin-bottom: 6px;
+}
+
+.tempered-btn:hover {
+  color: whitesmoke;
+  background-image: linear-gradient(to right, #836042, rgb(177, 140, 86), #CA868F, #3B75AF, rgb(52, 118, 142), #6E99A0);
+}
+
+/* Wyrd Generator */
+.wyrd-btn {
+  color: whitesmoke;
+  background: black;
+  width: 100%;
+  border-radius: initial;
+  border: 1px solid whitesmoke;
+  outline: 1px rgb(38, 38, 38);
+  white-space: normal !important;
+}
+
+.wyrd-btn h3 {
+  margin-top: 5px;
+  margin-bottom: 6px;
+  color: whitesmoke;
+}
+
+.wyrd-btn:hover {
+  color: whitesmoke;
+  background: darkslategrey;
+}
+
+/* Clink */
+.clink-btn {
+  color: whitesmoke;
+  background: #AC2044;
+  width: 100%;
+  border-radius: initial;
+  border: 1px solid whitesmoke;
+  outline: 1px #AC2044;
+  white-space: normal !important;
+}
+
+.clink-btn h3 {
+  margin-top: 5px;
+  margin-bottom: 6px;
+  color: whitesmoke;
+}
+
+.clink-btn:hover {
+  color: whitesmoke;
+  background: #391036;
+}
+
+.clink-hover {
+  color: whitesmoke;
+  background: #391036;
+  width: 100%;
+  border-radius: initial;
+  border: 1px solid whitesmoke;
+  outline: 1px #391036;
+  white-space: normal !important;
+}
+
+.clink-hover h3 {
+  margin-top: 5px;
+  margin-bottom: 6px;
+  color: whitesmoke;
+}
+/* Bone Marshes Button */
+
+.bonemarshesCard hr {
+    border: 3px solid darkslategrey;
+    border-radius: 3px;
+}
+
+.bonemarshes-btn {
+  color: whitesmoke;
+  background: darkslategrey;
+  width: 100%;
+  border-radius: initial;
+  border: 1px solid whitesmoke;
+  outline: 1px rgb(38, 38, 38);
+  white-space: normal !important;
+}
+
+.bonemarshes-btn h3 {
+  margin-top: 5px;
+  margin-bottom: 6px;
+  color: whitesmoke;
+}
+
+.bonemarshes-btn:hover {
+  color: whitesmoke;
+  background: darkolivegreen;
+}
+
+.bonemarshesCard {
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 6px 17px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 6px 17px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 6px 17px 0px rgba(0, 0, 0, 0.75);
+  padding: 10px 20px;
+  background-color: whitesmoke;
+  color: darkslategrey;
+  line-height: 1.1;
+  display: none;
+}
+
+.bonemarshesCard h1,
+.bonemarshesCard h2,
+.bonemarshesCard h3,
+.bonemarshesCard hr,
+.bonemarshesCard div {
+  margin-top: 5px;
+  margin-bottom: 6px;
+  color: darkslategrey;
+}
+
+
+/* Best Left Buried */
+
+.leftburiedCard {
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 6px 17px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 6px 17px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 6px 17px 0px rgba(0, 0, 0, 0.75);
+  padding: 10px 20px;
+  background-color: rgb(38, 38, 38);
+  color: whitesmoke;
+  line-height: 1.1;
+  display:none;
+}
+
+.leftburiedCard h1,
+.leftburiedCard h2,
+.leftburiedCard h3,
+.leftburiedCard hr,
+.leftburiedCard div {
+  margin-top: 5px;
+  margin-bottom: 6px;
+  color:whitesmoke;
+}
+
+.centerButtons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+  margin: 10px;
+}
+
+.leftburied-btn {
+  color: whitesmoke;
+  background: rgb(38, 38, 38);
+  width: 100%;
+  border-radius: initial;
+  border: 1px solid whitesmoke;
+  outline: 1px rgb(38, 38, 38);
+  white-space: normal !important;
+}
+
+.leftburied-btn h3 {
+  margin-top: 5px;
+  margin-bottom: 6px;
+  color:whitesmoke;
+}
+
+.leftburied-btn:hover {
+  color: whitesmoke;
+  background: black;
+}
+
+/* Embed PDFs*/
+
+.pdf-container {
+  position: relative;
+  padding-bottom: 135%;
+  /* set the aspect ratio here as (height / width) * 100% */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.pdf-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/*For the Troika Generator*/
+
+.troikabtn {
+  color: #fff;
+  background-color: crimson;
+  border-color: crimson;
+}
+
+.troikabtn:hover{
+  background-color: darkred;
+}
+
+.coinDiv {
+  -webkit-transform: perspective(500px);
+  -webkit-transform-style: preserve-3d;
+}
+
+.coin {
+  background-image: url('/images/BackToken.png');
+  background-color: silver;
+  background-blend-mode: screen;
+  background-size: 100% 100%;
+  border-radius: 100%;
+  height: 200px;
+  margin: auto;
+  position: relative;
+  width: 200px;
+  -webkit-transition: 0.5s linear;
+  -webkit-transform-style: preserve-3d;
+}
+
+#coinText{
+text-align: center;
+font-size: 2.5em;
+padding-top: 25px;
+color: black;
+}
+.coin:after {
+  background-color: silver;
+  background-image: -webkit-linear-gradient(hsla(0, 0%, 100%, .25), hsla(0, 0%, 0%, .25));
+  bottom: 0;
+  content: '';
+  left: 45px;
+  top: 0;
+  width: 10px;
+  z-index: -10;
+  -webkit-transform: rotateY(-90deg);
+  -webkit-transform-origin: 100% 50%;
+}
+
+.coin:before {
+  background-color: silver;
+  background-blend-mode: hard-light;
+  background-image: url('/images/BackToken.png');
+  background-size: 100% 100%;
+  border-radius: 100%;
+  content: '';
+  height: 200px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 200px;
+  -webkit-transform: translateZ(-10px);
+}
+
+.centerh3{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+input[type="number"] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.number-input {
+  border: 2px solid #ddd;
+  display: inline-flex;
+}
+
+.number-input,
+.number-input * {
+  box-sizing: border-box;
+}
+
+.number-input button {
+  outline: none;
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+}
+
+.number-input button:before,
+.number-input button:after {
+  display: inline-block;
+  position: absolute;
+  content: '';
+  width: 1rem;
+  height: 2px;
+  background-color: #212121;
+  transform: translate(-50%, -50%);
+}
+
+.number-input button.plus:after {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.number-input input[type=number] {
+  //font-family: sans-serif;
+  max-width: 5rem;
+  //padding: .5rem;
+  border: solid #ddd;
+  border-width: 0 2px;
+  font-size: 2rem;
+  //height: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.collapse {
+  cursor: pointer;
+  padding: 15px;
+  font-size: 1.17em;
+  font-weight: var(--font-weight-heading);
+  text-align: left;
+}
+
+.collapsecontent {
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.noPadding {
+    padding:initial;
+}
+
+/* Style the tab */
+.btn-black {
+  color: whitesmoke;
+  background: black;
+  width:100%;
+  border-radius: initial;
+  border:1px solid whitesmoke;
+}
+
+.btn-black:hover {
+  color: whitesmoke;
+  background: darkslategrey;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  margin-top:30px;
+  margin-right: -15px;
+  margin-left: -15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-wide {
+  min-width: 200px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px 30px;
+  transition: 0.3s;
+  font-size: 20px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tablinks {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #F64B43;
+  color: whitesmoke;
+}
+
+/* Style the tab content */
+.tabcontent {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  min-height: 400px;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.HSItabcontent {
+  padding: 6px 12px;
+  min-height:500px;
+  border: 1px solid #ccc;
+  border-top: none;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+//ynn generator
+.pastRecords {
+  color: darkgrey;
+}
+
+//Bone Marshes Character Generator
+.tightSpacing {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.buttonWrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.generatorCard {
+  border-radius: 5px;
+  border: 3px currentColor;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px 30px;
+  background-color: whitesmoke;
+  color: black;
+}
+
+//for organization of tags and categories
+.categories a {
+  display: block;
+  text-decoration: none;
+}
+
+.categories h2 {
+  margin: 0;
+}
+
+.categories td {
+  text-align: center;
+  width: 30%;
+}
+
+/*move images to top*/
+
+.content .img img {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+/*Don't keep cards the same size*/
+.layout-projects .column,
+.layout-project .column,
+.layout-welcome .column {
+  display: block;
+}
+
+.leftSmallImg {
+  max-width: 200px !important;
+  float: left !important;
+  clear: left;
+  margin: 5px 25px 25px auto !important;
+}
+
+.rightSmallImg {
+  max-width: 200px !important;
+  float: right !important;
+  clear: right;
+  margin: 5px auto 25px 25px !important;
+}
+
+h1,
+h2,
+h3 {
+  clear: left;
+}
+
+
+.dl-table {
+  a {
+    padding-bottom: 0.4rem;
+  }
+
+  .btn {
+    margin: 1.5rem 0;
+  }
+}
+
+
+.omniCard {
+  border-radius: 5px;
+  border: 3px currentColor;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px 30px;
+  background-color: whitesmoke;
+  color: black;
+}
+.omniCard > h1 h2 h3 h4 h5{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
