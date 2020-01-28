@@ -60,11 +60,11 @@ function weaponDesc() {
       break;
     case (random < 0.7):
       WeaponType = selectRandom(tempered.MediumWeapons);
-      slots = 3;
+      slots = 2;
       break;
     default:
       WeaponType = selectRandom(tempered.LargeWeapons);
-      slots = 4;
+      slots = 2;
       break;
   }
   document.getElementById("weaponDesc").innerHTML = parseWORDS(selectRandom(tempered.DescriptionIntro) + selectRandom(tempered.DescriptionDetails) + selectRandom(tempered.DescriptionSpecial));

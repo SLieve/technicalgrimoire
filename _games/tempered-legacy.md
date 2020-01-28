@@ -55,21 +55,10 @@ Join [the Mailing List](https://gumroad.com/technicalgrimoire/follow) to get upd
 </div>
 </div>
 
-## Getting Started
 
-Identified by the rainbow colored metal, a Tempered item stores the enchantments, spells, and knowledge of past Wielders. These are locked behind the regrets of past owners. 
+## Slots
 
-![temperedBow.png]({{site.url}}/images/posts/temperedBow.png)
-
-Tempered Weapons can be given out at the beginning of a new campaign, discovered in an ancient tomb, purchased in a wild market, or bestowed to PCs by the gods. No matter how characters acquire a Tempered Weapon, the process is the same.
-
-Have each player open their phones and click the "Generate Weapon" button on this website and write down the details of their Weapon:
-
-- **Name and Description.**
-- **Slots.** Weapons may contain hundreds of Slots, but only a few are accessible at any given time. Larger weapons have more Slots.
-- **Regrets** are the unfinished goals and ambitions of past wielders. In order to unlock a slot you need to fulfill their regrets.
-
-**Slots can contain**: 
+Most Slots are locked behind the regrets of previous owners. Once you fulfill these regrets you'll gain access to their powers.
 
 <table style="width: 100%;">
     <tr>
@@ -77,28 +66,30 @@ Have each player open their phones and click the "Generate Weapon" button on thi
       <th><strong>Specific Knowledge</strong></th>
     </tr>
     <tr>
-      <td>These spells can only be cast while holding the Weapon. Tweak them to fit whatever magic system your game uses. L = caster level. Spells last Lx10 minutes, range of 40ft (unless noted otherwise). "Items" can be held in one hand, "objects" are anything up to human size.</td>
-      <td>The memories, skills, and training of a past wielder about a particular topic. Knowledge is accessible while holding the Weapon. When the weapon is released, the knowledge fades away over the next day. Can be treated like Skills or Feats in other games.</td>
+      <td>These spells can only be cast while holding the Item. Tweak them to fit whatever magic system your game uses. *L = caster level. Spells last Lx10 minutes, range of 40ft (unless noted otherwise). "Items" can be held in one hand, "objects" are anything up to human size.*</td>
+      <td>The memories, skills, and training of a past owner. Knowledge is accessible while holding the Item. When the Item is released, the knowledge fades away over the next hour.</td>
     </tr>
     <tr>
       <th><strong>An Enchantment</strong></th>
       <th><strong>A Mutation</strong></th>
     </tr>
     <tr>
-      <td>Applied by a past wielder, Enchantments alter the properties of the weapon. New enchantments can be added depending on the rules of your game, but must replace an existing Enchantment Slot.</td>
-      <td>The dense mixture of magic and history in a Weapon can result in bizarre infections that alter the Wielder. They can only be cured by fulfilling their associated Regret.</td>
+      <td>Applied by a past owner, Enchantments alter the properties of the Item. New enchantments can be added depending on the rules of your game, but must replace an existing Enchantment Slot.</td>
+      <td>The dense mixture of magic and history in a Item can result in bizarre infections that alter the owner permanently. They can only be cured by fulfilling their associated regret.</td>
     </tr>
 </table>
 
+![temperedBow.png]({{site.url}}/images/posts/temperedBow.png)
+
 ## Interacting With Slots
 
-There are 3 ways to interact with the slots in your weapon:
+There are 3 ways to interact with the slots in your Item:
 
-**A) Unlock a Slot**. When you complete the goal of a previous Wielder, you unlock their Slot (spell, enchantment, or knowledge).  
+**A) Unlock a Slot**. When you complete the goal of a previous owner, you unlock their Slot.  This reveals a new Slot on the item. Use the "Generate Slot" button and add it to your item.
 
-**B) Character Death**. When a character dies the weapon creates a Slot for them. Remove one of the Slots on the Weapon and replace it with a Spell your character knew or a field of Knowledge they posessed. Create a Regret to lock the Slot.
+**B) Character Death**. When a character dies they can choose to have some aspect of themselves stored in the item. Erase all the slots in the item, except for the first one. Create a new slot based on the character that just died, along with a Lock for that slot and add it to the item.
 
-**C) Help Another Wielder Unlock a Slot.** After you help another Wielder unlock one of their Slots, you may use the "Slot Generator" to replace any Slot in your own weapon with one from the generator. NOTE: new Slots come locked behind Regrets; think carefully before you replace a slot.
+**C) Help Another Wielder Unlock a Slot.** After you help an ally unlock one of their Slots, you may use the "Slot Generator" to replace any Slot in your own Item with one from the generator.
 
 ![temperedSolar.png]({{site.url}}/images/posts/temperedSolar.png)
 
@@ -115,10 +106,11 @@ Tempered Legacy is an ongoing project. We're constantly adding stuff to the gene
 
 **Thanks to:**
 
+ - [David Cox](https://www.davecox.design/), the co-writer of Tempered Legacy.
  - Lauren Schirduan, the love of David's life and his partner in crime. 
  - [Skerples](https://coinsandscrolls.blogspot.com/) for his [d1000 mutations](https://coinsandscrolls.blogspot.com/2019/11/osr-1d1000-mutations.html).
  - [Ben Milton](http://questingblog.com/) for his [level-less Knave spells](https://questingbeast.itch.io/knave).
- - [The Nonsense Word Generator](http://soybomb.com/tricks/words/) for some of the weirder words. and the [Gibberish Generator](https://thinkzone.wlonk.com/Gibber/GibGen.htm) for mutation phrases.
+ - [The Nonsense Word Generator](http://soybomb.com/tricks/words/) for some of the weirder words.
  - [Freehold games](http://www.cavesofqud.com/) for making the rogue-like David keeps coming back to again and again.
  - And to the [OSR community](https://discord.gg/kJjMvC) for being such an encouraging, welcoming place.
 
@@ -129,8 +121,8 @@ Tempered Legacy is an ongoing project. We're constantly adding stuff to the gene
  - Archer: [The Blue Poetry Book](https://www.flickr.com/photos/britishlibrary/11298236855)
  - Bard's Weapons: [Martial Deeds of Pennsylvania](https://www.flickr.com/photos/britishlibrary/11068186856)
 
-![temperedlegacy.png]({{site.url}}/images/temperedlegacy.png)
-
 Everything on this page is protected under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+![temperedlegacy.png]({{site.url}}/images/temperedlegacy.png)
 
 <script async src="/_pages/temperedgenerators.js" charset="utf-8"></script>
