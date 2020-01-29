@@ -15,7 +15,6 @@ function selectRandom(jsonList) {
   return result;
 }
 
-var slots = 1;
 var Wielder = "Lemuria";
 var WeaponName = "Excaliber"
 var WeaponType = "Dagger"
@@ -27,7 +26,7 @@ function hideWindow() {
 
 function generateSlot() {
   document.getElementById("weaponName").innerHTML = "New Slot:";
-  document.getElementById("weaponDesc").innerHTML = "After you help another Wielder unlock one of their Slots, you may replace any Slot in your own weapon with one from this generator. NOTE: new Slots come locked behind Regrets; think carefully before you replace a slot."
+  document.getElementById("weaponDesc").innerHTML = "If you Unlock a Slot add the below Slot to your Weapon. If you helped an ally unlock a Slot on their weapon, you may replace one of your own Slots with the below Slot."
   document.getElementById("slotNumber").style = "display:none;";
   document.getElementById("temperedSlots").innerHTML = createSlot(1);
   document.getElementById("weaponCard").style = "";
@@ -42,7 +41,6 @@ function generateWeapon() {
   document.getElementById("weaponName").innerHTML = WeaponName;
   weaponDesc();
   document.getElementById("slotNumber").style = "";
-  document.getElementById("slotNumber").innerHTML = slots + " Slots:";
   document.getElementById("temperedSlots").innerHTML = createSlot(slots);
   document.getElementById("weaponCard").style = "";
   document.getElementById("screenshot").style = "text-align: center;";
@@ -50,23 +48,9 @@ function generateWeapon() {
 }
 
 function weaponDesc() {
-  var random = Math.random();
-  WeaponType = "";
+  WeaponType = selectRandom(tempered.Weapons);
+  slots = 2;
 
-  switch (true) {
-    case (random < 0.3):
-      WeaponType = selectRandom(tempered.SmallWeapons);
-      slots = 2;
-      break;
-    case (random < 0.7):
-      WeaponType = selectRandom(tempered.MediumWeapons);
-      slots = 2;
-      break;
-    default:
-      WeaponType = selectRandom(tempered.LargeWeapons);
-      slots = 2;
-      break;
-  }
   document.getElementById("weaponDesc").innerHTML = parseWORDS(selectRandom(tempered.DescriptionIntro) + selectRandom(tempered.DescriptionDetails) + selectRandom(tempered.DescriptionSpecial));
 
   document.getElementById("weaponImg").src = "/images/TemperedWeapons/" + WeaponType + ".png";
@@ -99,10 +83,10 @@ function createSlot(numSlots) {
 
     switch (true) {
       //Give a mutation ONLY if it's not the first slot of a weapon.
-      case ((numSlots > 1 && random <= 15 && i != 0) || (numSlots == 1 && random <= 15)):
+      case ((numSlots > 1 && random <= 25 && i != 0) || (numSlots == 1 && random <= 15)):
         powername = "<strong>Mutation</strong>";
         powerdescr = selectRandom(tempered.Mutations);
-        phrase = "Mutations change the Wielder. They can only be removed by fulfilling their Regret.";
+        phrase = "Mutations change the Wielder. They can only be cured by unlocking this Slot.";
         mutation = true;
         break;
       case (random < 50):
@@ -113,7 +97,7 @@ function createSlot(numSlots) {
       case (random < 75):
         powername = "<strong>" + Wielder + "'s Knowledge</strong>";
         powerdescr = selectRandom(tempered.Knowledge);
-        phrase = "Knowledge is accessible while holding the Weapon. When the weapon is released, the knowledge fades away over the next day.";
+        phrase = "Knowledge is accessible while holding the Weapon. When the weapon is released, the knowledge fades away over the next hour.";
         break;
       default:
         powername = "<strong>" + Wielder + "'s Enchantment</strong>";
@@ -309,14 +293,10 @@ function randomObject() {
   random = Math.random();
 
   switch (true) {
-    case (random < .05):
+    case (random < .06):
       return selectRandom(tempered.Objects);
-    case (random < .07):
-      return selectRandom(tempered.SmallWeapons);
-    case (random < .09):
-      return selectRandom(tempered.MediumWeapons);
     default:
-      return selectRandom(tempered.LargeWeapons);
+      return selectRandom(tempered.Weapons);
   }
 }
 

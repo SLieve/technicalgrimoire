@@ -41,7 +41,7 @@ Join [the Mailing List](https://gumroad.com/technicalgrimoire/follow) to get upd
   <p id="weaponDesc">A simple but well-crafted blade</p>
   <p id="weaponRumor">A simple but well-crafted blade</p>
   <p><img id="weaponImg" src="/images/TemperedWeapons/Sword.png" style="background: black; width: 100%;"></p>
-  <h2 class="tightSpacing" id="slotNumber">3 Slots:</h2>
+  <h3 class="tightSpacing" id="slotNumber">This weapon has many Slots stored within, but only two are accessible right now. Unlock the second Slot to reveal more Slots.</h3>
   <div id="temperedSlots">
   </div>
   <h3 style="text-align: center;" id="screenshot">TAKE A SCREENSHOT SO YOU DON'T LOSE YOUR WEAPON</h3>
