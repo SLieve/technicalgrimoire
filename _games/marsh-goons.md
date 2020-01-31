@@ -20,7 +20,7 @@ Join [the Mailing List](https://gumroad.com/technicalgrimoire/follow) to get upd
 **Marsh Goons will include:**
 
  - Artwork by [Jess Comstock](https://www.jessidraws.art/)
- - Hexkit maps by [Cecil Howe](https://cone.itch.io/) and [Steven Collins](https://stevencolling.itch.io/isle-of-lore-2-hex-tiles-regular)
+ - Hexkit maps by [Cecil Howe](https://cone.itch.io/) and [Steven Colling](https://stevencolling.itch.io/isle-of-lore-2-hex-tiles-regular)
  - Complete ruleset based on Tunnel Goons, but with more mud!
  - A dozen detailed NPCs and bizarre creatures
  - Several engaging locations

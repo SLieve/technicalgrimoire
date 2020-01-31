@@ -91,7 +91,7 @@ function createSlot(numSlots) {
         break;
       case (random < 50):
         powername = "<strong>" + Wielder + "'s Spell</strong>";
-        powerdescr = selectRandom(tempered.Spells);
+        powerdescr = parseWORDS(selectRandom(tempered.Spells));
         phrase = "Spells can be cast while holding the Weapon. L = caster level. Spells last Lx10 minutes, range of 40ft (unless noted otherwise). \"Items\" can be held in one hand, \"objects\" are anything up to human size.";
         break;
       case (random < 75):
