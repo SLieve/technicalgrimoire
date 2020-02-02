@@ -16,7 +16,7 @@ redirect_from:
 
 Tempered Legacy is a magic item supplement for fantasy RPGs. The powers of an item are locked behind the regrets of previous owners. 
 
-This gives players a fun weapon they can invest in while providing GMs with an easy vehicle for adventure hooks and character motivation.
+This gives players a fun weapon they can invest in while providing GMs with an easy vehicle for adventure hooks and character motivation. As soon as they grab hold of a Tempered Item, they gain awareness of all the Slots within it.
 
 Join [the Mailing List](https://gumroad.com/technicalgrimoire/follow) to get updates about the upcoming **Tempered Legacy Zine** (more info below).
 
