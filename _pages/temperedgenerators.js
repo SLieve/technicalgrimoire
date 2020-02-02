@@ -116,7 +116,7 @@ function createSlot(numSlots) {
       slotHTML = slotHTML + "<p> " + parseWORDS(selectRandom(tempered.GoalTemplates)) + " Then you will unlock " + powername + ".</p></div>";
       //otherwise the first slot is an introduction
     } else if (i == 0) {
-      slotHTML = slotHTML + "<p>Unlock Slots by fulfilling the regrets of previous owners. When you perish your own legacy will be added to this collection. <strong>" + powername + "</strong> is already unlocked and can be accessed immediately.</p></div>";
+      slotHTML = slotHTML + "<p>Unlock Slots by fulfilling the regrets of previous owners. <strong>" + powername + "</strong> is already unlocked and can be accessed immediately.</p></div>";
       //everything else has a goal
     } else {
       slotHTML = slotHTML + "<p> " + parseWORDS(selectRandom(tempered.GoalTemplates)) + " Then you will unlock " + powername + ".</p></div>";
