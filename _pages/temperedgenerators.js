@@ -26,7 +26,7 @@ function hideWindow() {
 
 function generateSlot() {
   document.getElementById("weaponName").innerHTML = "New Slot:";
-  document.getElementById("weaponDesc").innerHTML = "If you Unlock a Slot add the below Slot to your Weapon. If you helped an ally unlock a Slot on their weapon, you may replace one of your own Slots with the below Slot."
+  document.getElementById("weaponDesc").innerHTML = "If you Unlock a Slot add the below Slot to your Weapon. If you helped an ally unlock a Slot on their weapon, you may replace one the slots in your own weapon with the below Slot."
   document.getElementById("slotNumber").style = "display:none;";
   document.getElementById("temperedSlots").innerHTML = createSlot(1);
   document.getElementById("weaponCard").style = "";
