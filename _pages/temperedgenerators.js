@@ -74,6 +74,7 @@ function createSlot(numSlots) {
   powerdescr = "";
   phrase = "";
   random = 1;
+  icon = "";
 
   //for the number of Slots
   for (i = 0; i < numSlots; i++) {
@@ -84,22 +85,26 @@ function createSlot(numSlots) {
     switch (true) {
       //Give a mutation ONLY if it's not the first slot of a weapon.
       case ((numSlots > 1 && random <= 25 && i != 0) || (numSlots == 1 && random <= 15)):
+        icon = "mutation.png";
         powername = "<strong>Mutation</strong>";
         powerdescr = selectRandom(tempered.Mutations);
         phrase = "Mutations change the Wielder. They can only be cured by unlocking this Slot.";
         mutation = true;
         break;
       case (random < 50):
+        icon = "spell.png";
         powername = "<strong>" + Wielder + "'s Spell</strong>";
         powerdescr = parseWORDS(selectRandom(tempered.Spells));
         phrase = "Spells can be cast while holding the Weapon. L = caster level. Spells last Lx10 minutes, range of 40ft (unless noted otherwise). \"Items\" can be held in one hand, \"objects\" are anything up to human size.";
         break;
       case (random < 75):
+        icon = "knowledge.png";
         powername = "<strong>" + Wielder + "'s Knowledge</strong>";
         powerdescr = selectRandom(tempered.Knowledge);
         phrase = "Knowledge is accessible while holding the Weapon. When the weapon is released, the knowledge fades away over the next hour.";
         break;
       default:
+        icon = "enchantment.png";
         powername = "<strong>" + Wielder + "'s Enchantment</strong>";
         powerdescr = selectRandom(tempered.Enchantments);
         phrase = "Enchantments alter the properties of the Weapon. They are passive bonuses and always in effect.";
@@ -110,20 +115,20 @@ function createSlot(numSlots) {
     //SET GOALS.
     //Mutations don't have goals and can't be the first Slot
     if (mutation) {
-      slotHTML = slotHTML + "<img class=\"padlock\" src=\"/images/TemperedWeapons/health-potion.png\"><p> " + parseWORDS(selectRandom(tempered.GoalTemplates)) + " Then you will cure this Mutation.</p></div>";
+      slotHTML = slotHTML + "<img class=\"temperedicon\" src=\"/images/TemperedWeapons/cure.png\"><p> " + parseWORDS(selectRandom(tempered.GoalTemplates)) + " Then you will cure this Mutation.</p></div>";
       //If you're just generating 1 slot, it's locked behind a goal.
     } else if (numSlots == 1) {
-      slotHTML = slotHTML + "<img class=\"padlock\" src=\"/images/TemperedWeapons/padlock.png\"><p> " + parseWORDS(selectRandom(tempered.GoalTemplates)) + " Then you will unlock " + powername + ".</p></div>";
+      slotHTML = slotHTML + "<img class=\"temperedicon\" src=\"/images/TemperedWeapons/locked.png\"><p> " + parseWORDS(selectRandom(tempered.GoalTemplates)) + " Then you will unlock " + powername + ".</p></div>";
       //otherwise the first slot is an introduction
     } else if (i == 0) {
-      slotHTML = slotHTML + "<img class=\"padlock\" src=\"/images/TemperedWeapons/padlock-open.png\"><p>Unlock Slots by fulfilling the regrets of previous owners. <strong>" + powername + "</strong> is already unlocked and can be accessed immediately.</p></div>";
+      slotHTML = slotHTML + "<img class=\"temperedicon\" src=\"/images/TemperedWeapons/unlocked.png\"><p>Unlock Slots by fulfilling the regrets of previous owners. <strong>" + powername + "</strong> is already unlocked and can be accessed immediately.</p></div>";
       //everything else has a goal
     } else {
-      slotHTML = slotHTML + "<img class=\"padlock\" src=\"/images/TemperedWeapons/padlock.png\"><p> " + parseWORDS(selectRandom(tempered.GoalTemplates)) + " Then you will unlock " + powername + ".</p></div>";
+      slotHTML = slotHTML + "<img class=\"temperedicon\" src=\"/images/TemperedWeapons/locked.png\"><p> " + parseWORDS(selectRandom(tempered.GoalTemplates)) + " Then you will unlock " + powername + ".</p></div>";
     }
 
     //SET DETAILS
-    slotHTML = slotHTML + "<div class=\"col-md-6 col-12 cellLegacies\"><p>" + powername + "</p><p>" + powerdescr + "</p></div></div><p class=\"temperedP\"><i><small>" + phrase + "</i></small></p>";
+    slotHTML = slotHTML + "<div class=\"col-md-6 col-12 cellLegacies\"><img class=\"temperedicon\" src=\"/images/TemperedWeapons/" + icon + "\"><p>" + powername + "</p><p>" + powerdescr + "</p></div></div><p class=\"temperedP\"><i><small>" + phrase + "</i></small></p>";
 
   }
   return slotHTML;
