@@ -115,20 +115,20 @@ function createSlot(numSlots) {
     //SET GOALS.
     //Mutations don't have goals and can't be the first Slot
     if (mutation) {
-      slotHTML = slotHTML + "<img class=\"temperedicon\" src=\"/images/TemperedWeapons/cure.png\"><p> " + parseWORDS(selectRandom(tempered.GoalTemplates)) + " Then you will cure this Mutation.</p></div>";
+      slotHTML = slotHTML + "<p><img class=\"temperedicon\" src=\"/images/TemperedWeapons/cure.png\">" + parseWORDS(selectRandom(tempered.GoalTemplates)) + " Then you will cure this Mutation.</p></div>";
       //If you're just generating 1 slot, it's locked behind a goal.
     } else if (numSlots == 1) {
-      slotHTML = slotHTML + "<img class=\"temperedicon\" src=\"/images/TemperedWeapons/locked.png\"><p> " + parseWORDS(selectRandom(tempered.GoalTemplates)) + " Then you will unlock " + powername + ".</p></div>";
+      slotHTML = slotHTML + "<p><img class=\"temperedicon\" src=\"/images/TemperedWeapons/locked.png\">" + parseWORDS(selectRandom(tempered.GoalTemplates)) + " Then you will unlock " + powername + ".</p></div>";
       //otherwise the first slot is an introduction
     } else if (i == 0) {
-      slotHTML = slotHTML + "<img class=\"temperedicon\" src=\"/images/TemperedWeapons/unlocked.png\"><p>Unlock Slots by fulfilling the regrets of previous owners. <strong>" + powername + "</strong> is already unlocked and can be accessed immediately.</p></div>";
+      slotHTML = slotHTML + "<p><img class=\"temperedicon\" src=\"/images/TemperedWeapons/unlocked.png\">Unlock Slots by fulfilling the regrets of previous owners. <strong>" + powername + "</strong> is already unlocked and can be accessed immediately.</p></div>";
       //everything else has a goal
     } else {
-      slotHTML = slotHTML + "<img class=\"temperedicon\" src=\"/images/TemperedWeapons/locked.png\"><p> " + parseWORDS(selectRandom(tempered.GoalTemplates)) + " Then you will unlock " + powername + ".</p></div>";
+      slotHTML = slotHTML + "<p><img class=\"temperedicon\" src=\"/images/TemperedWeapons/locked.png\">" + parseWORDS(selectRandom(tempered.GoalTemplates)) + " Then you will unlock " + powername + ".</p></div>";
     }
 
     //SET DETAILS
-    slotHTML = slotHTML + "<div class=\"col-md-6 col-12 cellLegacies\"><img class=\"temperedicon\" src=\"/images/TemperedWeapons/" + icon + "\"><p>" + powername + "</p><p>" + powerdescr + "</p></div></div><p class=\"temperedP\"><i><small>" + phrase + "</i></small></p>";
+    slotHTML = slotHTML + "<div class=\"col-md-6 col-12 cellLegacies\"><p><img class=\"temperedicon\" src=\"/images/TemperedWeapons/" + icon + "\">" + powername + "</p><p>" + powerdescr + "</p></div></div><p class=\"temperedP\"><i><small>" + phrase + "</i></small></p>";
 
   }
   return slotHTML;
