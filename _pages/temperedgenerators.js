@@ -110,16 +110,16 @@ function createSlot(numSlots) {
     //SET GOALS.
     //Mutations don't have goals and can't be the first Slot
     if (mutation) {
-      slotHTML = slotHTML + "<img class=\"padlock\" src=\"/images/temperedweapons/health-potion.png\"><p> " + parseWORDS(selectRandom(tempered.GoalTemplates)) + " Then you will cure this Mutation.</p></div>";
+      slotHTML = slotHTML + "<img class=\"padlock\" src=\"/images/TemperedWeapons/health-potion.png\"><p> " + parseWORDS(selectRandom(tempered.GoalTemplates)) + " Then you will cure this Mutation.</p></div>";
       //If you're just generating 1 slot, it's locked behind a goal.
     } else if (numSlots == 1) {
-      slotHTML = slotHTML + "<img class=\"padlock\" src=\"/images/temperedweapons/padlock.png\"><p> " + parseWORDS(selectRandom(tempered.GoalTemplates)) + " Then you will unlock " + powername + ".</p></div>";
+      slotHTML = slotHTML + "<img class=\"padlock\" src=\"/images/TemperedWeapons/padlock.png\"><p> " + parseWORDS(selectRandom(tempered.GoalTemplates)) + " Then you will unlock " + powername + ".</p></div>";
       //otherwise the first slot is an introduction
     } else if (i == 0) {
-      slotHTML = slotHTML + "<img class=\"padlock\" src=\"/images/temperedweapons/padlock-open.png\"><p>Unlock Slots by fulfilling the regrets of previous owners. <strong>" + powername + "</strong> is already unlocked and can be accessed immediately.</p></div>";
+      slotHTML = slotHTML + "<img class=\"padlock\" src=\"/images/TemperedWeapons/padlock-open.png\"><p>Unlock Slots by fulfilling the regrets of previous owners. <strong>" + powername + "</strong> is already unlocked and can be accessed immediately.</p></div>";
       //everything else has a goal
     } else {
-      slotHTML = slotHTML + "<img class=\"padlock\" src=\"/images/temperedweapons/padlock.png\"><p> " + parseWORDS(selectRandom(tempered.GoalTemplates)) + " Then you will unlock " + powername + ".</p></div>";
+      slotHTML = slotHTML + "<img class=\"padlock\" src=\"/images/TemperedWeapons/padlock.png\"><p> " + parseWORDS(selectRandom(tempered.GoalTemplates)) + " Then you will unlock " + powername + ".</p></div>";
     }
 
     //SET DETAILS
