@@ -1,10 +1,15 @@
+ .html2canvas-container {
+   width: 3000px !important;
+   height: 3000px !important;
+ }
 /*Tempered Legacy*/
 img.temperedicon {
   width: 40px;
-  height: 43px;
-  float: left;
+  height: 40px;
+  margin-left: 10px;
   margin-right: 10px;
 }
+
 .cellGoals {
   background-color: whitesmoke !important;
   color: #2d2d2d;
@@ -31,7 +36,8 @@ img.temperedicon {
 .temperedP {
   margin-top: -0.5em;
   margin-bottom: 3em;
-  line-height: 1;
+  line-height: 1.5em;
+  font-style: italic;
 }
 
 .cellLegacies {

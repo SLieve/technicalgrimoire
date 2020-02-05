@@ -26,37 +26,33 @@ function hideWindow() {
 
 function generateSlot() {
   document.getElementById("weaponName").innerHTML = "New Slot:";
-  document.getElementById("weaponDesc").innerHTML = "If you Unlock a Slot add the below Slot to your Weapon. If you helped an ally unlock a Slot on their weapon, you may replace one the slots in your own weapon with the below Slot."
-  document.getElementById("slotNumber").style = "display:none;";
+  WeaponName = "this weapon";
+  document.getElementById("weaponDesc").innerHTML =
+    '<p><img class="temperedicon" src="/images/TemperedWeapons/unlocked.png"><strong>Unlock A Slot</strong> to add this Slot to your weapon.</p><p><img class="temperedicon" src="/images/TemperedWeapons/shaking-hands.png"><strong>Help An Ally</strong> to replace any of your Slots with this one.</p>';
   document.getElementById("temperedSlots").innerHTML = createSlot(1);
   document.getElementById("weaponCard").style = "";
-  document.getElementById("screenshot").style = "display:none;";
-  document.getElementById("dataCard").style = "display:none;";
   document.getElementById("weaponImg").style = "display:none;";
-  document.getElementById("weaponRumor").innerHTML = "";
+  //document.getElementById("downloadBTN").style = "display:none;";
+  document.getElementById("interacting").innerHTML = "";
 }
 
 function generateWeapon() {
+  //document.getElementById("downloadBTN").style = "min-width:160px;margin-bottom:auto;";
   WeaponName = parseWORDS(selectRandom(tempered.NameTemplates));
   document.getElementById("weaponName").innerHTML = WeaponName;
   weaponDesc();
-  document.getElementById("slotNumber").style = "";
-  document.getElementById("temperedSlots").innerHTML = createSlot(slots);
+  document.getElementById("temperedSlots").innerHTML = createSlot(2);
   document.getElementById("weaponCard").style = "";
-  document.getElementById("screenshot").style = "text-align: center;";
-  document.getElementById("dataCard").style = "display:none;";
+  document.getElementById("interacting").innerHTML = "<p class=\"h3 tightSpacing\">Interacting With Slots</p><p><img class=\"temperedicon\" src=\"/images/TemperedWeapons/unlocked.png\"><strong>Unlock A Slot</strong>. When you fulfill the regret of a previous owner, you unlock that Slot and gain access to their power. In addition this reveals a new Slot in the weapon! Use the \"Generate Slot\" button and add it to your weapon.</p><p><img class=\"temperedicon\" src=\"/images/TemperedWeapons/shaking-hands.png\"><strong>Help An Ally</strong>. After you help an ally unlock one of their Slots, you may use the \"Slot Generator\" to replace any Slot in your own weapon with one from the generator.</p><p><img class=\"temperedicon\" src=\"/images/TemperedWeapons/skull-crossed-bones.png\"><strong>Character Death</strong>. When a character dies they can choose to have some aspect of themselves stored in the item. Erase all the slots in the weapon, except for the first one. Create a new slot based on the character that just died, along with a Regret for that slot and add it to the weapon.</p>";
 }
 
 function weaponDesc() {
   WeaponType = selectRandom(tempered.Weapons);
   slots = 2;
-
-  document.getElementById("weaponDesc").innerHTML = parseWORDS(selectRandom(tempered.DescriptionIntro) + selectRandom(tempered.DescriptionDetails) + selectRandom(tempered.DescriptionSpecial));
+  document.getElementById("weaponDesc").innerHTML = parseWORDS(selectRandom(tempered.DescriptionIntro) + selectRandom(tempered.DescriptionDetails) + selectRandom(tempered.DescriptionSpecial) + " " + selectRandom(tempered.Rumors));
 
   document.getElementById("weaponImg").src = "/images/TemperedWeapons/" + WeaponType + ".png";
   weaponColors();
-
-  document.getElementById("weaponRumor").innerHTML = "<strong>Rumor</strong>: " + parseWORDS(selectRandom(tempered.Rumors));
 }
 
 /*returns a div row of Slots
@@ -88,49 +84,48 @@ function createSlot(numSlots) {
         icon = "mutation.png";
         powername = "<strong>Mutation</strong>";
         powerdescr = selectRandom(tempered.Mutations);
-        phrase = "Mutations change the Wielder. They can only be cured by unlocking this Slot.";
+        phrase = "The dense mixture of magic and history in "+WeaponName+" can result in bizarre infections that alter the wielder permanently. They can only be cured by fulfilling their associated regret.";
         mutation = true;
         break;
       case (random < 50):
         icon = "spell.png";
         powername = "<strong>" + Wielder + "'s Spell</strong>";
         powerdescr = parseWORDS(selectRandom(tempered.Spells));
-        phrase = "Spells can be cast while holding the Weapon. L = caster level. Spells last Lx10 minutes, range of 40ft (unless noted otherwise). \"Items\" can be held in one hand, \"objects\" are anything up to human size.";
+        phrase = "Spells can only be cast while holding "+WeaponName+". L = caster level. Spells last Lx10 minutes, range of 40ft (unless noted otherwise). \"Items\" can be held in one hand, \"objects\" are anything up to human size.";
         break;
       case (random < 75):
         icon = "knowledge.png";
         powername = "<strong>" + Wielder + "'s Knowledge</strong>";
         powerdescr = selectRandom(tempered.Knowledge);
-        phrase = "Knowledge is accessible while holding the Weapon. When the weapon is released, the knowledge fades away over the next hour.";
+        phrase = "The memories, skills, and training of a previous owner. Knowledge is only accessible while holding "+WeaponName+". After "+WeaponName+" is put away, the knowledge fades away over the next hour.";
         break;
       default:
         icon = "enchantment.png";
         powername = "<strong>" + Wielder + "'s Enchantment</strong>";
         powerdescr = selectRandom(tempered.Enchantments);
-        phrase = "Enchantments alter the properties of the Weapon. They are passive bonuses and always in effect.";
+        phrase = "Enchantments alter the properties of "+WeaponName+". They are passive bonuses and are always in effect.";
     }
 
-    slotHTML = slotHTML + "<div class=\"row temperedRows\"><div class=\"col-md-6 col-12 cellGoals\">"
+    slotHTML = slotHTML + "<div class=\"row temperedRows\"><div class=\"col-lg-6 col-12 cellGoals\">"
 
     //SET GOALS.
     //Mutations don't have goals and can't be the first Slot
     if (mutation) {
-      slotHTML = slotHTML + "<p><img class=\"temperedicon\" src=\"/images/TemperedWeapons/cure.png\">" + parseWORDS(selectRandom(tempered.GoalTemplates)) + " Then you will cure this Mutation.</p></div>";
+      slotHTML = slotHTML + "<p style=\"text-align: center;display: flow-root;\"><img style=\"float:left;\" class=\"temperedicon\" src=\"/images/TemperedWeapons/cure.png\"><strong>" + Wielder + "'s Cure</strong><img style=\"float:right;transform: scaleX(-1);\" class=\"temperedicon\" src=\"/images/TemperedWeapons/cure.png\"></p>" + parseWORDS(selectRandom(tempered.GoalTemplates)) + " Then you will cure this Mutation.</p></div>";
       //If you're just generating 1 slot, it's locked behind a goal.
     } else if (numSlots == 1) {
-      slotHTML = slotHTML + "<p><img class=\"temperedicon\" src=\"/images/TemperedWeapons/locked.png\">" + parseWORDS(selectRandom(tempered.GoalTemplates)) + " Then you will unlock " + powername + ".</p></div>";
+      slotHTML = slotHTML + "<p style=\"text-align: center;display: flow-root;\"><img style=\"float:left;\" class=\"temperedicon\" src=\"/images/TemperedWeapons/locked.png\"><strong>" + Wielder + "'s Regret</strong><img style=\"float:right;transform: scaleX(-1);\" class=\"temperedicon\" src=\"/images/TemperedWeapons/locked.png\"></p><p>" + parseWORDS(selectRandom(tempered.GoalTemplates)) + " Then you will unlock " + powername + ".</p></div>";
       //otherwise the first slot is an introduction
     } else if (i == 0) {
-      slotHTML = slotHTML + "<p><img class=\"temperedicon\" src=\"/images/TemperedWeapons/unlocked.png\">Unlock Slots by fulfilling the regrets of previous owners. <strong>" + powername + "</strong> is already unlocked and can be accessed immediately.</p></div>";
-      //everything else has a goal
+      slotHTML = slotHTML + "<p>As soon as you take hold of "+WeaponName+" you gain awareness of this slot and the Locked one below. <strong>" + powername + "</strong> is already unlocked.</p></div>";      
     } else {
-      slotHTML = slotHTML + "<p><img class=\"temperedicon\" src=\"/images/TemperedWeapons/locked.png\">" + parseWORDS(selectRandom(tempered.GoalTemplates)) + " Then you will unlock " + powername + ".</p></div>";
+      slotHTML = slotHTML + "<p style=\"text-align: center;display: flow-root;\"><img style=\"float:left;\" class=\"temperedicon\" src=\"/images/TemperedWeapons/locked.png\"><strong>" + Wielder + "'s Regret</strong><img style=\"float:right;transform: scaleX(-1);\" class=\"temperedicon\" src=\"/images/TemperedWeapons/locked.png\"></p>" + parseWORDS(selectRandom(tempered.GoalTemplates)) + " Then you will unlock " + powername + ".</p></div>";
     }
 
     //SET DETAILS
-    slotHTML = slotHTML + "<div class=\"col-md-6 col-12 cellLegacies\"><p><img class=\"temperedicon\" src=\"/images/TemperedWeapons/" + icon + "\">" + powername + "</p><p>" + powerdescr + "</p></div></div><p class=\"temperedP\"><i><small>" + phrase + "</i></small></p>";
-
+    slotHTML = slotHTML + "<div class=\"col-lg-6 col-12 cellLegacies\"><p style=\"text-align: center;display: flow-root;\"><img style=\"float:left;\"class=\"temperedicon\" src=\"/images/TemperedWeapons/" + icon + "\">" + powername + "<img style=\"float:right;transform: scaleX(-1);\" class=\"temperedicon\" src=\"/images/TemperedWeapons/" + icon + "\"></p><p>" + powerdescr + "</p></div></div><p class=\"temperedP\">" + phrase + "</p>";
   }
+
   return slotHTML;
 }
 
@@ -163,7 +158,12 @@ function weaponColors() {
     flipped = -1;
   }
 
-  document.getElementById("weaponImg").style = "background: linear-gradient(to right, #" + (0x1000000 + (Math.random()) * 0xffffff).toString(16).substr(1, 6) + ", #" + (0x1000000 + (Math.random()) * 0xffffff).toString(16).substr(1, 6) + ", #" + (0x1000000 + (Math.random()) * 0xffffff).toString(16).substr(1, 6) + ", #" + (0x1000000 + (Math.random()) * 0xffffff).toString(16).substr(1, 6) + ", #" + (0x1000000 + (Math.random()) * 0xffffff).toString(16).substr(1, 6) + ");transform: scaleX(" + flipped + ");";
+  var bgstyle = "background: linear-gradient(to right";
+  for (i=0;i<8;i++){
+    bgstyle = bgstyle + ", #" + (0x1000000 + Math.random() * 0xffffff).toString(16).substr(1, 6);
+  }
+
+  document.getElementById("weaponImg").style = bgstyle + ");transform: scaleX(" + flipped + ");";
 }
 
 function parseWORDS(WORDstring) {
