@@ -21,7 +21,7 @@ Join [the Mailing List](https://gumroad.com/technicalgrimoire/follow) to get upd
 <div class="row centerButtons">
   <div class="col-md-6 col-12">
     <button class="btn tempered-btn notransition" onclick="generateWeapon()">
-      <h3>Generate Another Weapon</h3>
+      <h3>Generate a Weapon</h3>
     </button>
   </div>
   <div class="col-md-6 col-12">

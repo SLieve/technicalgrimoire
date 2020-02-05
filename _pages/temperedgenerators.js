@@ -27,13 +27,12 @@ function hideWindow() {
 function generateSlot() {
   document.getElementById("weaponName").innerHTML = "New Slot:";
   WeaponName = "this weapon";
-  document.getElementById("weaponDesc").innerHTML =
-    '<p><img class="temperedicon" src="/images/TemperedWeapons/unlocked.png"><strong>Unlock A Slot</strong> to add this Slot to your weapon.</p><p><img class="temperedicon" src="/images/TemperedWeapons/shaking-hands.png"><strong>Help An Ally</strong> to replace any of your Slots with this one.</p>';
+  document.getElementById("weaponDesc").innerHTML ='';
   document.getElementById("temperedSlots").innerHTML = createSlot(1);
   document.getElementById("weaponCard").style = "";
   document.getElementById("weaponImg").style = "display:none;";
   //document.getElementById("downloadBTN").style = "display:none;";
-  document.getElementById("interacting").innerHTML = "";
+  document.getElementById("interacting").innerHTML = "<p class=\"h3 tightSpacing\">Interacting With Slots</p><p><img style=\"margin-left: 10px;margin-right: 10px;\" class=\"temperedicon\" src=\"/images/TemperedWeapons/unlocked.png\"><strong>Unlock A Slot</strong>.</p><p>When you fulfill the regret of a previous owner a new Slot is revealed! Add the above Slot to your weapon.</p><p><img style=\"margin-left: 10px;margin-right: 10px;\" class=\"temperedicon\" src=\"/images/TemperedWeapons/shaking-hands.png\"><strong>Help An Ally</strong>.</p><p>After you help an ally unlock one of their Slots, you may Replace any Slot in your own weapon with the abhove Slot.</p>";
 }
 
 function generateWeapon() {
@@ -43,7 +42,7 @@ function generateWeapon() {
   weaponDesc();
   document.getElementById("temperedSlots").innerHTML = createSlot(2);
   document.getElementById("weaponCard").style = "";
-  document.getElementById("interacting").innerHTML = "<p class=\"h3 tightSpacing\">Interacting With Slots</p><p><img class=\"temperedicon\" src=\"/images/TemperedWeapons/unlocked.png\"><strong>Unlock A Slot</strong>. When you fulfill the regret of a previous owner, you unlock that Slot and gain access to their power. In addition this reveals a new Slot in the weapon! Use the \"Generate Slot\" button and add it to your weapon.</p><p><img class=\"temperedicon\" src=\"/images/TemperedWeapons/shaking-hands.png\"><strong>Help An Ally</strong>. After you help an ally unlock one of their Slots, you may use the \"Slot Generator\" to replace any Slot in your own weapon with one from the generator.</p><p><img class=\"temperedicon\" src=\"/images/TemperedWeapons/skull-crossed-bones.png\"><strong>Character Death</strong>. When a character dies they can choose to have some aspect of themselves stored in the item. Erase all the slots in the weapon, except for the first one. Create a new slot based on the character that just died, along with a Regret for that slot and add it to the weapon.</p>";
+  document.getElementById("interacting").innerHTML = "<p class=\"h3 tightSpacing\">Interacting With Slots</p><p><img class=\"temperedicon\" style=\"margin-left: 10px;margin-right: 10px;\" src=\"/images/TemperedWeapons/unlocked.png\"><strong>Unlock A Slot</strong>.</p><p>When you fulfill the regret of a previous owner, you unlock that Slot and gain access to their power. In addition this reveals a new Slot in the weapon! Use the \"Generate Slot\" button and add it to your weapon.</p><p><img class=\"temperedicon\" style=\"margin-left: 10px;margin-right: 10px;\" src=\"/images/TemperedWeapons/shaking-hands.png\"><strong>Help An Ally</strong>.</p><p>After you help an ally unlock one of their Slots, you may use the \"Slot Generator\" to replace any Slot in your own weapon with one from the generator.</p><p><img class=\"temperedicon\" style=\"margin-left: 10px;margin-right: 10px;\" src=\"/images/TemperedWeapons/skull-crossed-bones.png\"><strong>Character Death</strong>.</p><p>When a character dies they can choose to have some aspect of themselves stored in the item. Erase all the slots in the weapon, except for the first one. Create a new slot based on the character that just died, along with a Regret for that slot and add it to the weapon.</p>";
 }
 
 function weaponDesc() {
