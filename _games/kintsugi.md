@@ -3,7 +3,7 @@ date: 2018-12-01
 layout: project
 title: Kintsugi
 permalink: david/kintsugi
-caption: A little RPG about robots and mutants who learn things.
+caption: A little RPG about robots who learn things.
 screenshot:
   src: /images/posts/Kintsugi-Wide.png
 links: 
