@@ -3,7 +3,7 @@ date: 2018-12-01
 layout: project
 title: Kintsugi
 permalink: david/kintsugi
-caption: Failure Only Makes You Stronger
+caption: A little RPG about robots and mutants who learn things.
 screenshot:
   src: /images/posts/Kintsugi-Wide.png
 links: 
@@ -13,7 +13,7 @@ hide_description: true
 image: /images/posts/Kintsugi-Wide.png
 ---
 
-A simple game where failure only makes you stronger!
+A simple RPG where failure only makes you stronger!
 
 Kintsugi began as a 200 Word RPG but has since expanded into a shiny pamphlet! Play as a Robot, Mutant, or a Magical Golem; someone who can’t die and quickly learns new skills or abilities. Simple but elegant rules allow you to create your characters as you play, building them up one failure at a time. 
 
