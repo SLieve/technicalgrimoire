@@ -20,11 +20,11 @@ In Marsh Goons your inventory is your life, and the mud keeps taking up space! T
 Join [the Mailing List](https://gumroad.com/technicalgrimoire/follow) to get updates about the upcoming zine!
 
 <div class="row centerButtons">
-  <div class="col-md-6 col-9">
-    <button id="CharButton" class="btn bonemarshes-btn" href="/files/MG_CharSheet.pdf" target="_blank">
+  <div class="col-md-6 col-6">
+    <a class="btn bonemarshes-btn" href="/files/MG_CharSheet.pdf" target="_blank">
       <h3>Character Sheet</h3>
-    </button>  
-    </div>
+    </a>
+  </div>
   <div class="col-md-6 col-9">
     <button id="CharButton" class="btn bonemarshes-btn" onclick="generate()">
       <h3>Generate Character</h3>
