@@ -34,15 +34,14 @@ Join [the Mailing List](https://gumroad.com/technicalgrimoire/follow) to get upd
 
 <div class="container bonemarshesCard" id="charCard">
   <div class="row">
-		<div class="col-md-6 col-12"><h2 id="charName">Testing</h2></div>
-		<div class="col-md-3 col-6"><h3 id="charHP">23</h3></div>
-		<div class="col-md-3 col-6"><h3>Lvl: 1</h3></div>
+		<div class="col-md-6 col-6"><h2 id="charName">Testing</h2></div>
+		<div class="col-md-6 col-6"><h3 id="charHP" style="text-align:center;">23</h3></div>
   </div>
   <hr>
   <div class="row">
-		<div class="col-md col-10"><h3 id="charPOW"></h3></div>
-		<div class="col-md col-10"><h3 id="charINS"></h3></div>
-		<div class="col-md col-10"><h3 id="charKNO"></h3></div>
+		<div class="col-md col-10"><h3 style="text-align:center;" id="charPOW"></h3></div>
+		<div class="col-md col-10"><h3 style="text-align:center;" id="charINS"></h3></div>
+		<div class="col-md col-10"><h3 style="text-align:center;" id="charKNO"></h3></div>
 	</div>
   <hr>
   <h2 id="charEquip">Starting Equipment</h2>

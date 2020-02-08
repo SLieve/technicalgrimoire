@@ -62,34 +62,34 @@ var KNO = 0;
     /* ======= STATS ======= */
     rollStats();
 
-    document.getElementById("charHP").innerText = "Hit Points: " + rollHP();
+    document.getElementById("charHP").innerText = "HP: " + rollHP();
 
     /* ======= EQUIPMENT ======= */
     //Show all items: melee, ranged, armor, rations, and 3 random items
 
     document.getElementById("charItems").innerHTML =
       '<div class="row">' +
-      '<div class="col-md-4 col-6"> • <strong>Weapon:</strong> ' +
+      '<div class="col-6"> • <strong>Weapon:</strong> ' +
       selectRandom(mg.MeleeWeapons) +
       " </div>" +
-      '<div class="col-md-4 col-6"> • <strong>Weapon:</strong> ' +
+      '<div class="col-6"> • <strong>Weapon:</strong> ' +
       selectRandom(mg.RangedWeapons) +
       " </div>" +
-      '<div class="col-md-4 col-6"> • <strong>Armor:</strong> ' +
+      '<div class="col-6"> • <strong>Armor:</strong> ' +
       selectRandom(mg.Armor) +
       "</div>" +
-      '<div class="col-md-4 col-6"> • Rations (10 uses)</div>' +
-      '<div class="col-md-4 col-6"> • Torches (10 uses)</div>' +
-      '<div class="col-md-4 col-6"> • Ten-foot pole</div>' +
-      '<div class="col-md-4 col-6"> • Coin (100)</div>' +
-      '<div class="col-md-4 col-6"> • Flint and Steel</div>' +
-      '<div class="col-md-4 col-6"> • Pen and Paper</div>' +
-      '<div class="col-md-4 col-6"> • Skin of fresh water</div>' +
-      '<div class="col-md-4 col-6"> • Bottle of fine wine (3 uses)</div>' +
-      '<div class="col-md-4 col-6"> • Fine instrument of your choice</div>' +
-      '<div class="col-md-4 col-6"> • Faithful Pet (name, describe) <i>If discarded, is lost forever</i></div>' +
-      '<div class="col-md-4 col-6"> • Fancy clothes <i>If discarded, is lost forever</i></div>' +
-      '<div class="col-md-4 col-6"> • Spell Rune <i>(of a random spell)</i></div></div>';
+      '<div class="col-6"> • Rations (10 uses)</div>' +
+      '<div class="col-6"> • Torches (10 uses)</div>' +
+      '<div class="col-6"> • Ten-foot pole</div>' +
+      '<div class="col-6"> • Coin (100)</div>' +
+      '<div class="col-6"> • Flint and Steel</div>' +
+      '<div class="col-6"> • Pen and Paper</div>' +
+      '<div class="col-6"> • Skin of fresh water</div>' +
+      '<div class="col-6"> • Bottle of fine wine (3 uses)</div>' +
+      '<div class="col-6"> • Instrument of your choice</div>' +
+      '<div class="col-6"> • Faithful Pet <i>If discarded, is lost forever</i></div>' +
+      '<div class="col-6"> • Fancy clothes <i>If discarded, is lost forever</i></div>' +
+      '<div class="col-6"> • Spell Rune <i>(of a random spell)</i></div></div>';
 
   document.getElementById("charCard").style = "display:block";
     
