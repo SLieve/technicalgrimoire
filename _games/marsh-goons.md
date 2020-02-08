@@ -11,14 +11,21 @@ permalink: marsh-goons
 featured: false
 ---
 
-A Tabletop RPG mud-crawl adventure. It’s like a hex-crawl but every freaking mile is a dirty, grimy, sweaty trial. Written by [Joe Banner](https://joebanner.co.uk/) using the elegant “Tunnel Goons” rules.
+A Tabletop RPG mud-crawl adventure. 
 
-Marsh Goons is about tromping through a bizarre marsh, encountering/surviving the locals, and lots (and lots) of mud. A dozen new creatures and locations, powerful NPCs, and streamlined mechanics make this an easy choice for quick adventure. A standalone sequel to [Bone Marshes](/bone-marshes).
+Marsh Goons is designed to be a complete package: adventure, rules, items, dungeons, monsters, all packed into a beautiful little zine. Written by [Joe Banner](https://joebanner.co.uk/) using the elegant “Tunnel Goons” rules. Beautiful artwork by Jess Comstock sets the tone somewhere between murky reality and fantastic adventure.
 
-Join [the Mailing List](https://gumroad.com/technicalgrimoire/follow) to get updates about the upcomign zine!
+In Marsh Goons your inventory is your life, and the mud keeps taking up space! The rule system perfectly reflects the chaotic and difficult terrain of the marshes; both its dangers and its riches. The game also includes a new system of magic revolving around mud; spells powered by mud, magic items that change when covered in mud, mud mud MUD! 
+
+Join [the Mailing List](https://gumroad.com/technicalgrimoire/follow) to get updates about the upcoming zine!
 
 <div class="row centerButtons">
-  <div class="col-8">
+  <div class="col-md-6 col-9">
+    <button id="CharButton" class="btn bonemarshes-btn" href="/files/MG_CharSheet.pdf" target="_blank">
+      <h3>Character Sheet</h3>
+    </button>  
+    </div>
+  <div class="col-md-6 col-9">
     <button id="CharButton" class="btn bonemarshes-btn" onclick="generate()">
       <h3>Generate Character</h3>
     </button>  
@@ -46,15 +53,14 @@ Join [the Mailing List](https://gumroad.com/technicalgrimoire/follow) to get upd
 
 ### Marsh Goons will include:
 
- - Artwork by [Jess Comstock](https://www.jessidraws.art/)
- - Hexkit maps by [Cecil Howe](https://cone.itch.io/) and [Steven Colling](https://stevencolling.itch.io/isle-of-lore-2-hex-tiles-regular)
- - Complete ruleset based on Tunnel Goons, but with more mud!
- - A dozen detailed NPCs and bizarre creatures
- - Several engaging locations
- - 50 marshy magic items
- - 50 Muddy Spells
- - Fronts and quests to engage your players
- - And more!
+ - Complete ruleset based on Tunnel Goons (but with more mud!)
+ - A hex-crawl map with travel rules
+ - Several detailed and engaging locations
+ - Mapped lair of the vain druid Knochen by [John Gregory](http://unlawfulgames.blogspot.com/)
+ - 20 detailed NPCs and bizarre creatures
+ - 50 marshy magic items, spells, and more
+ - Hooks and quests to engage your players
+ - Include rules for blending content between [Bone Marshes](/bone-marshes) and Marsh Goons!
 
 ![MG_cover.png.png](/images/posts/MG_cover.png)
 
