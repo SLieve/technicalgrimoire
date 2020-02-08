@@ -87,8 +87,8 @@ var KNO = 0;
       '<div class="col-6"> • Skin of fresh water</div>' +
       '<div class="col-6"> • Bottle of fine wine (3 uses)</div>' +
       '<div class="col-6"> • Instrument of your choice</div>' +
-      '<div class="col-6"> • Faithful Pet <i>If discarded, is lost forever</i></div>' +
-      '<div class="col-6"> • Fancy clothes <i>If discarded, is lost forever</i></div>' +
+      '<div class="col-6"> • Faithful Pet and supplies to care for it.<br><i>If discarded, is lost forever</i></div>' +
+      '<div class="col-6"> • Fancy clothes<br><i>If discarded, is lost forever</i></div>' +
       '<div class="col-6"> • Spell Rune <i>(of a random spell)</i></div></div>';
 
   document.getElementById("charCard").style = "display:block";
