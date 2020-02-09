@@ -342,3 +342,24 @@ var AvsAnSimple = (function (root) {
     }
   };
 })({});
+
+  function saveWeaponIMG() {
+    window.scrollTo(window.pageXOffset, 0);
+    var container = document.getElementById("weaponCard");
+    useWidth = container.offsetWidth;
+    useHeight = container.offsetHeight;
+    console.log(useWidth + " " + useHeight);
+    html2canvas(container, {
+      allowTaint: true,
+      width: useWidth,
+      height: useHeight,
+      scale: 2,
+    }).then(function (canvas) {
+      var link = document.createElement("a");
+      document.body.appendChild(link);
+      link.download = "tempered-legacy"+WeaponName.replace(" ", "-") + ".png";
+      link.href = canvas.toDataURL("image/png");
+      link.target = '_blank';
+      link.click();
+    });
+  }

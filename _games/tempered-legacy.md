@@ -80,26 +80,5 @@ Everything on this page is protected under [CC-BY 4.0](https://creativecommons.o
 
 ![temperedBow.png]({{site.url}}/images/posts/temperedBow.png)
 
-<script async src="/_pages/temperedgenerators.js" charset="utf-8"></script>
 <script async src="/assets/js/html2canvas.min.js"></script>
-<script>
-  function saveWeaponIMG() {
-    window.scrollTo(window.pageXOffset, 0);
-    var container = document.getElementById("weaponCard");
-    useWidth = container.offsetWidth;
-    useHeight = container.offsetHeight;
-    console.log(useWidth + " " + useHeight);
-		html2canvas(container,{
-      allowTaint : true,
-      width:useWidth,
-      height:useHeight,
-      }).then(function(canvas) {
-			var link = document.createElement("a");
-			document.body.appendChild(link);
-			link.download = "html_image.png";
-			link.href = canvas.toDataURL("image/png");
-			link.target = '_blank';
-			link.click();
-		});
-  }
-</script>
+<script async src="/_pages/temperedgenerators.js" charset="utf-8"></script>
