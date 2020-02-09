@@ -357,7 +357,7 @@ var AvsAnSimple = (function (root) {
     }).then(function (canvas) {
       var link = document.createElement("a");
       document.body.appendChild(link);
-      link.download = "tempered-legacy"+WeaponName.replace(" ", "-") + ".png";
+      link.download = "tempered-legacy-" + WeaponName.replace(/ /g, "-") + ".png";
       link.href = canvas.toDataURL("image/png");
       link.target = '_blank';
       link.click();
