@@ -344,6 +344,10 @@ var AvsAnSimple = (function (root) {
 })({});
 
   function saveWeaponIMG() {
+    imageName = WeaponName;
+    if (WeaponName == "this weapon"){
+      imageName = Wielder + "'s Slot";
+    }
     window.scrollTo(window.pageXOffset, 0);
     var container = document.getElementById("weaponCard");
     useWidth = container.offsetWidth;
@@ -357,7 +361,7 @@ var AvsAnSimple = (function (root) {
     }).then(function (canvas) {
       var link = document.createElement("a");
       document.body.appendChild(link);
-      link.download = "tempered-legacy-" + WeaponName.replace(/ /g, "-") + ".png";
+      link.download = "tempered-legacy-" + imageName.replace(/ /g, "-") + ".png";
       link.href = canvas.toDataURL("image/png");
       link.target = '_blank';
       link.click();
