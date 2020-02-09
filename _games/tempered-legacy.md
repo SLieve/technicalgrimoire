@@ -34,9 +34,9 @@ Join [the Mailing List](https://gumroad.com/technicalgrimoire/follow) to get upd
 <div class="container generatorCard" id="weaponCard" style="display:none;">
   <div style="display:flex;justify-content:space-between;">
     <h1 id="weaponName" style="margin-top:0px;">Silver Rapier</h1>
-    <!--<button id="downloadBTN" class="btn tempered-btn-sm" onclick="saveWeaponIMG()" style="min-width:160px;margin-bottom:auto;">
+    <button id="downloadBTN" class="btn tempered-btn-sm" onclick="saveWeaponIMG()" style="min-width:160px;margin-bottom:auto;">
       <p>DOWNLOAD</p>
-    </button>-->
+    </button>
   </div>
   <p id="weaponDesc">A simple but well-crafted blade</p>
   <p><img id="weaponImg" src="/images/TemperedWeapons/Sword.png" style="background: black; width: 100%;"></p>
@@ -81,14 +81,19 @@ Everything on this page is protected under [CC-BY 4.0](https://creativecommons.o
 ![temperedBow.png]({{site.url}}/images/posts/temperedBow.png)
 
 <script async src="/_pages/temperedgenerators.js" charset="utf-8"></script>
-<!--<script async src="/assets/js/html2canvas.min.js"></script>
+<script async src="/assets/js/html2canvas.min.js"></script>
 <script>
   function saveWeaponIMG() {
     window.scrollTo(window.pageXOffset, 0);
     var container = document.getElementById("weaponCard");
     useWidth = container.offsetWidth;
     useHeight = container.offsetHeight;
-		html2canvas(container,{allowTaint : true}).then(function(canvas) {
+    console.log(useWidth + " " + useHeight);
+		html2canvas(container,{
+      allowTaint : true,
+      width:useWidth,
+      height:useHeight,
+      }).then(function(canvas) {
 			var link = document.createElement("a");
 			document.body.appendChild(link);
 			link.download = "html_image.png";
@@ -97,4 +102,4 @@ Everything on this page is protected under [CC-BY 4.0](https://creativecommons.o
 			link.click();
 		});
   }
-</script>-->
+</script>
