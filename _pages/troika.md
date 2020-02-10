@@ -24,7 +24,7 @@ Troika! is one of the most imaginative RPGs I've had the pleasure of enjoying. [
       <p style="margin-bottom: 0;">DOWNLOAD</p>
     </button>
   </div>
-<p id="bgDesc"></p>
+<p id="bgSrc"></p>
   <hr class="tightSpacing">
   <div class="row">
     <div class="col-xl-6 col-12" id="descr">

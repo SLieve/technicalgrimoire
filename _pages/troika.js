@@ -18,7 +18,7 @@ function generate() {
   background = troika.Backgrounds[Math.floor(Math.random() * troika.Backgrounds.length)];
   CHARname = background.Name;
   document.getElementById("bgName").innerHTML = CHARname;
-  document.getElementById("bgDesc").innerHTML = background.Source;
+  document.getElementById("bgSrc").innerHTML = background.Source;
 
   provisions = ["2d6 Silver Pence", "Knife (DMG 2, 2, 2, 2, 4, 8, 10)", "Lantern & flask of oil", "Rucksack", "6 Provisions"];
   descrip = "<h3 class=\"tightSpacing\">Description:</h3>" + background.Text + "<hr class=\"tightSpacing\">";
