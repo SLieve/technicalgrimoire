@@ -46,7 +46,7 @@ Join [the Mailing List](https://gumroad.com/technicalgrimoire/follow) to get upd
 		<div class="col-md col-10"><h3 style="text-align:center;" id="charKNO"></h3></div>
 	</div>
   <hr>
-  <p class="h2" id="charEquip">Starting Equipment</p>
+  <p class="h2" style="margin-top: 10px;" id="charEquip">Starting Equipment</p>
   <p>Choose <strong>three</strong> of the items below to start. Unless otherwise noted, each item takes up one slot.</p>
   <p id="charItems"></p>
 </div>
