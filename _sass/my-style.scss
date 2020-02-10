@@ -28,9 +28,8 @@ img.temperedicon {
 }
 
 .temperedP {
-  margin-top: -0.5em;
   margin-bottom: 3em;
-  line-height: 1.5em;
+  line-height: 1.1em;
   font-style: italic;
 }
 
@@ -616,16 +615,6 @@ input[type=number]::-webkit-outer-spin-button {
   background-color: whitesmoke;
   color: black;
     line-height: 1.1;
-}
-
-.generatorCard h1,
-.generatorCard h2,
-.generatorCard h3,
-.generatorCard hr,
-.generatorCard div {
-  margin-top: 5px;
-  margin-bottom: 6px;
-  color: black;
 }
 
 //for organization of tags and categories
