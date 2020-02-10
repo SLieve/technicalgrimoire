@@ -19,7 +19,7 @@ Troika! is one of the most imaginative RPGs I've had the pleasure of enjoying. [
 
 <div class="container generatorCard" id="charCard" style="display:none;">
     <div style="display:flex;justify-content:space-between;">
-  <h2 id="bgName">John the Monster</h2>
+  <h1 style="margin-top: 10px;" id="bgName">John the Monster</h1>
     <button id="downloadBTN" class="btn troika-btn-sm data-html2canvas-ignore" onclick="saveCharacterIMG()" style="width:160px;margin-bottom:auto;">
       <p style="margin-bottom: 0;">DOWNLOAD</p>
     </button>
