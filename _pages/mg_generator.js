@@ -12,7 +12,7 @@ xmlhttp.onreadystatechange = function () {
 xmlhttp.open("GET", "/_pages/mg_generator.json", true);
 xmlhttp.send();
 
-
+CHARname = "Jane";
 
 function rollHP() {
   var die1 = Math.floor(Math.random() * 4) + 1;
@@ -56,8 +56,8 @@ var KNO = 0;
   }
 
   function generate() {
-
-    document.getElementById("charName").innerText = "Name: " + selectRandom(mg.Names);
+    CHARname = selectRandom(mg.Names);
+    document.getElementById("charName").innerText = "Name: " + CHARname;
 
     /* ======= STATS ======= */
     rollStats();
@@ -93,4 +93,25 @@ var KNO = 0;
 
   document.getElementById("charCard").style = "display:block";
     
+  }
+
+  function saveCharacterIMG() {
+    imageName = CHARname;
+    window.scrollTo(window.pageXOffset, 0);
+    var container = document.getElementById("charCard");
+    useWidth = container.offsetWidth;
+    useHeight = container.offsetHeight;
+    html2canvas(container, {
+      allowTaint: true,
+      width: useWidth,
+      height: useHeight,
+      scale: 2,
+    }).then(function (canvas) {
+      var link = document.createElement("a");
+      document.body.appendChild(link);
+      link.download = "marsh-goons-" + imageName.replace(/ /g, "-") + ".png";
+      link.href = canvas.toDataURL("image/png");
+      link.target = '_blank';
+      link.click();
+    });
   }

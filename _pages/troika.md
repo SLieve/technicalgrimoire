@@ -13,14 +13,18 @@ description: >
 Troika! is one of the most imaginative RPGs I've had the pleasure of enjoying. [Buy it here!](https://www.melsonia.com/troika-17-p.asp) I also made a [handy reference sheet here](/files/troikaRef.pdf).
 
 <div class="row">
-  <div class="col tightSpacing buttonWrapper"><button id="weaponButton" class="btn troikabtn btn-lg" onclick="generate(false)">Generate Character</button></div>
+  <div class="col tightSpacing buttonWrapper"><button id="weaponButton" class="btn troikabtn btn-lg" onclick="generate()">Generate Character</button></div>
   <div class="col tightSpacing buttonWrapper"><button id="weaponButton" class="btn troikabtn btn-lg" onclick="showTracker()">Turn Tracker</button></div>
 </div>
 
 <div class="container generatorCard" id="charCard" style="display:none;">
-  <div class="row">
-    <div class="col-12" id="charClass">THIS IS BROKEN! FLEE!</div>
+    <div style="display:flex;justify-content:space-between;">
+  <h2 id="bgName">John the Monster</h2>
+    <button id="downloadBTN" class="btn troika-btn-sm data-html2canvas-ignore" onclick="saveCharacterIMG()" style="width:160px;margin-bottom:auto;">
+      <p style="margin-bottom: 0;">DOWNLOAD</p>
+    </button>
   </div>
+<p id="bgDesc"></p>
   <hr class="tightSpacing">
   <div class="row">
     <div class="col-xl-6 col-12" id="descr">
@@ -28,7 +32,6 @@ Troika! is one of the most imaginative RPGs I've had the pleasure of enjoying. [
     <div class="col-xl-6 col-12" id="poss">
     </div>
   </div>
-  <h3 style="text-align: center;">TAKE A SCREENSHOT SO YOU DON'T LOSE YOUR CHARACTER</h3>
 </div>
 
 <div class="container generatorCard" id="turnCard" style="display:none;">
@@ -102,4 +105,6 @@ Thanks to Uyuxo for collecting the list, Daniel Sell for making Troika such an i
 
 You can view [ALL the backgrounds here](https://github.com/DavidSchirduan/davidschirduan.github.io/blob/master/_pages/troika.json).
 
+
+<script async src="/assets/js/html2canvas.min.js"></script>
 <script async src="/_pages/troika.js" charset="utf-8"></script>

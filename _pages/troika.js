@@ -7,14 +7,18 @@ xmlhttp.onreadystatechange = function () {
 xmlhttp.open("GET", "/_pages/troika.json", true);
 xmlhttp.send();
 
-function generate(coreOnly) {
+var CHARname = "";
+
+function generate() {
 
   skill = Math.floor(Math.random() * 3) + 4;
   stamina = Math.floor(Math.random() * 6) + Math.floor(Math.random() * 6) + 14;
   luck = Math.floor(Math.random() * 6) + 7;
 
   background = troika.Backgrounds[Math.floor(Math.random() * troika.Backgrounds.length)];
-  document.getElementById("charClass").innerHTML = "<h1 class=\"tightSpacing\">" + background.Name + "</h1><p>Source: " + background.Source + "</p>";
+  CHARname = background.Name;
+  document.getElementById("bgName").innerHTML = CHARname;
+  document.getElementById("bgDesc").innerHTML = background.Source;
 
   provisions = ["2d6 Silver Pence", "Knife (DMG 2, 2, 2, 2, 4, 8, 10)", "Lantern & flask of oil", "Rucksack", "6 Provisions"];
   descrip = "<h3 class=\"tightSpacing\">Description:</h3>" + background.Text + "<hr class=\"tightSpacing\">";
@@ -26,7 +30,7 @@ function generate(coreOnly) {
   descrip = descrip + skilltxt + "</ul>";
 
   if (background.Special != "") {
-    descrip = descrip + "<h3 class=\"tightSpacing\">Special</h3><p>" + background.Special + "</p><hr class=\"tightSpacing\">";
+    descrip = descrip + "<h3 class=\"tightSpacing\">Special</h3><p>" + background.Special + "</p>";
   }
 
   document.getElementById("descr").innerHTML = descrip;
@@ -261,3 +265,24 @@ function whichTransitionEvent() {
 /*
 	The "whichTransitionEvent" can be swapped for "animation" instead of "transition" texts, as can the usage :)
 */
+
+  function saveCharacterIMG() {
+    imageName = CHARname;
+    window.scrollTo(window.pageXOffset, 0);
+    var container = document.getElementById("charCard");
+    useWidth = container.offsetWidth;
+    useHeight = container.offsetHeight;
+    html2canvas(container, {
+      allowTaint: true,
+      width: useWidth,
+      height: useHeight,
+      scale: 2,
+    }).then(function (canvas) {
+      var link = document.createElement("a");
+      document.body.appendChild(link);
+      link.download = "troika-" + imageName.replace(/ /g, "-") + ".png";
+      link.href = canvas.toDataURL("image/png");
+      link.target = '_blank';
+      link.click();
+    });
+  }

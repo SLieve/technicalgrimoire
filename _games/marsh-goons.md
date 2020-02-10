@@ -33,12 +33,14 @@ Join [the Mailing List](https://gumroad.com/technicalgrimoire/follow) to get upd
 </div>
 
 <div class="container bonemarshesCard" id="charCard">
-  <div class="row">
-		<div class="col-md-6 col-6"><h2 id="charName">Testing</h2></div>
-		<div class="col-md-6 col-6"><h3 id="charHP" style="text-align:center;">23</h3></div>
+  <div style="display:flex;justify-content:space-between;">
+    <h1 id="charName" style="margin-top:0px;">Johnny</h1>
+    <button id="downloadBTN" class="btn bonemarshes-btn-sm data-html2canvas-ignore" onclick="saveCharacterIMG()" style="width:160px;margin-bottom:auto;">
+      <p style="margin-bottom: 0;">DOWNLOAD</p>
+    </button>
   </div>
-  <hr>
   <div class="row">
+		<div class="col-md col-10"><h3 id="charHP" style="text-align:center;">23</h3></div>
 		<div class="col-md col-10"><h3 style="text-align:center;" id="charPOW"></h3></div>
 		<div class="col-md col-10"><h3 style="text-align:center;" id="charINS"></h3></div>
 		<div class="col-md col-10"><h3 style="text-align:center;" id="charKNO"></h3></div>
@@ -47,7 +49,6 @@ Join [the Mailing List](https://gumroad.com/technicalgrimoire/follow) to get upd
   <h2 id="charEquip">Starting Equipment</h2>
   <p>Choose <strong>three</strong> of the items below to start. Unless otherwise noted, each item takes up one slot.</p>
   <p id="charItems"></p>
-  <h3 style="text-align: center;">TAKE A SCREENSHOT SO YOU DON'T LOSE YOUR CHARACTER</h3>
 </div>
 
 ### Marsh Goons will include:
@@ -63,4 +64,5 @@ Join [the Mailing List](https://gumroad.com/technicalgrimoire/follow) to get upd
 
 ![MG_cover.png.png](/images/posts/MG_cover.png)
 
+<script async src="/assets/js/html2canvas.min.js"></script>
 <script async src="/_pages/mg_generator.js" charset="utf-8"></script>

@@ -27,9 +27,12 @@ function selectRandom(jsonList) {
   return result;
 }
 
+var CHARname = "TEST";
+
   function generate() {
 
-    document.getElementById("charName").innerText = "Name: " + selectRandom(bm.Names);
+    CHARname = selectRandom(bm.Names);
+    document.getElementById("charName").innerText = "Name: " + CHARname;
 
     /* ======= STATS ======= */
     document.getElementById("charSTR").innerText = "STR: " + rollStats();
@@ -76,7 +79,6 @@ function selectRandom(jsonList) {
     }
 
     document.getElementById("charEquip").innerText = "Equipment (" + (charCON+10) + " Slots)";
-
     document.getElementById("charItems").innerHTML = "<ul>" +
       "<li><strong>Weapon:</strong> " + selectRandom(bm.Weapons) + " </li>" +
       "<li><strong>Armor:</strong> " + selectRandom(bm.Armor) + "</li>" +
@@ -90,7 +92,6 @@ function selectRandom(jsonList) {
       "<li>" + memento + "</li></ul>";
 
   document.getElementById("charCard").style = "display:block";
-  document.getElementById("lostCard").style = "display:none";
   }
 
   function lost(){
@@ -98,8 +99,27 @@ function selectRandom(jsonList) {
   document.getElementById("under").innerHTML = bm.lostThings[Math.floor(Math.random() * 29) + 30];
   document.getElementById("silfer").innerHTML = bm.lostThings[Math.floor(Math.random() * 29) + 60];
 
-  document.getElementById("lostCard").style = "display:block";
   document.getElementById("charCard").style = "display:none";
 
   }
 
+function saveCharacterIMG() {
+  imageName = CHARname;
+  window.scrollTo(window.pageXOffset, 0);
+  var container = document.getElementById("charCard");
+  useWidth = container.offsetWidth;
+  useHeight = container.offsetHeight;
+  html2canvas(container, {
+    allowTaint: true,
+    width: useWidth,
+    height: useHeight,
+    scale: 2,
+  }).then(function (canvas) {
+    var link = document.createElement("a");
+    document.body.appendChild(link);
+    link.download = "bone-marshes-" + imageName.replace(/ /g, "-") + ".png";
+    link.href = canvas.toDataURL("image/png");
+    link.target = '_blank';
+    link.click();
+  });
+}

@@ -40,10 +40,15 @@ Join [the Mailing List](https://gumroad.com/technicalgrimoire/follow) for update
 </div>
 
 <div class="container bonemarshesCard" id="charCard">
+  <div style="display:flex;justify-content:space-between;">
+    <h1 id="charName" style="margin-top:0px;">Johnny</h1>
+    <button id="downloadBTN" class="btn bonemarshes-btn-sm data-html2canvas-ignore" onclick="saveCharacterIMG()" style="width:160px;margin-bottom:auto;">
+      <p style="margin-bottom: 0;">DOWNLOAD</p>
+    </button>
+  </div>
   <div class="row">
-		<div class="col-md-6 col-12"><h2 id="charName"></h2></div>
-		<div class="col-md-3 col-6"><h3 id="charHP"></h3></div>
-		<div class="col-md-3 col-6"><h3>Lvl: 1</h3></div>
+		<div class="col-6"><h3 id="charHP"></h3></div>
+		<div class="col-6"><h3>Lvl: 1</h3></div>
   </div>
   <p id="charHistory"></p>
   <div class="row">
@@ -72,8 +77,6 @@ Join [the Mailing List](https://gumroad.com/technicalgrimoire/follow) for update
   <h2 id="charEquip">Equipment</h2>
   <p>You can choose from <strong>any or all</strong> of the items below to fill your inventory slots. Unless otherwise noted, each item takes up one slot.</p>
   <p id="charItems"></p>
-  <h3 style="text-align: center;">TAKE A SCREENSHOT SO YOU DON'T LOSE YOUR CHARACTER</h3>
-  <p style="text-align: center;">Thanks to <a href="http://questingblog.com/">Ben Milton</a> for making Knave and to <a href="http://chrispwolf.com/">Christopher P. Wolf</a> for the generator template!</p>
 </div>
 
 > "Easily one of the best. A 'real' adventure, and there’s not many of those out there." - [tenfootpole.org](https://tenfootpole.org/ironspike/?p=6116)
@@ -100,5 +103,5 @@ The Bone Marshes is a three part adventure module, each of which can be run sepa
 ![BM_Marketing_6.png](/images/posts/BM_Marketing_6.png)
 ![BM_Marketing_7.png](/images/posts/BM_Marketing_7.png)
 
-
+<script async src="/assets/js/html2canvas.min.js"></script>
 <script async src="/_pages/bm_generator.js" charset="utf-8"></script>

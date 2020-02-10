@@ -202,6 +202,20 @@ summary:hover{
     border-radius: 3px;
 }
 
+.bonemarshes-btn-sm {
+  color: whitesmoke;
+  background: darkslategrey;
+  border-radius: initial;
+  border: 1px solid whitesmoke;
+  outline: 1px rgb(38, 38, 38);
+  white-space: normal !important;
+}
+
+.bonemarshes-btn-sm:hover {
+  color: whitesmoke;
+  background: darkolivegreen;
+}
+
 .bonemarshes-btn {
   color: whitesmoke;
   background: darkslategrey;
@@ -279,6 +293,20 @@ summary:hover{
   margin: 10px;
 }
 
+.leftburied-btn-sm {
+  color: whitesmoke;
+  background: rgb(38, 38, 38);
+  border-radius: initial;
+  border: 1px solid whitesmoke;
+  outline: 1px rgb(38, 38, 38);
+  white-space: normal !important;
+}
+
+.leftburied-btn-sm:hover {
+  color: whitesmoke;
+  background: black;
+}
+
 .leftburied-btn {
   color: whitesmoke;
   background: rgb(38, 38, 38);
@@ -321,6 +349,20 @@ summary:hover{
 }
 
 /*For the Troika Generator*/
+
+.troika-btn-sm {
+  color: whitesmoke;
+  background: crimson;
+  border-radius: initial;
+  border: 1px solid crimson;
+  outline: 1px rgb(38, 38, 38);
+  white-space: normal !important;
+}
+
+.troika-btn-sm:hover {
+  color: whitesmoke;
+  background: darkred;
+}
 
 .troikabtn {
   color: #fff;
@@ -567,10 +609,22 @@ input[type=number]::-webkit-outer-spin-button {
 .generatorCard {
   border-radius: 5px;
   border: 3px currentColor;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
-    0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding: 20px 30px;
+  -webkit-box-shadow: 5px 6px 17px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 6px 17px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 6px 17px 0px rgba(0, 0, 0, 0.75);
+  padding: 10px 20px;
   background-color: whitesmoke;
+  color: black;
+    line-height: 1.1;
+}
+
+.generatorCard h1,
+.generatorCard h2,
+.generatorCard h3,
+.generatorCard hr,
+.generatorCard div {
+  margin-top: 5px;
+  margin-bottom: 6px;
   color: black;
 }
 

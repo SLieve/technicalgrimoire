@@ -27,7 +27,7 @@ function hideWindow() {
 function generateSlot() {
   document.getElementById("weaponName").innerHTML = "New Slot:";
   WeaponName = "this weapon";
-  document.getElementById("weaponDesc").innerHTML ='';
+  document.getElementById("weaponDesc").innerHTML = '';
   document.getElementById("temperedSlots").innerHTML = createSlot(1);
   document.getElementById("weaponCard").style = "";
   document.getElementById("weaponImg").style = "display:none;";
@@ -83,26 +83,26 @@ function createSlot(numSlots) {
         icon = "mutation.png";
         powername = "<strong>Mutation</strong>";
         powerdescr = selectRandom(tempered.Mutations);
-        phrase = "The dense mixture of magic and history in "+WeaponName+" can result in bizarre infections that alter the wielder permanently. They can only be cured by fulfilling their associated regret.";
+        phrase = "The dense mixture of magic and history in " + WeaponName + " can result in bizarre infections that alter the wielder permanently. They can only be cured by fulfilling their associated regret.";
         mutation = true;
         break;
       case (random < 50):
         icon = "spell.png";
         powername = "<strong>" + Wielder + "'s Spell</strong>";
         powerdescr = parseWORDS(selectRandom(tempered.Spells));
-        phrase = "Spells can only be cast while holding "+WeaponName+". L = caster level. Spells last Lx10 minutes, range of 40ft (unless noted otherwise). \"Items\" can be held in one hand, \"objects\" are anything up to human size.";
+        phrase = "Spells can only be cast while holding " + WeaponName + ". L = caster level. Spells last Lx10 minutes, range of 40ft (unless noted otherwise). \"Items\" can be held in one hand, \"objects\" are anything up to human size.";
         break;
       case (random < 75):
         icon = "knowledge.png";
         powername = "<strong>" + Wielder + "'s Knowledge</strong>";
         powerdescr = selectRandom(tempered.Knowledge);
-        phrase = "The memories, skills, and training of a previous owner. Knowledge is only accessible while holding "+WeaponName+". After "+WeaponName+" is put away, the knowledge fades away over the next hour.";
+        phrase = "The memories, skills, and training of a previous owner. Knowledge is only accessible while holding " + WeaponName + ". After " + WeaponName + " is put away, the knowledge fades away over the next hour.";
         break;
       default:
         icon = "enchantment.png";
         powername = "<strong>" + Wielder + "'s Enchantment</strong>";
         powerdescr = selectRandom(tempered.Enchantments);
-        phrase = "Enchantments alter the properties of "+WeaponName+". They are passive bonuses and are always in effect.";
+        phrase = "Enchantments alter the properties of " + WeaponName + ". They are passive bonuses and are always in effect.";
     }
 
     slotHTML = slotHTML + "<div class=\"row temperedRows\"><div class=\"col-lg-6 col-12 cellGoals\">"
@@ -116,7 +116,7 @@ function createSlot(numSlots) {
       slotHTML = slotHTML + "<p style=\"text-align: center;display: flow-root;\"><img style=\"float:left;\" class=\"temperedicon\" src=\"/images/TemperedWeapons/locked.png\"><strong>" + Wielder + "'s Regret</strong><img style=\"float:right;transform: scaleX(-1);\" class=\"temperedicon\" src=\"/images/TemperedWeapons/locked.png\"></p><p>" + parseWORDS(selectRandom(tempered.GoalTemplates)) + " Then you will unlock " + powername + ".</p></div>";
       //otherwise the first slot is an introduction
     } else if (i == 0) {
-      slotHTML = slotHTML + "<p>As soon as you take hold of "+WeaponName+" you gain awareness of this slot and the Locked one below. <strong>" + powername + "</strong> is already unlocked.</p></div>";      
+      slotHTML = slotHTML + "<p>As soon as you take hold of " + WeaponName + " you gain awareness of this slot and the Locked one below. <strong>" + powername + "</strong> is already unlocked.</p></div>";
     } else {
       slotHTML = slotHTML + "<p style=\"text-align: center;display: flow-root;\"><img style=\"float:left;\" class=\"temperedicon\" src=\"/images/TemperedWeapons/locked.png\"><strong>" + Wielder + "'s Regret</strong><img style=\"float:right;transform: scaleX(-1);\" class=\"temperedicon\" src=\"/images/TemperedWeapons/locked.png\"></p>" + parseWORDS(selectRandom(tempered.GoalTemplates)) + " Then you will unlock " + powername + ".</p></div>";
     }
@@ -158,7 +158,7 @@ function weaponColors() {
   }
 
   var bgstyle = "background: linear-gradient(to right";
-  for (i=0;i<8;i++){
+  for (i = 0; i < 8; i++) {
     bgstyle = bgstyle + ", #" + (0x1000000 + Math.random() * 0xffffff).toString(16).substr(1, 6);
   }
 
@@ -168,14 +168,14 @@ function weaponColors() {
 function parseWORDS(WORDstring) {
 
   //An estoc
-    WORDstring = WORDstring.replace(/ANweapontype/g, () => {
-      return AvsAnSimple.query(WeaponType).charAt(0).toUpperCase() + AvsAnSimple.query(WeaponType).substring(1) + " " + WeaponType.toLowerCase();;
-    });
+  WORDstring = WORDstring.replace(/ANweapontype/g, () => {
+    return AvsAnSimple.query(WeaponType).charAt(0).toUpperCase() + AvsAnSimple.query(WeaponType).substring(1) + " " + WeaponType.toLowerCase();;
+  });
 
   //an amazing...
   WORDstring = WORDstring.replace(/anadjective/g, () => {
-        wrd = selectRandom(tempered.Adjectives).toLowerCase();
-        return AvsAnSimple.query(wrd) + " " + wrd;
+    wrd = selectRandom(tempered.Adjectives).toLowerCase();
+    return AvsAnSimple.query(wrd) + " " + wrd;
   });
 
   //an otter
@@ -343,27 +343,27 @@ var AvsAnSimple = (function (root) {
   };
 })({});
 
-  function saveWeaponIMG() {
-    imageName = WeaponName;
-    if (WeaponName == "this weapon"){
-      imageName = Wielder + "'s Slot";
-    }
-    window.scrollTo(window.pageXOffset, 0);
-    var container = document.getElementById("weaponCard");
-    useWidth = container.offsetWidth;
-    useHeight = container.offsetHeight;
-    console.log(useWidth + " " + useHeight);
-    html2canvas(container, {
-      allowTaint: true,
-      width: useWidth,
-      height: useHeight,
-      scale: 2,
-    }).then(function (canvas) {
-      var link = document.createElement("a");
-      document.body.appendChild(link);
-      link.download = "tempered-legacy-" + imageName.replace(/ /g, "-") + ".png";
-      link.href = canvas.toDataURL("image/png");
-      link.target = '_blank';
-      link.click();
-    });
+function saveWeaponIMG() {
+  imageName = WeaponName;
+  if (WeaponName == "this weapon") {
+    imageName = Wielder + "'s Slot";
   }
+  window.scrollTo(window.pageXOffset, 0);
+  var container = document.getElementById("weaponCard");
+  useWidth = container.offsetWidth;
+  useHeight = container.offsetHeight;
+  console.log(useWidth + " " + useHeight);
+  html2canvas(container, {
+    allowTaint: true,
+    width: useWidth,
+    height: useHeight,
+    scale: 2,
+  }).then(function (canvas) {
+    var link = document.createElement("a");
+    document.body.appendChild(link);
+    link.download = "tempered-legacy-" + imageName.replace(/ /g, "-") + ".png";
+    link.href = canvas.toDataURL("image/png");
+    link.target = '_blank';
+    link.click();
+  });
+}

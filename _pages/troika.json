@@ -25,7 +25,7 @@
     }, {
       "Name": "Snow Angel",
       "Text": "An angel of absence, the idea of an angel where nothing is. Made by humanity, someday you will join the true celestial choir.",
-      "Possessions": "",
+      "Possessions": [],
       "Skills": ["3 Spell – Redecorate", "2 Spell – Find", "2 Spell – Ghostly Vision", "2 Spell – Reunion", "1 Spell – Unbirth", "3 Mathmology", "3 Music", "0 Fly"],
       "Special": "Cannot acquire possessions.",
       "Source": "<a href='https://ian-mcdougall.itch.io/crisis-on-christmas'>Crisis on Christmas</a> by Ian McDougall"

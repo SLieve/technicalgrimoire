@@ -7,9 +7,11 @@ xmlhttp.onreadystatechange = function () {
 xmlhttp.open("GET", "/_pages/leftburied.json", true);
 xmlhttp.send();
 
-function generate() {
+var CHARname = "Test";
 
-  var name = blb.LeftBuried.Names[Math.floor(Math.random() * blb.LeftBuried.Names.length)];
+function generate() {
+  CHARname = blb.LeftBuried.Names[Math.floor(Math.random() * blb.LeftBuried.Names.length)];
+  var name = CHARname;
   document.getElementById("charName").innerHTML = "Name: " + name;
 
   var stats = blb.LeftBuried.Stats[Math.floor(Math.random() * blb.LeftBuried.Stats.length)];
@@ -77,4 +79,25 @@ function generate() {
 
 
   document.getElementById("leftburiedCard").style = "display:block";
+}
+
+function saveCharacterIMG() {
+  imageName = CHARname;
+  window.scrollTo(window.pageXOffset, 0);
+  var container = document.getElementById("leftburiedCard");
+  useWidth = container.offsetWidth;
+  useHeight = container.offsetHeight;
+  html2canvas(container, {
+    allowTaint: true,
+    width: useWidth,
+    height: useHeight,
+    scale: 2,
+  }).then(function (canvas) {
+    var link = document.createElement("a");
+    document.body.appendChild(link);
+    link.download = "blb-" + imageName.replace(/ /g, "-") + ".png";
+    link.href = canvas.toDataURL("image/png");
+    link.target = '_blank';
+    link.click();
+  });
 }
