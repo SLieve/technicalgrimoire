@@ -18,9 +18,9 @@ Tempered Legacy is a magic item supplement for fantasy RPGs. The powers of these
 
 
 <div class="row centerButtons">
-  <div class="col-md-6 col-12">
+  <div class="col-md-8 col-12">
     <button class="btn tempered-btn notransition" href="https://www.kickstarter.com/projects/technicalgrimoire/two-rpg-zines-marsh-goons-and-tempered-legacy" target="_blank">
-      <h3 id="wpnBtn">Generate a Weapon</h3>
+      <h3 id="wpnBtn">Support the Kickstarter!</h3>
     </button>
   </div>
   <div class="col-md-6 col-12">
