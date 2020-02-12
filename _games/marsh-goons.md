@@ -4,8 +4,8 @@ layout: project
 title: Marsh Goons
 caption: A Rules-Light Mud-Crawl Adventure
 screenshot:
-  src: images/posts/MG-Logo.png
-image: images/posts/MG-Logo.png
+  src: images/MG-COVER.png
+image: images/MG-COVER.png
 hide_description: true
 permalink: marsh-goons
 featured: false
@@ -13,13 +13,16 @@ featured: false
 
 A Tabletop RPG mud-crawl adventure. 
 
-Marsh Goons is designed to be a complete package: adventure, rules, items, dungeons, monsters, all packed into a beautiful little zine. Written by [Joe Banner](https://joebanner.co.uk/) using the elegant “Tunnel Goons” rules. Beautiful artwork by Jess Comstock sets the tone somewhere between murky reality and fantastic adventure.
+Marsh Goons is a complete package: adventure, rules, items, dungeons, monsters, all packed into a beautiful little zine. Written by [Joe Banner](https://joebanner.co.uk/) using the elegant “Tunnel Goons” rules. Beautiful artwork by Jess Comstock sets the tone somewhere between murky reality and fantastic adventure.
 
-In Marsh Goons your inventory is your life, and the mud keeps taking up space! The rule system perfectly reflects the chaotic and difficult terrain of the marshes; both its dangers and its riches. The game also includes a new system of magic revolving around mud; spells powered by mud, magic items that change when covered in mud, mud mud MUD! 
-
-Join [the Mailing List](https://gumroad.com/technicalgrimoire/follow) to get updates about the upcoming zine!
+In Marsh Goons your inventory is your life, and the mud keeps weighing you down! The rule system perfectly reflects the chaotic and difficult terrain of the marshes; both its dangers and its riches. The game also includes a new system of magic revolving around mud; spells powered by mud, magic items that change when covered in mud, mud mud MUD! 
 
 <div class="row centerButtons">
+  <div class="col-md-6 col-6">
+    <a class="btn bonemarshes-btn" href="https://www.kickstarter.com/projects/technicalgrimoire/two-rpg-zines-marsh-goons-and-tempered-legacy" target="_blank">
+      <h3>Support the Kickstarter!</h3>
+    </a>
+  </div>
   <div class="col-md-6 col-6">
     <a class="btn bonemarshes-btn" href="/files/MG_CharSheet.pdf" target="_blank">
       <h3>Character Sheet</h3>
