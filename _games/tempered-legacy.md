@@ -21,12 +21,12 @@ Join [the Mailing List](https://gumroad.com/technicalgrimoire/follow) to get upd
 <div class="row centerButtons">
   <div class="col-md-6 col-12">
     <button class="btn tempered-btn notransition" onclick="generateWeapon()">
-      <h3>Generate a Weapon</h3>
+      <h3 id="wpnBtn">Generate a Weapon</h3>
     </button>
   </div>
   <div class="col-md-6 col-12">
     <button class="btn tempered-btn notransition" onclick="generateSlot()">
-      <h3>Generate a Slot</h3>
+      <h3 id="slotBtn">Generate a Slot</h3>
     </button>
   </div>
 </div>

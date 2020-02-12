@@ -25,6 +25,9 @@ function hideWindow() {
 }
 
 function generateSlot() {
+  document.getElementById("wpnBtn").innerHTML = "Generate a Weapon";
+  document.getElementById("slotBtn").innerHTML = "Generate another Slot";
+
   document.getElementById("weaponName").innerHTML = "New Slot:";
   WeaponName = "this weapon";
   document.getElementById("weaponDesc").innerHTML = '';
@@ -37,6 +40,8 @@ function generateSlot() {
 
 function generateWeapon() {
   //document.getElementById("downloadBTN").style = "min-width:160px;margin-bottom:auto;";
+    document.getElementById("wpnBtn").innerHTML = "Generate another Weapon";
+    document.getElementById("slotBtn").innerHTML = "Generate a Slot";
   WeaponName = parseWORDS(selectRandom(tempered.NameTemplates));
   document.getElementById("weaponName").innerHTML = WeaponName;
   weaponDesc();
@@ -366,4 +371,19 @@ function saveWeaponIMG() {
     link.target = '_blank';
     link.click();
   });
+}
+
+window.onload = function () {
+  vars = getUrlVars();
+  if (getUrlVars()["pre"]){
+    generateWeapon();
+  }
+};
+
+function getUrlVars() {
+  var vars = {};
+  var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+    vars[key] = value;
+  });
+  return vars;
 }

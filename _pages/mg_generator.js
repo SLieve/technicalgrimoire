@@ -115,3 +115,18 @@ var KNO = 0;
       link.click();
     });
   }
+
+window.onload = function () {
+  vars = getUrlVars();
+  if (getUrlVars()["pre"]) {
+    generate();
+  }
+};
+
+function getUrlVars() {
+  var vars = {};
+  var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+    vars[key] = value;
+  });
+  return vars;
+}
