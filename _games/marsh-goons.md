@@ -23,16 +23,16 @@ In Marsh Goons your inventory is your life, and the mud keeps weighing you down!
       <h3>Support the Kickstarter!</h3>
     </a>
   </div>
-  <div class="col-md-6 col-6">
-    <a class="btn bonemarshes-btn" href="/files/MG_CharSheet.pdf" target="_blank">
-      <h3>Character Sheet</h3>
-    </a>
-  </div>
   <div class="col-md-6 col-9">
     <button id="CharButton" class="btn bonemarshes-btn" onclick="generate()">
       <h3>Generate Character</h3>
     </button>  
     </div>
+      <div class="col-md-6 col-6">
+    <a class="btn bonemarshes-btn" href="/files/MG_CharSheet.pdf" target="_blank">
+      <h3>Character Sheet</h3>
+    </a>
+  </div>
 </div>
 
 <div class="container bonemarshesCard" id="charCard">

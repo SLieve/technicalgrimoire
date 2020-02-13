@@ -16,12 +16,11 @@ redirect_from:
 
 Tempered Legacy is a magic item supplement for fantasy RPGs. The powers of these items are locked behind the regrets of previous owners. Click the "Generate Weapon" button to get started.
 
-
 <div class="row centerButtons">
   <div class="col-md-8 col-12">
-    <button class="btn tempered-btn notransition" href="https://www.kickstarter.com/projects/technicalgrimoire/two-rpg-zines-marsh-goons-and-tempered-legacy" target="_blank">
+      <a class="btn tempered-btn notransition" href="https://www.kickstarter.com/projects/technicalgrimoire/two-rpg-zines-marsh-goons-and-tempered-legacy" target="_blank">
       <h3>Support the Kickstarter!</h3>
-    </button>
+    </a>
   </div>
   <div class="col-md-6 col-12">
     <button class="btn tempered-btn notransition" onclick="generateWeapon()">
@@ -86,3 +85,4 @@ Everything on this page is protected under [CC-BY 4.0](https://creativecommons.o
 
 <script async src="/assets/js/html2canvas.min.js"></script>
 <script async src="/_pages/temperedgenerators.js" charset="utf-8"></script>
+<script defer src="js/libs/tracery.js"></script>
