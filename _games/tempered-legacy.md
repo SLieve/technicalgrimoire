@@ -23,12 +23,12 @@ Tempered Legacy is a magic item supplement for fantasy RPGs. The powers of these
     </a>
   </div>
   <div class="col-md-6 col-12">
-    <button class="btn tempered-btn notransition" onclick="generateWeapon()">
+    <button class="btn tempered-btn notransition" onclick="generate()">
       <h3 id="wpnBtn">Generate a Weapon</h3>
     </button>
   </div>
   <div class="col-md-6 col-12">
-    <button class="btn tempered-btn notransition" onclick="generateSlot()">
+    <button class="btn tempered-btn notransition" onclick="generate('slot')">
       <h3 id="slotBtn">Generate a Slot</h3>
     </button>
   </div>
@@ -84,7 +84,6 @@ Everything on this page is protected under [CC-BY 4.0](https://creativecommons.o
 ![temperedBow.png]({{site.url}}/images/posts/temperedBow.png)
 
 <script async src="/assets/js/html2canvas.min.js" language="javascript" type="text/javascript"></script>
-<script async src="/_pages/temperedgenerators.js" language="javascript" type="text/javascript"></script>
 <script async src="/assets/js/mods-eng-basic.js" language="javascript" type="text/javascript"></script>
 <script async src="/assets/js/tracery.js" language="javascript" type="text/javascript"></script>
-<script async src="/_pages/temperedgeneratorsNEW.js" language="javascript" type="text/javascript"></script>
+<script async src="/_pages/temperedgenerators.js" language="javascript" type="text/javascript"></script>
