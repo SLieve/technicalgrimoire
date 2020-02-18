@@ -86,3 +86,4 @@ Everything on this page is protected under [CC-BY 4.0](https://creativecommons.o
 <script async src="/assets/js/html2canvas.min.js" language="javascript" type="text/javascript"></script>
 <script async src="/_pages/temperedgenerators.js" charset="utf-8"></script>
 <script async src="/assets/js/mods-eng-basic.js" charset="utf-8"></script>
+<script async src="/assets/js/tracery.js" charset="utf-8"></script>
