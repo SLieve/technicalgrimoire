@@ -375,7 +375,7 @@
     "It is engraved with #adjective# vines.",
     "It is engraved with #adjective# runes.",
     "The grip has #adjective.a# crystal that drips blood.",
-    "It is decorated with #adjective.a# flower that blooms in sunlight.",
+    "It is decorated with #adjective.a# #plant# that blooms in sunlight.",
     "It is decorated with #adjective.a# gem that plays #adjective# scenes of the previous wielder's life.",
     "In total blackness #adjective.a# map of #adjective# stars can be seen.",
     "It is decorated with the eye of #creature.a#.",
@@ -611,7 +611,7 @@
     "WIELDER was #adjective.a# #person# who loved to cook...but wasn't very good at it. Plan, prepare, and cook a meal for #random-10-100.calc# people.",
     "WIELDER was a performer; they loved to dazzle and entertain a crowd. Entertain a group of strangers for #random-2-10.calc# days with a new performance each day.",
     "WIELDER always wanted to sail on a boat they built themselves. Build a boat and sail it to #locationTemplate#.",
-    "WIELDER never found the courage to express their love for #adjective.a# #person# of #locationTemplate#. Find that #person# (or one of their descendants) and express the love of WIELDER."
+    "WIELDER never found the courage to express their love for #adjective.a# #person# of #locationTemplate#. Find that person (or one of their descendants) and express the love of WIELDER."
   ],
   "rumor": [
     "Any who've owned this weapons have had their eyes and hair turn a bright #color#.",
