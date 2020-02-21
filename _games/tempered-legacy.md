@@ -2,7 +2,7 @@
 date: 2019-08-01
 layout: project
 title: Tempered Legacy
-caption: A Rogue-Like Framework for Fantasy RPGs.
+caption: Magic Weapons locked behind Regrets.
 image: images/temperedlegacy.png
 screenshot:
   src: images/temperedlegacy.png
