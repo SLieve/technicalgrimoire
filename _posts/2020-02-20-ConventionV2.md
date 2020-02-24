@@ -10,7 +10,7 @@ image: images/posts/convention2_booth.jpg
 
 In case you missed it, our [Kickstarter project is live](https://www.kickstarter.com/projects/technicalgrimoire/two-rpg-zines-marsh-goons-and-tempered-legacy)! $20 gets you a copy of [Marsh Goons](/marsh-goons) and [Tempered Legacy](/tempered-legacy). 
 
-*UPDATE:* Now that the convention is over I adde some notes and detailed more lessons learned.
+*UPDATE:* Now that the convention is over I added some notes and detailed more lessons learned.
 
 ## Upcoming Convention
 
