@@ -17,12 +17,9 @@ Marsh Goons is a complete package: adventure, rules, items, dungeons, monsters, 
 
 In Marsh Goons your inventory is your life, and the mud keeps weighing you down! The rule system perfectly reflects the chaotic and difficult terrain of the marshes; both its dangers and its riches. The game also includes a new system of magic revolving around mud; spells powered by mud, magic items that change when covered in mud, mud mud MUD! 
 
+**Join [the Mailing List](https://gumroad.com/technicalgrimoire/follow) to get updates about the upcoming zine!**
+
 <div class="row centerButtons">
-  <div class="col-md-8 col-6">
-    <a class="btn bonemarshes-btn" href="https://www.kickstarter.com/projects/technicalgrimoire/two-rpg-zines-marsh-goons-and-tempered-legacy" target="_blank">
-      <h3>Support the Kickstarter!</h3>
-    </a>
-  </div>
   <div class="col-md-6 col-9">
     <button id="CharButton" class="btn bonemarshes-btn" onclick="generate()">
       <h3>Generate Character</h3>
