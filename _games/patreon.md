@@ -11,12 +11,16 @@ image: /images/posts/explosionLogo.png
 comments: false
 ---
 
-I'm "exploding" [200 Word entries](https://200wordrpg.github.io/) and releasing them with additional content, fancy layout, and commentaries from the original designers. Each explosion will be a page or two in length, released monthly. You will be charged per release, not per month. If I get sick or fall behind schedule it won't affect your wallet.
+I'm "exploding" [200 Word entries](https://200wordrpg.github.io/) and releasing them with additional content and fancy layout. Each explosion will be a page or two in length. You will be charged per release (about once a month). If I get sick or fall behind schedule it won't affect your wallet.
 
-<a href="https://www.patreon.com/bePatron?u=49285" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+Patreons get early access for just **$2 a month**. They also get to vote on which entries will be exploded next.
 
-[**Become a Patreon**](https://www.patreon.com/davidschirduan)
+|[<img class="prize" src="{{site.url}}/files/explosions/ForCityCoin.png">]({{site.url}}/files/explosions/ForCityCoin.pdf)|[<img class="prize" src="{{site.url}}/files/explosions/Drink_Tea_Forget.png">]({{site.url}}/files/explosions/Drink_Tea_Forget.pdf)|[<img class="prize" src="{{site.url}}/files/explosions/sherlock.png">]({{site.url}}/files/explosions/sherlock.pdf)|
 
-Patreons get early access for just **$2 a month**. They also get to vote on which entries will be exploded next, and watch livestreams of David struggling with InDesign.
+|[<img class="prize" src="{{site.url}}/files/explosions/wizards.png">]({{site.url}}/files/explosions/MetalWizards.pdf)|[<img class="prize" src="{{site.url}}/files/explosions/Feelings.jpg">]({{site.url}}/files/explosions/Feelings.pdf)|
 
-The money raised goes directly into the challenge to purchases prizes, hire artists, and cover misc costs that might crop up.
+[<img class="prize" src="{{site.url}}/files/explosions/DeathBattle.png">]({{site.url}}/files/explosions/DeathBattle.pdf)
+
+
+|<a href="https://www.patreon.com/bePatron?u=49285" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>[**Become a Patreon**](https://www.patreon.com/davidschirduan)|
+

@@ -48,12 +48,14 @@ author:
   rss:      https://technicalgrimoire.com/feed.xml # make sure you provide an absolute URL
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:            David Schirduan © 2019. All rights reserved.
+copyright:            David Schirduan © 2020. All rights reserved.
 
 # Add links to the sidebar.
 menu:
   - title:             Games
     url:               /games
+  - title:             Patreon
+    url:               /patreon
   - title:             Downloads
     url:               /downloads
   - title:             Generators
