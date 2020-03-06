@@ -19,20 +19,31 @@ Patreons get early access for just **$2 a month**. They also get to vote on whic
 
 ### Free Explosions (Click to Download)
 
-[<img class="prize" src="{{site.url}}/assets/explosions/Cooking_Show.png">]({{site.url}}/assets/explosions/Cooking_Show.pdf)
-
-[<img class="prize" src="{{site.url}}/assets/explosions/rumors.png">]({{site.url}}/assets/explosions/rumors.pdf)|
-
-[<img class="prize" src="{{site.url}}/files/explosions/ForCityCoin.png">]({{site.url}}/files/explosions/ForCityCoin.pdf)
-
-[<img class="prize" src="{{site.url}}/files/explosions/Feelings.jpg">]({{site.url}}/files/explosions/Feelings.pdf)
-
-[<img class="prize" src="{{site.url}}/files/explosions/Drink_Tea_Forget.png">]({{site.url}}/files/explosions/Drink_Tea_Forget.pdf)
-
-[<img class="prize" src="{{site.url}}/files/explosions/sherlock.png">]({{site.url}}/files/explosions/sherlock.pdf)
-
-[<img class="prize" src="{{site.url}}/files/explosions/wizards.png">]({{site.url}}/files/explosions/MetalWizards.pdf)
-
-[<img class="prize" src="{{site.url}}/files/explosions/DeathBattle.png">]({{site.url}}/files/explosions/DeathBattle.pdf)
+<div class="row centerButtons">
+  <div class="col-lg-4 col">
+<a href="https://technicalgrimoire.com/assets/explosions/Cooking_Show.pdf"><img class="prize" src="https://technicalgrimoire.com/assets/explosions/Cooking_Show.png" /></a>
+</div>
+  <div class="col-lg-4 col">
+  <a href="https://technicalgrimoire.com/assets/explosions/rumors.pdf"><img class="prize" src="https://technicalgrimoire.com/assets/explosions/rumors.png" /></a>
+  </div>
+  <div class="col-lg-4 col">
+<a href="https://technicalgrimoire.com/files/explosions/ForCityCoin.pdf"><img class="prize" src="https://technicalgrimoire.com/files/explosions/ForCityCoin.png" /></a>
+</div>
+  <div class="col-lg-4 col">
+<a href="https://technicalgrimoire.com/files/explosions/Feelings.pdf"><img class="prize" src="https://technicalgrimoire.com/files/explosions/Feelings.jpg" /></a>
+</div>
+  <div class="col-lg-4 col">
+<a href="https://technicalgrimoire.com/files/explosions/Drink_Tea_Forget.pdf"><img class="prize" src="https://technicalgrimoire.com/files/explosions/Drink_Tea_Forget.png" /></a>
+</div>
+  <div class="col-lg-4 col">
+<a href="https://technicalgrimoire.com/files/explosions/sherlock.pdf"><img class="prize" src="https://technicalgrimoire.com/files/explosions/sherlock.png" /></a>
+</div>
+  <div class="col-lg-4 col">
+<a href="https://technicalgrimoire.com/files/explosions/MetalWizards.pdf"><img class="prize" src="https://technicalgrimoire.com/files/explosions/wizards.png" /></a>
+</div>
+  <div class="col-lg-4 col">
+<a href="https://technicalgrimoire.com/files/explosions/DeathBattle.pdf"><img class="prize" src="https://technicalgrimoire.com/files/explosions/DeathBattle.png" /></a>
+</div>
+  </div>
 
 
