@@ -21,7 +21,7 @@ Patreons get early access for just **$2 a month**. They also get to vote on whic
 
 [<img class="prize" src="{{site.url}}/assets/explosions/Cooking_Show.png">]({{site.url}}/assets/explosions/Cooking_Show.pdf)
 
-[<img class="prize" src="{{site.url}}/assets/explosions/rumors.jpg">]({{site.url}}/assets/explosions/rumors.pdf)|
+[<img class="prize" src="{{site.url}}/assets/explosions/rumors.png">]({{site.url}}/assets/explosions/rumors.pdf)|
 
 [<img class="prize" src="{{site.url}}/files/explosions/ForCityCoin.png">]({{site.url}}/files/explosions/ForCityCoin.pdf)
 
