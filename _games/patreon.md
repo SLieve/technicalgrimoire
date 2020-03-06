@@ -21,10 +21,10 @@ Patreons get early access for just **$2 a month**. They also get to vote on whic
 
 <div class="row centerButtons">
   <div class="col-lg-6 col-12">
-<a href="/assets/explosions/Cooking_Show.pdf"><img class="prize" src="/assets/explosions/Cooking_Show.png"/></a>
+<a href="/files/explosions/Cooking_Show.pdf"><img class="prize" src="/files/explosions/Cooking_Show.png"/></a>
 </div>
   <div class="col-lg-6 col-12">
-  <a href="/assets/explosions/rumors.pdf"><img class="prize" src="/assets/explosions/rumors.png"/></a>
+  <a href="/files/explosions/rumors.pdf"><img class="prize" src="/files/explosions/rumors.png"/></a>
   </div>
   <div class="col-lg-6 col-12">
 <a href="/files/explosions/ForCityCoin.pdf"><img class="prize" src="/files/explosions/ForCityCoin.png"/></a>
