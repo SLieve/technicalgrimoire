@@ -15,9 +15,13 @@ I'm "exploding" [200 Word entries](https://200wordrpg.github.io/) and releasing 
 
 Patreons get early access for just **$2 a month**. They also get to vote on which entries will be exploded next.
 
+[![become_patreon.png](/images/posts/become_patreon.png)](https://www.patreon.com/davidschirduan)
+
 ### Free Explosions (Click to Download)
 
-[![become_patreon.png](/images/posts/become_patreon.png)](https://www.patreon.com/davidschirduan)
+[<img class="prize" src="{{site.url}}/assets/explosions/Cooking_Show.png">]({{site.url}}/assets/explosions/Cooking_Show.pdf)
+
+[<img class="prize" src="{{site.url}}/assets/explosions/rumors.jpg">]({{site.url}}/assets/explosions/rumors.pdf)|
 
 [<img class="prize" src="{{site.url}}/files/explosions/ForCityCoin.png">]({{site.url}}/files/explosions/ForCityCoin.pdf)
 
