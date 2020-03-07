@@ -164,6 +164,16 @@ But they're worth it. If you plan on self-publishing books, pamphlets, or PDFs t
 - **[Cesar Ojeda](https://www.flickr.com/photos/odisea2008/albums)** AND ANOTHER!
 - **[Raw Pixel Public Domain](https://www.rawpixel.com/category/53/public-domain)** is a curated collection of nice-looking high resolution images.
 - **[Old Typography](https://www.rawpixel.com/board/328709/draughtsmans-alphabets)** but still freaking beautiful!
+- **[Guilherme Gontijo](https://gontijo.co/) Curation** is a brilliant collection of quality unsplash images.
+  - [Cyberpunk](https://unsplash.com/collections/9428612/cyberpunk)
+  - [Steampunk](https://unsplash.com/collections/9429915/steampunk)
+  - [Fantasy](https://unsplash.com/collections/9429909/fantasy-)
+  - [Fallout](https://unsplash.com/collections/9571933/fallout)
+  - [Sci-Fi](https://unsplash.com/collections/9434891/scifi)
+  - [Horror](https://unsplash.com/collections/9550493/horror)
+  - [Solarpunk](https://unsplash.com/collections/9559906/solarpunk)
+  - [Neo Noir](https://unsplash.com/collections/9559918/neo-noir)
+  - [Portraits](https://unsplash.com/collections/9550197/portraits)
 
 **P.S.** Post in the comments if you find any other useful resources; I'm always looking to learn more!
 
