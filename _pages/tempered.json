@@ -324,10 +324,10 @@
     "the #singularLocation.capitalize# of #name.capitalize#"
   ],
   "complexLocation": [
-    "tundra", "forest", "grassland", "desert", "plateau", "wood", "savanna", "coral reef", "arctic", "scrublands", "wastes", "mountain", "bog", "marshes", "wetlands", "depths", "seas", "beaches", "islands", "ruins", "lakes", "rivers", "coast", "icelands", "volcanos", "fortress", "castle", "kingdom", "empire"
+    "tundra", "forest", "grassland", "desert", "plateau", "wood", "savanna", "coral reef", "arctic", "scrublands", "wastes", "mountain", "bog", "marshes", "wetlands", "depths", "seas", "beaches", "islands", "ruins", "lakes", "rivers", "coast", "icelands", "volcanos", "fortress", "castle", "kingdom", "empire", "town", "village", "city", "castle", "cave", "fortress"
   ],
     "singularLocation": [
-      "tundra", "forest", "desert", "plateau", "wood", "savanna", "coral reef", "arctic", "wastes", "mountain", "bog", "marsh", "wetland", "sea", "beach", "island", "ruin", "lake", "river", "volcano", "fortress", "castle", "kingdom", "empire"
+      "tundra", "forest", "desert", "plateau", "wood", "savanna", "coral reef", "arctic", "wastes", "mountain", "bog", "marsh", "wetland", "sea", "beach", "island", "ruin", "lake", "river", "volcano", "fortress", "castle", "kingdom", "empire", "town", "village", "city", "castle", "cave", "fortress"
     ],
   "person": [
     "man", "woman", "child", "soldier", "farmer", "merchant", "druid", "paladin", "thief", "ranger", "king", "barbarian", "priest", "beggar", "knight", "orphan", "noble", "baron", "baroness", "queen", "dancer", "bard", "sorcerer", "wizard", "bartender", "stranger", "miller", "blacksmith", "armorer", "falconer", "tailor", "carpenter", "plowman", "butcher", "groom", "squire", "baker", "weaver", "minstrel", "lumberjack"
@@ -339,7 +339,7 @@
     "abrasive", "admirable", "adventurous", "aggressive", "agonizing", "ambitious", "ancient", "angry", "antediluvian", "anxious", "aquatic", "arcane", "argumentative", "arrogant", "artificial", "awkward", "bald", "barbed", "biting", "bizarre", "blazing", "bleeding", "bloodied", "blooming", "boiling", "bony", "bouncy", "brash", "bright", "brittle", "brutal", "bubbly", "bulging", "burning", "carved", "cheap", "childish", "clever", "clumsy", "cool", "cozy", "crazy", "creepy", "criminal", "cruel", "crying", "cunning", "cursed", "cute", "damaged", "damp", "dank", "dark", "decadent", "dented", "destructive", "devious", "dim", "disfigured", "disturbing", "divine", "dotted", "dreamy", "drenched", "dripping", "dusty", "elder", "eldritch", "electric", "elegant", "encrusted", "envious", "etched", "false", "fatal", "feathery", "festive", "filthy", "flaming", "flawless", "flying", "foamy", "foolish", "fractured", "frigid", "frozen", "furious", "fuzzy", "galactic", "gentle", "ghostly", "gilded", "glamorous", "glittering", "gloomy", "greedy", "grinning", "groaning", "hateful", "haunted", "heroic", "hoarse", "hostile", "huge", "humble", "humid", "icy", "infected", "infested", "intense", "itchy", "jagged", "kind", "laughing", "leathery", "loud", "lunar", "maternal", "mechanical", "metallic", "moist", "molten", "monstrous", "morbid", "muddy", "mutilated", "mystical", "naive", "neurotic", "newborn", "odd", "outrageous", "painted", "pale", "paranoid", "peaceful", "perverse", "petty", "pious", "pointy", "prismatic", "proud", "quiet", "radiant", "ragged", "rambling", "rasping", "refined", "ridiculous", "rotten", "rowdy", "rude", "ruined", "rusty", "sacred", "sad", "sadistic", "sanguine", "scalding", "scaled", "scarlet", "scarred", "scheming", "scholarly", "scorched", "screaming", "seething", "sensual", "serrated", "sexy", "sharp", "shattered", "shining", "shiny", "shrewd", "sickly", "silent", "silky", "skeletal", "sleek", "slimy", "slow", "smart", "smiling", "snarling", "sneaky", "soaked",  "soggy", "soiled", "solar", "solemn", "solitary", "somber", "sparkling", "spoiled", "stiff", "stupid", "stylish", "superior", "superstitious", "sweet", "swift", "swollen", "tangled", "tarnished", "tempered", "tense", "thick", "thin", "thorny", "tickling", "tingly", "twisted", "ultramarine", "uncaring", "undying", "unhealthy", "unstable", "valiant", "venomous", "vindictive", "vulgar", "wandering", "weeping", "wet", "whimsical", "wild", "wise", "withered", "wooden", "woolen", "woven", "wretched", "youthful"
   ],
   "noun": [
-    "agony", "ally", "amber", "ambush", "anger", "apex", "bane", "beast", "beetle", "blossom", "branch", "bud", "cage", "claw", "cloud", "dark", "darkness", "day", "death", "demon", "devil", "dream", "earth", "echoes", "edge", "eruption", "eye", "fate", "feather", "fire", "flame", "flower", "footfall", "force", "frost", "fury", "game", "glory", "goose", "grace", "grass", "grasshopper", "grave", "guardian", "hawk", "hope", "hound", "hunter", "joy", "justice", "knight", "lady", "leaf", "legacy", "life", "light", "love", "magnificence", "man", "mark", "memory", "menace", "mirth", "monster", "moon", "night", "nightmare", "noise", "nova", "patience", "peace", "plague", "point", "raven", "razor", "reverie", "root", "rot", "sanctuary", "savior", "scourge", "seed", "shard", "shardlight", "silence", "sky", "smoke", "snow", "song", "spike", "star", "steel", "stinger", "strike", "sun", "swallow", "terror", "thistle", "tooth", "tree", "trick", "vengeance", "venom", "victim", "vigor", "visage", "vision", "void", "volcano", "wasp", "water", "wind", "witness", "wound", "wrath", "#plant#", "#plant#", "#plant#", "#plant#", "#plant#", "#plant#", "#plant#"
+    "agony", "ally", "amber", "ambush", "anger", "apex", "bane", "beast", "beetle", "blossom", "branch", "bud", "cage", "claw", "cloud", "dark", "darkness", "day", "death", "demon", "devil", "dream", "earth", "echoes", "edge", "eruption", "eye", "fate", "feather", "fire", "flame", "flower", "footfall", "force", "frost", "fury", "game", "glory", "grace", "grass", "grasshopper", "grave", "guardian", "hawk", "hope", "hunter", "joy", "justice", "knight", "lady", "leaf", "legacy", "life", "light", "love", "magnificence", "man", "mark", "memory", "menace", "mirth", "monster", "moon", "night", "nightmare", "noise", "nova", "patience", "peace", "plague", "point", "raven", "razor", "reverie", "root", "rot", "sanctuary", "savior", "scourge", "seed", "shard", "shardlight", "silence", "sky", "smoke", "snow", "song", "spike", "star", "steel", "stinger", "strike", "sun", "swallow", "terror", "thistle", "tooth", "tree", "trick", "vengeance", "venom", "victim", "vigor", "visage", "vision", "void", "volcano", "wasp", "water", "wind", "witness", "wound", "wrath", "#plant#", "#plant#", "#plant#", "#plant#", "#plant#", "#plant#", "#plant#"
   ],
   "description": [
     "#descriptionIntro# #descriptionDetail#.",
@@ -357,15 +357,16 @@
     "crafted from #commonMaterial#"
   ],
   "descriptionDetail": [
-    " and studded with #rareMaterial#",
-    " and plated with #rareMaterial#",
-    " and inlaid with #rareMaterial#",
-    " and decorated with #rareMaterial#",
-    " and #adjective# #rareMaterial#",
-    " with patches of #rareMaterial#",
-    " and encased in a thin layer of #rareMaterial#",
-    " with pieces of #rareMaterial# scattered throughout",
-    ". It broke long ago and was repaired with #rareMaterial#"
+    "and studded with #rareMaterial#",
+    "and plated with #rareMaterial#",
+    "and inlaid with #rareMaterial#",
+    "and decorated with #rareMaterial#",
+    "and #adjective# #rareMaterial#",
+    "with patches of #rareMaterial#",
+    "and encased in a thin layer of #rareMaterial#",
+    "with pieces of #rareMaterial# scattered throughout",
+    "and was repaired with #rareMaterial#",
+    "and was repaired with #commonMaterial#"
   ],
   "descriptionSpecial": [
     "It gives off #adjective.a# impression, as if crafted by #adjective.a# #person#.",
@@ -483,7 +484,7 @@
     "amber", "aluminum", "azurite", "pearl", "bloodstone", "crystal", "diamond", "ebony", "elder hide", "electrum", "emerald", "fulgurite", "ghost-stone", "gold", "ivory", "jade",  "meteorite", "onyx", "orichalcum", "paper", "porcelain", "sapphire", "silver", "star-iron", "adamantium", "aether", "atium", "duranium", "mithril", "mythril", "redstone", "unobtanium", "vibranium", "phlogiston", "miasma", "the blood of #creature.a#", "the eye of #creature.a#", "mercury", "petals of #plant.a#"
   ],
   "plant" :[
-    "azalea","chrysanthemum","daffodil","delphinium","geranium","alstroemeria","lavender","periwinkle","petunia","ranunculu","snapdragon","daisy","sunflower","rose","lilie","carnation","gardenia","orchid","marigold","tulip","dahlia"
+    "azalea","chrysanthemum","daffodil","delphinium","geranium","alstroemeria","lavender","periwinkle","petunia","ranunculu","snapdragon","daisy","sunflower","rose","lily","carnation","gardenia","orchid","marigold","tulip","dahlia","flower"
   ],
   "color": [
     "amaranth", "amethyst", "aqua", "aquamarine", "aquamarine", "azure", "azure", "beige", "beige", "black", "black", "blue", "blue", "bronze", "brown", "brown", "burgundy", "byzantium", "cerise", "cerulean", "chartreuse", "chartreuse", "copper", "crimson", "crimson", "cyan", "cyan", "blue", "cyan", "green", "grey", "magenta", "orange", "red", "turquoise", "violet", "deep blue", "deep pink", "emerald", "fuchsia", "gold", "gold", "gray", "gray", "green", "green", "pink", "indigo", "indigo", "lavender", "lavender", "lilac", "magenta", "magenta", "maroon", "maroon", "mauve", "navy", "ocher", "orange", "orange", "green", "red", "turquoise", "violet", "periwinkle", "pink", "pink", "puce", "purple", "purple", "red", "red", "ruby", "sapphire", "scarlet", "silver", "silver", "taupe", "teal", "turquoise", "turquoise", "ultramarine", "violet", "violet", "viridian", "white", "white", "yellow"
@@ -498,11 +499,12 @@
     "#noun.capitalize# and #noun.capitalize#",
     "#name.capitalize#'s #noun.capitalize#",
     "#color.capitalize# #noun.capitalize#",
-    "#noun.capitalize# of #creature.capitalize#",
+    "#adjective.capitalize# #creature.capitalize#",
     "#noun.capitalize# of #name.capitalize#",
     "#noun.capitalize# that will be #adjective.capitalize#",
     "#noun.capitalize# that was #adjective.capitalize#",
-    "#noun.capitalize# of the #adjective.capitalize# #complexLocation.capitalize#"
+    "#noun.capitalize# of the #adjective.capitalize# #complexLocation.capitalize#",
+    "Blooming #plant.capitalize#"
   ],
   "goalTemplate": [
     "WIELDER was #adjective.a# #person#. They were killed by the #adjective.capitalize# CREATURE. Prevent that beast from harming anyone else.",
@@ -618,7 +620,7 @@
     "This weapon fell from the sky, and flew directly into the #adjective.capitalize# CREATURE, killing it instantly.",
     "This weapon washed up on the coast of #locationTemplate#.",
     "It was originally forged to defeat the #adjective.capitalize# CREATURE.",
-    "It was originally forged to opposed the #adjective.capitalize# armies of #locationTemplate#.",
+    "It was originally forged to opposed the #adjective# armies of #locationTemplate#.",
     "A lump of metal was left under a waterfall near #locationTemplate#. Over the centuries this weapon was formed.",
     "A child wandered into #locationTemplate# and returned #random-2-150.calc# days later as an old man holding this weapon.",
     "During an ancient siege, #adjective.a# #person# fell from the sky, defended the city, and then ascended. They never spoke a word, and left only this weapon behind.",

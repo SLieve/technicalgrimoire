@@ -33,10 +33,10 @@ Patreons get early access for just **$2 a month**. They also get to vote on whic
 <a href="/files/explosions/Feelings.pdf"><img class="prize" src="/files/explosions/Feelings.jpg"/></a>
 </div>
   <div class="col-lg-6 col-12">
-<a href="/files/explosions/Drink_Tea_Forget.pdf"><img class="prize" src="/files/explosions/Drink_Tea_Forget.png"/></a>
+<a href="/files/explosions/sherlock.pdf"><img class="prize" src="/files/explosions/sherlock.png"/></a>
 </div>
   <div class="col-lg-6 col-12">
-<a href="/files/explosions/sherlock.pdf"><img class="prize" src="/files/explosions/sherlock.png"/></a>
+<a href="/files/explosions/Drink_Tea_Forget.pdf"><img class="prize" src="/files/explosions/Drink_Tea_Forget.png"/></a>
 </div>
   <div class="col-lg-6 col-12">
 <a href="/files/explosions/MetalWizards.pdf"><img class="prize" src="/files/explosions/wizards.png"/></a>

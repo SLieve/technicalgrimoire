@@ -1167,15 +1167,15 @@
     }, {
       "Name": "Kobold Banker",
       "Text": "You were one of the countless clerks in the Bank. What you are under the mask matters not. You dress as a kobold and that's all that matters.",
-      "Possessions": ["BIG weapon", "Animal fur loincloth", "Wicked scarification", "Boombox"],
-      "Skills": ["3 big weapon fighting", "3 strength", "2 fist fighting", "2 run", "2 wrestling"],
+      "Possessions": ["Draconic hat and mask (+1 etiquette with dragons)","Business suit","Briefcase (as club)","Merchant Scales"],
+      "Skills": ["3 Banking","3 Run","2 Etiquette","2 Trading","1 Briefcase Fighting","1 Mathmology"],
       "Special": "",
       "Source": "By <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>. For more backgrounds, buy <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a>."
     }, {
       "Name": "Kitchen Goblin ",
       "Text": "Some goblins are gross murder babies. Others are gross harbingers of civilization. You? Are an artiste.",
-      "Possessions": ["BIG weapon", "Animal fur loincloth", "Wicked scarification", "Boombox"],
-      "Skills": ["3 big weapon fighting", "3 strength", "2 fist fighting", "2 run", "2 wrestling"],
+      "Possessions": ["Soup pot big enough sleep in","1 gallon of cooking oil","Giant whisk","Meat tenderizing mallet","Greasy chefs hat"],
+      "Skills": ["1 cooking","1 drinking","1 swimming","3 dumpster diving","1 mallet fighting","2 omleteering","3 salting","6 goblin"],
       "Special": "",
       "Source": "By <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>. For more backgrounds, buy <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a>."
     }, {
