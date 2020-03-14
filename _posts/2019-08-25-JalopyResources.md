@@ -174,6 +174,8 @@ But they're worth it. If you plan on self-publishing books, pamphlets, or PDFs t
   - [Solarpunk](https://unsplash.com/collections/9559906/solarpunk)
   - [Neo Noir](https://unsplash.com/collections/9559918/neo-noir)
   - [Portraits](https://unsplash.com/collections/9550197/portraits)
+- **[Imaginative Photoshop Work](https://pixabay.com/users/kellepics-4893063/)** with everything from steampunk space-ships to weather-queens.
+- **[Stefano della Bella](https://www.metmuseum.org/art/collection/search#!?q=Stefano%20della%20Bella&perPage=20&sortBy=Relevance&offset=0&pageSize=0)** was insanely prolific (over 1500 images in that search) and drew everything from creepy symbols to landscapes to portraits. If you want a lot of art in a consistent style, this is a great resource.
 
 **P.S.** Post in the comments if you find any other useful resources; I'm always looking to learn more!
 
