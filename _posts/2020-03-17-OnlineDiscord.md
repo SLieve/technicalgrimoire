@@ -1,5 +1,5 @@
 ---
-title: "Playing RPGs Online Without Roll20"
+title: "Playing RPGs On Discord"
 layout: post
 date: 2020-03-17
 categories: Tabletop
