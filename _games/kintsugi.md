@@ -13,7 +13,7 @@ hide_description: true
 image: /images/posts/Kintsugi-Wide.png
 ---
 
-A simple RPG where failure only makes you stronger!
+A simple RPG about robots who learn things!
 
 Kintsugi began as a 200 Word RPG but has since expanded into a shiny pamphlet! Play as a Robot, Mutant, or a Magical Golem; someone who can’t die and quickly learns new skills or abilities. Simple but elegant rules allow you to create your characters as you play, building them up one failure at a time. 
 
@@ -27,6 +27,8 @@ Kintsugi began as a 200 Word RPG but has since expanded into a shiny pamphlet! P
 </div>
 
 > "Can't recommend it enough. Free, easy to run RPG about immortals learning from their mistakes." - [Tyler Crumrine](https://mobile.twitter.com/uhcoolguy)
+
+> "My kid and I played a session of Kintsugi! Was a lot of fun. He was a mutant pit fighter that had to make breakfast. First skill he made was “Sharp hoverboard” to slice mutant potatoes. Was a lot of fun!" - [Sean](https://twitter.com/HypatiasAngst/status/1238978186110808064)
 
 ![kintsugi-fold.jpg]({{site.url}}/images/posts/kintsugi-fold.jpg)
 
