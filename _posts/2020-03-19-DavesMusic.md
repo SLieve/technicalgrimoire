@@ -152,7 +152,7 @@ Chill music is kind of hard to reccomend. It doesn't necessarily enterain; rathe
 
 <iframe style="border: 0; width: 100%; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=272221706/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.businesscasual.biz/album/jude">jude. by LemKuuja</a></iframe>
 
-[**Chillhop Essentials** by Chillhop Records](https://chillhop.bandcamp.com/album/chillhop-essentials-spring-2019) - Every season this producer releases a free collection with sample tracks from their other albums. There are HUNDREDS of free chill tunes in all of these collections. And if you like a particular track there is probably a much larger album you can purchase.
+[**Chillhop Essentials** by Chillhop Records](https://chillhop.bandcamp.com/album/chillhop-essentials-spring-2019) - Every season this label releases a free collection with sample tracks from their other albums. There are HUNDREDS of free chill tunes in all of these collections. And if you like a particular track there is probably a much larger album you can purchase.
 
 <iframe style="border: 0; width: 100%; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=3794408073/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://chillhop.bandcamp.com/album/chillhop-essentials-spring-2019">Chillhop Essentials - Spring 2019 by Chillhop Records</a></iframe>
 
