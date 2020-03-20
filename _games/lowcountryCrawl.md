@@ -24,7 +24,7 @@ It's chock full of tables, house rules, monsters, and other resources acting tog
   <div class="col-md-6 col-6">
 	<a class="btn lcc-btn" href="https://gum.co/sxRdk" target="_blank"><h3>Ashcan+PDF: $6</h3></a>
   </div>
-    <div class="col-md-9 col-9">
+    <div class="col-md-6 col-6" style="margin-top:10px;">
 	<a class="btn lcc-btn" href="https://gum.co/pSEeO" target="_blank"><h3>PDF: $5</h3></a>
   </div>
   </div>
