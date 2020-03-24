@@ -7,4 +7,3 @@ description: >
 image: /images/David.png
 icon: icon-book
 ---
-## [Categories]({{site.baseurl}}/categories_tags)

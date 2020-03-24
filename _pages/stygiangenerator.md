@@ -9,8 +9,6 @@ description: >
 ---
 ![stygiangenerator.png]({{site.url}}/images/stygiangenerator.png)
 
-_I'm testing some stuff, so the locations aren't as random as they should be. Sorry!_
-
 <div class="row">
   <div class="col-md-3 col-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="buttonDeeper()">Go
       Deeper</button></div>
@@ -92,7 +90,7 @@ xmlhttp.onreadystatechange = function () {
     stygian = JSON.parse(this.responseText);
   }
 };
-xmlhttp.open("GET", "/_pages/stygian.json", true);
+xmlhttp.open("GET", "/_pages/resources/stygian.json", true);
 xmlhttp.send();
 
 function buttonDeeper() {
@@ -111,8 +109,8 @@ function library(direction) {
   var nextLocation = Math.floor(Math.random() * 20) + currentLayer;
   var nextDetail = Math.floor(Math.random() * 20) + currentLayer;
   
-  var nextLocation = 1 + currentLayer;
-  var nextDetail = 1 + currentLayer;
+  var nextLocation = Math.floor(Math.random() * 20) + currentLayer;
+  var nextDetail = Math.floor(Math.random() * 20) + currentLayer;
 
   document.getElementById("eventText").innerHTML = "";
 

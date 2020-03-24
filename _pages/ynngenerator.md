@@ -89,7 +89,7 @@ xmlhttp.onreadystatechange = function () {
     ynn = JSON.parse(this.responseText);
   }
 };
-xmlhttp.open("GET", "/_pages/ynn.json", true);
+xmlhttp.open("GET", "/_pages/resources/ynn.json", true);
 xmlhttp.send();
 
 function buttonDeeper() {

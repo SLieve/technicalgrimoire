@@ -6,9 +6,6 @@ permalink: david/only-the-food
 caption: Horror Adventure for the Dread RPG
 screenshot:
   src: /images/posts/OnlyThe-Cover.png
-links: 
-  - title:   Download
-    url:     /files/OnlytheFood-Digital.pdf
 hide_description: true
 image: /images/posts/OnlyThe-Cover.png
 redirect_from:

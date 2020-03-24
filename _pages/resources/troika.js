@@ -4,7 +4,7 @@ xmlhttp.onreadystatechange = function () {
     troika = JSON.parse(this.responseText);
   }
 };
-xmlhttp.open("GET", "/_pages/troika.json", true);
+xmlhttp.open("GET", "/_pages/resources/troika.json", true);
 xmlhttp.send();
 
 var CHARname = "";

@@ -65,4 +65,4 @@ In Marsh Goons your inventory is your life, and the mud keeps weighing you down!
 ![MG_cover.png.png](/images/posts/MG_cover.png)
 
 <script async src="/assets/js/html2canvas.min.js"></script>
-<script async src="/_pages/mg_generator.js" charset="utf-8"></script>
+<script async src="/_pages/resources/mg_generator.js" charset="utf-8"></script>

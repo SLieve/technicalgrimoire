@@ -16,7 +16,7 @@ xmlhttp.onreadystatechange = function () {
   }
 };
 
-xmlhttp.open("GET", "/_pages/tempered.json", true);
+xmlhttp.open("GET", "/_pages/resources/tempered.json", true);
 xmlhttp.send();
 
 var Wielder = "Lemuria";

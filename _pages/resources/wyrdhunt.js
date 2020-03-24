@@ -4,7 +4,7 @@ xmlhttp.onreadystatechange = function () {
     wyrd = JSON.parse(this.responseText);
   }
 };
-xmlhttp.open("GET", "/_pages/wyrdhunt.json", true);
+xmlhttp.open("GET", "/_pages/resources/wyrdhunt.json", true);
 xmlhttp.send();
 
 function startHunt() {

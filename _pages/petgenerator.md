@@ -3,14 +3,16 @@ layout: page
 title: Weird Pet Generator
 permalink: weirdpetgenerator
 published: true
-image: /images/hsi.png
+screenshot:
+  src: /images/pet_generator.jpg
+image: /images/pet_generator.jpg
 description: >
   Generate weird pets for your players.
 ---
 
-![hsi.png]({{site.url}}/images/hsi.png)
-
 These are brave and true creatures who have dedicated themselves to their owners. They are always doing their best; they cannot lie, deceive or betray. Treat them well, and you'll have a loyal companion even in the darkest of places.
+
+*This tool is still in development.*
 
 <details>
   <summary>OSR Pet Rules (Click to Expand)</summary>
@@ -64,4 +66,4 @@ These are brave and true creatures who have dedicated themselves to their owners
  - Lauren Schirduan, the love of David's life and his partner in crime.
  - Ori, our beloved fur baby.
 
-<script async src="/_pages/petgenerator.js" charset="utf-8"></script>
+<script async src="/_pages/resources/petgenerator.js" charset="utf-8"></script>

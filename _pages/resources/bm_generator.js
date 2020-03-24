@@ -9,7 +9,7 @@ xmlhttp.onreadystatechange = function () {
     bm = JSON.parse(this.responseText);
   }
 };
-xmlhttp.open("GET", "/_pages/bm_generator.json", true);
+xmlhttp.open("GET", "/_pages/resources/bm_generator.json", true);
 xmlhttp.send();
 
 function rollStats(){

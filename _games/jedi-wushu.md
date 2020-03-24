@@ -8,9 +8,6 @@ redirect_from:
 caption: Feel Like a Jedi
 screenshot:
   src: /images/posts/Jedi-Wushu-Cover.png
-links: 
-  - title:   Download
-    url:     /files/JediWushu2.0.pdf
 hide_description: true
 image: /images/posts/Jedi-Wushu-Cover.png
 comments: True

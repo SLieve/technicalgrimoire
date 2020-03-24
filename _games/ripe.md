@@ -19,12 +19,12 @@ Your Harvester emerges from beneath the earth to take you away. If you manage to
 
 Luckily you have other Elders by your side supporting you and protecting you while you do the same for them.
 
-*This game is still being playtested. The rules can (and will) change over time. Please send any feedback to technicalgrimoire@gmail.com.*
+*This game is in Beta. The rules can (and will) change over time. Please send any feedback to technicalgrimoire@gmail.com.*
 
 **Join [the Mailing List](https://gumroad.com/technicalgrimoire/follow) to get updates about Ripe.**
 
 <div class="row centerButtons">
  <div class="col-md-7 col-7">
-	<a class="btn wyrd-btn" href="https://gum.co/TSXNW" target="_blank"><h3>PDF (Beta): Free</h3></a>
+	<a class="btn wyrd-btn" href="https://gum.co/TSXNW" target="_blank"><h3>Download PDF</h3></a>
   </div>
 </div>

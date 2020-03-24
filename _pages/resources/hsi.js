@@ -9,7 +9,7 @@ xmlhttp.onreadystatechange = function () {
     hsi = JSON.parse(this.responseText);
   }
 };
-xmlhttp.open("GET", "/_pages/hsi.json", true);
+xmlhttp.open("GET", "/_pages/resources/hsi.json", true);
 xmlhttp.send();
 
 function threedsix(jsonList) {

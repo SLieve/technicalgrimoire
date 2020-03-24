@@ -38,7 +38,7 @@ xmlhttp.onreadystatechange = function () {
     monsterparts = JSON.parse(this.responseText);
   }
 };
-xmlhttp.open("GET", "/_pages/monsterparts.json", true);
+xmlhttp.open("GET", "/_pages/resources/monsterparts.json", true);
 xmlhttp.send();
 
 function monster() {

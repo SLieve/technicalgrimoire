@@ -4,7 +4,7 @@ xmlhttp.onreadystatechange = function () {
     blb = JSON.parse(this.responseText);
   }
 };
-xmlhttp.open("GET", "/_pages/leftburied.json", true);
+xmlhttp.open("GET", "/_pages/resources/leftburied.json", true);
 xmlhttp.send();
 
 var CHARname = "Test";

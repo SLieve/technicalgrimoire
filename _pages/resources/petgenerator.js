@@ -4,7 +4,7 @@ xmlhttp.onreadystatechange = function () {
     pets = JSON.parse(this.responseText);
   }
 };
-xmlhttp.open("GET", "/_pages/petgenerator.json", true);
+xmlhttp.open("GET", "/_pages/resources/petgenerator.json", true);
 xmlhttp.send();
 
 function adopt() {

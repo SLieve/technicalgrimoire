@@ -89,5 +89,5 @@ description: >
 
 <small>Thanks to <a href="https://twitter.com/CharlieFergaves">Charles Avery</a> for making such a terrifying world and to <a href="http://chrispwolf.com/">Christopher P. Wolf</a> for the code!</small>
 
-<script async src="/_pages/wyrdhunt.js" charset="utf-8"></script>
+<script async src="/_pages/resources/wyrdhunt.js" charset="utf-8"></script>
 

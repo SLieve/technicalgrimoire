@@ -107,4 +107,4 @@ You can view [ALL the backgrounds here](https://github.com/DavidSchirduan/davids
 
 
 <script async src="/assets/js/html2canvas.min.js"></script>
-<script async src="/_pages/troika.js" charset="utf-8"></script>
+<script async src="/_pages/resources/troika.js" charset="utf-8"></script>

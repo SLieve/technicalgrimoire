@@ -1,5 +1,4 @@
 ---
-date: 2019-04-15
 layout: project
 title: Patreon
 permalink: patreon

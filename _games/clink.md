@@ -3,9 +3,6 @@ date: 2019-04-01
 caption: Mysterious Drifters in a Dangerous World
 screenshot:
   src: /images/posts/96596be4d776c79c68af7ff462b9599f_original.jpg
-links: 
-  - title:   Buy the PDF
-    url:     http://www.drivethrurpg.com/product/236659/Clink-RPG
 layout: project
 title: Clink
 permalink: clink

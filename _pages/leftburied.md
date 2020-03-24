@@ -51,4 +51,4 @@ Best Left Buried is an fantasy horror game that threatens your characters' sanit
 Commissioned by [SoulMuppet Publishing](https://www.drivethrurpg.com/browse/pub/13749/SoulMuppet-Publishing).
 
 <script async src="/assets/js/html2canvas.min.js"></script>
-<script async src="/_pages/leftburied.js" charset="utf-8"></script>
+<script async src="/_pages/resources/leftburied.js" charset="utf-8"></script>

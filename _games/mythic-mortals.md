@@ -6,9 +6,6 @@ permalink: mythic-mortals
 caption: An RPG Where YOU are the Hero
 screenshot:
   src: /images/posts/MM_Cover_Digital.jpg
-links: 
-  - title:   Buy the PDF / Print
-    url:     http://www.drivethrurpg.com/product/178248/Mythic-Mortals
 hide_description: true
 image: /images/posts/MM_Cover_Digital.jpg
 redirect_from:

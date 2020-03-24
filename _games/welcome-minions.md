@@ -6,9 +6,6 @@ permalink: david/my-creations/welcome-minions
 caption: A Card Game of Friendly Backstabbing
 screenshot:
   src: /images/posts/enlightenment.png
-links: 
-  - title:   Download
-    url:     /files/WelcomeMinions_March2017.pdf
 hide_description: true
 image: /images/posts/enlightenment.png
 published: false

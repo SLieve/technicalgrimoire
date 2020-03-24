@@ -2,7 +2,7 @@
 date: 2019-08-01
 layout: project
 title: Tempered Legacy
-caption: Magic Weapons locked behind Regrets.
+caption: Magic Weapons locked behind Regrets
 image: images/temperedlegacy.png
 screenshot:
   src: images/temperedlegacy.png
@@ -83,4 +83,4 @@ Everything on this page is protected under [CC-BY 4.0](https://creativecommons.o
 <script async src="/assets/js/html2canvas.min.js" language="javascript" type="text/javascript"></script>
 <script async src="/assets/js/mods-eng-basic.js" language="javascript" type="text/javascript"></script>
 <script async src="/assets/js/tracery.js" language="javascript" type="text/javascript"></script>
-<script async src="/_pages/temperedgenerators.js" language="javascript" type="text/javascript"></script>
+<script async src="/_pages/resources/temperedgenerators.js" language="javascript" type="text/javascript"></script>

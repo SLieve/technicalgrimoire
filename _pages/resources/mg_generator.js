@@ -9,7 +9,7 @@ xmlhttp.onreadystatechange = function () {
     mg = JSON.parse(this.responseText);
   }
 };
-xmlhttp.open("GET", "/_pages/mg_generator.json", true);
+xmlhttp.open("GET", "/_pages/resources/mg_generator.json", true);
 xmlhttp.send();
 
 CHARname = "Jane";

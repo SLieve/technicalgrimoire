@@ -1,14 +1,11 @@
 ---
-date: 2018-12-01
+date: 2019-05-01
 layout: project
 title: Kintsugi
 permalink: david/kintsugi
 caption: A little RPG about robots who learn things.
 screenshot:
   src: /images/posts/Kintsugi-Wide.png
-links: 
-  - title:   Download
-    url:     /files/Kintsugi_Digital.pdf
 hide_description: true
 image: /images/posts/Kintsugi-Wide.png
 ---

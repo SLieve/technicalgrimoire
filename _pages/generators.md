@@ -1,17 +1,29 @@
 ---
 layout: projects
 title: Generators
-caption: Random Generators
-image: /images/generators.jpg
+caption: A collection of mobile-friendly RPG generators
 permalink: generators
 show_collection: none
 description: >
-  A bunch of random generators for various games and adventures.
+  A collection of mobile-friendly RPG generators
 ---
 
 The Game Master can take random results and combine them with their own ideas to create something truly unique. Here are some useful random results.
 
 <div class="columns">
+  <div class="column column-1-2">
+    <article class="project-card">
+      <a href="/tempered-legacy" class="no-hover no-print-link" tabindex="-1">
+        <div class="project-card-img img sixteen-nine">
+          <img src="/images/temperedlegacy.png" alt="Tempered Legacy" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
+        </div>
+      </a>
+      <h3 class="project-card-title">
+        <a href="/tempered-legacy" class="flip-title">Tempered Legacy</a>
+      </h3>
+      <legend class="project-card-text fine faded">Magic Weapons locked behind Regrets</legend>
+    </article>
+  </div>
   <div class="column column-1-2">
     <article class="project-card">
       <a href="/wyrdhuntgenerator" class="no-hover no-print-link" tabindex="-1">
@@ -22,7 +34,7 @@ The Game Master can take random results and combine them with their own ideas to
       <h3 class="project-card-title">
         <a href="/wyrdhuntgenerator" class="flip-title">Wyrd Hunt Generator</a>
       </h3>
-      <legend class="project-card-text fine faded">Hunt dangerous creatures in a dark forest.</legend>
+      <legend class="project-card-text fine faded">Hunt dangerous creatures in a dark forest</legend>
     </article>
   </div>
   <div class="column column-1-2">
@@ -48,7 +60,20 @@ The Game Master can take random results and combine them with their own ideas to
       <h3 class="project-card-title">
         <a href="/hotspringsgenerator" class="flip-title">Hot Springs Island</a>
       </h3>
-      <legend class="project-card-text fine faded">A mobile-friendly tool for Hot Springs Island.</legend>
+      <legend class="project-card-text fine faded">A mobile-friendly tool for Hot Springs Island</legend>
+    </article>
+  </div>
+  <div class="column column-1-2">
+    <article class="project-card">
+      <a href="/weirdpetgenerator" class="no-hover no-print-link" tabindex="-1">
+        <div class="project-card-img img sixteen-nine">
+          <img src="/images/pet_generator.jpg" alt="Weird Pet Generator" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
+        </div>
+      </a>
+      <h3 class="project-card-title">
+        <a href="/weirdpetgenerator" class="flip-title">Weird Pet Generator</a>
+      </h3>
+      <legend class="project-card-text fine faded">Generates bizarre OSR pets for characters</legend>
     </article>
   </div>
   <div class="column column-1-2">
@@ -74,7 +99,7 @@ The Game Master can take random results and combine them with their own ideas to
       <h3 class="project-card-title">
         <a href="/monsterparts" class="flip-title">Monster Parts</a>
       </h3>
-      <legend class="project-card-text fine faded">Generate unique creatures.</legend>
+      <legend class="project-card-text fine faded">Generate unique creatures</legend>
     </article>
   </div>
   <div class="column column-1-2">
@@ -87,7 +112,7 @@ The Game Master can take random results and combine them with their own ideas to
       <h3 class="project-card-title">
         <a href="/ynngenerator" class="flip-title">Gardens of Ynn</a>
       </h3>
-      <legend class="project-card-text fine faded">Generate locations, encounters, and treasure.</legend>
+      <legend class="project-card-text fine faded">Generate locations, encounters, and treasure</legend>
     </article>
   </div>
   <div class="column column-1-2">
@@ -100,7 +125,7 @@ The Game Master can take random results and combine them with their own ideas to
       <h3 class="project-card-title">
         <a href="/stygiangenerator" class="flip-title">Stygian Library</a>
       </h3>
-      <legend class="project-card-text fine faded">Generate locations, encounters, books, and treasure.</legend>
+      <legend class="project-card-text fine faded">Generate locations, encounters, books, and treasure</legend>
     </article>
   </div>
 </div>  
