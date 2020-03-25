@@ -18,9 +18,6 @@ Kintsugi began as a 200 Word RPG but has since expanded into a shiny pamphlet! P
   <div class="col-md-6 col-12">
 <a class="btn wyrd-btn" href="https://gum.co/bmUI" target="_blank"><h3>PDF: Free</h3></a>
   </div>
-  <div class="col-md-6 col-12">
-<a class="btn wyrd-btn" href="https://gum.co/AAOTx" target="_blank"><h3>Print+PDF: $2.50</h3></a>
-  </div>
 </div>
 
 > "Can't recommend it enough. Free, easy to run RPG about immortals learning from their mistakes." - [Tyler Crumrine](https://mobile.twitter.com/uhcoolguy)

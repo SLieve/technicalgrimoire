@@ -19,11 +19,13 @@ Clink is a tabletop RPG about drifters, the creeds that bring them together, and
 <a class="btn clink-btn" href="https://gum.co/EXxjT" target="_blank"><h3>PDF: $10</h3>
     </a>
   </div>
-  <div class="col-md-6 col-12">
+  <!--<div class="col-md-6 col-12">
 <a class="btn clink-btn" href="https://gum.co/weEI" target="_blank"><h3>Print+PDF: $20</h3>
 </a>
-  </div>
+  </div>-->
 </div>
+
+**Due to the Quarantine physical orders are temporarily unavailable.**
 
 **A few people have requested some "Grittier" rules for Clink. [You can download them here.]({{site.url}}/files/Clink _Gritty_ Rules.pdf)**
 

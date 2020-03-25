@@ -26,5 +26,5 @@ Luckily you have other Elders by your side supporting you and protecting you whi
 <div class="row centerButtons">
  <div class="col-md-7 col-7">
 	<a class="btn wyrd-btn" href="https://gum.co/TSXNW" target="_blank"><h3>Download PDF</h3></a>
-  </div>
+ </div>
 </div>
