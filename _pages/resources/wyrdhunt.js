@@ -63,7 +63,7 @@ function showMap() {
       }
     }
 
-    locationtext = locationtext + exitText + "<p style=\"text-align:center;margin-top:10px;\"><a class=\"btn wyrd-btn\" style=\"width: auto;\" href=\"#mapIMG\">Back to Map</a></p><hr class=\"tightSpacing\">";
+    locationtext = locationtext + exitText + "<p style=\"text-align:center;margin-top:10px;\"><a id=\"back"+i+"\"class=\"btn wyrd-btn\" style=\"width: auto;\" href=\"#mapIMG\">Back to Map</a></p><hr class=\"tightSpacing\">";
     document.getElementById("loc" + i).innerHTML = locationtext;
     }
 
@@ -161,6 +161,14 @@ function saveMap() {
   imageName = "WyrdMap.png";
   window.scrollTo(window.pageXOffset, 0);
   document.getElementById("mapNav").style = "display:none;";
+  document.getElementById("back1").style = "display:none;";
+  document.getElementById("back2").style = "display:none;";
+  document.getElementById("back3").style = "display:none;";
+  document.getElementById("back4").style = "display:none;";
+  document.getElementById("back5").style = "display:none;";
+  document.getElementById("back6").style = "display:none;";
+  document.getElementById("back7").style = "display:none;";
+  document.getElementById("back8").style = "display:none;";
   var container = document.getElementById("locationCard");
   useWidth = container.offsetWidth;
   useHeight = container.offsetHeight;
@@ -179,4 +187,12 @@ function saveMap() {
     link.click();
   });
   document.getElementById("mapNav").style = "margin-top:40px;margin-left:0px;";
+  document.getElementById("back1").style = "width:auto;";
+  document.getElementById("back2").style = "width:auto;";
+  document.getElementById("back3").style = "width:auto;";
+  document.getElementById("back4").style = "width:auto;";
+  document.getElementById("back5").style = "width:auto;";
+  document.getElementById("back6").style = "width:auto;";
+  document.getElementById("back7").style = "width:auto;";
+  document.getElementById("back8").style = "width:auto;";
 }
