@@ -30,7 +30,7 @@ Click the buttons below to generate a map and a starting Hunt.
 
 <div id="locationCard" class="container generatorCard" style="margin-bottom: 30px;display:none;">
   <p id="huntText"></p>
-  <img id="mapIMG" src="/images/WyrdMaps/blankMap.png">
+  <div id="mapIMG"></div>
   <div id="mapNav" class="row centerButtons" style="margin-top:40px;margin-left:0px;">
   <div class="col" style="padding-right: 5px;padding-left: 5px;">
 <a class="btn wyrd-btn" href="#loc1"><h3 class="tightSpacing">1</h3></a>

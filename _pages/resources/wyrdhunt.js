@@ -24,6 +24,7 @@ function showMap() {
   pathList.push(allPaths.splice(Math.floor(Math.random()*allPaths.length), 1));
   pathNotes.push(wyrd.pathDescriptions[Math.floor(Math.random() * wyrd.pathDescriptions.length)]);
 
+  document.getElementById("mapIMG").innerHTML = "<img src=\"/images/WyrdMaps/blankMap.png\">";
   document.getElementById("mapIMG").style = "background-image: url(/images/WyrdMaps/path"+pathList[0]+".png),url(/images/WyrdMaps/path"+pathList[1]+".png);background-size: contain;background-position: center;background-repeat: no-repeat;";
 
   //now we have a random list of letters that we attach paths to.
