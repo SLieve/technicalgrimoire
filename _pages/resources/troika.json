@@ -1241,6 +1241,92 @@
       "Skills": ["6 Dad Hugging", "3 Truck Driving", "3 Pistolet Fighting", "2 Axe Fighting", "2 Fusil Fighting", "1 Basketball", "1 Bad Dad Robot Puns"],
       "Special": "You can turn into a 18 wheeler. You have 3 times the carry capacity within your trail which you can only access while in truck-mode. You do not replenish Stamina buy eating rations, instead treat a plasmic orb as one ration. ",
       "Source": "By <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>. For more backgrounds, buy <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a>."
-    }
+    },"Name": "Primitive Dentist",
+		"Text": "",
+		"Possessions": ["Hand Mirror", "Hand Drill", "Pliers", "2d6 Spare Teeth (Animal)"],
+		"Skills": ["6 Dentistry", "3 Healing", "2 Metallurgy", "1 Forensics"],
+		"Special": "",
+		"Source": "<a href='https://ian-mcdougall.itch.io/unfortunate-souls'>Unfortunate Souls</a> by Ian McDougall"
+	},{
+		"Name": "Pamphleteer",
+		"Text": "",
+		"Possessions": ["100 Copies of Your Pamphlet", "Plates to Print More", "Coffee Shop Loyalty Card"],
+		"Skills": ["3 Printing", "3 Truth", "2 Sedition", "1 Religion", "1 Run"],
+		"Special": "",
+		"Source": "<a href='https://ian-mcdougall.itch.io/unfortunate-souls'>Unfortunate Souls</a> by Ian McDougall"
+	},{
+		"Name": "Fitness Instructor",
+		"Text": "",
+		"Possessions": ["Leg Warmers, Sweatbands", "Dumbbells", "Boombox"],
+		"Skills": ["2 Acrobatics", "2 Dance", "2 Run", "2 Splits", "2 Strength", "1 Instruction"],
+		"Special": "",
+		"Source": "<a href='https://ian-mcdougall.itch.io/unfortunate-souls'>Unfortunate Souls</a> by Ian McDougall"
+	},{
+		"Name": "Tiny Runaway",
+		"Possessions": ["Bindlestick", "d6 “Magic” Beans"],
+		"Skills": ["5 Jump", "5 Run", "3 Barter", "1 Secret Signs—Hobos", "1 Yell"],
+		"Special": "You are 1″ tall and completely indigestible.",
+		"Source": "<a href='https://ian-mcdougall.itch.io/unfortunate-souls'>Unfortunate Souls</a> by Ian McDougall"
+	},{
+		"Name": "Tiny Stowaway",
+		"Possessions": ["Bindlestick", "d6 Plasmic Cores"],
+		"Skills": ["5 Climb", "5 Sneak", "3 Astrology", "1 Secret Signs—Hobos", "1 Whisper"],
+		"Special": "You are 1″ tall and completely indigestible.",
+		"Source": "<a href='https://ian-mcdougall.itch.io/unfortunate-souls'>Unfortunate Souls</a> by Ian McDougall"
+	},{
+		"Name": "The Idle Rich",
+		"Possessions": ["Bicycle or Terrier", "Picnic Basket (as Tea Set)", "Tobacco Pipe"],
+		"Skills": ["3 Gambling", "3 Malingering", "2 Etiquette"],
+		"Special": "Test your luck to come up with d6 silver pence spending money (allowance, winnings, favors, investments, debts, …).",
+		"Source": "<a href='https://ian-mcdougall.itch.io/unfortunate-souls'>Unfortunate Souls</a> by Ian McDougall"
+	},{
+		"Name": "Sleuth",
+		"Possessions": ["Heavy Raincoat", "Magnifying Glass", "Pistolet"],
+		"Skills": ["4 Awareness", "4 Tracking", "4 Vice", "2 Denouement", "2 Spell—Find", "1 Pistolet Fighting"],
+		"Special": "",
+		"Source": "<a href='https://ian-mcdougall.itch.io/unfortunate-souls'>Unfortunate Souls</a> by Ian McDougall"
+	},{
+		"Name": "Postal Enthusiast",
+		"Possessions": ["Stamp Album", "2d6 Stamps in it", "Jeweler’s Loupe"],
+		"Skills": ["8 Postal Trivia", "4 Evaluate", "2 Forgery"],
+		"Special": "Test your luck to find a postbox. Letters you send arrive in 1-2 business days and are never delayed.",
+		"Source": "<a href='https://ian-mcdougall.itch.io/unfortunate-souls'>Unfortunate Souls</a> by Ian McDougall"
+	},{
+		"Name": "Secret Agent",
+		"Possessions": ["d6 Fake Passports", "d6 Bugs", "1 Two-Way Radio"],
+		"Skills": ["1 Awareness", "1 Disguise", "1 Fake Death", "1 Locks", "1 Seduction", "1 Sneak", "1 Sleight of Hand"],
+		"Special": "d6 items on your person are actually disguised grenades (damage as Fusil).",
+		"Source": "<a href='https://ian-mcdougall.itch.io/unfortunate-souls'>Unfortunate Souls</a> by Ian McDougall"
+	},{
+		"Name": "(A) Dracula",
+		"Possessions": ["Cape", "Sword-stick", "Parasol", "Flask of Blood"],
+		"Skills": ["3 Sword Fighting", "2 Spell—Fear", "2 Spell—Leech", "2 Spell—Quench", "1 Fly"],
+		"Special": "Standard vampire stuff—rivers, houses, sunlight, blood, etc.",
+		"Source": "<a href='https://ian-mcdougall.itch.io/unfortunate-souls'>Unfortunate Souls</a> by Ian McDougall"
+	},{
+		"Name": "Werewolf Escapologist",
+		"Possessions": ["Rope", "Meticulous Calendar", "Silver Handcuffs (disappointingly ineffective)"],
+		"Skills": ["3 Stagecraft", "2 Locks", "2 Ropes", "2 Strength", "1 Teeth Fighting"],
+		"Special": "On a full moon, test your luck to avoid killing. Next full moon, test your luck to remain un-hunted.",
+		"Source": "<a href='https://ian-mcdougall.itch.io/unfortunate-souls'>Unfortunate Souls</a> by Ian McDougall"
+	},{
+		"Name": "Arctic Explorer",
+		"Possessions": ["Warm Clothes (as Light Armor)", "Ice Axe", "Skis", "Kendal Mint Cakes", "How to Not Die in the Snow: an Explorer’s Manual"],
+		"Skills": ["4 Climb", "4 Ski", "2 Write", "1 Golden Barge Pilot"],
+		"Special": "",
+		"Source": "<a href='https://ian-mcdougall.itch.io/unfortunate-souls'>Unfortunate Souls</a> by Ian McDougall"
+	},{
+		"Name": "Ancient Sapper",
+		"Possessions": ["d6 Mines (damage as Fire Bolt)", "Drafting Tools", "Dream Blueprints (unbuilt)"],
+		"Skills": ["4 Military History", "3 Pyrotechnics", "3 Structural Engineering", "3 Trapping", "1 Burning Bridges"],
+		"Special": "Missing d6 fingers, hair.",
+		"Source": "<a href='https://ian-mcdougall.itch.io/unfortunate-souls'>Unfortunate Souls</a> by Ian McDougall"
+	},{
+		"Name": "Courtroom Warrior",
+		"Possessions": ["d6 Business Cards", "Fancy Pen"],
+		"Skills": ["5 Objection!", "4 Paperwork", "3 Etiquette", "2 Forensics", "2 Sidebar", "1 Disclaimer"],
+		"Special": "The Courtroom Warrior and other Unfortunate Souls are independent productions by Ian McDougall and are not affiliated with The Melsonian Arts Council. The Deuce of Teeth, Ten of Teeth, Ace of Lenses, Deuce of Lenses, and Knight of Stamps are from game-icons.net, used under a CC-BY-3.0 license. The Mentor is from pixabay, used under the pixabay license. All other images are believed to be in the public domain. The text of these Unfortunate Souls is released under a CC-BY-4.0 license.",
+		"Source": "<a href='https://ian-mcdougall.itch.io/unfortunate-souls'>Unfortunate Souls</a> by Ian McDougall"
+	}
   ]
 }
