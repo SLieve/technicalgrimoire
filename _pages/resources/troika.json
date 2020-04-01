@@ -1241,7 +1241,7 @@
       "Skills": ["6 Dad Hugging", "3 Truck Driving", "3 Pistolet Fighting", "2 Axe Fighting", "2 Fusil Fighting", "1 Basketball", "1 Bad Dad Robot Puns"],
       "Special": "You can turn into a 18 wheeler. You have 3 times the carry capacity within your trail which you can only access while in truck-mode. You do not replenish Stamina buy eating rations, instead treat a plasmic orb as one ration. ",
       "Source": "By <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>. For more backgrounds, buy <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a>."
-    },"Name": "Primitive Dentist",
+    },{"Name": "Primitive Dentist",
 		"Text": "",
 		"Possessions": ["Hand Mirror", "Hand Drill", "Pliers", "2d6 Spare Teeth (Animal)"],
 		"Skills": ["6 Dentistry", "3 Healing", "2 Metallurgy", "1 Forensics"],
