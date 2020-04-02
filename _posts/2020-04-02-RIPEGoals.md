@@ -17,7 +17,7 @@ RIPE began as a heartbreaker inspired by [Index Card RPG](/david/2018/03/online-
 ## Primary Goals
 
  - **Every decision matters.** Provide the players with several opposing choices and tasks to accomplish.
- - **Time and Energy are limited.** This drives the above point; characters don't haver the resources to do EVERYTHING. They must pick and choose.
+ - **Time and Energy are limited.** This drives the above point; characters don't have the resources to do EVERYTHING they want to do. They must pick and choose.
  - **Creative Teamwork** is the most effective solution. 
 
 I run a LOT of games with new players. I pride myself on hosting a fun game and making them feel welcome to our hobby. However I've seen players get left behind time and time again. 
