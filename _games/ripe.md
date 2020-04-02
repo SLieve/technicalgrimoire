@@ -1,7 +1,7 @@
 ---
 date: 2019-04-01
 layout: project
-title: Ripe
+title: RIPE
 caption: Elder Adventures fighting against the Harvest
 screenshot:
   src: images/Ripe-teaser.png
@@ -21,7 +21,7 @@ Luckily you have other Elders by your side supporting you and protecting you whi
 
 *This game is in Beta. The rules can (and will) change over time. Please send any feedback to technicalgrimoire@gmail.com.*
 
-**Join [the Mailing List](https://gumroad.com/technicalgrimoire/follow) to get updates about Ripe.**
+**Join [the Mailing List](https://gumroad.com/technicalgrimoire/follow) to get updates about RIPE.**
 
 <div class="row centerButtons">
  <div class="col-md-7 col-7">
