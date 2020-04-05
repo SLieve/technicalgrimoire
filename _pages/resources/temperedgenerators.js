@@ -58,7 +58,7 @@ function generateWeapon() {
   WeaponName = grammar.flatten("#nameTemplate#");
   document.getElementById("weaponName").innerHTML = WeaponName;
 
-  document.getElementById("temperedSlots").innerHTML = createSlot(2);
+  document.getElementById("temperedSlots").innerHTML = createSlot(3);
 
   WeaponType = grammar.flatten("#weapon#"); //generate weapon type
   //A dagger #description#
@@ -70,7 +70,7 @@ function generateWeapon() {
   setWeaponColors();
 
   document.getElementById("interacting").innerHTML =
-    '<p class="h3 tightSpacing">Interacting With Slots</p><p><img class="temperedicon" style="margin-left: 10px;margin-right: 10px;" src="/images/TemperedWeapons/icon-unlocked.png"><strong>Unlock A Slot</strong>.</p><p>When you fulfill the regret of a previous owner, you unlock that Slot and gain access to their power. In addition this reveals a new Slot in the weapon! Use the "Generate Slot" button and add it to your weapon.</p><p><img class="temperedicon" style="margin-left: 10px;margin-right: 10px;" src="/images/TemperedWeapons/icon-shaking-hands.png"><strong>Help An Ally</strong>.</p><p>After you help an ally unlock one of their Slots, you may use the "Slot Generator" to replace any Slot in your own weapon with one from the generator.</p><p><img class="temperedicon" style="margin-left: 10px;margin-right: 10px;" src="/images/TemperedWeapons/icon-skull-crossed-bones.png"><strong>Character Death</strong>.</p><p>When a character dies they can choose to have some aspect of themselves stored in the item. Erase all the slots in the weapon, except for the first one. Create a new slot based on the character that just died, along with a Regret for that slot and add it to the weapon.</p>';
+    '<p class="h3 tightSpacing">Interacting With Slots</p><p><img class="temperedicon" style="margin-left: 10px;margin-right: 10px;" src="/images/TemperedWeapons/icon-unlocked.png"><strong>Unlock A Slot</strong>.</p><p>When you fulfill the regret of a previous owner, you unlock that Slot and gain access to the Slot.</p><p><img class="temperedicon" style="margin-left: 10px;margin-right: 10px;" src="/images/TemperedWeapons/icon-shaking-hands.png"><strong>Help An Ally</strong>.</p><p>After you help an ally unlock one of their Slots, you may use the "Slot Generator" to replace any Slot in your own weapon with one from the generator.</p><p><img class="temperedicon" style="margin-left: 10px;margin-right: 10px;" src="/images/TemperedWeapons/icon-skull-crossed-bones.png"><strong>Character Death</strong>.</p><p>When a character dies they can choose to have some aspect of themselves stored in the item. Create a new slot based on the character that just died, lock it behind a Regret and add it to the weapon.</p>';
   document.getElementById("weaponCard").style = ""; //reveal the card
 }
 
@@ -135,7 +135,7 @@ function createSlot(numSlots) {
       slotHTML = slotHTML + "<p style=\"text-align: center;display: flow-root;\"><img style=\"float:left;\" class=\"temperedicon\" src=\"/images/TemperedWeapons/icon-locked.png\"><strong>" + Wielder + "'s Regret</strong><img style=\"float:right;transform: scaleX(-1);\" class=\"temperedicon\" src=\"/images/TemperedWeapons/icon-locked.png\"></p><p>" + grammar.flatten("#goalTemplate#").replace(/WIELDER/g, Wielder) + " Then you will unlock " + powername + ".</p></div>";
       //otherwise the first slot is an introduction
     } else if (i == 0) {
-      slotHTML = slotHTML + "<p>As soon as you take hold of \"" + WeaponName + "\" you gain awareness of this slot and the one below. <strong>" + powername + "</strong> is already unlocked.</p></div>";
+      slotHTML = slotHTML + "<p>As soon as you take hold of \"" + WeaponName + "\" you gain awareness of all three slots below. <strong>" + powername + "</strong> is already unlocked.</p></div>";
     } else {
       slotHTML = slotHTML + "<p style=\"text-align: center;display: flow-root;\"><img style=\"float:left;\" class=\"temperedicon\" src=\"/images/TemperedWeapons/icon-locked.png\"><strong>" + Wielder + "'s Regret</strong><img style=\"float:right;transform: scaleX(-1);\" class=\"temperedicon\" src=\"/images/TemperedWeapons/icon-locked.png\"></p>" + grammar.flatten("#goalTemplate#").replace(/WIELDER/g, Wielder) + " Then you will unlock " + powername + ".</p></div>";
     }
