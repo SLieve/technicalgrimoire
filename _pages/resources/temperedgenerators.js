@@ -42,12 +42,11 @@ function generateSlot() {
   document.getElementById("slotBtn").innerHTML = "Generate another Slot";
 
   document.getElementById("weaponName").innerHTML = "New Slot:";
-  document.getElementById("weaponDesc").innerHTML = "";
+  document.getElementById("interacting").innerHTML = "";
+  document.getElementById("weaponDesc").innerHTML = "Use this Slot for Trinkets or to replace an existing Slot in your weapon after you helped an ally, or to add on to your weapon.";
   document.getElementById("weaponImg").style = "display:none;";
   document.getElementById("temperedSlots").innerHTML = createSlot(1);
 
-  document.getElementById("interacting").innerHTML =
-    '<p class="h3 tightSpacing">Interacting With Slots</p><p><img style="margin-left: 10px;margin-right: 10px;" class="temperedicon" src="/images/TemperedWeapons/icon-unlocked.png"><strong>Unlock A Slot</strong>.</p><p>When you fulfill the regret of a previous owner a new Slot is revealed! Add the above Slot to your weapon.</p><p><img style="margin-left: 10px;margin-right: 10px;" class="temperedicon" src="/images/TemperedWeapons/icon-shaking-hands.png"><strong>Help An Ally</strong>.</p><p>After you help an ally unlock one of their Slots, you may Replace any Slot in your own weapon with the abhove Slot.</p>';
   document.getElementById("weaponCard").style = ""; //reveal the card
 }
 
@@ -58,9 +57,7 @@ function generateWeapon() {
   WeaponName = grammar.flatten("#nameTemplate#");
   document.getElementById("weaponName").innerHTML = WeaponName;
 
-  //random number between 2 and 4
-  twoTOfour = Math.floor(Math.random() * 3) + 2;
-  document.getElementById("temperedSlots").innerHTML = createSlot(twoTOfour);
+  document.getElementById("temperedSlots").innerHTML = createSlot(3);
 
   WeaponType = grammar.flatten("#weapon#"); //generate weapon type
   //A dagger #description#
@@ -129,9 +126,10 @@ function createSlot(numSlots) {
 
     slotHTML = slotHTML + "<div class=\"row temperedRows\"><div class=\"col-lg-6 col-12 cellGoals\">";
 
-    //SET GOALS.
+    //SET REGRETS.
+    //Mutations, the mutation comes first, cure later
     if (mutation) {
-      slotHTML = slotHTML + "<p style=\"text-align: center;display: flow-root;\"><img style=\"float:left;\" class=\"temperedicon\" src=\"/images/TemperedWeapons/icon-cure.png\"><strong>" + Wielder + "'s Cure</strong><img style=\"float:right;transform: scaleX(-1);\" class=\"temperedicon\" src=\"/images/TemperedWeapons/icon-cure.png\"></p>" + grammar.flatten("#goalTemplate#").replace(/WIELDER/g, Wielder) + " Then you will cure this Mutation.</p></div>";
+      slotHTML = slotHTML + "<p style=\"text-align: center;display: flow-root;\"><img style=\"float:left;\"class=\"temperedicon\" src=\"/images/TemperedWeapons/icon-mutation.png\">" + powername + "<img style=\"float:right;transform: scaleX(-1);\" class=\"temperedicon\" src=\"/images/TemperedWeapons/icon-mutation.png\"></p><p>This Mutation infects you <strong>immediately</strong>: " + powerdescr + "</p></div>";
       //If you're just generating 1 slot, it's locked behind a goal.
     } else if (numSlots == 1) {
       slotHTML = slotHTML + "<p style=\"text-align: center;display: flow-root;\"><img style=\"float:left;\" class=\"temperedicon\" src=\"/images/TemperedWeapons/icon-locked.png\"><strong>" + Wielder + "'s Regret</strong><img style=\"float:right;transform: scaleX(-1);\" class=\"temperedicon\" src=\"/images/TemperedWeapons/icon-locked.png\"></p><p>" + grammar.flatten("#goalTemplate#").replace(/WIELDER/g, Wielder) + " Then you will unlock " + powername + ".</p></div>";
@@ -143,7 +141,12 @@ function createSlot(numSlots) {
     }
 
     //SET DETAILS
+    //Mutations, the mutation comes first, cure later
+    if (mutation){
+      slotHTML = slotHTML + "<div class=\"col-lg-6 col-12 cellLegacies\"><p style=\"text-align: center;display: flow-root;\"><img style=\"float:left;\" class=\"temperedicon\" src=\"/images/TemperedWeapons/icon-cure.png\"><strong>" + Wielder + "'s Cure</strong><img style=\"float:right;transform: scaleX(-1);\" class=\"temperedicon\" src=\"/images/TemperedWeapons/icon-cure.png\"></p>" + grammar.flatten("#goalTemplate#").replace(/WIELDER/g, Wielder) + " Then you will cure this Mutation.</p></div></div><p class=\"temperedP\">" + phrase + "</p>";
+    } else {
     slotHTML = slotHTML + "<div class=\"col-lg-6 col-12 cellLegacies\"><p style=\"text-align: center;display: flow-root;\"><img style=\"float:left;\"class=\"temperedicon\" src=\"/images/TemperedWeapons/" + icon + "\">" + powername + "<img style=\"float:right;transform: scaleX(-1);\" class=\"temperedicon\" src=\"/images/TemperedWeapons/" + icon + "\"></p><p>" + powerdescr + "</p></div></div><p class=\"temperedP\">" + phrase + "</p>";
+    }
   }
 
   return slotHTML;
