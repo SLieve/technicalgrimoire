@@ -59,8 +59,8 @@ function generateWeapon() {
   document.getElementById("weaponName").innerHTML = WeaponName;
 
   //random number between 2 and 4
-  numSlots = Math.floor(Math.random() * 3) + 2;
-  document.getElementById("temperedSlots").innerHTML = createSlot(numSlots);
+  twoTOfour = Math.floor(Math.random() * 3) + 2;
+  document.getElementById("temperedSlots").innerHTML = createSlot(twoTOfour);
 
   WeaponType = grammar.flatten("#weapon#"); //generate weapon type
   //A dagger #description#
