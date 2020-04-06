@@ -98,20 +98,20 @@ function createSlot(numSlots) {
 
     switch (true) {
       //Give a mutation ONLY if it's not the first slot of a weapon.
-      case ((numSlots > 1 && random <= 25 && i != 0) || (numSlots == 1 && random <= 15)):
+      case ((numSlots > 1 && random < 15 && i != 0) || (numSlots == 1 && random < 15)):
         icon = "icon-mutation.png";
         powername = "<strong>Mutation</strong>";
         powerdescr = grammar.flatten("#mutation#");
         phrase = "The dense mixture of magic and history in this weapon can result in bizarre infections that alter the wielder permanently. They can only be cured by fulfilling their associated regret.";
         mutation = true;
         break;
-      case (random < 50):
+      case (random < 40):
         icon = "icon-spell.png";
         powername = "<strong>" + Wielder + "'s Spell</strong>";
         powerdescr = grammar.flatten("#spell#");
         phrase = "Spells can only be cast while holding this weapon. L = caster level. Spells last Lx10 minutes, range of 40ft (unless noted otherwise). \"Items\" can be held in one hand, \"objects\" are anything up to human size.";
         break;
-      case (random < 75):
+      case (random < 65):
         icon = "icon-knowledge.png";
         powername = "<strong>" + Wielder + "'s Knowledge</strong>";
         powerdescr = grammar.flatten("#knowledge#");
