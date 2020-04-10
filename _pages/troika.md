@@ -103,7 +103,7 @@ Thanks to Andrei Gheorghiu for the excellent [number spinner code](https://stack
 
 Thanks to Uyuxo for collecting the list, Daniel Sell for making Troika such an incredible game, and all the creatives who contributed their backgrounds to this generator. You're all amazing!
 
-You can view [ALL the backgrounds here](https://github.com/DavidSchirduan/davidschirduan.github.io/blob/master/_pages/troika.json).
+You can view [ALL the backgrounds here](https://github.com/DavidSchirduan/davidschirduan.github.io/blob/master/_pages/resources/troika.json).
 
 
 <script async src="/assets/js/html2canvas.min.js"></script>
