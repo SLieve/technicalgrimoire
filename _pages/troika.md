@@ -10,7 +10,7 @@ description: >
 
 ![troika.png]({{site.url}}/images/troika.png)
 
-Troika! is one of the most imaginative RPGs I've had the pleasure of enjoying. [Buy it here!](https://www.melsonia.com/troika-17-p.asp) I also made a [handy reference sheet here](/files/troikaRef.pdf).
+Use the buttons below to generate characters for the Troika! roleplaying game. The turn tracker lets you manage Troika's weird initiative system. [Buy Troika!](https://melsonian-arts-council.itch.io/) Download a shiny [rules reference](/files/troikaRef.pdf).
 
 <div class="row">
   <div class="col tightSpacing buttonWrapper"><button id="weaponButton" class="btn troikabtn btn-lg" onclick="generate()">Generate Character</button></div>
@@ -36,75 +36,67 @@ Troika! is one of the most imaginative RPGs I've had the pleasure of enjoying. [
 
 <div class="container generatorCard" id="turnCard" style="display:none;">
   <div class="row">
-    <div class="col" style="max-width: 250px;">
-      <div class="number-input">
-        <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"></button>
-        <input class="quantity" min="0" name="quantity" value="4" type="number" max="20" id="turnPC">
-        <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+    <div class="col-xl-6 col-12">
+      <div id="troikacard">
+        <div id="troikacardsides">
+          <div id="troikacardfront">
+          </div>
+          <div id="troikacardback">
+            <p id="backText" class="tightSpacing" style="vertifcal-align:bottom;padding-top: 350px;">Back</p>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="col">
-      <h2 class="tightSpacing">Player Characters</h2>
-    </div>
-  </div>
-
-
-  <div class="row">
-    <div class="col" style="max-width: 250px;">
-      <div class="number-input">
-        <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"></button>
-        <input class="quantity" min="0" name="quantity" value="0" type="number" max="999" id="turnHench">
-        <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+    <div class="col-xl-6 col-12">
+      <div id="spinners" style="text-align:center;">
+        <h2 class="tightSpacing">Player Characters</h2>
+        <div class="number-input">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"></button>
+          <input class="quantity" min="0" name="quantity" value="4" type="number" max="20" id="turnPC">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+        </div>
+        <h2 class="tightSpacing">Henchlings</h2>
+        <div class="number-input">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"></button>
+          <input class="quantity" min="0" name="quantity" value="0" type="number" max="99" id="turnHench">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+        </div>
+        <h2 class="tightSpacing">Total Enemy Initiative</h2>
+        <div class="number-input">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"></button>
+          <input class="quantity" min="0" name="quantity" value="10" type="number" max="99" id="turnEnemy">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+        </div>
+      </div>
+      <div id="turnInfo" style="margin:20px;display:none;">
+        <div id="tokenList">
+            <h3 class="tightSpacing">Set the numbers above then click "New Round".</h3>
+        </div>
+        <h3 class="tightSpacing">Turn Log:<br></h3>
+        <div id="turnList"></div>
       </div>
     </div>
-    <div class="col">
-      <h2 class="tightSpacing">Henchlings</h2>
-    </div>
   </div>
-
   <div class="row">
-    <div class="col" style="max-width: 250px;">
-      <div class="number-input">
-        <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"></button>
-        <input class="quantity" min="0" name="quantity" value="10" type="number" max="999" id="turnEnemy">
-        <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
-      </div>
-    </div>
-    <div class="col">
-      <h2 class="tightSpacing">Combined Enemy Initiative</h2>
-    </div>
-  </div>
-
-  <hr class="tightSpacing">
-    <div class="coinDiv">
-    <div class="coin" id="tokenCoin">
-      <div id="coinText">New Round</div>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col tightSpacing buttonWrapper"><button class="btn troikabtn btn-lg" onclick="turns('round')">New Round</button></div>
-    <div class="col tightSpacing buttonWrapper"><button id="nextTurn" class="btn troikabtn btn-lg" onclick="turns('next')" style="display:none;">Next Turn</button></div>
-  </div>
-
-<div class="row" style="margin-top:20px;">
-  <div class="col-md-8 col-12" id="tokenList" style="display:none;">
-      <h3 class="tightSpacing">Set the numbers above then click "New Round".</h3>
-  </div>
-  <div class="col-md-4 col-12" id="turnList" style="display:none;">
-      <h3 class="tightSpacing"></h3>
+    <div class="col tightSpacing buttonWrapper"><button id="nextTurnbtn" class="btn troikabtn btn-lg" onclick="nextTurn()" style="display:none;">Next Turn</button></div>
+    <div class="col tightSpacing buttonWrapper"><button id="newRoundbtn" class="btn troikabtn btn-lg" onclick="newRound()">Start Round</button></div>
   </div>
 </div>
 
+**Thanks to:**
 
-</div>
+ - [Luis Alvarez](https://www.luislikesdesign.com/) for the beautiful card art. All rights belong to Luis.
+ - Andrei Gheorghiu for the excellent [number spinner code](https://stackoverflow.com/a/45396364/2611856).
+ - Uyuxo for collecting the list.
+ - Daniel Sell for making Troika such an incredible game.
+ - All the creatives who contributed their backgrounds to this generator. You're all amazing!
 
-Thanks to Andrei Gheorghiu for the excellent [number spinner code](https://stackoverflow.com/a/45396364/2611856) and Joshnh for the [fancy coin](http://jsfiddle.net/joshnh/Bz22S/).
+You can view [ALL the backgrounds here](/_pages/resources/troika.json).
 
-Thanks to Uyuxo for collecting the list, Daniel Sell for making Troika such an incredible game, and all the creatives who contributed their backgrounds to this generator. You're all amazing!
 
-You can view [ALL the backgrounds here](https://github.com/DavidSchirduan/davidschirduan.github.io/blob/master/_pages/troika.json).
+![Troika-logo.png](/images/Troika-logo.png){: .leftSmallImg}
 
+_This generator is an independent production by Technical Grimoire and is not affiliated with the Melsonian Arts Council. All backgrounds were added with the explicit permission of their respective creators._
 
 <script async src="/assets/js/html2canvas.min.js"></script>
 <script async src="/_pages/resources/troika.js" charset="utf-8"></script>
