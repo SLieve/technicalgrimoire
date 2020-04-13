@@ -5,12 +5,12 @@ permalink: troikagenerator
 published: true
 image: /images/troika.png
 description: >
-  A mobile-friendly Character Generator and Initiative Tracker for the Troika! RPG.
+  A mobile-friendly Character Generator and Turn Tracker for the Troika! RPG.
 ---
 
 ![troika.png]({{site.url}}/images/troika.png)
 
-Use the buttons below to generate characters for the Troika! roleplaying game. The turn tracker lets you manage Troika's weird initiative system. [Buy Troika!](https://melsonian-arts-council.itch.io/) Download a shiny [rules reference](/files/troikaRef.pdf).
+Use the buttons below to generate characters for the Troika! roleplaying game. The turn tracker lets you manage Troika's weird turn system. [Buy Troika!](https://melsonian-arts-council.itch.io/) Download a shiny [rules reference](/files/troikaRef.pdf).
 
 <div class="row">
   <div class="col tightSpacing buttonWrapper"><button id="weaponButton" class="btn troikabtn btn-lg" onclick="generate()">Generate Character</button></div>

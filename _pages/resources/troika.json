@@ -1635,126 +1635,126 @@
     "Possessions": ["ragged outfit","token or scrap from your creator"],
     "Skills": ["3 Strength","3 Run","2 Fist Fight","2 Awareness","2 Swim"],
     "Special": "You can use one of your skill advancement tests to instead Test your Luck. If you succeed, choose one of the mutations from below; if you fail, a random mutation occurs. You can have as many mutations as your Strength skill (i.e. 3 initially). If you get a mutation when you’re already at your maximum, your new mutation replaces your oldest one.<br>2d6 Mutations:<br>2. your gender changes<br>3. gills appear; you can breathe underwater<br>4. one arm grows huge; when using it, your Strength is considered 1 higher<br>5. third lung; when you regain Stamina for any reason, gain 1 extra<br>6. your feet become bird claws; you can climb walls<br>7. you get a shock of miscolored hair; you gain Spell—random 1<br>8. your eyes glow a color of your choice; you can see in the dark<br>9. a spine of protruding plates; you are considered Lightly Armored without any addition to your Inventory<br>10. donkey’s tail; you stink<br>11. black teeth and nails; you can deal lightning damage instead of your normal damage<br>12. antlers; you have a hard time getting through doors",
-    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Erin King."
+    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Aaron King."
   },{
     "Name": "Ancestor Archive",
     "Text": "When the worlds ended, knowledge and memory were lost with them. You are a mass download of the culture of your ancestors, a last resort to preserve their culture in the face of reckless change. Do you have others you teach? Or are you a walking museum?",
     "Possessions": ["antique sword","scrolls, books, or tablets dense with writing","formal outfit appropriate to your culture"],
     "Skills": ["3 History","3 Sword Fight","2 Language⁠—choose one","2 Secret Signs—choose one"],
     "Special": "You can Test your Luck to change your Language, Secret Signs, or Fight specialty.",
-    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Erin King."
+    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Aaron King."
   },{
     "Name": "Cynocephalus",
     "Text": "You have a dog’s head and a humanoid body. You meld human culture and canine pack mentality. You are also descended from a blessed saint, a dog who sacrificed itself to save its human master by replacing their decapitated head with its own. What breed is your head?",
     "Possessions": ["vestments","prayer beads"],
     "Skills": ["3 Track","3 Religion","2 Awareness","2 Bite","1 Dig"],
     "Special": "",
-    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Erin King."
+    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Aaron King."
   },{
     "Name": "God on the Run",
     "Text": "You are a deity, certified cause of over 90% of the apocalypses that ended all the worlds. Because of this, you’ve been deemed a controlled substance. At best, deities are subject to heavy paroles; at worst, they’re confined in magical prisons and stripped of their powers. But not you. You resist. You’ve hidden your light away, keeping only what you need to survive. What are you god of? Are your worshippers still around?",
     "Possessions": ["scepter or other symbol of your office","an armband or collar that makes you Lightly Armored but doesn’t take up Inventory"],
     "Skills": ["3 Second Sight","2 Strength","2 Etiquette","2 Heal","1 Sneak","1 Spell—your choice","1 Spell—GM’s choice"],
     "Special": "When you cast a spell, you can choose to Test your Luck to pass the Stamina cost to the area around you. If you succeed, obvious signs occur—plants wilt or flower, bells ring, animals get sick, statues cry or bleed—that probably point you out as a loose god with a bounty on your capture.",
-    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Erin King."
+    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Aaron King."
   },{
     "Name": "Icy City Deputy",
     "Text": "The Heartless Princess of the Icy City that sits atop the patchwork world has deputized those she trusts most to propagate her rules. 1) Do not take the homes of others. 2) Oppose those who seek to take the homes of others. 3) Prevent future apocalypses. How did she meet you? How broad is your interpretation of her rules?",
     "Possessions": ["badge of office","spear","bell of alarm"],
     "Skills": ["3 Law Enforcement","2 Spear Fight","2 Restrain","2 Etiquette","1 Track"],
     "Special": "",
-    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Erin King."
+    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Aaron King."
   },{
     "Name": "Jelly-Cube Aspirant",
     "Text": "The jelly cube is proof of the divine hand, for nature could not create such an ecological miracle that fits so perfectly to the 10’ x 10’ architectural standard that persists across all the worlds. You seek to become both gelatinous and cubed by whatever means necessary. Say what?",
     "Possessions": ["wearable aspiration - a 10’ x 10’ cube frame made of wood and rope"],
     "Skills": ["3 Fill Cubic Space","3 Tunnel Fight","2 Sneak","2 Restrain"],
     "Special": "You never have to roll to Retrieve an Item as it floats within your gelatinous self.",
-    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Erin King."
+    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Aaron King."
   },{
     "Name": "Kelvinist",
     "Text": "You are a member of an ancient order that reaches toward motionlessness. Some call you Ice Monks, but they misunderstand your goal; ice is only a byproduct of calming lack of movement. You can reduce movement in yourself and others and possibly even transfer movement from one thing to another. What caused you to seek the absolute zero?",
     "Possessions": ["robe or loose clothes dyed a light blue","unmelting ice threaded on a leather thong"],
     "Skills": ["3 Meditate","3 Science","2 Stealth","1 Spell—Shatter","1 Spell—Freeze (as Fire Bolt but cold)"],
     "Special": "You can choose to be become Heavily Armored at any time; as long as you’re Heavily Armored from this effect, you can’t move, attack, or cast spells.",
-    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Erin King."
+    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Aaron King."
   },{
     "Name": "Knight of the Order of Roustabouts",
     "Text": "You have devoted yourself to the noble cause of carousing, the true symbol of freedom. You seek the best places to party, pursue the highest highs, and enforce the comradely rules of mutual fun and freedom. What’s your drug of choice?",
     "Possessions": ["enough drugs to enjoy a single strange night for two","map of secret carousing sites","hidden pockets"],
     "Skills": ["3 Feign Sobriety","3 Gambling","2 Secret Signs—Roustabouts","2 Etiquette","1 Fist Fight"],
     "Special": "",
-    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Erin King."
+    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Aaron King."
   },{
     "Name": "Legume Magician",
     "Text": "The bean is a dense site of nutrition and growth, and you’ve turned that power toward the storage and sprouting of your magical power. You are also a quester, seeking fabled bags of these magical fruits. What’s your favorite bean? How do you like to cook them?",
     "Possessions": ["pouch of enriched dirt","empty gourd, filled with dried beans, tied to a staff","robes"],
     "Skills": ["3 Garden","2 Cook","2 Spell—Grow","2 Spell—Sleep","1 Spell—Invisibility"],
     "Special": "The Legume Magician can spend Stamina and roll to cast a Spell on a bean. The bean stores that Spell and immediately affects anyone eating it.",
-    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Erin King."
+    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Aaron King."
   },{
     "Name": "Monster Repurposer",
     "Text": "There are beings powerfully acclimated to every danger, and you seek to harvest the remains of those beings. Whether by hunting or scavenging, you turn monster byproducts into armor, weapons, edibles, and more. What’s your specialty? What was your first craft?",
     "Possessions": ["tanning rack","needle and thread","weapon or armor of your choice crafted from monster bits"],
     "Skills": ["3 Track","3 Scavenge","3 Craft—Armorer or Weaponsmith","1 Knife Fight"],
     "Special": "",
-    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Erin King."
+    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Aaron King."
   },{
     "Name": "Nekomancer",
     "Text": "Despite being humanoid, you’ve tapped into the pandimensional song of the greater feline subconscious. You yowl and sing as they do, gleaning secrets and gaining cat skills and attitudes. What’s your relationship to the feline population? How do your powers show?",
     "Possessions": ["woodwind instrument","fake ears woven from cat fur","clawed gloves"],
     "Skills": ["3 Caterwaul","2 Herd Cats","2 Awareness","1 Language—Cat","1 Fist Fight","1 Spell—Become Cats (as Mirror Selves, but you and your mirror selves all look like housecats)"],
     "Special": "",
-    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Erin King."
+    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Aaron King."
   },{
     "Name": "Otterfolk",
     "Text": "You have a powerful tail, the ability to use tools, and you’re cute as all get-out. Water? You love it. Land? Perfectly fine too.",
     "Possessions": ["two rocks","bandolier or belt with pouches","net"],
     "Skills": ["3 Swim","3 Language—Beasts of River & Sea","2 Rock Fight","2 Strength"],
     "Special": "",
-    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Erin King."
+    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Aaron King."
   },{
     "Name": "Porcine Druid",
     "Text": "Stationed close to the ground but with your nose to the air, you are the arbiter between earth and sky. You travel the smellways between life and death and the life-that-comes-from-death, seeking a balance and cycle between it all. What’s your favorite mushroom? What are your pig traits?",
     "Possessions": ["spade made of silver"],
     "Skills": ["3 Forage","3 Awareness","2 Spell—Thought Vapor","1 Spell—Find","1 Spell—Peace","1 Fist Fight"],
     "Special": "",
-    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Erin King."
+    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Aaron King."
   },{
     "Name": "Pudding-Blood",
     "Text": "Some claim noble or magical bloodlines, insisting their fluids carry power or destiny. You’ve replaced your blood with pudding. What a delight. You’re linked to all past puddings, propelled toward future pudding power. What kind of pudding is it?",
     "Possessions": ["dapper jacket","stylish shoes"],
     "Skills": ["3 Etiquette","3 Sweetness/Savory (your choice)","2 Spell—Web","2 Spell—Undo"],
     "Special": "",
-    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Erin King."
+    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Aaron King."
   },{
     "Name": "Servant of the Flattened Past",
     "Text": "When the remains of the ruined worlds came together, they were built around a superdense core of knowledge, flattened stacks of narrative and prophecy. These remains of the previous worlds were meant to be imprisoned, but some escaped: powerful concepts gone rogue, disguised a mundane deck of cards. They’ve chosen you to help them enact their will on the world. Why you?",
     "Possessions": ["wooden box","deck of oracle cards"],
     "Skills": ["3 Cartomancy","2 Spell—Animate","2 Spell—Cockroach","2 Spell—Farseeing","1 Spell—Illusion"],
     "Special": "Write the names of your spells on cards or scraps of paper. When you cast a spell, draw a random card/scrap; if it’s the spell you cast, it costs 0 Stamina.",
-    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Erin King."
+    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Aaron King."
   },{
     "Name": "Sewer Guild",
     "Text": "The guts and veins of this patchwork world are broken, stoppered, and ill-kept. You are the stint and the snake and the pipe cleaner. You get sacred water to those who need it and make sure it’s clean. You befriend the underground beings who eat rotten flesh and filter out poisons. When did you first go underground?",
     "Possessions": ["over-large tool (wrench, etc; damage as maul)","protective gloves","scented kerchief"],
     "Skills": ["2 Architecture","2 Awareness","2 Cartography","2 Survival","2 Tunnel Fight","1 Handle Animal","1 Swim"],
     "Special": "",
-    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Erin King."
+    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Aaron King."
   },{
     "Name": "Void Naturalist",
     "Text": "You’ve discovered that the Heartless Princess didn’t quite catch all the matter left after the worlds ended; some persists, floating out beyond the world. You seek their mysteries, their patterns, and their power. You watch the skies; perhaps you even travel through them. What first caught your eye?",
     "Possessions": ["spyglass","orrery"],
     "Skills": ["3 Astronomy","3 Spell—Read Stars","2 Spell—Levitate","2 Spell—Light"],
     "Special": "",
-    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Erin King."
+    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Aaron King."
   },{
     "Name": "Whaler",
     "Text": "You hunt the evil beings called whales, which subsist solely on the flesh of parents. They swim grimly through water, sky, and earth, defecating hallucinogenic mist full of murdered hopes. They must die. The cycle of violence must end. Did a whale eat your parents?",
     "Possessions": ["harpoons","rowboat"],
     "Skills": ["3 Harpoon Fight","3 Sail","2 Tattoo","2 Swim","1 Scream at the Sea"],
     "Special": "",
-    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Erin King."
+    "Source": "From <a href='https://erinking.itch.io/icy-city-troika'>Icy City Troika</a> by Aaron King."
   },{
     "Name": "Anuran Knight of Pearl and Glass",
     "Text": "It took some doing, preparing yourself for your next metamorphosis, not so physically dramatic as you previous change perhaps but one yet ripe with meaning. Striding gracefully, you wield sword and secrets in the service of all, even those put off by your translucently dappled skin and bulbous golden eyes. And if they doubt your heart, well, it’s there for all to see.",
