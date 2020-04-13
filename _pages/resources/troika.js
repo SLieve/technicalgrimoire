@@ -8,7 +8,7 @@ xmlhttp.open("GET", "/_pages/resources/troika.json", true);
 xmlhttp.send();
 
 var CHARname = "";
-var allColors = [ "Crimson", "Green", "Blue", "Purple", "Yellow", "Silver", "Fuchsia", "Orange", "Gold", "Lime", "Olive", "Teal", "Maroon", "Navy", "Indigo", "Tomato", "Coral", "Tan", "Honeydew", "Brown"];
+var allColors = [ "Crimson","Coral", "Green","Lime", "Teal", "Blue","Honeydew","Gold",  "Silver", "Fuchsia", "Orange",   "Olive", "Purple", "Yellow", "Maroon", "Navy", "Indigo", "Tomato",  "Tan",  "Brown"];
 var degrees = 0;
 var background;
 var card = document.getElementById('troikacardsides');
