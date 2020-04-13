@@ -93,7 +93,6 @@ Use the buttons below to generate characters for the Troika! roleplaying game. T
 
 You can view [ALL the backgrounds here](/_pages/resources/troika.json).
 
-
 ![Troika-logo.png](/images/Troika-logo.png){: .leftSmallImg}
 
 _This generator is an independent production by Technical Grimoire and is not affiliated with the Melsonian Arts Council. All backgrounds were added with the explicit permission of their respective creators._
