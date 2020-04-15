@@ -135,7 +135,7 @@ function createSlot(numSlots) {
       slotHTML = slotHTML + "<p style=\"text-align: center;display: flow-root;\"><img style=\"float:left;\" class=\"temperedicon\" src=\"/images/TemperedWeapons/icon-locked.png\"><strong>" + Wielder + "'s Regret</strong><img style=\"float:right;transform: scaleX(-1);\" class=\"temperedicon\" src=\"/images/TemperedWeapons/icon-locked.png\"></p><p>" + grammar.flatten("#goalTemplate#").replace(/WIELDER/g, Wielder) + " Then you will unlock " + powername + ".</p></div>";
       //otherwise the first slot is an introduction
     } else if (i == 0) {
-      slotHTML = slotHTML + "<p>As soon as you take hold of \"" + WeaponName + "\" you gain awareness of all three slots below. <strong>" + powername + "</strong> is already unlocked.</p></div>";
+      slotHTML = slotHTML + "<p>As soon as you take hold of \"" + WeaponName + "\" you gain awareness of all three slots. <strong>" + powername + "</strong> is already unlocked.</p></div>";
     } else {
       slotHTML = slotHTML + "<p style=\"text-align: center;display: flow-root;\"><img style=\"float:left;\" class=\"temperedicon\" src=\"/images/TemperedWeapons/icon-locked.png\"><strong>" + Wielder + "'s Regret</strong><img style=\"float:right;transform: scaleX(-1);\" class=\"temperedicon\" src=\"/images/TemperedWeapons/icon-locked.png\"></p>" + grammar.flatten("#goalTemplate#").replace(/WIELDER/g, Wielder) + " Then you will unlock " + powername + ".</p></div>";
     }
