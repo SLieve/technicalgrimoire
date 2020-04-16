@@ -13,8 +13,10 @@ description: >
 Use the buttons below to generate characters for the Troika! roleplaying game. The turn tracker lets you manage Troika's weird turn system. [Buy Troika!](https://melsonian-arts-council.itch.io/) Download a shiny [rules reference](/files/troikaRef.pdf).
 
 <div class="row">
-  <div class="col tightSpacing buttonWrapper"><button id="weaponButton" class="btn troikabtn btn-lg" onclick="generate()">Generate Character</button></div>
-  <div class="col tightSpacing buttonWrapper"><button id="weaponButton" class="btn troikabtn btn-lg" onclick="showTracker()">Turn Tracker</button></div>
+  <div class="col tightSpacing" style="text-align:center"><button class="btn troikabtn btn-lg" style="padding:none;" onclick="generate()">Generate Character</button>
+  <button class="btn wyrd-btn" style="width:225px;padding:initial;" onclick="generate('core')">Core Only</button>
+  </div>
+  <div class="col tightSpacing buttonWrapper" style="align-items: initial;"><button class="btn troikabtn btn-lg" onclick="showTracker()">Turn Tracker</button></div>
 </div>
 
 <div class="container generatorCard" id="charCard" style="display:none;">

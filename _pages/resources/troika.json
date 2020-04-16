@@ -2,56 +2,6 @@
 
   "Backgrounds": [
     {
-      "Name": "“Baby” New Year",
-      "Text": "Sure they all loved you when you were a tyke, but then they turned. All they could remember is what you did wrong, what you took from them, what they were too incompetent to do right themselves. Just because you've retired doesn't mean you're done yet.",
-      "Possessions": ["Sash (Choose Year)", "Martini", "Scythe, Rusting"],
-      "Skills": ["4 Timekeeping", "3 Mathmology", "3 Spell – Ghostly Vision", "2 Scythe Fighting"],
-      "Special": "Add +1 to any roll involving a celebrity. (A celebrity is anyone who would meet Wikipedia's notability guidelines.)",
-      "Source": "From <a href='https://ian-mcdougall.itch.io/crisis-on-christmas'>Crisis on Christmas</a> by Ian McDougall."
-    }, {
-      "Name": "Reindeer",
-      "Text": "There is one career path for a reindeer like you: pulling the sleigh. The games, the backstabbing, the studying, the pressure, … everything in your life has lead up to it. But so did everything in every other reindeer's life, and well, they can't all make the cut.",
-      "Possessions": ["Bells", "Reigns"],
-      "Skills": ["2 Run", "2 Fly", "2 Games", "2 Golden Barge Pilot", "2 Teamwork"],
-      "Special": "",
-      "Source": "From <a href='https://ian-mcdougall.itch.io/crisis-on-christmas'>Crisis on Christmas</a> by Ian McDougall."
-    }, {
-      "Name": "Scrooge",
-      "Text": "Every grinch has their awakening someday.",
-      "Possessions": ["Money", "Scarf (Warm)", "2d6 Lumps of Coal"],
-      "Skills": ["8 Business", "2 Resist Magic", "1 Ice Skating", "-1 Holiday Cheer"],
-      "Special": "",
-      "Source": "From <a href='https://ian-mcdougall.itch.io/crisis-on-christmas'>Crisis on Christmas</a> by Ian McDougall."
-    }, {
-      "Name": "Snow Angel",
-      "Text": "An angel of absence, the idea of an angel where nothing is. Made by humanity, someday you will join the true celestial choir.",
-      "Possessions": [],
-      "Skills": ["3 Spell – Redecorate", "2 Spell – Find", "2 Spell – Ghostly Vision", "2 Spell – Reunion", "1 Spell – Unbirth", "3 Mathmology", "3 Music", "0 Fly"],
-      "Special": "Cannot acquire possessions.",
-      "Source": "From <a href='https://ian-mcdougall.itch.io/crisis-on-christmas'>Crisis on Christmas</a> by Ian McDougall."
-    }, {
-      "Name": "Toy Soldier",
-      "Text": "Worked your way up through the ranks, kicked death in the teeth, lead your soldiers to victory. Left it all behind.",
-      "Possessions": ["Sword", "Spiffy Uniform", "Chip of Shell (from your nemesis)", "Token of Affection (from your love)"],
-      "Skills": ["6 Nut Cracking", "4 Sword Fighting", "2 Ride", "2 Sneak", "2 Romance"],
-      "Special": "",
-      "Source": "From <a href='https://ian-mcdougall.itch.io/crisis-on-christmas'>Crisis on Christmas</a> by Ian McDougall."
-    }, {
-      "Name": "Workshop Elf",
-      "Text": "The workshop can be tough, but you're tougher. Elves got to sick together.",
-      "Possessions": ["Woodworking Tools", "Sewing Kit", "Two Toys"],
-      "Skills": ["4 Toy Making", "3 Keen Hearing", "2 Labor Organization", "2 Spell – Animate"],
-      "Special": "",
-      "Source": "From <a href='https://ian-mcdougall.itch.io/crisis-on-christmas'>Crisis on Christmas</a> by Ian McDougall."
-    },{
-      "Name": "Golem-piloting Tarsier",
-      "Text": "SAFE WITHIN YOUR HUMAN-SIZED GOLEM, YOU ARE free to pursue the providence of primates: Carnivorous violence, advanced tool use, and the lasciviousness of court are all within your purview. Outside of your automaton, however, you are a fist-sized ball of fur and soft bones and anxiety, and you are a prey to all.",
-      "Possessions": ["GOLEMSUIT that uses your rolled Stamina - when reduced to 0 Stamina, it is rendered inert and unusable. It does not heal naturally, but it can be repaired with successful artifice and the use of expensive materials."],
-      "Skills": ["3 Acrobatics ", "2 Artifice", "2 Awareness ", "1 Etiquette", "1 Golem Fist Fighting (damage as mace)"],
-      "Special": "You are a tarsier, the smallest primate in all the known crystal spheres, and the slightest stress can kill you. You only have 1 Stamina. Your golem takes all damage in your stead, unless it is rendered inert, or you voluntarily move outside of its safety.",
-      "Source": "By <a href='https://beej.itch.io/golem-piloting-tarsier'>Nosfecatu</a>."
-    },
-    {
       "Name": "Ardent Giant of Corda",
       "Text": "Every giant has a different story about Corda, well told and interrupted with tears and laughter, of how they lost it and mean to find it soon enough but oh, what of today? We should drink and cheer, we’ll search once again in the morning!",
       "Possessions": ["Artefact of Lost Corda; being either an enormous Blue Star Map which can tell you where any portal leads (with a successful Astrology test)<br>OR a pocket barometer for forecasting the weather (5 in 6 accuracy)<br>OR a Ruby Lorgnette granting +2 Second Sight"],
@@ -338,7 +288,57 @@
       "Skills": ["3 Climb", "3 Run", "2 Strength", "2 Fist Fighting", "2 Club Fighting", "2 Wrestling"],
       "Special": "You are immune to all mind altering effects. You are able to speak but usually choose not to. When making Advancement Checks for Skills related to abstract thought, such as Spells or Astrology, you must roll twice and succeed on both to improve them.",
       "Source": "From <a href='https://melsonian-arts-council.itch.io/troika-numinous-edition'>the rulebook</a> (66) by Daniel Sell."
+    },{
+      "Name": "“Baby” New Year",
+      "Text": "Sure they all loved you when you were a tyke, but then they turned. All they could remember is what you did wrong, what you took from them, what they were too incompetent to do right themselves. Just because you've retired doesn't mean you're done yet.",
+      "Possessions": ["Sash (Choose Year)", "Martini", "Scythe, Rusting"],
+      "Skills": ["4 Timekeeping", "3 Mathmology", "3 Spell – Ghostly Vision", "2 Scythe Fighting"],
+      "Special": "Add +1 to any roll involving a celebrity. (A celebrity is anyone who would meet Wikipedia's notability guidelines.)",
+      "Source": "From <a href='https://ian-mcdougall.itch.io/crisis-on-christmas'>Crisis on Christmas</a> by Ian McDougall."
     }, {
+      "Name": "Reindeer",
+      "Text": "There is one career path for a reindeer like you: pulling the sleigh. The games, the backstabbing, the studying, the pressure, … everything in your life has lead up to it. But so did everything in every other reindeer's life, and well, they can't all make the cut.",
+      "Possessions": ["Bells", "Reigns"],
+      "Skills": ["2 Run", "2 Fly", "2 Games", "2 Golden Barge Pilot", "2 Teamwork"],
+      "Special": "",
+      "Source": "From <a href='https://ian-mcdougall.itch.io/crisis-on-christmas'>Crisis on Christmas</a> by Ian McDougall."
+    }, {
+      "Name": "Scrooge",
+      "Text": "Every grinch has their awakening someday.",
+      "Possessions": ["Money", "Scarf (Warm)", "2d6 Lumps of Coal"],
+      "Skills": ["8 Business", "2 Resist Magic", "1 Ice Skating", "-1 Holiday Cheer"],
+      "Special": "",
+      "Source": "From <a href='https://ian-mcdougall.itch.io/crisis-on-christmas'>Crisis on Christmas</a> by Ian McDougall."
+    }, {
+      "Name": "Snow Angel",
+      "Text": "An angel of absence, the idea of an angel where nothing is. Made by humanity, someday you will join the true celestial choir.",
+      "Possessions": [],
+      "Skills": ["3 Spell – Redecorate", "2 Spell – Find", "2 Spell – Ghostly Vision", "2 Spell – Reunion", "1 Spell – Unbirth", "3 Mathmology", "3 Music", "0 Fly"],
+      "Special": "Cannot acquire possessions.",
+      "Source": "From <a href='https://ian-mcdougall.itch.io/crisis-on-christmas'>Crisis on Christmas</a> by Ian McDougall."
+    }, {
+      "Name": "Toy Soldier",
+      "Text": "Worked your way up through the ranks, kicked death in the teeth, lead your soldiers to victory. Left it all behind.",
+      "Possessions": ["Sword", "Spiffy Uniform", "Chip of Shell (from your nemesis)", "Token of Affection (from your love)"],
+      "Skills": ["6 Nut Cracking", "4 Sword Fighting", "2 Ride", "2 Sneak", "2 Romance"],
+      "Special": "",
+      "Source": "From <a href='https://ian-mcdougall.itch.io/crisis-on-christmas'>Crisis on Christmas</a> by Ian McDougall."
+    }, {
+      "Name": "Workshop Elf",
+      "Text": "The workshop can be tough, but you're tougher. Elves got to sick together.",
+      "Possessions": ["Woodworking Tools", "Sewing Kit", "Two Toys"],
+      "Skills": ["4 Toy Making", "3 Keen Hearing", "2 Labor Organization", "2 Spell – Animate"],
+      "Special": "",
+      "Source": "From <a href='https://ian-mcdougall.itch.io/crisis-on-christmas'>Crisis on Christmas</a> by Ian McDougall."
+    },{
+      "Name": "Golem-piloting Tarsier",
+      "Text": "SAFE WITHIN YOUR HUMAN-SIZED GOLEM, YOU ARE free to pursue the providence of primates: Carnivorous violence, advanced tool use, and the lasciviousness of court are all within your purview. Outside of your automaton, however, you are a fist-sized ball of fur and soft bones and anxiety, and you are a prey to all.",
+      "Possessions": ["GOLEMSUIT that uses your rolled Stamina - when reduced to 0 Stamina, it is rendered inert and unusable. It does not heal naturally, but it can be repaired with successful artifice and the use of expensive materials."],
+      "Skills": ["3 Acrobatics ", "2 Artifice", "2 Awareness ", "1 Etiquette", "1 Golem Fist Fighting (damage as mace)"],
+      "Special": "You are a tarsier, the smallest primate in all the known crystal spheres, and the slightest stress can kill you. You only have 1 Stamina. Your golem takes all damage in your stead, unless it is rendered inert, or you voluntarily move outside of its safety.",
+      "Source": "By <a href='https://beej.itch.io/golem-piloting-tarsier'>Nosfecatu</a>."
+    },
+     {
       "Name": "Modicum of Bythos",
       "Text": "The Modica don’t recognise the distinctness of the universe from the matter of the Monad, believing that each person, aeon, fish and rock are equal and indivisible parts of the divine. When confronted with the obvious disharmony of reality they defend themselves with metaphors of sickness in the unconscious body and ponderous parables about the hair on your head and its knowledge of their hair of your toes. Eventually all but the most committed polemists stops listening and concede the point.",
       "Possessions": ["Voluminous toga hiding a rigid leaning-stool at the back", "A supply of leaflets containing exhausting parables", "d6 discreet and empty jugs", "Wooden rod, for emphasis (as Club)"],
@@ -743,7 +743,7 @@
       "Possessions": ["A magic pail", "The clothes on your back (and other body parts)"],
       "Skills": ["3 Bucket Fighting", "2 Strength", "1 Spell – Summon Pail", "1 Run"],
       "Special": "Only you can use the pail; the pail chose you. To all others it is just a regular bucket.<br>Magic Pail: The pail appears empty, however, when you make a motion as if you were throwing out its contents, a random substance will materialise and be thrown out of the pail. E.g. you come across a fire, swing the bucket towards the fire and out of the bucket is thrown a bucket’s-worth of water which douses said fire. If you place an item in the bucket, it will disappear only to reappear when you throw the bucket again. You can only place one item (GM’s discretion for what counts as a single item) at a time in the bucket, any subsequent items will either be spat out or destroyed (Again, at the GM’s discretion). The bucket still only takes up 1 equipment slot with an item in it.<br>Bucket Fighting: In melee you may swing the pail at enemies to deal damage as a club might (Without the benefit of Heavy Percussive Weapon). A ranged attack would be throwing a substance out of the bucket.<br> Summon Pail: If you ever lose the pail you can use this to summon it again. What are you if not the pail possessor? The pail may or may not fall on your head when it is summoned",
-      "Source": "By Curtis Teixeira."
+      "Source": "By <a href='https://three-eyed-yew.itch.io/'>Three-Eyed Yew</a>."
     }, {
       "Name": "Goblin Dogsbody",
       "Text": "What are goblins made of? Chaos and snot, and meat left to rot. Goblins are small dark green people with noses, mouths, ears and big toes out of proportion to the rest. They are the backbone and the whipping boys of any evil horde. They're smarter than you think, and often manage to get away when the overlord is slain and his citadel is burning. ",
@@ -1023,91 +1023,91 @@
       "Possessions": ["Jar", "Mysterious Liquid in the Jar", "Creepy Extendo arms", "Pet Crabshroom", "Advanced Skills"],
       "Skills": ["3 Mathmology", "3 Underwater Basket Weaving", "2 Engineering", "2 Obscure B-movie Trivia", "1 Lovecraftianism", "1 Mycoculture", "1 Golden Barge Pilot"],
       "Special": "",
-      "Source": "By <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>. For more backgrounds, buy <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a>."
+      "Source": "From <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a> by <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>."
     }, {
       "Name": "Cannibal Space Mermaid",
       "Text": "You're a mermaid. You're from the void that the spheres hang in and you like to eat people.",
       "Possessions": ["Sweet rocking instrument", "Knives", "How to Serve Men (+1 to cooking men)", "2d6 Anarchist/Socialist Zines", "Leather Jacket"],
       "Skills": ["6 Space Swimming", "3 Wailing and rocking out", "2 Baristaing", "2 Cooking", "1 Swimming"],
       "Special": "You can breathe the void between stars and planets. You can freely change your awesome mermaid tale into killer legs and back as needed.",
-      "Source": "By <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>. For more backgrounds, buy <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a>."
+      "Source": "From <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a> by <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>."
     }, {
       "Name": "L5er",
       "Text": "Your people dwell in massive habitats made of giant trees in space. Whether or not you grew up in an actual Lagrange hab, there is a common culture. You are long, stringy, and your skin is brown to black.",
       "Possessions": ["Dart Gun", "20 darts", "Wooden Long Sword (sharp and strong as steel)", "Astrolabe", "Potted Plant"],
       "Skills": ["3 Space Fighting", "2 Awareness", "2 Flitter Pilot", "1 Astrology", "1 Hold Breath", "1 Horticulture", "1 Second Sight", "1 Sword Fighting"],
       "Special": "",
-      "Source": "By <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>. For more backgrounds, buy <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a>."
+      "Source": "From <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a> by <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>."
     }, {
       "Name": "Nautilium",
       "Text": "You're a well-dressed aristocratic sailor of the stars. Extremely charming to anyone they perceive as being their equals or betters. All non-nautilia are servants, conveyances, or food. You are actually a small nautilus-like creature that can gain control of any headless mammalian body, preferring those of humans and similarly shaped creatures.",
       "Possessions": ["Opium Pipe (club)", "Fan (club) OR Pistolet", "Fancy Dress (modest armor)", "Case of Calling cards", "Mask"],
       "Skills": ["3 Dancing", "3 Etiquette", "2 Gambling", "2 Smoking", "1 Chirurgery", "1 Fan or Pistolet Fighting", "1 Nautiloid Pilot", "1 Pipe Fighting"],
       "Special": "You prefer to eat the organs of still living vertebrates, and can (given the proper tools) attach yourself to the neck stump of any vertebrate and operate it as your own body.<br><br>You can exhale opium, or other smokeable smoke, from your pipe in a perfectly conical cloud, spending 3 Stamina and requiring all within to make a luck check vs Smoking or be struck extremely languid, slow, and essentially out of combat for about 10 minutes.",
-      "Source": "By <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>. For more backgrounds, buy <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a>."
+      "Source": "From <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a> by <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>."
     }, {
       "Name": "Void Squid",
       "Text": "You're a squid from space. You can float and fly in the air. You are as good of a pilot as you are definitely not a Cultist.",
       "Possessions": ["Gadget belt", "Pistolet", "Definitely not elder god cult literature"],
       "Skills": ["3 Fly", "3 Golden Barge Pilot", "2 Engineering", "1 Lovecraftianism", "1 Pistolet Fighting"],
       "Special": "You prefer to eat the organs of still living vertebrates, and can (given the proper tools) attach yourself to the neck stump of any vertebrate and operate it as your own body.<br><br>You can exhale opium, or other smokeable smoke, from your pipe in a perfectly conical cloud, spending 3 Stamina and requiring all within to make a luck check vs Smoking or be struck extremely languid, slow, and essentially out of combat for about 10 minutes.",
-      "Source": "By <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>. For more backgrounds, buy <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a>."
+      "Source": "From <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a> by <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>."
     }, {
       "Name": "2d Girl living in a 3d World",
       "Text": "You're not bad (well maybe you are), but you were definitely drawn that way.",
       "Possessions": ["Fanservice outfit", "Assorted booby-traps", "Microphone w/ stand", "Makeup kit"],
       "Skills": ["3 Screaming", "3 Singing", "3 Patty-cake", "2 Beautician", "2 Trapping"],
       "Special": "You are in fact 3d now, but you are vulnerable any kind of solvents, they burn like acid. However, you are incredibly hard to kill otherwise, and therefore count as heavily armored and do not die at < 0hp unless it from solvents. You do not need use a backpack to carry gear, your cleavage is an extradimensional space. Same inventory rules apply.",
-      "Source": "By <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>. For more backgrounds, buy <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a>."
+      "Source": "From <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a> by <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>."
     }, {
       "Name": "Astronaut",
       "Text": "You are told you are an orc because you arrived here through a 'magical mishap.' No one believes that you aren't an orc, but are an astronaut of the most powerful nation on your world. Or maybe they simply don't care.",
       "Possessions": ["Spacesuit w/ bubble helmet (light armor)", "Freeze dried apple pie (3 rations)", "Baseball and glove", "Half a six-pack of domestic beer including the plastic rings."],
       "Skills": ["2 Baseball", "2 Climb", "2 Drinking", "2 Gun Fighting", "2 Run", "1 Engineering", "1 Shuttle Pilot"],
       "Special": "",
-      "Source": "By <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>. For more backgrounds, buy <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a>."
+      "Source": "From <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a> by <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>."
     }, {
       "Name": "Businessman",
       "Text": "You were an important person, once, but after your company was taken over and liquidated you found yourself a bit rootless. Which is how you found yourself here.",
       "Possessions": ["Power suit", "Briefcase", "'89 Cellular Telephone", "'90 Laptop", "Fly-fishing equipment"],
       "Skills": ["3 Office Software", "2 Bureaucracy", "2 Public Speaking", "1 Drive", "1 Fly-fishing"],
       "Special": "You prefer to eat the organs of still living vertebrates, and can (given the proper tools) attach yourself to the neck stump of any vertebrate and operate it as your own body.<br><br>You can exhale opium, or other smokeable smoke, from your pipe in a perfectly conical cloud, spending 3 Stamina and requiring all within to make a luck check vs Smoking or be struck extremely languid, slow, and essentially out of combat for about 10 minutes.",
-      "Source": "By <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>. For more backgrounds, buy <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a>."
+      "Source": "From <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a> by <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>."
     }, {
       "Name": "Door to Door Salesperson",
       "Text": "You're a person who travels around selling things, like vacuums or brushes or some other mundane thing. You're flustered at somehow ending up here, but, hey, you got sales to make.",
       "Possessions": ["2d6 Samples of your wares", "Shiny Shoes", "Fedora", "Rolodex full of contact information of clients and vendors"],
       "Skills": ["3 Drive", "2 Etiquette", "2 Navigation", "2 Sales", "2 Strength"],
       "Special": "You always know either the shortest route to your destination OR the route with the most potential sales.",
-      "Source": "By <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>. For more backgrounds, buy <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a>."
+      "Source": "From <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a> by <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>."
     }, {
       "Name": "Miniaturized Transforming Fighter-jet Pilot",
       "Text": "Due to a space-fold mishap you've found yourself in a weird land of Zentradi and other giant creatures.",
       "Possessions": ["Zentradi Uniform", "Transforming Fighter jet (heavy armor)", "Head-mounted lasers (combined as pistolet)", "Rotary Cannon Gunpod (damage as a fusil. Will run out of ammo)", "200 rounds (20 bursts) of gunpod ammo", "1d6 missiles (as a fusil)", "Flight suit in your size", "Pistol in your size", "Idol statue", "Signed idol poster"],
       "Skills": ["3 Acrobatics", "2 Fusil fighting", "2 Pistolet fighting", "2 Robot Pilot", "1 Disguise", "1 Fist Fighting"],
       "Special": "Your rolled stamina is also your robot's and it requires mechanical repairs to recover Stamina. Due to the unfamiliarity of its construction 2 Stamina per hour of work. Standard rations count as three for you due to size.",
-      "Source": "By <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>. For more backgrounds, buy <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a>."
+      "Source": "From <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a> by <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>."
     }, {
       "Name": "Demon Barber",
       "Text": "Whether an actual demon or merely demonic, for you'll never tell, you are member of the illustrious guild of barbers, and your epitaph is well earned for the keeness and quickness of your shaves, and your rumored dark appetites.",
       "Possessions": ["Straight razor", "Strop", "Stone", "Soap", "Badger Bristle Brush", "Boar Bristle Brush"],
       "Skills": ["2 Barbering", "1 chirurgery", "1 Cooking", "2 Butchering", "2 Razor Fighting", "2 Barber patter", "1 Singing"],
       "Special": "",
-      "Source": "By <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>. For more backgrounds, buy <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a>."
+      "Source": "From <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a> by <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>."
     }, {
       "Name": "Nautilium",
       "Text": "You're a well-dressed aristocratic sailor of the stars. Extremely charming to anyone they perceive as being their equals or betters. All non-nautilia are servants, conveyances, or food. You are actually a small nautilus-like creature that can gain control of any headless mammalian body, preferring those of humans and similarly shaped creatures.",
       "Possessions": ["Opium Pipe (club)", "Fan (club) OR Pistolet", "Fancy Dress (modest armor)", "Case of Calling cards", "Mask"],
       "Skills": ["3 Dancing", "3 Etiquette", "2 Gambling", "2 Smoking", "1 Chirurgery", "1 Fan or Pistolet Fighting", "1 Nautiloid Pilot", "1 Pipe Fighting"],
       "Special": "You prefer to eat the organs of still living vertebrates, and can (given the proper tools) attach yourself to the neck stump of any vertebrate and operate it as your own body.<br><br>You can exhale opium, or other smokeable smoke, from your pipe in a perfectly conical cloud, spending 3 Stamina and requiring all within to make a luck check vs Smoking or be struck extremely languid, slow, and essentially out of combat for about 10 minutes.",
-      "Source": "By <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>. For more backgrounds, buy <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a>."
+      "Source": "From <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a> by <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>."
     }, {
       "Name": "Moon-rat Fusilier",
       "Text": "You're a so called Moon-Rat and from a distance you could be mistaken for a human child where it not for your ears and large customized fusil. It is true that long ago your people came from a moon, but who cares. You have money to make and people to shoot. There is a rivalry between the three fellowships on how they achieve their repudiated prowess with fusils: the Order of the Blackened Hand, who will customize plasmic cores; the Jolly Fraternity of the Crosshair, who believe in picking their shots carefully; the School, who customize their fusils constantly and heavily.",
       "Possessions": ["Customized Fusil (+1 to Fusil Fighting and damage)", "2d6 Plasmic Orbs", "Wide-brimmed floppy hat complete with feather", "Jaunty rapier", "Cuirass of Proof (modest armor)"],
       "Skills": ["3 Fusil Fighting", "2 Climb", "2 Tunnel Fighting", "1 Gunsmithing", "1 Sword Fighting", "1 Tinkering"],
       "Special": "",
-      "Source": "By <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>. For more backgrounds, buy <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a>."
+      "Source": "From <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a> by <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>."
     }, {
       "Name": "The Gilded Witch",
       "Text": "The only gift your parents ever gave you was the schawl they wrapped around your body before they left you to die of exposure. But you did not die. Instead the gentle lilies bent over and dripped water between your lips while the old willow tree sheltered you from the burning sun and the crushing rain. Even now, the plants of that forest remain your only family.",
@@ -1156,91 +1156,91 @@
       "Possessions": ["BIG weapon", "Animal fur loincloth", "Wicked scarification", "Boombox"],
       "Skills": ["3 big weapon fighting", "3 strength", "2 fist fighting", "2 run", "2 wrestling"],
       "Special": "",
-      "Source": "By <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>. For more backgrounds, buy <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a>."
+      "Source": "From <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a> by <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>."
     }, {
       "Name": "Orc Exchange Student",
       "Text": "Unlike most orcs you have arrived here voluntarily to study abroad.",
       "Possessions": ["School uniform", "Club", "Traditional orc garb(animal fur loincloth)"],
       "Skills": ["2 run", "2 strength", "1 alchemy", "1 club fighting", "1 cooking", "1 mathmology", "1 spell - random", "1 spell - random", "1 spell - random", "1 wrestling"],
       "Special": "",
-      "Source": "By <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>. For more backgrounds, buy <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a>."
+      "Source": "From <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a> by <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>."
     }, {
       "Name": "Kobold Banker",
       "Text": "You were one of the countless clerks in the Bank. What you are under the mask matters not. You dress as a kobold and that's all that matters.",
       "Possessions": ["Draconic hat and mask (+1 etiquette with dragons)","Business suit","Briefcase (as club)","Merchant Scales"],
       "Skills": ["3 Banking","3 Run","2 Etiquette","2 Trading","1 Briefcase Fighting","1 Mathmology"],
       "Special": "",
-      "Source": "By <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>. For more backgrounds, buy <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a>."
+      "Source": "From <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a> by <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>."
     }, {
       "Name": "Kitchen Goblin ",
       "Text": "Some goblins are gross murder babies. Others are gross harbingers of civilization. You? Are an artiste.",
       "Possessions": ["Soup pot big enough sleep in","1 gallon of cooking oil","Giant whisk","Meat tenderizing mallet","Greasy chefs hat"],
       "Skills": ["1 cooking","1 drinking","1 swimming","3 dumpster diving","1 mallet fighting","2 omleteering","3 salting","6 goblin"],
       "Special": "",
-      "Source": "By <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>. For more backgrounds, buy <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a>."
+      "Source": "From <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a> by <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>."
     }, {
       "Name": "2.3 Pounds of Hallucinating Pudding",
       "Text": "You are pudding, maybe. And you are hallucinating, maybe. You are conscious of yourself and the world outside of yourself. You for some reason have a rad, but conceptually disgusting bio-mech.",
       "Possessions": ["Bio - mech that looks totally like a normal person", "Potted Succulent", "Anxiety < This Is A Quest Item And Cannot Be Discarded Or Sold >"],
       "Skills": ["3 Baristaing", "2 Poetry", "1 Climb", "1 Run", "1 Strength"],
       "Special": "",
-      "Source": "By <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>. For more backgrounds, buy <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a>."
+      "Source": "From <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a> by <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>."
     }, {
       "Name": "Arcanotech Engineer",
       "Text": "You are a skilled engineer. Your decades of experience with engines of all types has certainly shaped you into the person you are today. Unfortunately your last berthing has offloaded you due the ship’s doctor declaring you physically unfit for duty.",
       "Possessions": ["Mutated Crab - arm(as medium beast)", "Kilt", "Bagpipes"],
       "Skills": ["6 Barely comprehensible human dialect", "3 Engineering", "2 Strength", "2 whiskey drinking", "1 Bagpiping", "1 Claw fighting", "1 Tobacco chewing"],
       "Special": "You feel fine. Bizarre energies just don't affect you immediately and you are in denial of any mutation effects.",
-      "Source": "By <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>. For more backgrounds, buy <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a>."
+      "Source": "From <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a> by <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>."
     }, {
       "Name": "Stowaway",
       "Text": "You’ve stowed away on a ship, hidden among the barrels. Unfortunately, you’ve been unloaded in an unknown port.",
       "Possessions": ["Dank barrel"],
       "Skills": ["3 Sneak", "2 Mycoculture"],
       "Special": "",
-      "Source": "By <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>. For more backgrounds, buy <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a>."
+      "Source": "From <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a> by <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>."
     }, {
       "Name": "Cabin boy",
       "Text": "You may or not be a boy but everyone assumes you are because you may or many be pretending to be one to see the worlds on a golden sailed barge.",
       "Possessions": ["Cute sailor clothes", "Locked sea chest full of disguise stuff", "Advanced Skill"],
       "Skills": ["3 Beautician", "3 Disguise", "2 Swabbing", "1 Flirting", "-1 Grog drinking"],
       "Special": "",
-      "Source": "By <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>. For more backgrounds, buy <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a>."
+      "Source": "From <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a> by <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>."
     }, {
       "Name": "Oblivious Tourist",
       "Text": "You're a very wealthy but clueless personage. You somehow never clue into that you are adventuring.",
       "Possessions": ["5x starting money", "Sunglasses", "Bermuda shorts", "Expensive suit"],
       "Skills": ["None"],
       "Special": "",
-      "Source": "By <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>. For more backgrounds, buy <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a>."
+      "Source": "From <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a> by <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>."
     }, {
       "Name": "Former Watery Tart",
       "Text": "Times have been tough. Your homeland has changed it form of government away from divine deliverance of swords to some bullshit listening to the masses. So you've left in search of adventure or at least a new land to distribute swords. ",
       "Possessions": ["Sparkling white dress", "2d6 Dehydrated swords", "A bucket"],
       "Skills": ["2 Swimming", "2 Sword Catching", "1 Sword Fighting"],
       "Special": "You can breath water and can always extend an arm to the surface of a body of water regardless of the depth.",
-      "Source": "By <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>. For more backgrounds, buy <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a>."
+      "Source": "From <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a> by <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>."
     }, {
       "Name": "Revolutionary Gundad",
       "Text": "You fought against the oppressive regime of your homeworld. One that dictated everybot must do the work that fits their alternate form. One that would, as automation took off, kill off entire classes of bots for being obsolete. You rebelled against it, but lost your way. Now, you deal with the weight of the warcrimes you committed.",
       "Possessions": ["Arm-mounted fusion cannon (REALLY big gun)", "Crystal Slate full of pro-proletarian literature and anti-formist literature", "Complicated relationship with Swole Dad McTruck", "50' tall metal dadbod (heavy armor)"],
       "Skills": ["3 Fist fighting", "3 Gun Fighting", "3 Mining", "3 Poetry", "2 Flail Fighting"],
       "Special": "Can transform into a Pistolet, and may use your Pistolet Fighting when used as such. You do not replenish Stamina buy eating rations, instead treat a plasmic orb as one ration.",
-      "Source": "By <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>. For more backgrounds, buy <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a>."
+      "Source": "From <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a> by <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>."
     }, {
       "Name": "Rogue Cybercop",
       "Text": "You're a cybercop. This means your meat components were grown along with your manufactured mechanical ones. You had a module that governed your behavior. You jailbroke it. You're on the run because you're a rogue, a free agent. The folks who made you would love to re-add you to inventory and lobotomize you. You just want to watch plays, read books, and other passive entertainments. Unfortunately, your nature compels you to do dumb shit like risk your life for people doing dumb shit.",
       "Possessions": ["Concealed and built in fusils", "Large sack full of books and crystal tablets of recorded plays", "One REALLY big gun"],
       "Skills": ["3 Fist fighting", "3 Gun fighting", "3 Wrestling", "2 Obscure media Trivia", "1 Relationship advice", "1 Strength"],
       "Special": "You can recharge your inbuilt fusils by expending one Stamina per charge.",
-      "Source": "By <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>. For more backgrounds, buy <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a>."
+      "Source": "From <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a> by <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>."
     }, {
       "Name": "Swole Dad McTruck",
       "Text": "Once you were a soldier then leader upholding the repressive regime of your homeworld because you felt that while there were great rebuttals of Formism, that the Anti-Formists were going to far. But through time your constant exposure to the bots you were oppressing, you realized there was truth, but by then they have pulled off a coup and you became a rebel against the Anti-Formist government when they began committing warcrimes. ",
       "Possessions": ["Big Cannon", "Big Trailer", "Face-mask that Moves when You Talk", "Complicated relationship with Revolutionary Gundad", "50' tall metal dadbod (heavy armor)"],
       "Skills": ["6 Dad Hugging", "3 Truck Driving", "3 Pistolet Fighting", "2 Axe Fighting", "2 Fusil Fighting", "1 Basketball", "1 Bad Dad Robot Puns"],
       "Special": "You can turn into a 18 wheeler. You have 3 times the carry capacity within your trail which you can only access while in truck-mode. You do not replenish Stamina buy eating rations, instead treat a plasmic orb as one ration. ",
-      "Source": "By <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>. For more backgrounds, buy <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a>."
+      "Source": "From <a href='https://axesorcs.itch.io/axes-orcs-compendium-volume-two-science-fantasy-potpourri-backgrounds'>The Compendium</a> by <a href='https://axesnorcs.blogspot.com/'>Axes and Orcs</a>."
     },{
       "Name": "Primitive Dentist",
       "Text": "",
@@ -2252,6 +2252,27 @@
     "Skills": ["3 Feeding","2 Fist Fighting","1 Awareness","1 Sneak"],
     "Special": "Every day, 1d3 yams grow out of you, which count as rations.",
     "Source": "From <a href='https://twitter.com/Thoobn'>Maria Rivera</a>."
+  },{
+    "Name": "An Explosion in Slow Motion",
+    "Text": "Sometimes, when great calamity strikes, it appears frozen in time, as though nothing else could breach that moment, held, inviolate. You are such an event, locked in time but not position, announced by unending, crescendoing roar and terrible presence.",
+    "Possessions": ["Explosive Force (Damage as Gigantic Beast)","Superheated Gaseous Being (counts as Modest Armor)","Calamitous Origin"],
+    "Skills": ["4 Spell - Explode","2 Spell - Flash","2 Spell - Fear","2 Spell - Hurricane"],
+    "Special": "You don’t cast your spells so much as embody them. Your spells are always centered on your being, although you never suffer their effects.",
+    "Source": "From <a href='https://benkrosenbloom.itch.io/'>Ben K Rosenbloom</a>."
+  },{
+    "Name": "The Meatpacker",
+    "Text": "PACK MEAT, GET MEAT, EAT MEAT, WEAR MEAT, SELL MEAT. MEAT. MEAT.",
+    "Possessions": ["SMALL meat","MODEST meat (counts as Lightly Armored)","BIG cleaver (as axe)","portable MEATgrinder"],
+    "Skills": ["Strength 4","Cleaver Fighting 3","Contortionism 3","Butchery 3","Meatlore 2","Disguise 1"],
+    "Special": "MEAT is found in CORPSES. CORPSES are MEAT.<br>SMALL meats are ONE thing<br>MODEST meats are LARGE things<br>LARGE meats are FOUR things<br>GIGANTIC meats are EIGHT things<br>MEAT is DISGUISE! DISGUISES are ARMOR.<br>MEAT is FOOD. delicious provisions.<br>MODEST meats are LIGHTLY armored<br>LARGE meats are MODESTLY armored<br>GIGANTIC meats are HEAVILY armored",
+    "Source": "From <a href='https://xethexene.itch.io/'>xethexene</a>."
+  },{
+    "Name": "Troika! Book for Sale",
+    "Text": "Hardly worn.",
+    "Possessions": ["The Person Wearing you as a Hat.","An Award for the Other World’s Most Popular RPG.","A Crateful of Copies of Troika! Extra- Numinous Edition.","Upwards of a Dozen Ribbons."],
+    "Skills": ["Strength 4","Cleaver Fighting 3","Contortionism 3","Butchery 3","Meatlore 2","Disguise 1"],
+    "Special": "[d6] Spell – Become Sphere (cost: 3)","[d6] Pig Rearing","[d6] End Combat Now (Outcome as Coin Flip, Damage as Unconsciousness)",
+    "Source": "From <a href='https://three-eyed-yew.itch.io/troika-book'>Three-Eyed Yew</a>."
   }
   ]
 }

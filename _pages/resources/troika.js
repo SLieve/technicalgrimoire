@@ -13,14 +13,18 @@ var degrees = 0;
 var background;
 var card = document.getElementById('troikacardsides');
 
-
 function generate(source) {
 
   skill = Math.floor(Math.random() * 3) + 4;
   stamina = Math.floor(Math.random() * 6) + Math.floor(Math.random() * 6) + 14;
   luck = Math.floor(Math.random() * 6) + 7;
 
-  background = troika.Backgrounds[Math.floor(Math.random() * troika.Backgrounds.length)];
+  console.log(source);
+  if (source == "core"){
+    background = troika.Backgrounds[Math.floor(Math.random() * 36)];
+  } else {
+    background = troika.Backgrounds[Math.floor(Math.random() * troika.Backgrounds.length)];
+  }
 
   CHARname = background.Name;
   document.getElementById("bgName").innerHTML = CHARname;
