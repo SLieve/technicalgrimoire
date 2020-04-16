@@ -27,27 +27,30 @@ Use the buttons below to generate characters for the Troika! roleplaying game. T
 <p id="bgSrc"></p>
   <hr class="tightSpacing">
   <div class="row">
-    <div class="col-xl-6 col-12" id="descr">
+    <div class="col-lg-6 col-12" id="descr">
     </div>
-    <div class="col-xl-6 col-12" id="poss">
+    <div class="col-lg-6 col-12" id="poss">
     </div>
   </div>
 </div>
 
 <div class="container generatorCard" id="turnCard" style="display:none;">
   <div class="row">
-    <div class="col-xl-6 col-12">
+    <div class="col-lg-6 col-12">
+    <div class="col tightSpacing buttonWrapper">
       <div id="troikacard">
         <div id="troikacardsides">
           <div id="troikacardfront">
           </div>
           <div id="troikacardback">
-            <p id="backText" class="tightSpacing" style="vertifcal-align:bottom;padding-top: 350px;">Back</p>
+            <p id="backText" class="tightSpacing" style="padding-top: 90%;font-size:.6em">Back</p>
           </div>
         </div>
       </div>
+      </div>
+      <div class="col tightSpacing buttonWrapper"><button id="nextTurnbtn" class="btn troikabtn btn-lg" onclick="nextTurn()" style="display:none;">Next Turn</button></div>
     </div>
-    <div class="col-xl-6 col-12">
+    <div class="col-lg-6 col-12">
       <div id="spinners" style="text-align:center;">
         <h2 class="tightSpacing">Player Characters</h2>
         <div class="number-input">
@@ -75,11 +78,8 @@ Use the buttons below to generate characters for the Troika! roleplaying game. T
         <h3 class="tightSpacing">Turn Log:<br></h3>
         <div id="turnList"></div>
       </div>
+      <div class="col tightSpacing buttonWrapper"><button id="newRoundbtn" class="btn troikabtn btn-lg" onclick="newRound()">Start Round</button></div>
     </div>
-  </div>
-  <div class="row">
-    <div class="col tightSpacing buttonWrapper"><button id="nextTurnbtn" class="btn troikabtn btn-lg" onclick="nextTurn()" style="display:none;">Next Turn</button></div>
-    <div class="col tightSpacing buttonWrapper"><button id="newRoundbtn" class="btn troikabtn btn-lg" onclick="newRound()">Start Round</button></div>
   </div>
 </div>
 

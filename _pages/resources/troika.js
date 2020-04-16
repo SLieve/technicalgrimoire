@@ -8,7 +8,7 @@ xmlhttp.open("GET", "/_pages/resources/troika.json", true);
 xmlhttp.send();
 
 var CHARname = "";
-var allColors = [ "Crimson","Coral", "Green","Lime", "Teal", "Blue","Honeydew","Gold",  "Silver", "Fuchsia", "Orange",   "Olive", "Purple", "Yellow", "Maroon", "Navy", "Indigo", "Tomato",  "Tan",  "Brown"];
+var allColors = [ "Crimson","Purple","Gold", "Lime", "Teal", "Honeydew", "Coral", "Silver", "Fuchsia", "Orange",   "Olive", "Green", "Blue", "Yellow", "Maroon", "Navy", "Indigo", "Tomato",  "Tan",  "Brown"];
 var degrees = 0;
 var background;
 var card = document.getElementById('troikacardsides');
@@ -154,7 +154,7 @@ function flipCard(token) {
       bgImage = "url('/images/troika_enemy.png')";
       cardTxt = "Any<br>Enemy";
       bgColor = "silver";
-      turnText = "<p style=\"margin: unset;\">" + turnNumber + ". An Enemy" +
+      turnText = "<p style=\"margin: unset;\">" + turnNumber + ". Enemy" +
         "</p>" + turnText;
       break;
 
@@ -164,7 +164,7 @@ function flipCard(token) {
       bgImage = "url('/images/troika_henchling.png')";
       cardTxt = "Henchling";
       bgColor = "silver";
-      turnText = "<p style=\"margin: unset;\">" + turnNumber + ". A Henchling" +
+      turnText = "<p style=\"margin: unset;\">" + turnNumber + ". Henchling" +
         "</p>" + turnText;
       break;
 

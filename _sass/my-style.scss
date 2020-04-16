@@ -1,8 +1,8 @@
 /*Troika Card*/
 
 #troikacard {
-  width: 375px;
-  height: 525px;
+  width: 225px;
+  height: 315px;
   perspective: 500px;
 }
 
@@ -31,6 +31,7 @@
 
 #troikacardback {
   color: slategrey;
+  background-color: #fff8dd;
   transform: rotateY( 180deg );
 }
 
@@ -38,6 +39,7 @@
   color: slategrey;
   background-image: url('/images/troika_back_card.png');
   background-size: contain;
+  background-color: #fff8dd;
 }
 
 /*Tempered Legacy*/
