@@ -2270,9 +2270,16 @@
     "Name": "Troika! Book for Sale",
     "Text": "Hardly worn.",
     "Possessions": ["The Person Wearing you as a Hat.","An Award for the Other World’s Most Popular RPG.","A Crateful of Copies of Troika! Extra- Numinous Edition.","Upwards of a Dozen Ribbons."],
-    "Skills": ["Strength 4","Cleaver Fighting 3","Contortionism 3","Butchery 3","Meatlore 2","Disguise 1"],
-    "Special": ["[d6] Spell – Become Sphere (cost: 3)","[d6] Pig Rearing","[d6] End Combat Now (Outcome as Coin Flip, Damage as Unconsciousness)"],
+    "Skills": ["[d6] Spell – Become Sphere (cost: 3)","[d6] Pig Rearing","[d6] End Combat Now (Outcome as Coin Flip, Damage as Unconsciousness)"],
+    "Special": [""],
     "Source": "From <a href='https://three-eyed-yew.itch.io/troika-book'>Three-Eyed Yew</a>."
+  },{
+    "Name": "Chymical Wedding Planner",
+    "Text": "As an Adept of the 14th° , you have attained unique insight into The Higher and Lower Mysteries of Interplanar Alchemy. Unlike your peers, you’ve decided a life of solitary contemplation and experimentation isn’t for you. All around you are poor wretches on the cusp of inspiration and enlightenment, and that mind-cracking blast of insight is only a transcendent mystical experience away. Time to put on a show and pull back the veil!",
+    "Possessions": ["Lightweight ceremonial travel garments","Elaborately painted walking stick (as Staff)","Stationary kit, complete with the sturdiest, most aerodynamic envelopes on the market.","Knapsack Studio- a small cramped apartment (paid up for the next month) with shelves and closets for ceremonial robes, hats, swords, chalices, and other symbolism-dense tools of the trade. There’s a Murphy bed that folds down from a chest of drawers. Looks like a large knapsack from the outside."],
+    "Skills": ["3 Alchemy","1 Disguise","2 Etiquette","2 Detect Allegory","2 Stagecraft","3 Spell- Assassin’s Dagger","3 Spell- True Seeing"],
+    "Special": ["Sometimes, you just can’t rustle up a virgin Bell Caste Phasmid Huntress on short notice. Armed with the secrets of Internal Alchemy, you can assume any age, gender, species and/or status required for a ritual or ceremony. This doesn’t affect your stats and lasts a number of hours equal to your Alchemy Skill."],
+    "Source": "From <a href='https://twitter.com/j_d_duncan'>Jeremy Duncan</a>."
   }
   ]
 }
