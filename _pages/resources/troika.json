@@ -1408,7 +1408,7 @@
   },{
     "Name": "Mother of Swans",
     "Text": "You are a caretaker, a gilded winged maiden, a summoner. A master of flight, the flock and the skies. You pluck your wings to birth your kin. Be weary, these kin are a part of you. Your last feather will also be their last too.",
-    "Possessions": ["Windswept Robes (counts as Lightly Armoured)","Wings of 666 Golden Feathers Enough fish to feed your flock"],
+    "Possessions": ["Windswept Robes (counts as Lightly Armoured)","Wings of 666 Golden Feathers","Enough fish to feed your flock"],
     "Skills": ["3 Fly","3 Spell- Cone of Air","3 Spell- Ward","2 Spell- Natter (may only target swans)","2 Swim","2 Awareness","1 Astrology"],
     "Special": "You may pluck d66 Feathers from your wings to summon a Swan that is under your control. Your Swans act on your Initiative. You can communicate with your Swans and issue them commands that they will follow. Keep track of the number of Feathers that your wings have left. If you run out of Feathers your Swans vanish to a far realm in a puff of smoke and glitter and you lose your Fly skill. When you eat 100 fish your wings grow back with 666 Golden Feathers.",
     "Source": "From <a href='https://gayhalforc.itch.io/'>John geary</a>."
