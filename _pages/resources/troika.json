@@ -2271,7 +2271,7 @@
     "Text": "Hardly worn.",
     "Possessions": ["The Person Wearing you as a Hat.","An Award for the Other World’s Most Popular RPG.","A Crateful of Copies of Troika! Extra- Numinous Edition.","Upwards of a Dozen Ribbons."],
     "Skills": ["Strength 4","Cleaver Fighting 3","Contortionism 3","Butchery 3","Meatlore 2","Disguise 1"],
-    "Special": "[d6] Spell – Become Sphere (cost: 3)","[d6] Pig Rearing","[d6] End Combat Now (Outcome as Coin Flip, Damage as Unconsciousness)",
+    "Special": ["[d6] Spell – Become Sphere (cost: 3)","[d6] Pig Rearing","[d6] End Combat Now (Outcome as Coin Flip, Damage as Unconsciousness)"],
     "Source": "From <a href='https://three-eyed-yew.itch.io/troika-book'>Three-Eyed Yew</a>."
   }
   ]
