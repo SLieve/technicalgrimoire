@@ -14,34 +14,48 @@ I'm "exploding" [200 Word entries](https://200wordrpg.github.io/) and releasing 
 
 Patreons get early access for just **$2 a month**. They also get to vote on which entries will be exploded next.
 
-[![become_patreon.png](/images/posts/become_patreon.png)](https://www.patreon.com/davidschirduan)
+<div class="row centerButtons">
+  <div class="col-md-6 col-12">
+<a class="btn wyrd-btn" href="https://www.patreon.com/davidschirduan" target="_blank"><h3>Become a Patron</h3></a>
+  </div>
+  <div class="col-md-6 col-12">
+    <a class="btn wyrd-btn" href="https://gum.co/FvZBy" target="_blank">
+      <h3>Download Past Explosions</h3>
+    </a>
+  </div>
+ </div>
 
-### Free Explosions (Click to Download)
+### Past Explosions
+
+<p><a href="https://gum.co/FvZBy" target="_blank">Download these for free!</a></p>
 
 <div class="row centerButtons">
   <div class="col-lg-6 col-12">
-<a href="/files/explosions/Cooking_Show.pdf"><img class="prize" src="/files/explosions/Cooking_Show.png"/></a>
+<img class="prize" src="/images/explosions/WeWhoOnceRuled.png"/>
 </div>
   <div class="col-lg-6 col-12">
-  <a href="/files/explosions/rumors.pdf"><img class="prize" src="/files/explosions/rumors.png"/></a>
+<img class="prize" src="/images/explosions/Cooking_Show.png"/>
+</div>
+  <div class="col-lg-6 col-12">
+<img class="prize" src="/images/explosions/rumors.png"/>
   </div>
   <div class="col-lg-6 col-12">
-<a href="/files/explosions/ForCityCoin.pdf"><img class="prize" src="/files/explosions/ForCityCoin.png"/></a>
+<img class="prize" src="/images/explosions/ForCityCoin.png"/>
 </div>
   <div class="col-lg-6 col-12">
-<a href="/files/explosions/Feelings.pdf"><img class="prize" src="/files/explosions/Feelings.jpg"/></a>
+<img class="prize" src="/images/explosions/Feelings.jpg"/>
 </div>
   <div class="col-lg-6 col-12">
-<a href="/files/explosions/sherlock.pdf"><img class="prize" src="/files/explosions/sherlock.png"/></a>
+<img class="prize" src="/images/explosions/sherlock.png"/>
 </div>
   <div class="col-lg-6 col-12">
-<a href="/files/explosions/Drink_Tea_Forget.pdf"><img class="prize" src="/files/explosions/Drink_Tea_Forget.png"/></a>
+<img class="prize" src="/images/explosions/Drink_Tea_Forget.png"/>
 </div>
   <div class="col-lg-6 col-12">
-<a href="/files/explosions/MetalWizards.pdf"><img class="prize" src="/files/explosions/wizards.png"/></a>
+<img class="prize" src="/images/explosions/wizards.png"/>
 </div>
   <div class="col-lg-6 col-12">
-<a href="/files/explosions/DeathBattle.pdf"><img class="prize" src="/files/explosions/DeathBattle.png"/></a>
+<img class="prize" src="/images/explosions/DeathBattle.png"/>
 </div>
   </div>
 
