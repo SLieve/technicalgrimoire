@@ -97,6 +97,8 @@ These can be a mixed bag; some are organized better than others, some make it ea
 
 [**The Met**](https://www.metmuseum.org/art/collection/search#!?searchField=All&showOnly=openAccess&sortBy=relevance&offset=0&pageSize=0). A lot of artifacts and objects; but you can find the artwork using their object/material filters.
 
+[**The Library of Congress**](https://www.loc.gov/free-to-use/) is cool because they set aside high-quality images that are particularly useful for designers like us!
+
 [**Smithsonian American Art**](https://americanart.si.edu/art/browse). Just like above, you gotta filter out the objects.
 
 [**R'JKS Studio**](https://www.rijksmuseum.nl/en/rijksstudio). Filter those objects and get to the good art!
@@ -177,6 +179,7 @@ But they're worth it. If you plan on self-publishing books, pamphlets, or PDFs t
 - **[Imaginative Photoshop Work](https://pixabay.com/users/kellepics-4893063/)** with everything from steampunk space-ships to weather-queens.
 - **[Stefano della Bella](https://www.metmuseum.org/art/collection/search#!?q=Stefano%20della%20Bella&perPage=20&sortBy=Relevance&offset=0&pageSize=0)** was insanely prolific (over 1500 images in that search) and drew everything from creepy symbols to landscapes to portraits. If you want a lot of art in a consistent style, this is a great resource.
 - **[Beautiful filigris and borders](https://www.flickr.com/photos/britishlibrary/tags/sysnum002941632)**
+
 
 **P.S.** Post in the comments if you find any other useful resources; I'm always looking to learn more!
 
