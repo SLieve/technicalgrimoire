@@ -52,7 +52,7 @@ function generateSlot() {
 
 function generateWeapon() {
   document.getElementById("wpnBtn").innerHTML = "Generate another Weapon";
-  document.getElementById("slotBtn").innerHTML = "Generate a Slot";
+  //document.getElementById("slotBtn").innerHTML = "Generate a Slot";
 
   WeaponName = grammar.flatten("#nameTemplate#");
   document.getElementById("weaponName").innerHTML = WeaponName;
