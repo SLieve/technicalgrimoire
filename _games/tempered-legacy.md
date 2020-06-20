@@ -14,19 +14,18 @@ redirect_from:
   - "/temperedgenerators"
 ---
 
-Tempered Legacy is a magic item supplement for fantasy RPGs. The powers of these items are locked behind the regrets of previous owners. Click the "Generate Weapon" button to get started.
+Tempered Legacy is a magic item supplement for fantasy RPGs. The powers of these items are locked behind the regrets of previous owners.
 
-**Join [the Mailing List](https://gumroad.com/technicalgrimoire/follow) to get updates about the upcoming zine!**
+<div class="row centerButtons">
+  <div class="col-md-6 col-12">
+  	<a class="btn tempered-btn notransition" href="https://gum.co/HnQeI" target="_blank"><h3>Download the Zine (PDF): $5</h3></a>
+  </div>
+</div>
 
 <div class="row centerButtons">
   <div class="col-md-6 col-12">
     <button class="btn tempered-btn notransition" onclick="generate()">
       <h3 id="wpnBtn">Generate a Weapon</h3>
-    </button>
-  </div>
-  <div class="col-md-6 col-12">
-    <button class="btn tempered-btn notransition" onclick="generate('slot')">
-      <h3 id="slotBtn">Generate a Slot</h3>
     </button>
   </div>
 </div>
@@ -45,18 +44,16 @@ Tempered Legacy is a magic item supplement for fantasy RPGs. The powers of these
   <div id="interacting"></div>
 </div>
 
-## Want more?
+## Want more? Get the Zine!
 
-Tempered Legacy is an ongoing project. We're constantly adding stuff to the generators, tweaking the details, and
-updating the rules. Join [the Mailing List](https://gumroad.com/technicalgrimoire/follow) to get updates about the
-upcoming **Tempered Legacy Zine**:
+The Zine includes a tone of example Tempered Weapons with strong themes and histories as well as tools for using these weapons in your adventures.
 
-- Pre-made weapons written by Fiona Geist, Ash Mchallan, Johnny, Madeline, and more amazing designers.
+- Over a dozen pre-made weapons written by Fiona Geist, Ash Mchallan, Johnny, Madeline, and more amazing designers.
 - The Many Origins of Tempered Metal
-- Rules for Tempered Armor
-- Tempered Coin Stock Market (TempCoin)
+- Rules for Tempered Armor by Dave Cox
+- Tempered Coin Stock Market
 - Advice on using Regrets to improve your prep and engage your players.
-- And more!
+- and more!
 
 **Thanks to:**
 
