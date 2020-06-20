@@ -20,9 +20,9 @@ Tempered Legacy is a magic item supplement for fantasy RPGs. The powers of these
   <div class="col-md-6 col-12">
   	<a class="btn tempered-btn notransition" href="https://gum.co/HnQeI" target="_blank"><h3>Download the Zine (PDF): $5</h3></a>
   </div>
-</div>
-
-<div class="row centerButtons">
+  <div class="col-md-6 col-12">
+  	<a class="btn tempered-btn notransition"><h3>Order the Zine (Print): SOON!</h3></a>
+  </div>
   <div class="col-md-6 col-12">
     <button class="btn tempered-btn notransition" onclick="generate()">
       <h3 id="wpnBtn">Generate a Weapon</h3>

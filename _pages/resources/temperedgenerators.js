@@ -39,7 +39,7 @@ function generate(text) {
 
 function generateSlot() {
   document.getElementById("wpnBtn").innerHTML = "Generate a Weapon";
-  document.getElementById("slotBtn").innerHTML = "Generate another Slot";
+  //document.getElementById("slotBtn").innerHTML = "Generate another Slot";
 
   document.getElementById("weaponName").innerHTML = "New Slot:";
   document.getElementById("interacting").innerHTML = "";
