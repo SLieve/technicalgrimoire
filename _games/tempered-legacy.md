@@ -28,6 +28,11 @@ Tempered Legacy is a magic item supplement for fantasy RPGs. The powers of these
       <h3 id="wpnBtn">Generate a Weapon</h3>
     </button>
   </div>
+    <div class="col-md-6 col-12">
+    <button class="btn tempered-btn notransition" onclick="generate('slot')">
+      <h3 id="slotBtn">Generate a Slot</h3>
+    </button>
+  </div>
 </div>
 
 <div class="container generatorCard" id="weaponCard" style="display:none;">
