@@ -60,6 +60,8 @@ The Zine includes a tone of example Tempered Weapons with strong themes and hist
 - Tempered Trinkets, Coins, and Pans
 - and more!
 
+![temperedBow.png]({{site.url}}/images/posts/temperedBow.png)
+
 **Thanks to:**
 
 - [David Cox](https://www.davecox.design/), the co-writer of Tempered Legacy.
@@ -79,8 +81,6 @@ mutations](https://coinsandscrolls.blogspot.com/2019/11/osr-1d1000-mutations.htm
 - Icons: [Game-Icons.net](https://game-icons.net/)
 
 Everything on this page is protected under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-
-![temperedBow.png]({{site.url}}/images/posts/temperedBow.png)
 
 <script async src="/assets/js/html2canvas.min.js" language="javascript" type="text/javascript"></script>
 <script async src="/assets/js/mods-eng-basic.js" language="javascript" type="text/javascript"></script>
