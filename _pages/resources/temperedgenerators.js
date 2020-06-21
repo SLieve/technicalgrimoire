@@ -145,7 +145,7 @@ function createSlot(numSlots) {
     if (mutation){
       slotHTML = slotHTML + "<div class=\"col-lg-6 col-12 cellLegacies\"><p style=\"display: flow-root;\"><img style=\"margin-right: 10px;float:left;\" class=\"temperedicon\" src=\"/images/TemperedWeapons/icon-cure.png\"><strong>" + Wielder + "'s Cure</strong></p>" + grammar.flatten("#goalTemplate#").replace(/WIELDER/g, Wielder) + " Then you will cure this Mutation.</p></div></div><p class=\"temperedP\">" + phrase + "</p>";
     } else {
-    slotHTML = slotHTML + "<div class=\"col-lg-6 col-12 cellLegacies\"><p style=\"text-align: center;display: flow-root;\"><img style=\"margin-right: 10px;float:left;\"class=\"temperedicon\" src=\"/images/TemperedWeapons/" + icon + "\">" + powername + "<img style=\"float:right;transform: scaleX(-1);\" class=\"temperedicon\" src=\"/images/TemperedWeapons/" + icon + "\"></p><p>" + powerdescr + "</p></div></div><p class=\"temperedP\">" + phrase + "</p>";
+    slotHTML = slotHTML + "<div class=\"col-lg-6 col-12 cellLegacies\"><p style=\"text-align: center;display: flow-root;\"><img style=\"margin-right: 10px;float:left;\"class=\"temperedicon\" src=\"/images/TemperedWeapons/" + icon + "\">" + powername + "</p><p>" + powerdescr + "</p></div></div><p class=\"temperedP\">" + phrase + "</p>";
     }
   }
 
