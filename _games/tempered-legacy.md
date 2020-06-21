@@ -2,7 +2,7 @@
 date: 2019-08-01
 layout: project
 title: Tempered Legacy
-caption: Magic Weapons locked behind Regrets
+caption: Magic Items locked behind Regrets
 image: images/temperedlegacy.png
 screenshot:
   src: images/temperedlegacy.png
