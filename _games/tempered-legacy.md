@@ -53,11 +53,11 @@ Tempered Legacy is a magic item supplement for fantasy RPGs. The powers of these
 
 The Zine includes a tone of example Tempered Weapons with strong themes and histories as well as tools for using these weapons in your adventures.
 
-- Over a dozen pre-made weapons written by Fiona Geist, Ash Mchallan, Johnny, Madeline, and more amazing designers.
-- The Many Origins of Tempered Metal
+- Advice on using Regrets to make GMing even easier!
+- 20 different templates for making your own Regrets.
+- 15 pre-made weapons written by Fiona Geist, John Gregory, Mahar Mangahas, and several more incredible designers.
 - Rules for Tempered Armor by Dave Cox
-- Tempered Coin Stock Market
-- Advice on using Regrets to improve your prep and engage your players.
+- Tempered Trinkets, Coins, and Pans
 - and more!
 
 **Thanks to:**
