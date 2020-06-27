@@ -38,7 +38,7 @@ You can still grab all [my previous patreon releases for free here!](/patreon)
 
 ## Lowcountry Crawl
 
-[I talked about this before.](http://0.0.0.0:4000/david/2020/01/ZineQuest2020). Lowcountry Crawl 2 is still on hold. Johnny and I don't feel comfortable moving forward on this until we get some southern black writers to lead a second issue.
+[I talked about this before.](/david/2020/01/ZineQuest2020). Lowcountry Crawl 2 is still on hold. Johnny and I don't feel comfortable moving forward on this until we get some southern black writers to lead a second issue.
 
 If that's you, or you know someone who might be interested, please reach out to us: technicalgrimoire@gmail.com
 
