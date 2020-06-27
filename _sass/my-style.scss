@@ -1,7 +1,8 @@
 /* Blog Review Cards*/
 .blogcolumn {
 	margin: 15px 15px 70px;
-	padding: 0;
+  padding: 0;
+  display: flex;
 }
 .blogcolumn:last-child {
 	padding-bottom: 60px;
