@@ -1,5 +1,5 @@
 ---
-date: 2019-08-01
+date: 2020-06-01
 layout: project
 title: Tempered Legacy
 caption: Magic Items locked behind Regrets

@@ -73,7 +73,7 @@ So if you have 200 backers paying $15 each in shipping that's a total cost of $1
 
 **NOTE #1:** If you're worred about backers sharing the discount code with strangers (thus giving away free copies) you can create a custom offer code for each backer, and set it to one-time use. 
 
-If you have a LOT of backers, you can use the [Gumroad API](https://gumroad.com/api#offer-codes) to generate a bunch of offer codes quickly. If you're not tech-savvy I'm happy to help you generate these codes. Just email me: davidschirduan@gmail.com
+If you have a LOT of backers, you can use the [Gumroad API](https://gumroad.com/api#offer-codes) to generate a bunch of offer codes quickly. If you're not tech-savvy I'm happy to help you generate these codes. Just email me: technicalgrimoire@gmail.com
 
 **NOTE #2:** If you want to make SURE your backers get their books first, then simply set the purchase price to $1000 or something (and set the backer code to $1000 off). Then after the backers have all gotten their copies, lower the price so everyone else can place their orders.
 

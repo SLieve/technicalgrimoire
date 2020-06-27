@@ -1,5 +1,5 @@
 ---
-date: 2019-06-01
+date: 2020-02-01
 layout: project
 title: Lowcountry Crawl
 caption: A Southern Gothic RPG Zine

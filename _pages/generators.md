@@ -65,19 +65,6 @@ The Game Master can take random results and combine them with their own ideas to
   </div>
   <div class="column column-1-2">
     <article class="project-card">
-      <a href="/weirdpetgenerator" class="no-hover no-print-link" tabindex="-1">
-        <div class="project-card-img img sixteen-nine">
-          <img src="/images/pet_generator.jpg" alt="Weird Pet Generator" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
-        </div>
-      </a>
-      <h3 class="project-card-title">
-        <a href="/weirdpetgenerator" class="flip-title">Weird Pet Generator</a>
-      </h3>
-      <legend class="project-card-text fine faded">Generates bizarre OSR pets for characters</legend>
-    </article>
-  </div>
-  <div class="column column-1-2">
-    <article class="project-card">
       <a href="/leftburiedgenerator" class="no-hover no-print-link" tabindex="-1">
         <div class="project-card-img img sixteen-nine">
           <img src="/images/blb.png" alt="Character Generator for the Best Left Buried RPG" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">

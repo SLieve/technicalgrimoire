@@ -1,6 +1,7 @@
 ---
+date: 2020-03-01
 layout: project
-title: Patreon
+title: Patreon Releases
 permalink: patreon
 caption: 200 Word Explosions
 screenshot:
@@ -10,26 +11,24 @@ image: /images/posts/explosionLogo.png
 comments: false
 ---
 
-I'm "exploding" [200 Word entries](https://200wordrpg.github.io/) and releasing them with additional content and fancy layout. Each explosion will be a page or two in length. You will be charged per release (about once a month). If I get sick or fall behind schedule it won't affect your wallet.
+I have suspended my Patreon for the time being. I might come back to it later, who knows?
 
-Patreons get early access for just **$2 a month**. They also get to vote on which entries will be exploded next.
+Every month I would add graphic design and layout to some of my favorite [200 Word entries](https://200wordrpg.github.io/). You can grab them below for free.
 
 <div class="row centerButtons">
   <div class="col-md-6 col-12">
-<a class="btn wyrd-btn" href="https://www.patreon.com/davidschirduan" target="_blank"><h3>Become a Patron</h3></a>
-  </div>
-  <div class="col-md-6 col-12">
     <a class="btn wyrd-btn" href="https://gum.co/FvZBy" target="_blank">
-      <h3>Download Past Explosions</h3>
+      <h3>Download</h3>
     </a>
   </div>
  </div>
 
 ### Past Explosions
 
-<p><a href="https://gum.co/FvZBy" target="_blank">Download these for free!</a></p>
-
 <div class="row centerButtons">
+  <div class="col-12">
+<img class="prize" src="/images/explosions/xamurai.png"/>
+</div>
   <div class="col-lg-6 col-12">
 <img class="prize" src="/images/explosions/WeWhoOnceRuled.png"/>
 </div>
@@ -54,7 +53,7 @@ Patreons get early access for just **$2 a month**. They also get to vote on whic
   <div class="col-lg-6 col-12">
 <img class="prize" src="/images/explosions/wizards.png"/>
 </div>
-  <div class="col-lg-6 col-12">
+  <div class="col-12">
 <img class="prize" src="/images/explosions/DeathBattle.png"/>
 </div>
   </div>

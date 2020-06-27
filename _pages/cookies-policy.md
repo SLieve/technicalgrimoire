@@ -49,6 +49,6 @@ permalink: cookies-policy
 <p>However if you are still looking for more information then you can contact us through one of our preferred contact methods:</p>
 
 <ul>
-<li>Email: davidschirduan@gmail.com</li>
+<li>Email: technicalgrimoire@gmail.com</li>
 
 </ul>

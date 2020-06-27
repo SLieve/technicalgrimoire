@@ -41,7 +41,7 @@ logo:                  /assets/icons/icon.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   name:                David Schirduan
-  email:               davidschirduan@gmail.com
+  email:               technicalgrimoire@gmail.com
   # Used by `jekyll-seo-tag`:
   twitter:             davidschirduan
   picture:  /assets/img/David.png
@@ -54,14 +54,10 @@ copyright:            David Schirduan © 2020. All rights reserved.
 menu:
   - title:             Games
     url:               /games
-  - title:             Patreon
-    url:               /patreon
   - title:             Downloads
     url:               /downloads
   - title:             Generators
     url:               /generators
-  - title:             Reviews
-    url:               /david/extremely-interesting-role-playing-games
   - title:             Blog
     url:               /blog
 
@@ -169,7 +165,7 @@ hydejack:
   no_push_state:       false
 
   # Set to `true` if you want to disable the drawer
-  no_drawer:           false
+  no_drawer:           true
 
   # Set to `true` to prevent usage of `hy-img` (lazy-loading images).
   no_img:              true
@@ -184,7 +180,7 @@ hydejack:
 
   # Code blocks and tables "break" the layout by spanning the full available width.
   # Set this to true if you want them to be the same width as other content.
-  no_break_layout:     false
+  no_break_layout:     true
 
   # Set to `true` if you do not want to expose your resume and projects
   # in machine-readable formats.

@@ -7,3 +7,7 @@ description: >
 image: /images/David.png
 icon: icon-book
 ---
+
+## [Game Reviews]({{site.url}}/david/extremely-interesting-role-playing-games)
+
+## [Adventure Reviews]({{site.url}}/david/extremely-interesting-role-playing-games)
