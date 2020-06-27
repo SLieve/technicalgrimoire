@@ -2,7 +2,10 @@
 date: 2020-05-01
 layout: project
 title: Marsh Goons
-caption: A Rules-Light Mud-Crawl Adventure
+caption: >
+  A Rules-Light Mud-Crawl Adventure
+  <br>
+  (Complete RPG Zine)
 screenshot:
   src: images/MG-COVER.png
 image: images/MG-COVER.png

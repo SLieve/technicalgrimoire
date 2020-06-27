@@ -1,13 +1,16 @@
 ---
 date: 2018-01-01
-caption: I contributed to these Numenera Supplements
+caption: >
+  A Variety of Supplements
+  <br> 
+  (For the Numenera RPG)
 screenshot:
   src: /images/posts/encounters.jpg
 layout: project
 title: Numenera Supplements
 hide_description: true
 image: /images/posts/encounters.jpg
-
+published: false
 ---
 Numenera supplements I contributed to!
 

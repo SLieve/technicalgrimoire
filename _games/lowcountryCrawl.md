@@ -2,7 +2,10 @@
 date: 2020-02-01
 layout: project
 title: Lowcountry Crawl
-caption: A Southern Gothic RPG Zine
+caption: >
+  A Southern Gothic RPG Zine
+  <br>
+  (For D&D and OSR games)
 screenshot:
   src: images/lowcountry-simple.png
 image: images/lowcountry-simple.png

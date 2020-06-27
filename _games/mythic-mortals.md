@@ -3,7 +3,10 @@ date: 2019-03-01
 layout: project
 title: Mythic Mortals
 permalink: mythic-mortals
-caption: An RPG Where YOU are the Hero
+caption: >
+  An RPG Where YOU are the Hero
+  <br>
+  (Complete RPG Book)
 screenshot:
   src: /images/posts/MM_Cover_Digital.jpg
 hide_description: true
@@ -11,7 +14,7 @@ image: /images/posts/MM_Cover_Digital.jpg
 redirect_from:
   - "/david/my-creations/mythic-mortals"
 ---
-Mythic Mortals is a Tabletop Role-Playing Game where you and your friends play as your real-world selves suddenly granted unstable powers. Kickstarted in 2015, Mythic Mortals is a visual and tactile joy.
+Mythic Mortals is a Tabletop Roleplaying Game where you and your friends play as your real-world selves suddenly granted unstable powers. Kickstarted in 2015, Mythic Mortals is a visual and tactile joy.
 
 <div class="row centerButtons">
   <div class="col-md-4 col-12">

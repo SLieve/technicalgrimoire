@@ -4,7 +4,10 @@ layout: project
 title: The Bone Marshes
 redirect_from:
   - "/bmchargen"
-caption: A Hex-Mapping Adventure About Getting Lost
+caption: >
+  A Hex-Mapping Adventure About Getting Lost
+  <br>
+  (For D&D and OSR games)
 screenshot:
   src: images/posts/bonemarshes_KS.jpg
 image: images/posts/bonemarshes_KS.jpg
@@ -15,7 +18,7 @@ featured: false
 
 The Bone Marshes is a tabletop adventure about getting lost in a burning marsh. It’s tailor-made for groups that enjoy exploring complex spaces and drawing maps. 
 
-Join [the Mailing List](https://gumroad.com/technicalgrimoire/follow) for updates about a Bone Marshes sequal: [Marsh Goons](/marsh-goons)!
+Also check out the Bone Marshes sequel: [Marsh Goons](/marsh-goons)!
 
 <div class="row centerButtons">
   <div class="col-md-6 col-6">

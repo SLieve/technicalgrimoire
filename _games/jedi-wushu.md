@@ -5,7 +5,10 @@ title: Jedi Wushu
 permalink: david/my-creations/jedi-wushu
 redirect_from:
   - "/david/2014/05/jedi-wushu.html"
-caption: Feel Like a Jedi
+caption: >
+  Feel like a Jedi
+  <br>
+  (Complete RPG Rules)
 screenshot:
   src: /images/posts/Jedi-Wushu-Cover.png
 hide_description: true

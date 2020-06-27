@@ -2,7 +2,10 @@
 date: 2019-04-01
 layout: project
 title: RIPE
-caption: Elder Adventures fighting against the Harvest
+caption: >
+  Elder Adventures fighting against the Harvest
+  <br>
+  (Complete Game Rules)
 screenshot:
   src: images/Ripe-teaser.png
 image: images/Ripe-teaser.png

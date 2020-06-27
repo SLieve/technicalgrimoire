@@ -8,7 +8,7 @@ cover:  false
 
 <!--author-->
 
-- **[Games:](/games)** Roleplaying games and adventures I've published. Includes the free stuff and the good stuff.
+- **[Games:](/games)** Roleplaying games and adventures. Includes the free stuff and the good stuff.
 - **[Downloads:](/downloads)** Small handouts, references, and useful tidbits. All free.
 - **[Generators:](/generators)** Digital tools to inspire and assist Game Masters.
 - **[Blog:](/blog)** Reviews, musings, and randoms stuff.

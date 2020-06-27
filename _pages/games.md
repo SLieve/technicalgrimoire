@@ -13,5 +13,5 @@ redirect_from:
   - "/david"
   - "/david/"
 description: >
-  Games and Projects by David Schirduan.
+  Games and Adventures by David Schirduan.
 ---

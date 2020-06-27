@@ -73,8 +73,8 @@ legal:
 permalink: /david/:year/:month/:title
 
 # Pagination configuration (used by the `blog` layout)
-#paginate:              5
-#paginate_path:         /blog/page-:num/
+paginate:              10
+paginate_path:         /blog/page-:num/
 
 
 # Customizaton
@@ -269,7 +269,7 @@ plugins:
   - jekyll-default-layout
   - jekyll-feed
   - jekyll-optional-front-matter
-#  - jekyll-paginate
+  - jekyll-paginate
   - jekyll-readme-index
   - jekyll-redirect-from
   - jekyll-relative-links

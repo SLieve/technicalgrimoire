@@ -9,6 +9,10 @@ hide_description: true
 image: /images/posts/broken_factory.png
 redirect_from:
   - "/indefinitetrain"
+caption: >
+  Fixing a Broken Factory
+  <br>
+  (An adventure for D&D and OSR games)
 ---
 
 A one-page adventure set in a broken factory train car. Originally written for the **Indefinite Train** project (see below).

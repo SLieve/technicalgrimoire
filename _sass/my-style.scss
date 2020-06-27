@@ -1,3 +1,57 @@
+/* Blog Review Cards*/
+.blogcolumn {
+	margin: 15px 15px 70px;
+	padding: 0;
+}
+.blogcolumn:last-child {
+	padding-bottom: 60px;
+}
+.blogcolumn::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.blogcolumn div {
+	position: relative;
+	float: left;
+	width: 350px;
+	height: auto;
+	margin: 0 0 0 25px;
+  padding: 0;
+  box-shadow: .125rem .125rem 1rem rgba(0,0,0,.2);
+  background-color: var(--gray-bg);
+}
+
+.blogcolumn div:first-child {
+	margin-left: 0;
+}
+
+.blogcolumn h3 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+figure {
+	width: 350px;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+
+/* Zoom In #1 */
+.bloghover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.bloghover01 figure:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
 /*Troika Card*/
 
 #troikacard {

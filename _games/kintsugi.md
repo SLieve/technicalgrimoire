@@ -3,16 +3,17 @@ date: 2019-12-01
 layout: project
 title: Kintsugi
 permalink: david/kintsugi
-caption: A little RPG about robots who learn things.
+caption: >
+  Robots who Learn Things
+  <br>
+  (Complete RPG Rules)
 screenshot:
   src: /images/posts/Kintsugi-Wide.png
 hide_description: true
 image: /images/posts/Kintsugi-Wide.png
 ---
 
-A simple RPG about robots who learn things!
-
-Kintsugi began as a 200 Word RPG but has since expanded into a shiny pamphlet! Play as a Robot, Mutant, or a Magical Golem; someone who can’t die and quickly learns new skills or abilities. Simple but elegant rules allow you to create your characters as you play, building them up one failure at a time. 
+Play as a Robot, Mutant, or a Magical Golem; someone who can’t die and quickly learns new skills or abilities. Simple but elegant rules allow you to create your characters as you play, building them up one failure at a time. 
 
 <div class="row centerButtons">
   <div class="col-md-6 col-12">

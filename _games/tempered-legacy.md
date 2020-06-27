@@ -2,7 +2,10 @@
 date: 2020-06-01
 layout: project
 title: Tempered Legacy
-caption: Magic Items locked behind Regrets
+caption: >
+  Magic Items locked behind Regrets
+  <br>
+  (For D&D and OSR Games)
 image: images/temperedlegacy.png
 screenshot:
   src: images/temperedlegacy.png
@@ -14,7 +17,18 @@ redirect_from:
   - "/temperedgenerators"
 ---
 
-Tempered Legacy is a magic item supplement for fantasy RPGs. The powers of these items are locked behind the regrets of previous owners.
+Tempered Legacy is a magic item supplement for fantasy RPGs. The powers of these items are locked behind the regrets of previous owners. You can buy the Zine to get started, or just use the Generator below to create unique weapons.
+
+### The Zine
+ 
+The 64 page Zine contains:
+
+- Advice on using Regrets to make GMing even easier!
+- 20 different templates for making your own Regrets.
+- Almost 20 pre-made weapons written by Fiona Geist, John Gregory, Mahar Mangahas, and several more incredible designers.
+- Rules for Tempered Armor by Dave Cox
+- Tempered Trinkets, Coins, and Pans
+- and more!
 
 <div class="row centerButtons">
   <div class="col-md-6 col-12">
@@ -23,6 +37,13 @@ Tempered Legacy is a magic item supplement for fantasy RPGs. The powers of these
   <div class="col-md-6 col-12">
   	<a class="btn tempered-btn notransition"><h3>Order the Zine (Print): SOON!</h3></a>
   </div>
+</div>
+
+### The Generator
+
+Click the buttons below to create thousands of unique weapons that use the Tempered Legacy framework. Grab the Zine for advice and hand-crafted weapons.
+
+<div class="row centerButtons">
   <div class="col-md-6 col-12">
     <button class="btn tempered-btn notransition" onclick="generate()">
       <h3 id="wpnBtn">Generate a Weapon</h3>
@@ -48,17 +69,6 @@ Tempered Legacy is a magic item supplement for fantasy RPGs. The powers of these
   </div>
   <div id="interacting"></div>
 </div>
-
-## Want more? Get the Zine!
-
-The Zine includes a tone of example Tempered Weapons with strong themes and histories as well as tools for using these weapons in your adventures.
-
-- Advice on using Regrets to make GMing even easier!
-- 20 different templates for making your own Regrets.
-- 15 pre-made weapons written by Fiona Geist, John Gregory, Mahar Mangahas, and several more incredible designers.
-- Rules for Tempered Armor by Dave Cox
-- Tempered Trinkets, Coins, and Pans
-- and more!
 
 ![temperedBow.png]({{site.url}}/images/posts/temperedBow.png)
 

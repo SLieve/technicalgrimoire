@@ -3,7 +3,10 @@ date: 2020-03-01
 layout: project
 title: Patreon Releases
 permalink: patreon
-caption: 200 Word Explosions
+caption: >
+  200 Word Explosions
+  <br>
+  (Collection of tiny RPGs)
 screenshot:
   src: /images/posts/explosionLogo.png
 hide_description: true
@@ -11,9 +14,9 @@ image: /images/posts/explosionLogo.png
 comments: false
 ---
 
-I have suspended my Patreon for the time being. I might come back to it later, who knows?
+Every month I add graphic design and layout to some of my favorite [200 Word entries](https://200wordrpg.github.io/). You can grab them below for free.
 
-Every month I would add graphic design and layout to some of my favorite [200 Word entries](https://200wordrpg.github.io/). You can grab them below for free.
+_I have suspended my Patreon for the time being. I might come back to it later, who knows?_
 
 <div class="row centerButtons">
   <div class="col-md-6 col-12">

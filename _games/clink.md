@@ -1,6 +1,9 @@
 ---
 date: 2020-01-01
-caption: Mysterious Drifters in a Dangerous World
+caption: >
+  Mysterious Drifters in a Dangerous World
+  <br>
+  (Complete RPG Book)
 screenshot:
   src: /images/posts/96596be4d776c79c68af7ff462b9599f_original.jpg
 layout: project
