@@ -3,6 +3,7 @@
 	margin: 15px 15px 70px;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
 }
 .blogcolumn:last-child {
 	padding-bottom: 60px;
@@ -15,12 +16,13 @@
 .blogcolumn div {
 	position: relative;
 	float: left;
-	width: 350px;
+	width: 45%;
 	height: auto;
-	margin: 0 0 0 25px;
+	margin: 20px;
   padding: 0;
   box-shadow: .125rem .125rem 1rem rgba(0,0,0,.2);
   background-color: var(--gray-bg);
+  min-width: 250px;
 }
 
 .blogcolumn div:first-child {
@@ -33,7 +35,8 @@
 }
 
 figure {
-	width: 350px;
+  min-width: 250px;
+	width: 45%;
 	height: auto;
 	margin: 0;
 	padding: 0;
