@@ -34,7 +34,7 @@ The 64 page Zine contains:
   - [Mahar Mangahas](https://twitter.com/Maharhar) created a tourmaline sword that grants unicorn blessings.
 - Rules for Tempered Armor by [Dave Cox](https://www.davecox.design/).
 - Tempered Trinkets, Coins, and Pans.
-- 20 different templates for making your own Regrets.
+- Different templates for making your own Regrets.
 - and more!
 
 <div class="row centerButtons">
