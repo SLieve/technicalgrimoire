@@ -24,10 +24,17 @@ Tempered Legacy is a magic item supplement for fantasy RPGs. The powers of these
 The 64 page Zine contains:
 
 - Advice on using Regrets to make GMing even easier!
+- Almost 20 pre-made weapons. Here is just a taste of what's inside:
+  - [Fiona Geist](https://twitter.com/coilingoracle) created a crystal dao that wipes memories.
+  - Madeline Mckee created an oaken cudgel that can heal as effectively as it kills.
+  - Sam Morehouse wrote up an intimidating spiked club.
+  - [John Gregory](http://unlawfulgames.blogspot.com/) wrote about a lantern shield that protects from fire.
+  - [Ash McAllan](https://acegiak.net) unearthed a gravedigger's spade that severs the soul.
+  - [Shoe Skogen](https://about.me/shoepixie) unveiled a tiny clockwork rat that can deliver messages.
+  - [Mahar Mangahas](https://twitter.com/Maharhar) created a tourmaline sword that grants unicorn blessings.
+- Rules for Tempered Armor by [Dave Cox](https://www.davecox.design/).
+- Tempered Trinkets, Coins, and Pans.
 - 20 different templates for making your own Regrets.
-- Almost 20 pre-made weapons written by Fiona Geist, John Gregory, Mahar Mangahas, and several more incredible designers.
-- Rules for Tempered Armor by Dave Cox
-- Tempered Trinkets, Coins, and Pans
 - and more!
 
 <div class="row centerButtons">
