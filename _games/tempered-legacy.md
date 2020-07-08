@@ -46,6 +46,9 @@ The 64 page Zine contains:
   </div>
 </div>
 
+
+|![Tempered-Print1.jpg](/images/Tempered-Print1.jpg)|![Tempered-Print2.jpg](/images/Tempered-Print2.jpg)|![Tempered-Print3.jpg](/images/Tempered-Print3.jpg)|
+
 ### The Generator
 
 Click the buttons below to create thousands of unique weapons that use the Tempered Legacy framework. Grab the Zine for advice and hand-crafted weapons.
@@ -77,7 +80,6 @@ Click the buttons below to create thousands of unique weapons that use the Tempe
   <div id="interacting"></div>
 </div>
 
-![temperedBow.png]({{site.url}}/images/posts/temperedBow.png)
 
 **Thanks to:**
 
@@ -94,7 +96,6 @@ mutations](https://coinsandscrolls.blogspot.com/2019/11/osr-1d1000-mutations.htm
 
 - Weapon images are all from the [British Library](https://www.flickr.com/photos/britishlibrary).
 - Title image: [Eene halve Eeuw, 1848-1898](https://www.flickr.com/photos/britishlibrary/11292680064)
-- Archer: [The Blue Poetry Book](https://www.flickr.com/photos/britishlibrary/11298236855)
 - Icons: [Game-Icons.net](https://game-icons.net/)
 
 Everything on this page is protected under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
