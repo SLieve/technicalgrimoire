@@ -2,7 +2,7 @@
 title: Bone Marshes Workshop I
 layout: post
 date: 2018-12-05
-image: images/posts/BoneMarshesTitle.png
+image: images/posts/bonemarshes_KS.jpg
 comments: true
 published: true
 categories: Tabletop
@@ -37,7 +37,7 @@ Context could also be a lot stronger, namely through NPCs. Bone Marshes doesn't 
 
 So I added a simple triangle. Three big NPCs that all want something from the other, but are unwilling to give. Hopefully this will not only promote a little more backtracking and exploration, but give some context for how the burning marshes are impacting those who live there.
 
-![BoneMarshesTitle.png](/images/posts/BoneMarshesTitle.png)
+![bonemarshes_KS.jpg](/images/posts/bonemarshes_KS.jpg)
 
 ## Hooks 
 

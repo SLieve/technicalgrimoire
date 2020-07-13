@@ -2,7 +2,7 @@
 title: Bone Marshes Twist
 layout: post
 date: 2018-11-03
-image: images/posts/BoneMarshesSchedule.jpg
+image: images/posts/bonemarshes_KS.jpg
 comments: true
 published: true
 categories: Tabletop
@@ -38,8 +38,6 @@ Simple enough, just be careful with the map and take good notes. Except...
 The inner ring of the marsh slowly rotates around the Central Spire once per day. Well...not that slowly. The PCs will notice the rotation immediately, since the interior edge rotates at 6ft per second (a fast walk). 
 
 A deep groove has been carved into the earth along the edge of the rotating section. Like a giant split the earth with a sword as far as you can see in both directions.
-
-![BoneMarshesSchedule.jpg]({{site.url}}/images/posts/BoneMarshesSchedule.jpg)
 
 This is the main challenge of Part I. How can they map a safe and reliable route through a flaming, spinning marsh? Any solution is acceptable as long as Azimech receives detailed instructions that she can pass along to caravans travelling through the area. 
 

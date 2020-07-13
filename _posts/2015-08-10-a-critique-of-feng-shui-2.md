@@ -4,6 +4,7 @@ title: A Critique of Feng Shui 2
 date: 2015-08-10
 categories: Tabletop
 tags: review mechanics
+comments: true
 ---
 A lot of tabletop RPGs have a heavy focus on combat, but most of them treat combat as an intricate, tactical puzzle. The GM creates a combat scenario, and the players must use abilities, items, spacing, weapons, mana, HP, and more to overcome it. 
 

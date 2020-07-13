@@ -46,6 +46,8 @@ The 64 page Zine contains:
   </div>
 </div>
 
+|![Tempered-Print1.jpg](/images/Tempered-Print1.jpg)|![Tempered-Print2.jpg](/images/Tempered-Print2.jpg)|![Tempered-Print3.jpg](/images/Tempered-Print3.jpg)|
+
 ### The Generator
 
 Click the buttons below to create thousands of unique weapons that use the Tempered Legacy framework. Grab the Zine for advice and hand-crafted weapons.
@@ -103,4 +105,4 @@ Everything on this page is protected under [CC-BY 4.0](https://creativecommons.o
 <script async src="/assets/js/html2canvas.min.js" language="javascript" type="text/javascript"></script>
 <script async src="/assets/js/mods-eng-basic.js" language="javascript" type="text/javascript"></script>
 <script async src="/assets/js/tracery.js" language="javascript" type="text/javascript"></script>
-<script async src="/_pages/resources/temperedgenerators.js" language="javascript" type="text/javascript"></script>
+<script async src="/assets/generator_resources/temperedgenerators.js" language="javascript" type="text/javascript"></script>

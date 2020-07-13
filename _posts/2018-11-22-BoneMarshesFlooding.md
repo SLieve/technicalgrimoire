@@ -2,7 +2,7 @@
 title: Bone Marshes Flooding
 layout: post
 date: 2018-11-22
-image: images/posts/ezgif-Flooding.gif
+image: images/posts/bonemarshes_KS.jpg
 comments: true
 published: true
 categories: Tabletop
@@ -32,9 +32,6 @@ Here's the schedule:
 - 10 O'clock: Bottom chamber is flooded.
 - 12 O'clock: Bottom 3 are flooded.
 
-Here's a visual representation of the flooding schedule:
-
-![ezgif-Flooding.gif]({{site.url}}/images/posts/ezgif-Flooding.gif)
 
 ## Interconnections
 

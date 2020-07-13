@@ -14,14 +14,12 @@ davidschirduan:
   picture:
     path:            /images/David.png
 
-
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
     twitter:         davidschirduan
     github:          davidschirduan
-    rss:             https://technicalgrimoire.com/feed.xml
     # email:           <mail@domain.tld>
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
@@ -56,23 +54,6 @@ davidschirduan:
     # blogger:         <number>
     # delicious:       <username>
     # stumbleupon:     <username>
-    # paypal:          <username>
+    paypal:          technicalgrimoire
     # download:        <url>
-
-# Another author (optional)
-#author2:
-#  name:              <firtname> <lastname>
-#  email:             <mail@domain.tld>
-#  about:             |
-#    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-#    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-#    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-#    Open `_data/authors.yml` to edit this text.
-#  picture:           https://placehold.it/128x128
-#  twitter:           <username>
-#  github:            <username>
-#  accent_color:      '#268bd2'
-#  accent_image:
-#    background:      '#202020'
-#    overlay:         false
+    # keybase          <username>
