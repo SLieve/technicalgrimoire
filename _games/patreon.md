@@ -14,7 +14,7 @@ image: /images/posts/explosionLogo.png
 comments: false
 ---
 
-Every month I add graphic design and layout to some of my favorite [200 Word entries](https://200wordrpg.github.io/). You can grab them below for free.
+Every month I added graphic design and layout to some of my favorite [200 Word entries](https://200wordrpg.github.io/). You can grab them below for free.
 
 _I have suspended my Patreon for the time being. I might come back to it later, who knows?_
 

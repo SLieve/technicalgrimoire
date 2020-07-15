@@ -29,7 +29,5 @@ Every year the 200 Word RPG Challenge encourages people **just like you** to mak
 
 We are always looking for people and organizations to partner with. If you have any ideas for the challenge, would like to contribute in some way, or just want to drop us a line, you can reach me at davidschirduan-at-gmail.com.
 
-You can support this challenge through [Patreon](https://www.patreon.com/davidschirduan).
-
-[![explosionLogoCropped.png](/images/posts/explosionLogoCropped.png)](https://www.patreon.com/davidschirduan)
+[Visit the main website.](https://200wordrpg.github.io/)
 
