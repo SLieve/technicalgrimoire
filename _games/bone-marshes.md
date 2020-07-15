@@ -86,6 +86,8 @@ Also check out the Bone Marshes sequel: [Marsh Goons](/marsh-goons)!
 
 > "Its content will provide a gaming group with many sessions of entertainment and tales to regal. Bone Marshes is a good investment and a worthwhile quest to take on." - [Rolling Boxcars](https://rollingboxcars.com/2019/09/18/mapping-out-david-schirduans-bone-marshes/)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7D2SLD5gtTw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## The Marshes are burning, and we don't know why...
 
 The Bone Marshes is an adventure filled with mapping and exploration challenges for the players. It uses special time-keeping and travel rules with player handouts to keep everyone engaged and on the same page in this topsy-turvey land.

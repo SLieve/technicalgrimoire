@@ -84,12 +84,12 @@ Click the buttons below to create thousands of unique weapons that use the Tempe
 
 **Thanks to:**
 
-- [David Cox](https://www.davecox.design/), the co-writer of Tempered Legacy.
 - Lauren Schirduan, the love of David's life and his partner in crime.
 - [Skerples](https://coinsandscrolls.blogspot.com/) for his [d1000
 mutations](https://coinsandscrolls.blogspot.com/2019/11/osr-1d1000-mutations.html).
 - [Ben Milton](http://questingblog.com/) for his [level-less Knave spells](https://questingbeast.itch.io/knave).
 - [The Nonsense Word Generator](http://soybomb.com/tricks/words/) for some of the weirder words.
+- [David Cox](https://www.davecox.design/), the co-writer of Tempered Legacy.
 - [Freehold games](http://www.cavesofqud.com/) for making the rogue-like David keeps coming back to again and again.
 - And to the [OSR community](https://discord.gg/kJjMvC) for being such an encouraging, welcoming place.
 
