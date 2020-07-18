@@ -7,8 +7,8 @@ caption: >
   <br>
   (Complete RPG Zine)
 screenshot:
-  src: images/MG-COVER.png
-image: images/MG-COVER.png
+  src: images/MarshGoonsBanner.png
+image: images/MarshGoonsBanner.png
 hide_description: true
 permalink: marsh-goons
 featured: false
@@ -16,11 +16,20 @@ featured: false
 
 A Tabletop RPG mud-crawl adventure. 
 
-Marsh Goons is a complete package: adventure, rules, items, dungeons, monsters, all packed into a beautiful little zine. Written by [Joe Banner](https://joebanner.co.uk/) using the elegant “Tunnel Goons” rules. Beautiful artwork by Jess Comstock sets the tone somewhere between murky reality and fantastic adventure.
+### The Zine
+
+<div class="row centerButtons">
+  <div class="col-md-6 col-12">
+  	<a class="btn bonemarshes-btn notransition" href="https://gum.co/zeiWo" target="_blank"><h3>Download the Zine (PDF): $5</h3></a>
+  </div>
+  <div class="col-md-6 col-12">
+  	<a class="btn bonemarshes-btn notransition"><h3>Order the Zine (Print): SOON!</h3></a>
+  </div>
+</div>
+
+Marsh Goons is the complete package: adventure, rules, items, dungeons, monsters, all packed into 36 pages. Written by [Joe Banner](https://joebanner.co.uk/) using the elegant “Tunnel Goons” rules. Beautiful artwork by [Jess Comstock](https://www.jessidraws.art/) and [Laura Ketcham](https://twitter.com/ketchaml) sets the tone somewhere between murky reality and fantastic adventure.
 
 In Marsh Goons your inventory is your life, and the mud keeps weighing you down! The rule system perfectly reflects the chaotic and difficult terrain of the marshes; both its dangers and its riches. The game also includes a new system of magic revolving around mud; spells powered by mud, magic items that change when covered in mud, mud mud MUD! 
-
-**Join [the Mailing List](https://gumroad.com/technicalgrimoire/follow) to get updates about the upcoming zine!**
 
 <div class="row centerButtons">
   <div class="col-md-6 col-9">
@@ -53,19 +62,6 @@ In Marsh Goons your inventory is your life, and the mud keeps weighing you down!
   <p>Choose <strong>three</strong> of the items below to start. Unless otherwise noted, each item takes up one slot.</p>
   <p id="charItems"></p>
 </div>
-
-### Marsh Goons will include:
-
- - Complete ruleset based on Tunnel Goons (but with more mud!)
- - A hex-crawl map with travel rules
- - Several detailed and engaging locations
- - Mapped lair of the vain druid Knochen by [John Gregory](http://unlawfulgames.blogspot.com/)
- - 20 detailed NPCs and bizarre creatures
- - 50 marshy magic items, spells, and more
- - Hooks and quests to engage your players
- - Include rules for blending content between [Bone Marshes](/bone-marshes) and Marsh Goons!
-
-![MG_cover.png.png](/images/posts/MG_cover.png)
 
 <script async src="/assets/js/html2canvas.min.js"></script>
 <script async src="/assets/generator_resources/mg_generator.js" charset="utf-8"></script>
