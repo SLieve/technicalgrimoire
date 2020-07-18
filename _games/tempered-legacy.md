@@ -42,7 +42,7 @@ The 64 page Zine contains:
   	<a class="btn tempered-btn notransition" href="https://gum.co/HnQeI" target="_blank"><h3>Download the Zine (PDF): $5</h3></a>
   </div>
   <div class="col-md-6 col-12">
-  	<a class="btn tempered-btn notransition"><h3>Order the Zine (Print): SOON!</h3></a>
+  	<a class="btn tempered-btn notransition" href="https://gum.co/GVZjRc" target="_blank"><h3>Order the Zine (Print): $10</h3></a>
   </div>
 </div>
 
