@@ -15,10 +15,10 @@ import requests
 password = input("Type your email password and press enter:")
 
 # Access token to generate the individual discount codes
-ACCESS_TOKEN = "123"
+ACCESS_TOKEN="1234"
 
 def create_offer_code(email_addr):
-    PRODUCT_ID="u1C7m3GTB_avjtZLK5sO9A=="
+    PRODUCT_ID="Get_this_from_curl"
 
     headers = {'content-type': 'application/json', 'Accept-Charset': 'UTF-8'}
     payload = {
@@ -34,8 +34,12 @@ def create_offer_code(email_addr):
     print(r.text)
 
     offer_json = json.loads(r.text)
-    return offer_json['offer_code']['name']
 
+    if (offer_json['success']):
+        return offer_json['offer_code']['name']
+    else:
+        print("Code Creation Failed")
+        exit()
 
 def email_code(name,email_addr,offer_code):
 
@@ -43,7 +47,7 @@ def email_code(name,email_addr,offer_code):
     receiver_email = email_addr
 
     message = MIMEMultipart("alternative")
-    message["Subject"] = "Tempered Legacy Pre-Order Code"
+    message["Subject"] = "Marsh Goons Gumroad Code"
     message["From"] = sender_email
     message["To"] = receiver_email
 
@@ -51,13 +55,9 @@ def email_code(name,email_addr,offer_code):
     text = """\
     Hello PERSONNAME!
 
-    Thanks so much for supporting the Kickstarter for Tempered Legacy. Click the link below to order your copy and pay the shipping costs:
+    Thanks so much for supporting the Kickstarter for Marsh Goons. Click the link below to download the PDF:
 
-    https://gum.co/GVZjRc/OFFERCODE
-
-    The offer code is for $100 off the listed price. This is to give backers the chance to order their copies early. After all backers have placed their orders I will lower the price to the normal $10.
-
-    NOTE: If you backed at "Both Zines" level, then you can wait until Marsh Goons is ready and order both to save on shipping. Or if you're impatient you can order Tempered Legacy now, and then Marsh Goons when it is available (paying shipping for both separately).
+    https://gum.co/zeiWo/OFFERCODE
 
     Let me know if you have any questions or issues!
 
@@ -69,13 +69,9 @@ def email_code(name,email_addr,offer_code):
     <body>
     <h2>Hello PERSONNAME!</h2>
 
-    <p>Thanks so much for supporting the Kickstarter for Tempered Legacy. <strong>Click the link below</strong> to order your copy and pay the shipping costs:</p>
+    <p>Thanks so much for supporting the Kickstarter for Marsh Goons. Click the link below to download the PDF:</p>
 
-    <p><a href="https://gum.co/GVZjRc/OFFERCODE">https://gum.co/GVZjRc/OFFERCODE</a></p>
-
-    <p>The offer code is for $100 off the listed price. This is to give backers the chance to order their copies early. After all backers have placed their orders I will lower the price to the normal $10.</p>
-
-    <p><strong>NOTE:</strong> If you backed at "Both Zines" level, then you can wait until Marsh Goons is ready and order both to save on shipping. Or if you're impatient you can order Tempered Legacy now, and then Marsh Goons when it is available (paying shipping for both separately).
+    <p><a href="https://gum.co/zeiWo/OFFERCODE">https://gum.co/zeiWo/OFFERCODE</a></p>
 
     <p>Let me know if you have any questions or issues!</p>
 
@@ -131,7 +127,7 @@ with open('backers.csv', encoding="utf8") as f:
 
         ### We're just going to do the Tempered Legacy PDF for now.
         ### Grab the latest email
-        if WhichZine2 == "Print + PDF of Tempered Legacy" or Reward == "Both Zines (Print + PDF)":
+        if WhichZine == "PDF of Marsh Goons" or WhichZine2 == "Print + PDF of Marsh Goons" or Reward == "Both Zines (Print + PDF)" or Reward == "Both Zines (PDF)":
             email = KSEmail
             if (WhichEmail != ""):
                 email = WhichEmail
@@ -144,8 +140,8 @@ with open('backers.csv', encoding="utf8") as f:
             print(email)
 
             offer = create_offer_code(email)
-            input("Make sure the offer code was created! Hit Enter to continue")
+            #input("Make sure the offer code was created! Hit Enter to continue")
 
             email_code(Name,email,offer)
-            print("EMAIL SENT:  " + email + "  Hit Enter to continue")
+            print("EMAIL SENT:  " + email)
 
