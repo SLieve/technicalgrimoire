@@ -15,10 +15,11 @@ import requests
 password = input("Type your email password and press enter:")
 
 # Access token to generate the individual discount codes
-ACCESS_TOKEN="1234"
+ACCESS_TOKEN="123"
 
 def create_offer_code(email_addr):
-    PRODUCT_ID="Get_this_from_curl"
+    # Get this from curl
+    PRODUCT_ID="123=="
 
     headers = {'content-type': 'application/json', 'Accept-Charset': 'UTF-8'}
     payload = {
@@ -47,7 +48,7 @@ def email_code(name,email_addr,offer_code):
     receiver_email = email_addr
 
     message = MIMEMultipart("alternative")
-    message["Subject"] = "Marsh Goons Gumroad Code"
+    message["Subject"] = "Marsh Goons Print Pre-Order Codes"
     message["From"] = sender_email
     message["To"] = receiver_email
 
@@ -55,9 +56,11 @@ def email_code(name,email_addr,offer_code):
     text = """\
     Hello PERSONNAME!
 
-    Thanks so much for supporting the Kickstarter for Marsh Goons. Click the link below to download the PDF:
+    Thanks so much for supporting the Kickstarter for Marsh Goons. Click the link below to order your copy and pay the shipping costs:
 
-    https://gum.co/zeiWo/OFFERCODE
+    https://gum.co/RgeGH/OFFERCODE
+
+    NOTE: If you order a copy of Tempered Legacy and/or Lowcountry Crawl in the same cart you'll save on shipping. 
 
     Let me know if you have any questions or issues!
 
@@ -69,9 +72,11 @@ def email_code(name,email_addr,offer_code):
     <body>
     <h2>Hello PERSONNAME!</h2>
 
-    <p>Thanks so much for supporting the Kickstarter for Marsh Goons. Click the link below to download the PDF:</p>
+    <p>Thanks so much for supporting the Kickstarter for Marsh Goons. Click the link below to order your copy and pay the shipping costs:</p>
 
-    <p><a href="https://gum.co/zeiWo/OFFERCODE">https://gum.co/zeiWo/OFFERCODE</a></p>
+    <p><a href="https://gum.co/RgeGH/OFFERCODE">https://gum.co/RgeGH/OFFERCODE</a></p>
+
+    <p><strong>NOTE:</strong> If you order a copy of <a href="https://gum.co/GVZjRc">Tempered Legacy</a> and or <a href="https://gum.co/sxRdk">Lowcountry Crawl</a> in the same cart you'll save on shipping.</p>
 
     <p>Let me know if you have any questions or issues!</p>
 
@@ -127,7 +132,7 @@ with open('backers.csv', encoding="utf8") as f:
 
         ### We're just going to do the Tempered Legacy PDF for now.
         ### Grab the latest email
-        if WhichZine == "PDF of Marsh Goons" or WhichZine2 == "Print + PDF of Marsh Goons" or Reward == "Both Zines (Print + PDF)" or Reward == "Both Zines (PDF)":
+        if WhichZine2 == "Print + PDF of Marsh Goons" or Reward == "Both Zines (Print + PDF)":
             email = KSEmail
             if (WhichEmail != ""):
                 email = WhichEmail
