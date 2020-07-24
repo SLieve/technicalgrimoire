@@ -7,19 +7,35 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import requests
 
-# A script to generate gumroad discounts from a CSV file
+# This script generates gumroad discounts and emails them to backers from a CSV file.
+# It can be run on any computer that has Python3 installed. 
+
+##### Follow the steps to customize this script ######
+
+##### STEP 1 #######
+
+# First use pip to install the requests module. This is used for curl commands, mostly.
 # pip3 install --upgrade requests
 
-# Enable less secure connections in your email: https://myaccount.google.com/lesssecureapps
-# for email password
+##### STEP 2 #######
+
+# Enable less secure connections for your email account: https://myaccount.google.com/lesssecureapps
+# Don't forget to turn this off when you're done!
+
+# When you run the script it will prompt you for your email password.
 password = input("Type your email password and press enter:")
 
-# Access token to generate the individual discount codes
-ACCESS_TOKEN="123"
+##### STEP 3 #######
+
+# Replace this access token with the one from your Gumroad App
+ACCESS_TOKEN="7bd28938408dfa99ca243ab3e511658f2002061cc8b6f53d009127dd9a05b15d"
 
 def create_offer_code(email_addr):
-    # Get this from curl
-    PRODUCT_ID="123=="
+
+    ##### STEP 4 ######
+    # Use some curl commands to get the product ID. https://gumroad.com/api#products
+    # Replace the value below with your gumroad product.
+    PRODUCT_ID="abcd-123xyzfgh456=="
 
     headers = {'content-type': 'application/json', 'Accept-Charset': 'UTF-8'}
     payload = {
@@ -44,25 +60,27 @@ def create_offer_code(email_addr):
 
 def email_code(name,email_addr,offer_code):
 
-    sender_email = "technicalgrimoire@gmail.com"
+    ##### STEP 5 #######
+    # Replace the info below with what your email account is
+    # and what your message should be.
+
+    sender_email = "youremail@mail.com"
     receiver_email = email_addr
 
     message = MIMEMultipart("alternative")
-    message["Subject"] = "Marsh Goons Print Pre-Order Codes"
+    message["Subject"] = "Technical Grimoire Discounts"
     message["From"] = sender_email
     message["To"] = receiver_email
 
-    # Create the plain-text and HTML version of your message
+    # Create the plain-text and HTML versions of your message
     text = """\
     Hello PERSONNAME!
 
-    Thanks so much for supporting the Kickstarter for Marsh Goons. Click the link below to order your copy and pay the shipping costs:
+    Here is the bundle that includes BOTH print copies of your game!
 
-    https://gum.co/RgeGH/OFFERCODE
+    https://gum.co/OXHQR/OFFERCODE
 
-    NOTE: If you order a copy of Tempered Legacy and/or Lowcountry Crawl in the same cart you'll save on shipping. 
-
-    Let me know if you have any questions or issues!
+    Let me know if you have any questions or issues! I'm so sorry for all the confusion. Hopefully this should settle everything.
 
     - David
     """
@@ -72,13 +90,11 @@ def email_code(name,email_addr,offer_code):
     <body>
     <h2>Hello PERSONNAME!</h2>
 
-    <p>Thanks so much for supporting the Kickstarter for Marsh Goons. Click the link below to order your copy and pay the shipping costs:</p>
+    <p>Here is the bundle that includes BOTH print copies of your game</p>
 
-    <p><a href="https://gum.co/RgeGH/OFFERCODE">https://gum.co/RgeGH/OFFERCODE</a></p>
+    <p><a href="https://gum.co/OXHQR/OFFERCODE">https://gum.co/OXHQR/OFFERCODE</a></p>
 
-    <p><strong>NOTE:</strong> If you order a copy of <a href="https://gum.co/GVZjRc">Tempered Legacy</a> and or <a href="https://gum.co/sxRdk">Lowcountry Crawl</a> in the same cart you'll save on shipping.</p>
-
-    <p>Let me know if you have any questions or issues!</p>
+    <p>Let me know if you have any questions or issues! I'm so sorry for all the confusion. Hopefully this should settle everything.</p>
 
     <p>   - David</p>
 
@@ -86,6 +102,7 @@ def email_code(name,email_addr,offer_code):
     </html>
     """
 
+    # This section replaces the offer code with the one you just generated, and the person name with something from your CSV file.
     text = text.replace("PERSONNAME", name)
     text = text.replace("OFFERCODE", offer_code)
 
@@ -109,6 +126,11 @@ def email_code(name,email_addr,offer_code):
             sender_email, receiver_email, message.as_string()
         )
 
+##### STEP 6 #######
+# Setup your CSV file.
+# Tell it where to find your CSV file
+# And tell it what info/details it needs, and which columns match those details.
+
 with open('backers.csv', encoding="utf8") as f:
     reader = csv.reader(f)
     for row in reader:
@@ -116,6 +138,7 @@ with open('backers.csv', encoding="utf8") as f:
         email = ""
 
         ### Going line by line through the CSV
+        ### Some of this information is duplicated because KS is weird.
         Name = row[2] #KS Backer name - C
         KSEmail = row[3].rstrip() #KS Email - D
         Reward = row[4] #General Reward - E
@@ -131,22 +154,14 @@ with open('backers.csv', encoding="utf8") as f:
         DTRPGEmail3 = row[26] # AA
 
         ### We're just going to do the Tempered Legacy PDF for now.
-        ### Grab the latest email
-        if WhichZine2 == "Print + PDF of Marsh Goons" or Reward == "Both Zines (Print + PDF)":
+        ### Grab the latest email, and just do this for one particular reward branch
+        if Reward == "Both Zines (Print + PDF)":
             email = KSEmail
-            if (WhichEmail != ""):
-                email = WhichEmail
-            if (WhichEmail2 != ""):
-                email = WhichEmail2
-            if (WhichEmail3 != ""):
-                email = WhichEmail3
-            if (WhichEmail4 != ""):
-                email = WhichEmail4
-            print(email)
 
+            # Create the offer code using the email as a sample name.
             offer = create_offer_code(email)
-            #input("Make sure the offer code was created! Hit Enter to continue")
 
+            # Email the backer their discount code and email
             email_code(Name,email,offer)
             print("EMAIL SENT:  " + email)
 
