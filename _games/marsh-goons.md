@@ -7,29 +7,27 @@ caption: >
   <br>
   (Complete RPG Zine)
 screenshot:
-  src: images/MarshGoonsBanner.png
-image: images/MarshGoonsBanner.png
+  src: images/MG_cover.jpg
+image: images/MG_cover.jpg
 hide_description: true
 permalink: marsh-goons
 featured: false
 ---
 
-A Tabletop RPG mud-crawl adventure. 
+Marsh Goons is the complete package: adventure, rules, items, dungeons, monsters, all packed into 36 pages. Written by [Joe Banner](https://joebanner.co.uk/) using the elegant “Tunnel Goons” rules. Beautiful artwork by [Jess Comstock](https://www.jessidraws.art/) and [Laura Ketcham](https://twitter.com/ketchaml) sets the tone somewhere between murky reality and fantastic adventure.
 
-### The Zine
+In Marsh Goons your inventory is your life, and the mud keeps weighing you down! The rule system perfectly reflects the chaotic and difficult terrain of the marshes; both its dangers and its riches. The game also includes a new system of magic revolving around mud; spells powered by mud, magic items that change when covered in mud, mud mud MUD!
 
 <div class="row centerButtons">
   <div class="col-md-6 col-12">
   	<a class="btn bonemarshes-btn notransition" href="https://gum.co/zeiWo" target="_blank"><h3>Download the Zine (PDF): $5</h3></a>
   </div>
   <div class="col-md-6 col-12">
-  	<a class="btn bonemarshes-btn notransition"><h3>Order the Zine (Print): SOON!</h3></a>
+  	<a class="btn bonemarshes-btn notransition" href="https://gum.co/RgeGH" target="_blank"><h3>Download the Zine (Print+PDF): $10</h3></a>
   </div>
 </div>
 
-Marsh Goons is the complete package: adventure, rules, items, dungeons, monsters, all packed into 36 pages. Written by [Joe Banner](https://joebanner.co.uk/) using the elegant “Tunnel Goons” rules. Beautiful artwork by [Jess Comstock](https://www.jessidraws.art/) and [Laura Ketcham](https://twitter.com/ketchaml) sets the tone somewhere between murky reality and fantastic adventure.
-
-In Marsh Goons your inventory is your life, and the mud keeps weighing you down! The rule system perfectly reflects the chaotic and difficult terrain of the marshes; both its dangers and its riches. The game also includes a new system of magic revolving around mud; spells powered by mud, magic items that change when covered in mud, mud mud MUD! 
+|![MG_cover.jpg](/images/MG_cover.jpg)|![MG_index.jpg](/images/MG_index.jpg)|![MG_mucker.jpg](/images/MG_mucker.jpg)|
 
 <div class="row centerButtons">
   <div class="col-md-6 col-9">
