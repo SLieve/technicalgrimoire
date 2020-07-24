@@ -165,3 +165,5 @@ with open('backers.csv', encoding="utf8") as f:
             email_code(Name,email,offer)
             print("EMAIL SENT:  " + email)
 
+##### STEP 7 #######
+# Run the python script! It should prompt you for the password, find the CSV, and for each backer generate a gumroad discount and email it to them.
