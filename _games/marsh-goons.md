@@ -23,7 +23,7 @@ In Marsh Goons your inventory is your life, and the mud keeps weighing you down!
   	<a class="btn bonemarshes-btn notransition" href="https://gum.co/zeiWo" target="_blank"><h3>Download the Zine (PDF): $5</h3></a>
   </div>
   <div class="col-md-6 col-12">
-  	<a class="btn bonemarshes-btn notransition" href="https://gum.co/RgeGH" target="_blank"><h3>Download the Zine (Print+PDF): $10</h3></a>
+  	<a class="btn bonemarshes-btn notransition" href="https://gum.co/RgeGH" target="_blank"><h3>Order the Zine (Print+PDF): $10</h3></a>
   </div>
 </div>
 
