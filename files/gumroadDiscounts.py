@@ -28,12 +28,17 @@ password = input("Type your email password and press enter:")
 ##### STEP 3 #######
 
 # Replace this access token with the one from your Gumroad App
-ACCESS_TOKEN="7bd28938408dfa99ca243ab3e511658f2002061cc8b6f53d009127dd9a05b15d"
+ACCESS_TOKEN="7bd28938408dfa99casdfa243ab3e5061cc8b6f53d009127dd9a05b15d"
 
 def create_offer_code(email_addr):
 
     ##### STEP 4 ######
     # Use some curl commands to get the product ID. https://gumroad.com/api#products
+	# If you have windows then these powershell commands will also work:
+	#
+	# $response = Invoke-RestMethod https://api.gumroad.com/v2/products -Method Get -Body @{access_token="WHATEVERYOURTOKENIS"}
+	# echo $response.Products
+	#
     # Replace the value below with your gumroad product.
     PRODUCT_ID="abcd-123xyzfgh456=="
 
@@ -72,18 +77,11 @@ def email_code(name,email_addr,offer_code):
     message["From"] = sender_email
     message["To"] = receiver_email
 
-    # Create the plain-text and HTML versions of your message
-    text = """\
-    Hello PERSONNAME!
-
-    Here is the bundle that includes BOTH print copies of your game!
-
-    https://gum.co/OXHQR/OFFERCODE
-
-    Let me know if you have any questions or issues! I'm so sorry for all the confusion. Hopefully this should settle everything.
-
-    - David
-    """
+    ##### STEP 6 #######
+	# replace the url with whatever your product's store page url is. 
+	# The offer code can simply be appended to the url and is applied automatically for the customer
+	
+    # Create the plain-text and HTML versions of your message. They need to match, but the HTML version is the most important.
 
     html = """\
     <html>
@@ -92,7 +90,7 @@ def email_code(name,email_addr,offer_code):
 
     <p>Here is the bundle that includes BOTH print copies of your game</p>
 
-    <p><a href="https://gum.co/OXHQR/OFFERCODE">https://gum.co/OXHQR/OFFERCODE</a></p>
+    <p><a href="https://gum.co/ABCDE/OFFERCODE">https://gum.co/ABCDE/OFFERCODE</a></p>
 
     <p>Let me know if you have any questions or issues! I'm so sorry for all the confusion. Hopefully this should settle everything.</p>
 
@@ -100,6 +98,18 @@ def email_code(name,email_addr,offer_code):
 
     </body>
     </html>
+    """
+
+    text = """\
+    Hello PERSONNAME!
+
+    Here is the bundle that includes BOTH print copies of your game!
+
+    https://gum.co/ABCDE/OFFERCODE
+
+    Let me know if you have any questions or issues! I'm so sorry for all the confusion. Hopefully this should settle everything.
+
+    - David
     """
 
     # This section replaces the offer code with the one you just generated, and the person name with something from your CSV file.
@@ -126,7 +136,7 @@ def email_code(name,email_addr,offer_code):
             sender_email, receiver_email, message.as_string()
         )
 
-##### STEP 6 #######
+##### STEP 7 #######
 # Setup your CSV file.
 # Tell it where to find your CSV file
 # And tell it what info/details it needs, and which columns match those details.
@@ -138,22 +148,10 @@ with open('backers.csv', encoding="utf8") as f:
         email = ""
 
         ### Going line by line through the CSV
-        ### Some of this information is duplicated because KS is weird.
-        Name = row[2] #KS Backer name - C
-        KSEmail = row[3].rstrip() #KS Email - D
-        Reward = row[4] #General Reward - E
-        WhichZine = row[17] #Survey Zine - R
-        WhichEmail = row[18] #Survey Email - S
-        DTRPGEmail = row[19] # T
-        WhichEmail2 = row[20] # U
-        DTRPGEmail2 = row[21] # V
-        WhichZine2 = row[22] # W
-        WhichEmail3 = row[23] # X
-        DTRPGEmail2 = row[24] # Y
-        WhichEmail4 = row[25] # Z
-        DTRPGEmail3 = row[26] # AA
+        Name = row[2] #KS Backer name - column C
+        KSEmail = row[3].rstrip() #KS Email -column D
+        Reward = row[4] #General Reward - column E
 
-        ### We're just going to do the Tempered Legacy PDF for now.
         ### Grab the latest email, and just do this for one particular reward branch
         if Reward == "Both Zines (Print + PDF)":
             email = KSEmail
@@ -165,5 +163,5 @@ with open('backers.csv', encoding="utf8") as f:
             email_code(Name,email,offer)
             print("EMAIL SENT:  " + email)
 
-##### STEP 7 #######
+##### STEP 8 #######
 # Run the python script! It should prompt you for the password, find the CSV, and for each backer generate a gumroad discount and email it to them.

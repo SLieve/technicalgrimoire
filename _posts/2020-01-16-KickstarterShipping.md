@@ -5,13 +5,14 @@ date: 2020-01-16
 categories: Tabletop
 tags: kickstarter tutorial
 published: true
+image: images/posts/Gumroad_banner.png
 ---
 
 Kickstarter allows you to [collect shipping costs](https://www.kickstarter.com/blog/weve-made-shipping-rewards-a-lot-more-flexible?ref=tipsblog) along with your backer pledges. _Enjoy the comment from 2014 saying this is a terrible idea._
 
 This is a terrible idea. For one big reason:
 
-**"Additionally, any funds pledged towards shipping costs will count towards your project's goal."**
+> "Additionally, any funds pledged towards shipping costs will count towards your project's goal."
 
 This is disastrous because shipping costs vary wildly and can't really be estimated or accounted for.
 
@@ -92,70 +93,4 @@ P.S. I'm running a Kickstarter in February for a bunch of cool zines! Join [the 
 
 P.P.S. Here's a short script I wrote to help you use the Gumroad API. If you're not code-savvy feel free to email me and I'll gladly help you out.
 
-**DAVID'S GUMROAD API SCRIPTS**
-
-I ran these scripts in a linux terminal using `curl` and `jq`. But you could easily adapt this to any number of languages or methods.
-
-1 - First create an "Application": [https://gumroad.com/settings/advanced#application-form](https://gumroad.com/settings/advanced#application-form). Yeah, this little script counts as an application, lol.
-
-2 -  Generate Access Token and set it below
-
-```
-ACCESS_TOKEN="aaaaaaaabbbbbbbbccccccccc11111112222222333333"
-```
-
-3 - Get a list of all your products. If you have jq installed, pipe it through that.
-
-```
-curl https://api.gumroad.com/v2/products \
-  -d "access_token=${ACCESS_TOKEN}" \
-  -X GET
-```
-
-4 - Set the productID below.
-
-```
-PRODUCT_ID="aaaaBBBBBcccc123=="
-```
-
-5 - Get all existing Offer Codes. Probably will be blank, we just want to make sure.
-
-```
-curl "https://api.gumroad.com/v2/products/${PRODUCT_ID}/offer_codes" \
-  -d "access_token=${ACCESS_TOKEN}" \
-  -X GET
-```
-
-6 - Create an offer code
-
-```
-curl "https://api.gumroad.com/v2/products/${PRODUCT_ID}/offer_codes" \
-  -d "access_token=${ACCESS_TOKEN}" \
-  -d "name=Kickstarter-Test" \
-  -d "amount_off=100" \
-  -d "offer_type=percent" \
-  -d "max_purchase_count=1" \
-  -X POST
-```
-
-7 - Get all existing Offer Codes, which should show the new one you created.
-
-```
-curl "https://api.gumroad.com/v2/products/${PRODUCT_ID}/offer_codes" \
-  -d "access_token=${ACCESS_TOKEN}" \
-  -X GET
-```
-
- 8 - From this point on, you can write your own logic, but my full script looks something like this:
-
-```
-Read in a list of emails (CSV file, or just newline text)
-
-For each email {
-  generate an offer code using the steps above
-  Send the code to that email.
-  PROTIP you can append the offer code to the purchase link and let the customer just click the linke to auto-apply the offer code: https://gumroad.com/l/abCd1/Kickstarter-Test
-}
-
-Repeat for all the emails, and you're done!
-```
+**[DAVID'S GUMROAD SCRIPTS](/david/2020/07/GumroadShipping)**
