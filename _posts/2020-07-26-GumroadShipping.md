@@ -40,9 +40,9 @@ Once you've signed up, [add your game as a product](https://help.gumroad.com/art
 
 Now that the product exists we're going to jump into the programming side of things. If you aren't comfortable with programming, I'm happy to help you out, OR you can hire me to just handle it for you. Shoot me an email: technicalgrimoire@gmail.com.
 
-[Here's a link to the Pythong script I used.](/files/gumroadDiscounts.py)
+<a href="/files/gumroadDiscounts.py" target="_blank">Here's a link to the Python script I used.</a>
 
-The steps are really simple, and you could use anything from bash to C++. I am comfortable with Python, so I used that. 
+The logic is fairly simple, and you could use anything from bash to C++. I am comfortable with Python, so I used that. 
 
 The script grabs the kickstarter backer CSV file and for each backer it generates a Gumroad discount code of 100% off and then emails that backer their code. 
 

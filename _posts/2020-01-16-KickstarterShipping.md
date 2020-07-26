@@ -93,4 +93,4 @@ P.S. I'm running a Kickstarter in February for a bunch of cool zines! Join [the 
 
 P.P.S. Here's a short script I wrote to help you use the Gumroad API. If you're not code-savvy feel free to email me and I'll gladly help you out.
 
-**[DAVID'S GUMROAD SCRIPTS](/david/2020/07/GumroadShipping)**
+<a href="/files/gumroadDiscounts.py" target="_blank">Here's a link to the Python script I used.</a>
