@@ -52,7 +52,7 @@ function generate(source) {
     "<h2 class=\"tightSpacing\">Luck: " + luck + "</h2>" +
     "<h2 class=\"tightSpacing\">Skill: " + skill + "</h2><hr class=\"tightSpacing\">";
 
-  startingItems = startingItems + "<h3 class=\"tightSpacing\">Posessions</h3><p>Each item takes up one slot unless otherwise specified.</p><ul>";
+  startingItems = startingItems + "<h3 class=\"tightSpacing\">Possessions</h3><p>Each item takes up one slot unless otherwise specified.</p><ul>";
   for (p in provisions) {
     startingItems = startingItems + "<li>" + provisions[p] + "</li>"
   }
