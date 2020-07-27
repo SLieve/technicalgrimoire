@@ -92,7 +92,7 @@ Use the buttons below to generate characters for the Troika! roleplaying game. T
  - Daniel Sell for making Troika such an incredible game.
  - All the creatives who contributed their backgrounds to this generator. You're all amazing!
 
-You can view [ALL the backgrounds here](/_pages/resources/troika.json).
+You can view [ALL the backgrounds here](/assets/generator_resources/troika.json).
 
 ![Troika-logo.png](/images/Troika-logo.png){: .leftSmallImg}
 
