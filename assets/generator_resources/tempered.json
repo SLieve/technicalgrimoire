@@ -562,7 +562,7 @@
     "WIELDER was #adjective.a# #person# who craved variety and change. They never let something be for more than a few weeks. Re-forge your weapon into a new form.",
     "WIELDER was #adjective.a# #person# who craved variety and change. They never let something be for more than a few weeks. Sell #random-2-20.calc# of your possessions and buy new ones.",
     "WIELDER had a fear of older beings and would shy away from certain fights. Defeat a foe that is at least #random-201-1000.calc# years old.",
-    "WIELDER despised combat. They preferred other tests of skill. Win a non-combat competition of some kind (combat, poker, race, etc) against at least #random-10-100.calc# other opponents.",
+    "WIELDER despised combat. They preferred other tests of skill. Win a non-lethal competition of some kind (duel, poker, race, etc) against at least #random-10-100.calc# other opponents.",
     "WIELDER died attempting to rescue #adjective.a# #person# from #locationTemplate#. Learn what became of them, and seek vengeance if necessary.",
     "WIELDER died attempting to help #adjective.a# #person#. Find someone similar and help them with their problems.",
     "WIELDER was #adjective.a# #person# who was unable to help #adjective.a# #person#. Find someone similar and help them with their problems.",
