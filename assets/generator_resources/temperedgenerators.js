@@ -170,43 +170,26 @@ function setWeaponColors() {
 }
 
 function saveWeaponIMG() {
-  imageName = WeaponName;
-  if (WeaponName == "this weapon") {
-    imageName = Wielder + "'s Slot";
-  }
-  window.scrollTo(window.pageXOffset, 0);
-  document.getElementById("downloadBTN").style = "display:none;";
-  var container = document.getElementById("weaponCard");
-  useWidth = container.offsetWidth;
-  useHeight = container.offsetHeight;
-  //console.log(useWidth + " " + useHeight);
-  html2canvas(container, {
-    allowTaint: true,
-    width: useWidth,
-    height: useHeight,
-    scale: 2,
-  }).then(function (canvas) {
-    var link = document.createElement("a");
-    document.body.appendChild(link);
-    link.download = "tempered-legacy-" + imageName.replace(/ /g, "-") + ".png";
-    link.href = canvas.toDataURL("image/png");
-    link.target = '_blank';
-    link.click();
-  });
-  document.getElementById("downloadBTN").style = "min-width:160px;margin-bottom:auto;";
+var imageName = WeaponName;
+if (WeaponName == "this weapon") {
+  imageName = Wielder + "'s Slot";
 }
 
-window.onload = function () {
-  vars = getUrlVars();
-  if (getUrlVars()["pre"]) {
-    generateWeapon();
-  }
+var element = document.getElementById('weaponCard');
+var pdfname = "tempered-legacy-" + imageName.replace(/ /g, "-") + ".pdf";
+
+useWidth = element.offsetWidth;
+useHeight = element.offsetHeight;
+
+console.log(pdfname  + " " +useWidth+ " " +useHeight);
+
+var opt = {
+  margin:       0,
+  filename:     pdfname,
+  image:        { type: 'jpeg', quality: 0.98 },
+  html2canvas:  { scale: 2 },
+  jsPDF:        { unit: 'px', format: [useWidth, useHeight], orientation: 'portrait' }
 };
 
-function getUrlVars() {
-  var vars = {};
-  var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
-    vars[key] = value;
-  });
-  return vars;
+html2pdf().set(opt).from(element).save();
 }

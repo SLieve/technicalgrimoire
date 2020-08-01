@@ -20,7 +20,7 @@ redirect_from:
 Tempered Legacy is a magic item supplement for fantasy RPGs. The powers of these items are locked behind the regrets of previous owners. You can buy the Zine to get started, or just use the Generator below to create unique weapons.
 
 ### The Zine
- 
+
 The 64 page Zine contains:
 
 - Advice on using Regrets to make GMing even easier!
@@ -46,7 +46,15 @@ The 64 page Zine contains:
   </div>
 </div>
 
-|![Tempered-Print1.jpg](/images/Tempered-Print1.jpg)|![Tempered-Print2.jpg](/images/Tempered-Print2.jpg)|![Tempered-Print3.jpg](/images/Tempered-Print3.jpg)|
+<table>
+  <tbody>
+    <tr>
+      <td><a href="/images/Tempered-Print1.jpg" target="_blank"><img src="/images/Tempered-Print1.jpg" alt="Tempered-Print1.jpg"></a></td>
+      <td><a href="/images/Tempered-Print2.jpg" target="_blank"><img src="/images/Tempered-Print2.jpg" alt="Tempered-Print2.jpg"></a></td>
+      <td><a href="/images/Tempered-Print3.jpg" target="_blank"><img src="/images/Tempered-Print3.jpg" alt="Tempered-Print3.jpg"></a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### The Generator
 
@@ -79,9 +87,6 @@ Click the buttons below to create thousands of unique weapons that use the Tempe
   <div id="interacting"></div>
 </div>
 
-![temperedBow.png]({{site.url}}/images/posts/temperedBow.png)
-
-
 **Thanks to:**
 
 - Lauren Schirduan, the love of David's life and his partner in crime.
@@ -102,7 +107,7 @@ mutations](https://coinsandscrolls.blogspot.com/2019/11/osr-1d1000-mutations.htm
 
 Everything on this page is protected under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-<script async src="/assets/js/html2canvas.min.js" language="javascript" type="text/javascript"></script>
+<script async src="/assets/js/html2pdf.bundle.min.js" language="javascript" type="text/javascript"></script>
 <script async src="/assets/js/mods-eng-basic.js" language="javascript" type="text/javascript"></script>
 <script async src="/assets/js/tracery.js" language="javascript" type="text/javascript"></script>
 <script async src="/assets/generator_resources/temperedgenerators.js" language="javascript" type="text/javascript"></script>

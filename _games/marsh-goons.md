@@ -27,12 +27,20 @@ In Marsh Goons your inventory is your life, and the mud keeps weighing you down!
   </div>
 </div>
 
-|![MG_cover.jpg](/images/MG_cover.jpg)|![MG_index.jpg](/images/MG_index.jpg)|![MG_mucker.jpg](/images/MG_mucker.jpg)|
+<table>
+  <tbody>
+    <tr>
+      <td><a href="/images/MG_cover.jpg" target="_blank"><img src="/images/MG_cover.jpg" alt="MG_cover.jpg"></a></td>
+      <td><a href="/images/MG_index.jpg" target="_blank"><img src="/images/MG_index.jpg" alt="MG_index.jpg"></a></td>
+      <td><a href="/images/MG_mucker.jpg" target="_blank"><img src="/images/MG_mucker.jpg" alt="MG_mucker.jpg"></a></td>
+    </tr>
+  </tbody>
+</table>
 
 <div class="row centerButtons">
   <div class="col-md-6 col-9">
     <button id="CharButton" class="btn bonemarshes-btn" onclick="generate()">
-      <h3>Generate Character</h3>
+      <h3>Generate a Character</h3>
     </button>  
     </div>
       <div class="col-md-6 col-6">
