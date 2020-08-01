@@ -175,6 +175,7 @@ if (WeaponName == "this weapon") {
   imageName = Wielder + "'s Slot";
 }
 
+
 var element = document.getElementById('weaponCard');
 var pdfname = "tempered-legacy-" + imageName.replace(/ /g, "-") + ".pdf";
 
