@@ -38,15 +38,15 @@ In Marsh Goons your inventory is your life, and the mud keeps weighing you down!
   </tbody>
 </table>
 
-> Pro Tip: If you order ANY of the zines available on my site and put them all in the same cart, then you can save BIG on shipping. Tempered Legacy, Marsh Goons, or [Lowcountry Crawl](/lowcountry-crawl).
+> Pro Tip: If you order ANY of the zines available on my site and put them all in the same cart, then you can save BIG on shipping: Tempered Legacy, Marsh Goons, or [Lowcountry Crawl](/lowcountry-crawl).
 
-### Clink Playthrough
+### Clink Gameplay
 
 **Deges and Dragons** recorded a brilliant [game of Clink](https://www.youtube.com/watch?v=KSVjb-8G3BE&list=PLdHYsyQX1wspXz8wE0QfKk_T4OIXWeFg7). A really cool spin is that a lot of the game sessions end with a discussion about using games in therapy environments and as behavioral tools. REALLY interesting look at the potential for games to improve the lives of their players.
 
 Then they brought me on for a [casual interview](https://www.youtube.com/watch?v=KK6HoTXjBWY) to brainstorm about RPGs and the wider community. 
 
-### Mythic Mortals Playthrough
+### Mythic Mortals Gameplay
 
 Eryn Levine of [Game Play Radio](https://radiofreebrooklyn.com/show/game-play-radio/) discusses the challenges of podcasting and then plays through an excellent [session of Mythic Mortals](https://megaphone.link/RADIO1531331639)! Glad to see them enjoying my very first game.
 
