@@ -8,3 +8,4 @@ vendor
 
 /assets/js/*hydejack-*
 /_sass/*/__*__/*
+/_site/*
