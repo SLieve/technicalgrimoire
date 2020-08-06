@@ -14,11 +14,11 @@ Hot Springs Island is one of the most imaginative, easy to use, and enjoyable ta
 <div class="row" style="justify-content: space-around !important;margin-bottom:30px;">
   <div class="col-md-5 col noPadding">
   <a class="btn btn-black" onclick="showCard('overland')">
-  <h1 class="tightSpacing">Overland</h1></a></div>
+  <h2 class="tightSpacing">Overland</h2></a></div>
 
   <div class="col-md-5 col noPadding">
   <a class="btn btn-black" onclick="showCard('location')">
-  <h1 class="tightSpacing">Locations</h1></a></div>
+  <h2 class="tightSpacing">Locations</h2></a></div>
 </div>
 
 <div class="container generatorCard" id="overlandCard" style="margin-bottom: 30px;display:none;">

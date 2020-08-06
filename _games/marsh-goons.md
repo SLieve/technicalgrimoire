@@ -52,7 +52,7 @@ In Marsh Goons your inventory is your life, and the mud keeps weighing you down!
 
 <div class="container bonemarshesCard" id="charCard">
   <div style="display:flex;justify-content:space-between;">
-    <h1 id="charName" style="margin-top:0px;">Johnny</h1>
+    <h2 id="charName" style="margin-top:0px;">Johnny</h2>
     <button id="downloadBTN" class="btn bonemarshes-btn-sm data-html2canvas-ignore" onclick="saveCharacterIMG()" style="width:160px;margin-bottom:auto;">
       <p style="margin-bottom: 0;">DOWNLOAD</p>
     </button>
