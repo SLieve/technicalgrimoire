@@ -2280,6 +2280,55 @@
     "Skills": ["3 Alchemy","1 Disguise","2 Etiquette","2 Detect Allegory","2 Stagecraft","3 Spell- Assassin’s Dagger","3 Spell- True Seeing"],
     "Special": ["Sometimes, you just can’t rustle up a virgin Bell Caste Phasmid Huntress on short notice. Armed with the secrets of Internal Alchemy, you can assume any age, gender, species and/or status required for a ritual or ceremony. This doesn’t affect your stats and lasts a number of hours equal to your Alchemy Skill."],
     "Source": "From <a style='color:black;' href='https://twitter.com/j_d_duncan'>Jeremy Duncan</a>."
+  },{
+    "Name": "Xeno-Ornithologist",
+    "Text": "Enthralled by the sphere’s beautiful avifauna you’ve set out to catalogue all of it’s winged inhabitants. When portraying birds your patience is often as important as your skill with the brush.",
+    "Possessions": ["Binoculars", "Feathered Hat", "Tripod folding chair", "Boots", "Paintbrush", "Paint", "Canvas"],
+    "Skills": ["Painting 3", "Patience: 3", "Silence: 2", "Sneaking: 1"],
+    "Special": [],
+    "Source": "From <a style='color:black;' href='https://silverhooves.itch.io/ornithologists-journal'>Erik K. Hill</a>."
+  },{
+    "Name": "Aspirant to the Lambent Visage",
+    "Text": "You were raised with your coven-sisters within the soft glow of Her Radiant Judgement, but you survived the Harrowing and are now sent to bring Her light to every corner of the crystal spheres. Your sisters will no doubt prove themselves difficult opponents, but there can be only three. You were once eight strong, but are now seven. Poor Six… you’re going to miss her.",
+    "Possessions": ["A Lingering Regret Over What You Did to Six.", "Rune-Lined Robes (counts as Light Armour).", "One of Her Radiant Judgement’s Cranial Effigies (counts as a Lantern, but never goes out).", "A Silver Knife."],
+    "Skills": ["3 Second Sight", "1 Mathmology", "1 Knife Fighting", "1 Etiquette", "1 Astrology", "1 Spell - Read Entrails", "1 Spell - Presence", "1 Spell - Light", "1 Spell - Languages", "1 Spell - Exorcism"],
+    "Special": ["When you are within conversation distance of one or more of your coven-sisters, all magic in the area is suppressed."],
+    "Source": "From <a style='color:black;' href='https://codyfaulk.itch.io/murkes-peerage'>Cody Faulk</a>."
+  },{
+    "Name": "Cannphibion",
+    "Text": "Through the teachings of grapeshot, you found purpose. There is no greater sin than a cold barrel, and you are a righteous frog. Once merely smooth skin and fear, the advent of the cannonade showed you that you need not hide beneath stagnant water. Bathe yourself in powder, be the Destroyer, and through the devilry of ignition will you shatter the sky. Anything is possible with the proper application of force.",
+    "Possessions": ["Portable Cannon (Damage as Explode spell. Takes 1 action to reload. A Fumble results in the cannon exploding as though it targeted itself).", "12 Cannonballs.", "A Full Powderhorn.", "Cannon-Adjacent Fan Fiction (non-canon).", "Webbed Feet."],
+    "Skills": ["4 Artillery", "3 Swim", "2 Acrobatics", "1 Mathmology"],
+    "Special": ["You can hold your breath for a number of hours equal to your max Stamina."],
+    "Source": "From <a style='color:black;' href='https://codyfaulk.itch.io/murkes-peerage'>Cody Faulk</a>."
+  },{
+    "Name": "Doorbane Zealot",
+    "Text": "The Doorlords took everything your people held dear and locked it all away beyond sight, reach, and ken. Though they are gone now, their barriers remain. Beyond each intact threshold lies a piece of your heritage, and with the guidance of your thrice-bound Angelican Claviger, you will reclaim your birthright one breached portal at a time.",
+    "Possessions": ["Battering Ram (Damage as Club and adds 2 to Damage Rolls against doors).", "Your Father’s Keyring with All Eight Sacrosanct Keys."],
+    "Skills": ["3 Locks", "3 Blunt Weapon Fighting", "2 Lore - Doorlord Doors", "2 Strength", "1 Language - Angelican"],
+    "Special": ["You have the aid of an Angelican Claviger, an invisible, intangible, ethereal being that cannot interact with the physical world, yet you can see and hear it. It remains ever at your side and alerts you to the presence of any door in the vicinity, even if it is hidden. It cannot distinguish between Doors and doors, however."],
+    "Source": "From <a style='color:black;' href='https://codyfaulk.itch.io/murkes-peerage'>Cody Faulk</a>."
+  },{
+    "Name": "Misinformationist",
+    "Text": "Sensationalism and incidental falsehoods are your bread and butter. You know many ways to stir up passions, and if some of them result in people getting hurt? Well there’s a nice juicy story for tomorrow, then. They’re saying that rampaging bear is running for magistrate now, by the way. They wouldn’t say it if it weren’t true, after all.",
+    "Possessions": ["A Printing Press (non-portable).", "A Notepad and Pen.", "The Emperor’s Clothes (weightless, invisible, and non-existant, but counts as Heavy Armour to any adult who has heard you claim to be wearing armour recently)."],
+    "Skills": ["3 Crafting - Yellow Journalism", "3 Language - Bold-Faced Lies", "2 Language - Technical Truth", "1 Disguise", "1 Etiquette", "1 Awareness"],
+    "Special": ["Much like false news, you travel fast. If you lie to a person, you can immediately cast the Teleport spell, but you must tell the same lie to a different person within 10 seconds of arriving. If you fail to do so, you tear in half."],
+    "Source": "From <a style='color:black;' href='https://codyfaulk.itch.io/murkes-peerage'>Cody Faulk</a>."
+  },{
+    "Name": "Somnolence Warden",
+    "Text": "You belong to an ancient race of avian predators. Most scholars claim that your ancestors swore oaths of loyalty to watch over and protect the ever-sleeping race of giants. The truth, however, is that should your charge ever awaken, it would bring the end of all things. Ssssshhhhh.",
+    "Possessions": ["34,860 Feathers (counts as Light Armour). Half the feathers are suitable for use as writing quills.", "3 Doses of Sleep Poison.", "Talons (Damage as Knives)."],
+    "Skills": ["3 Fly", "2 Lullabies", "2 Regal Screeching", "2 Poison", "2 Talon Fighting", "1 Healing"],
+    "Special": ["You can cast the Farseeing spell on yourself without expending Stamina."],
+    "Source": "From <a style='color:black;' href='https://codyfaulk.itch.io/murkes-peerage'>Cody Faulk</a>."
+  },{
+    "Name": "Starborn",
+    "Text": "Where once was flesh: impermanent<br>Now seethes power: heavens-sent<br>A light in the dark<br>Your soul be the spark<br>Set flame to the foes of the Covenant",
+    "Possessions": ["A Lack of Desire for Pleasures of the Flesh.", "Trace Remnants of Your Previous Identity."],
+    "Skills": ["5 Spell - Explode", "3 Spell - Flash", "1 Spell - Read Stars", "1 Spell - Light"],
+    "Special": ["When you suffer any amount of Damage, you can choose to immediately target yourself with the Explode spell even if it is not your turn. Casting the spell in this way does not cost Stamina."],
+    "Source": "From <a style='color:black;' href='https://codyfaulk.itch.io/murkes-peerage'>Cody Faulk</a>."
   }
   ]
 }
