@@ -175,14 +175,11 @@ if (WeaponName == "this weapon") {
   imageName = Wielder + "'s Slot";
 }
 
-
 var element = document.getElementById('weaponCard');
 var pdfname = "tempered-legacy-" + imageName.replace(/ /g, "-") + ".pdf";
 
 useWidth = element.offsetWidth;
 useHeight = element.offsetHeight;
-
-console.log(pdfname  + " " +useWidth+ " " +useHeight);
 
 var opt = {
   margin:       0,
@@ -192,5 +189,9 @@ var opt = {
   jsPDF:        { unit: 'px', format: [useWidth, useHeight], orientation: 'portrait' }
 };
 
+document.getElementById('downloadBTN').style = "display:none;";
+
 html2pdf().set(opt).from(element).save();
+
+document.getElementById('downloadBTN').style = "min-width:160px;margin-bottom:auto;";
 }

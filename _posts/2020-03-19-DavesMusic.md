@@ -46,6 +46,10 @@ That wraps up the appetizers. Let's dig deeper!
 ## Electronic Entrees
 I don't really know what "electronic" means as a genre, so I just use it to refer to anything that doesn't fit the other categories and has a good beat.
 
+[**Ride on Space Cowboy** by Lazy Laser](https://lazylaser.bandcamp.com/album/ride-on-space-cowboy) - Oh wow, this album blew me away. Somehow it seamlessly blends western twang with smooth synth beats. Astounding album, and I wish I could re-release Clink to go along with this soundtrack.
+
+<iframe style="border: 0; width: 100%; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=37894053/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://lazylaser.bandcamp.com/album/ride-on-space-cowboy">Ride On Space Cowboy by Lazy Laser</a></iframe>
+
 [**CULTPOP** by Robots with Rayguns](https://robotswithrayguns.bandcamp.com/album/cultpop) - This is a weird one. Each track feels like it's from a different band. The twisted vocals and beats are just so engaging. *#3 Area 51* is my favorite track.
 
 <iframe style="border: 0; width: 100%; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=832938387/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://robotswithrayguns.bandcamp.com/album/cultpop">CULTPOP by Robots With Rayguns</a></iframe>
@@ -53,6 +57,10 @@ I don't really know what "electronic" means as a genre, so I just use it to refe
 [**Vectorian Age** by Hymne](https://hymnestudio.bandcamp.com/album/vectorian-age) - The beats and notes are extremely bass-ey. If you have good base speakers this will shake your house. I really dig the haunting melodies.
 
 <iframe style="border: 0; width: 100%; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=3985323694/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://hymnestudio.bandcamp.com/album/vectorian-age">Vectorian Age by Hymne</a></iframe>
+
+[**Retro Grooves** by Anders Enger Jensen](https://eoxstudios.bandcamp.com/album/retro-grooves-vol-1) - Each album has huge variety of tunes and styles; it feels like a sketchbook of electronic music. There are SEVERAL of these Retro Groove albums and I know you'll find a half dozen tracks on each one that blow your mind.
+
+<iframe style="border: 0; width: 100%; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=1343797462/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://eoxstudios.bandcamp.com/album/retro-grooves-vol-1">Retro Grooves Vol. 1 by Anders Enger Jensen</a></iframe>
 
 ## Electronic Desserts
 
@@ -71,6 +79,10 @@ I don't really know what "electronic" means as a genre, so I just use it to refe
 [**Girls on Bikes** by OSC](https://opussciencecollective.bandcamp.com/album/girls-on-bikes-2) - I love how happy and cheerful these tracks are. I can picture myself riding a skateboard down the street on the way to meet some friends at the local mall.
 
 <iframe style="border: 0; width: 100%; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=1912278947/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://opussciencecollective.bandcamp.com/album/girls-on-bikes-2">Girls On Bikes by OSC</a></iframe>
+
+[**Don't Panic** by Turbo Knight](https://turboknight.bandcamp.com/album/dont-panic) - has a wide range of moods and sounds, but the song "Curtain Wall" has gotten deep in my brain and I NEED MORE noise like that. Just a blast.
+
+<iframe style="border: 0; width: 100%; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=1085568092/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://turboknight.bandcamp.com/album/dont-panic">Don&#39;t Panic! by Turbo Knight</a></iframe>
 
 [**Amplifier** by Lost Years](https://rossocorsarecords.bandcamp.com/album/amplifier) - I don't think there's one track that really stands out; they're all so engaging and smooth.
 
@@ -110,6 +122,10 @@ Albums with powerful or catchy lyrics. Probably more in the "Pop" genre, but bal
 [**Thanks in Advance** by Ollie Wride](https://newretrowave.bandcamp.com/album/thanks-in-advance) - I just love the crooning voice of this man. It has everything from motivational power ballads to more somber solos.
 
 <iframe style="border: 0; width: 100%; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=1503355904/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://newretrowave.bandcamp.com/album/thanks-in-advance">Thanks in Advance by Ollie Wride</a></iframe>
+
+[**Slave to the Passion** by Ultraboss](https://rossocorsarecords.bandcamp.com/album/slave-to-the-passion-1) - My wife's favorite album on this list, it both just grabs our hearts and we can't help but sing along. So many high energy songs on this album.
+
+<iframe style="border: 0; width: 100%; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=1215993527/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://rossocorsarecords.bandcamp.com/album/slave-to-the-passion-1">Slave to the Passion 1 by Ultraboss</a></iframe>
      
 [**A Moment Apart** by ODESZA](https://odesza.bandcamp.com/album/a-moment-apart) - These tracks are just fun. Some vocal mixes, good beats, and catchy melodies. I find myself humming these long after the album is over.
 
@@ -145,6 +161,10 @@ Chill music is kind of hard to reccomend. It doesn't necessarily enterain; rathe
 [**Zelda and Chill** by Mikel & GameChops](https://music.gamechops.com/album/zelda-chill) - The Zelda games already have incredible melodies; seeing them get a lo-fi cover is a comfy fit. This same group does albums for [Mario](https://music.gamechops.com/album/mario-chill) and [Pokemon](https://music.gamechops.com/album/pok-chill) as well.
 
 <iframe style="border: 0; width: 100%; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=2495407455/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.gamechops.com/album/zelda-chill">Zelda &amp; Chill by Mikel &amp; GameChops</a></iframe>
+
+[**Music Box Classics: Kingdom Hearts**](https://videogamemusicbox.bandcamp.com/album/music-box-classics-kingdom-hearts-vol-1) - takes the beautiful melodies of Kingdom Hearts and then re-imagines them as a simple music box tune. This might be boring if the artist wasn't so clever with how to transfer more complex melodies to simple tunes. It really is incredible and has a nice relaxing sound.
+
+<iframe style="border: 0; width: 100%; height: 200px;" src="https://bandcamp.com/EmbeddedPlayer/album=2759156581/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://videogamemusicbox.bandcamp.com/album/music-box-classics-kingdom-hearts-vol-1">Music Box Classics: KINGDOM HEARTS, Vol. 1 by Video Game Music Box</a></iframe>
 
 ## Chill Desserts
 

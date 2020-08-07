@@ -75,7 +75,7 @@ Click the buttons below to create thousands of unique weapons that use the Tempe
 
 <div class="container generatorCard" id="weaponCard" style="display:none;">
   <div style="display:flex;justify-content:space-between;">
-    <h1 id="weaponName" style="margin-top:0px;">Silver Rapier</h1>
+    <h2 id="weaponName" style="margin-top:0px;">Silver Rapier</h2>
     <button id="downloadBTN" class="btn tempered-btn-sm data-html2canvas-ignore" onclick="saveWeaponIMG()" style="min-width:160px;margin-bottom:auto;">
       <p>DOWNLOAD</p>
     </button>

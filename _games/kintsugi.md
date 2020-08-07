@@ -1,5 +1,5 @@
 ---
-date: 2019-12-01
+date: 2019-11-15
 layout: project
 title: Kintsugi
 permalink: david/kintsugi

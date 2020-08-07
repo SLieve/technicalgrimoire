@@ -57,6 +57,6 @@ I pick up and drop new systems so quickly that I think my players hate me. "Hey 
 
 But Knave's compatiblity with old modules and it's streamlined mechanics keep me coming back to it again and again. I can't wait to run a bunch of old-school modules with it, and I'm proud to use it for Bone Marshes.
 
-# [Buy Knave Here](https://www.drivethrurpg.com/product/250888/Knave)
+## [Buy Knave Here](https://www.drivethrurpg.com/product/250888/Knave)
 
 It will bring you a lot more joy than a cup of coffee!

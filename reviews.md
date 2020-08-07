@@ -20,6 +20,24 @@ Rather than giving a review or recommendation, I’m going to list games that I 
 {:toc}
 <hr>
 
+## Girl Underground
+
+![images/posts/GirlUnderground.jpg]({{site.url}}/images/posts/GirlUnderground.jpg){: .leftSmallImg}
+
+[**Print** ($12)](https://www.hedgemazepress.com/product/girlunderground)
+
+[**PDF** ($9)](https://hedgemazepress.itch.io/girlunderground)
+
+Created by [Lauren McManamon](https://www.thestraykiwi.com/) and [Jesse Ross](https://jesseross.com/).
+
+Girl Underground made me cry. I don't know if I could tell you why. But I hope that's evidence of how sincere and well written it is.
+
+On the surface it's PbtA a game meant to evoke stories like Alice in Wonderland, Labyrinth, and Spirited away. Everyone takes turns playing as The Girl, as well as one of her companions. The GM sets the scenes and plays some of the NPCs in the world.
+
+When you start playing you define a list of "Manners" that society expects young girls to adhere to. The girl will conquer these Manners over the course of the game, struggling against them or re-defining them to discover who she is and how her beliefs are shaped.
+
+I struggle to say more without lessening the game itself. It is just beautiful, well written, imaginative, and it touched my heart. I'm sure it will resonate with yours as well.
+
 ## Parsely
 
 ![images/posts/parselyCover.png]({{site.url}}/images/posts/parselyCover.png){: .leftSmallImg}
