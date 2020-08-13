@@ -19,7 +19,7 @@
   top: 4rem;
 }
 
-.stygian-log ul {
+.stygian-log p {
   text-align:left;
 }
 
@@ -32,12 +32,6 @@
   min-width: 300px;
   flex: 1 1 400px;
   margin-bottom: 20px;
-}
-
-.stygian-buttons {
-  display: grid;
-  grid-gap: 10px;
-  place-items: center;
 }
 
 .stygian-button {

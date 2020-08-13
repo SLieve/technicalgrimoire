@@ -26,6 +26,8 @@ function getRandomInt(min, max) {
 function goDeeper(){
 currentLayer = currentLayer + 1;
 
+document.getElementById("backButton").style = "";
+
 nextRoomNum = getRandomInt(currentLayer, currentLayer+20);
 nextDetailNum = getRandomInt(currentLayer, currentLayer+20);
 
@@ -52,8 +54,12 @@ updateLog();
 function goBack(){
   currentLayer = currentLayer - 1;
 
-  if (currentLayer <= 0)
-  currentLayer = 0;
+  if (currentLayer <= 0){
+    document.getElementById("backButton").style = "display:none;";
+    currentLayer = 0;
+  } else {
+    document.getElementById("backButton").style = "";
+  }
 
   //remove current location
   locationLog.pop();
@@ -74,23 +80,17 @@ updateLog();
 }
 
 function updateLog(){
-  if (currentLayer <= 0){
-    document.getElementById("backButton").style = "display:none;";
-    currentLayer = 0;
-  }
-  else {
-    document.getElementById("backButton").style = "";
-  }
+  console.log(currentLayer);
 
-  logHTML = "<ul>";
+  logHTML = "";
   lvlCounter = 0;
 
   for (const location of locationLog) {
     lvlCounter = lvlCounter + 1;
     logRoom = location[0];
     logDetail = location[1];
-    logHTML = logHTML + "<li>Level " + lvlCounter + ": " + stygian.locations[logRoom].title + " - " + stygian.details[logDetail].title + "</li>";
+    logHTML = logHTML + "<p><strong>Level " + lvlCounter + "</strong>: " + stygian.locations[logRoom].title + "<br><i>" + stygian.details[logDetail].title + "</i></p>";
   }
 
-  document.getElementById("logContent").innerHTML = logHTML + "</ul>";
+  document.getElementById("logContent").innerHTML = logHTML;
 }

@@ -3,7 +3,7 @@ date: 2019-08-01
 layout: full-page
 title: Stygian Library Generator 2
 permalink: stygiangenerator2
-published: false
+published: true
 image: /images/stygiangenerator.png
 description: >
   A mobile-friendly generator for the Stygian Library.
@@ -26,6 +26,7 @@ description: >
     <div class="stygian-buttons">
         <button id="backButton" class="stygian-button" type="button" onclick="goBack()" style="display:none;">Go Back</button>
         <button class="stygian-button" type="button" onclick="goDeeper()">Go Deeper</button>
+            <hr class="stygian-hr-dark">
         <button class="stygian-button" type="button"><span style="color:cornflowerblue;">Visitor</span> Event</button>
         <button class="stygian-button" type="button"><span style="color:crimson;">Intruder</span> Event</button>
     </div>
@@ -35,11 +36,6 @@ description: >
         Location Log
       </h3>
       <div id="logContent">
-        <ul>
-          <li>0: Entrance Foyer - Candles</li>
-          <li>1: Help Desk - Beehives</li>
-          <li>2: Boiler Room - Turning Gears</li>
-        </ul>
       </div>
     </div>
   </div>
@@ -53,6 +49,9 @@ description: >
   }
   hy-push-state, hy-drawer {
   overflow: unset;
+  }
+  h3 {
+  margin-top: 0px;
   }
 </style>
 
