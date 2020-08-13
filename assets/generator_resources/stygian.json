@@ -1,5 +1,6 @@
 {
-  "locations": [{
+  "locations": [
+    {
       "title": "Entrance Foyer",
       "page": 17,
       "description": "A small room, lit with candles, furnished with mahogany and brass. Seating, and a ‘Wait Here’ sign. A desk facing towards the real world for the Library’s staff. 50% chance the desk is currently manned by a Black Librarian (p. 43). On the desk, there’s a bell to ring for atten-tion. <strong>Roll an encounter for what turns up every time the players ring it.</strong>"
@@ -170,7 +171,8 @@
       "description": "<br>The Sheol Computer is the heart of the library, the vast machine whose calculation drives everything else that happens here.<br>The computer fills the entire room. Mostly, it is a tangle of thin glass tubes and valves through which phantoms flow like electricity through a computer’s circuit-boards. Other, more odd, components are present though. There are a few each of:<br>‣ Clockwork engines that tick up the count of souls in the machine.<br>‣ Human brains wired into the computer.<br>‣ Collections of dials and displays, allowing the white librarians to monitor the computer’s workings.<br><br>As well as this, there are one each of the following components:<br>‣ A huge canvas screen onto which is projected text that reflects what the computer is currently working on. The text flickers and scrolls past almost too fast to make out.<br>‣ A keyboard, with the letters A-Z, numbers 0-9, and punctuation, which can be used to input text to the computer.<br>If text is inputted with the keyboard, it appears on the screen, followed by the computer’s response.<br><br>The possible inputs and responses are as follows:<br>‣ All of those for a Calculation engine (P.23)<br><br>And also:<br>‣ If the players include a dead person’s name in their input, the computer will state their date and cause of death.<br>‣ If the players include a living person’s name in their input, the computer will state their most likely cause of death and then: <code>###Date Unknown###</code><br><br>For PCs, pick a cause of death that is most likely for that PC. The character takes maximum damage from that danger, always fails all saves against it, is always the first affected by it, and so on.<br>‣ If the players include the name of a deity, demon, angel, fairy or other immortal being in their input, the computer will list the date of their death as the accurate date of the end of the world, and the cause as ‘Armageddon’.<br>‣ If the players ask about the purpose of the library of the computer, it simply answers: <code>###Entropic Transcendence.###</code><br><br>The Sheol Computer is attended to by d8 white librarians at all times. Damaging it will earn the enmity of all librarians, forever."
     }
   ],
-  "details": [{
+  "details": [
+    {
       "title": "Empty",
       "page": 33,
       "description": "The shelves are bare, and there is no furniture or fittings. The place is totally empty."
@@ -346,7 +348,8 @@
       "description": "This deep, all that can be found are a maze-like network of largely abandoned passage-ways. Dust lays over everything, the books are so ancient as to be almost unreadable. The librarians rarely come here.<br>Successfully going deeper requires navigating the abandoned labyrinth of shelves. Roll under the party’s Progress on a d % to do this. If they fail then this is effectively a dead end and they can only Go Back."
     }
   ],
-  "events": [{
+  "events": [
+    {
       "description": "Something turns up; it is unfriendly. Roll for an encounter.",
       "encounters": 1
     },
@@ -427,7 +430,8 @@
       "encounters": 0
     }
   ],
-  "visitorEncounters": [{
+  "visitorEncounters": [
+    {
       "title": "A Black Librarian",
       "page": 43,
       "description": "Those who Maintain the Portals.<br><br> Can cast the following each once per turn: Hold Portal, Knock, Hold Person, Turn Mortals(as turn undead), Wall of Iron.<br>All librarians possess the following abilities: They do not sleep or tire. They are totally immune to any mind-controlling effect that would turn them against their work on the great calculation.<br>They can, if hidden behind a bookshelf, step to any other bookshelf in the library as if there was no intervening space, so long as the start and end points are both unobserved - effectively allowing teleportation.",
@@ -632,7 +636,8 @@
       "stats": "Hit Dice 1, Hit Points 1, Armour as unarmoured, Erase Concepts (save vs magic to resist, see below) and unreal knife (+1, d6), saves as magic user 1."
     }
   ],
-  "intruderEncounters": [{
+  "intruderEncounters": [
+    {
       "title": "A Black Librarian",
       "page": 43,
       "description": "Those who Maintain the Portals. <br><br>Can cast the following each once per turn: Hold Portal, Knock, Hold Person, Turn Mortals (as turn undead), Wall of Iron.<br>All librarians possess the following abilities: They do not sleep or tire. They are totally immune to any mind-controlling effect that would turn them against their work on the great calculation.<br>They can, if hidden behind a bookshelf, step to any other bookshelf in the library as if there was no intervening space, so long as the start and end points are both unobserved - effectively allowing teleportation.",

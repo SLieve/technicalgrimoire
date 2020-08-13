@@ -1,3 +1,137 @@
+/* Stygian Generator */
+.stygian-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  color: black;
+}
+
+.stygian-log {
+  background-color: #313131;
+  color: #F5F5F5;
+  padding: 0px 20px;
+  font-size: 14px;
+  flex: 0 0 250px;
+  text-align:center;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 4rem;
+}
+
+.stygian-log ul {
+  text-align:left;
+}
+
+.stygian-text {
+  background-color: #F5F5F5;
+  color: black;
+  border-radius: 3px;
+  padding: 20px;
+  font-size: 14px;
+  min-width: 300px;
+  flex: 1 1 400px;
+  margin-bottom: 20px;
+}
+
+.stygian-buttons {
+  display: grid;
+  grid-gap: 10px;
+  place-items: center;
+}
+
+.stygian-button {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #F5F5F5;
+  margin: 0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  color: #F5F5F5;
+  background-color: black;
+  text-align: center;
+  transition: all 0.2s;
+  width:100%;
+}
+
+.stygian-button:hover {
+  color: #000000;
+  background-color: #F5F5F5;
+}
+
+@media all and (max-width:30em) {
+  .stygian-button {
+    display: block;
+    margin: 0.4em auto;
+  }
+}
+
+/* Glyph, by Harry Roberts */
+hr.stygian-hr { 
+  padding: 0;
+  border: none; 
+  border-top: medium double #8c8c8c; 
+  color: #8c8c8c; 
+  text-align: center; 
+} 
+hr.stygian-hr:after { 
+  content: "§"; 
+  display: inline-block; 
+  position: relative; 
+  top: -0.9em; 
+  font-size: 1.5em; 
+  padding: 0 0.25em; 
+  background: #F5F5F5; 
+}
+
+hr.stygian-hr-dark { 
+  padding: 0;
+  border: none; 
+  border-top: medium double white; 
+  color: white; 
+  text-align: center; 
+} 
+hr.stygian-hr-dark:after { 
+  content: "§"; 
+  display: inline-block; 
+  position: relative; 
+  top: -0.9em; 
+  font-size: 1.5em; 
+  padding: 0 0.25em; 
+  background: #313131; 
+}
+
+/* Full Page Template */
+.full-content {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8rem $content-padding 12rem;
+  max-width: 100%;
+
+  @media screen {
+    padding-left: $content-padding + .5rem;
+    min-height: 100vh;
+  }
+
+  @media screen and (min-width: $break-point-3) {
+    padding-left: $content-padding;
+    margin-left: $sidebar-width + $content-margin-3;
+    margin-right: $content-margin-3;
+  }
+
+  @media screen and (min-width: $break-point-5) {
+    margin-left: $sidebar-width + $content-margin-5;
+    margin-right: $content-margin-5;
+  }
+
+  @media screen and (min-width: $break-point-dynamic) {
+    margin-right: 5rem;
+    margin-left: calc(52% - 31rem);
+  }
+}
+
 /* Blog Review Cards*/
 .blogcolumn {
 	margin: 15px 15px 70px;
