@@ -24,17 +24,16 @@ description: >
   </div>
   <div class="stygian-log">
     <div class="stygian-buttons">
-        <button id="backButton" class="stygian-button" type="button" onclick="goBack()" style="display:none;">Go Back</button>
         <button class="stygian-button" type="button" onclick="goDeeper()">Go Deeper</button>
-            <hr class="stygian-hr-dark">
-        <button class="stygian-button" type="button"><span style="color:cornflowerblue;">Visitor</span> Event</button>
-        <button class="stygian-button" type="button"><span style="color:crimson;">Intruder</span> Event</button>
+        <button class="stygian-button" type="button" onclick="newEvent(true)"><span style="color:cornflowerblue;">Visitor</span> Event</button>
+        <button class="stygian-button" type="button" onclick="newEvent(false)"><span style="color:crimson;">Intruder</span> Event</button>
     </div>
     <hr class="stygian-hr-dark">
     <div>
-      <h3>
-        Location Log
+      <h3 style="margin-top: -20px;">
+        Levels
       </h3>
+      <p style="text-align:center;">Click a location to return.</p>
       <div id="logContent">
       </div>
     </div>

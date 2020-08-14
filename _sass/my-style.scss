@@ -12,7 +12,7 @@
   color: #F5F5F5;
   padding: 0px 20px;
   font-size: 14px;
-  flex: 0 0 250px;
+  flex: 0 0 300px;
   text-align:center;
   position: sticky;
   position: -webkit-sticky;
@@ -32,6 +32,29 @@
   min-width: 300px;
   flex: 1 1 400px;
   margin-bottom: 20px;
+}
+
+.logItem p{
+  color:white;
+  background-color: black;
+  padding: 10px;
+  border: 0.1em solid #F5F5F5;
+  transition: all 0.2s;
+}
+
+.logLevel{
+  font-size: 4em;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  float: left;
+  font-weight: bold;
+  line-height: .7em;
+}
+
+.logItem p:hover {
+  color: #000000;
+  background-color: #F5F5F5;
 }
 
 .stygian-button {
