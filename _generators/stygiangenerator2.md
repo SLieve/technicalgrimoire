@@ -25,7 +25,7 @@ description: >
     </div>
     <div id="detailContent">
     </div>
-    <img src="/images/StygianHelpDesk.png" style="max-height: 300px;float:right;">
+    <img src="/images/StygianHelpDesk.png" style="max-height: 300px;float:right;margin-right: -20px;margin-bottom: -20px;">
   </div>
   <div class="stygian-log">
     <div class="stygian-buttons">
