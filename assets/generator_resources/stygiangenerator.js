@@ -10,7 +10,7 @@ xmlhttp.send();
 
 var currentLayer = -1;
 var visitor = true;
-var hrHTML = "<hr class=\"stygian-hr\">";
+var hrHTML = "<hr class=\"bookends\">";
 
 //A list of number sets tracking the previous rooms and details. 
 //used when backtracking: [nextRoomNum, nextDetailNum, logDescr]

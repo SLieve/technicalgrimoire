@@ -87,39 +87,33 @@
   }
 }
 
-/* Glyph, by Harry Roberts */
-hr.stygian-hr { 
-  padding: 0;
-  border: none; 
-  border-top: medium double #8c8c8c; 
-  color: #8c8c8c; 
-  text-align: center; 
-} 
-hr.stygian-hr:after { 
-  content: "§"; 
-  display: inline-block; 
-  position: relative; 
-  top: -0.9em; 
-  font-size: 1.5em; 
-  padding: 0 0.25em; 
-  background: white; 
+.bookends {
+  position: relative;
+  border-width: 5px;
+  border-color: hsl(0, 0%, 50%) transparent;
+  height: 11px;
+  border-style: double;
+  width: 20%;
 }
-
-hr.stygian-hr-dark { 
-  padding: 0;
-  border: none; 
-  border-top: medium double white; 
-  color: white; 
-  text-align: center; 
-} 
-hr.stygian-hr-dark:after { 
-  content: "§"; 
-  display: inline-block; 
-  position: relative; 
-  top: -0.9em; 
-  font-size: 1.5em; 
-  padding: 0 0.25em; 
-  background: #313131; 
+.bookends:before,
+.bookends:after {
+  position: absolute;
+  bottom: -3.536px;
+  width: 7.071px;
+  height: 7.071px;
+  display: block;
+  border-width: 0 7.071px 7.071px 0;
+  border-color: hsl(0, 0%, 50%);
+  border-style: double;
+  box-sizing: border-box;
+}
+.bookends:before {
+  transform: translateZ(0) rotate(-45deg);
+  left: -21px;
+}
+.bookends:after {
+  transform: translateZ(0) rotate(135deg);
+  right: -21px;
 }
 
 /* Full Page Template */

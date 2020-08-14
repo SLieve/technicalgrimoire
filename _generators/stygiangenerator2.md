@@ -33,7 +33,7 @@ description: >
         <button class="stygian-button" type="button" onclick="newEvent(true)"><span style="color:cornflowerblue;">Visitor</span> Event</button>
         <button class="stygian-button" type="button" onclick="newEvent(false)"><span style="color:crimson;">Intruder</span> Event</button>
     </div>
-    <hr class="stygian-hr-dark">
+    <hr class="bookends">
     <div>
       <h3 style="margin-top: -20px;">
         Levels
