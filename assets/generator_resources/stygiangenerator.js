@@ -32,6 +32,8 @@ function getRoom(logRoom) {
   //build the detail text
   document.getElementById("detailContent").innerHTML = "<h3>Detail: " + stygian.details[logRoom[1]].title + "</h3>" + "<p>" + stygian.details[logRoom[1]].description + "</p>";
 
+  //scroll to top
+  window.scrollTo(0,0);
 }
 
 function newEvent(visitor) {
@@ -67,6 +69,9 @@ function newEvent(visitor) {
     } else {
       document.getElementById("encounterContent").innerHTML = eventDescription + encounters + hrHTML;
     }
+  
+    //scroll to top
+  window.scrollTo(0,0);
 }
 
 function goDeeper() {
@@ -89,24 +94,6 @@ function goDeeper() {
   getRoom([nextRoomNum, nextDetailNum]);
 
   updateLog();
-}
-
-function goBack() {
-  currentLayer = currentLayer - 1;
-
-  //remove current location
-  locationLog.pop();
-
-  //Grab the previous one
-  backLocation = locationLog[locationLog.length - 1];
-  backRoom = backLocation[0];
-  backDetail = backLocation[1];
-
-  getRoom([backRoom, backDetail]);
-
-
-  updateLog();
-
 }
 
 function updateLog() {
