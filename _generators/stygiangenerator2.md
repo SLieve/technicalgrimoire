@@ -4,15 +4,17 @@ layout: full-page
 title: Stygian Library Generator 2
 permalink: stygiangenerator2
 published: true
-image: /images/stygiangenerator.png
+image: /images/Stygian-Helpdesk.png
 description: >
   A mobile-friendly generator for the Stygian Library.
 ---
 
 ## IT'S NOT DONE, OH GOD! DON'T LOOK!
 
-<div class="stygian-cards">
+<div class="stygian-card">
   <div class="stygian-text">
+    <div id="encounterContent">
+    </div>
     <div id="roomContent">
       <h3 id="roomName">Welcome</h3>
       <p>Books are condensed collections of knowledge, and knowledge is power. As any physicist will tell you, power is a function of energy, and energy and mass are interchangeable, and enough mass warps space time.</p>
@@ -21,8 +23,7 @@ description: >
     </div>
     <div id="detailContent">
     </div>
-    <div id="encounterContent">
-    </div>
+    <img src="/images/Stygian-Helpdesk.png">
   </div>
   <div class="stygian-log">
     <div class="stygian-buttons">

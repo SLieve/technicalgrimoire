@@ -1,5 +1,5 @@
 /* Stygian Generator */
-.stygian-cards {
+.stygian-card {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -24,7 +24,7 @@
 }
 
 .stygian-text {
-  background-color: #F5F5F5;
+  background-color: white;
   color: black;
   border-radius: 3px;
   padding: 20px;
@@ -40,6 +40,7 @@
   padding: 10px;
   border: 0.1em solid #F5F5F5;
   transition: all 0.2s;
+  cursor:pointer;
 }
 
 .logLevel{
@@ -71,6 +72,7 @@
   text-align: center;
   transition: all 0.2s;
   width:100%;
+  cursor:pointer;
 }
 
 .stygian-button:hover {
@@ -100,7 +102,7 @@ hr.stygian-hr:after {
   top: -0.9em; 
   font-size: 1.5em; 
   padding: 0 0.25em; 
-  background: #F5F5F5; 
+  background: white; 
 }
 
 hr.stygian-hr-dark { 

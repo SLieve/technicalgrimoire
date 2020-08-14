@@ -42,7 +42,7 @@ function newEvent(visitor) {
   } else {
     visitorHTML = "<h3><span style=\"color:crimson;\">Intruder</span> Event</h3>";
   }
-  eventDescription = hrHTML + visitorHTML + "<p>" + stygian.events[rand20].description + "</p>";
+  eventDescription = visitorHTML + "<p>" + stygian.events[rand20].description + "</p>";
   encounters = "";
   nextEncounter = "";
 
@@ -59,13 +59,13 @@ function newEvent(visitor) {
       nextEncounter = stygian.intruderEncounters[depth20];
     }
     
-    encounters = encounters + "<h3>" + nextEncounter.title + "<small> pg " + nextEncounter.page + "</small></h3> <i>" + nextEncounter.stats + "</i><br><br> " + nextEncounter.description + " <br>";
+    encounters = encounters + "<h3>" + nextEncounter.title + "<small> pg " + nextEncounter.page + "</small></h3><p><i>" + nextEncounter.stats + "</i></p><p> " + nextEncounter.description + "</p>";
   }
 
   if (visitor) {
-      document.getElementById("encounterContent").innerHTML = eventDescription + encounters;
+      document.getElementById("encounterContent").innerHTML = eventDescription + encounters + hrHTML;
     } else {
-      document.getElementById("encounterContent").innerHTML = eventDescription + encounters;
+      document.getElementById("encounterContent").innerHTML = eventDescription + encounters + hrHTML;
     }
 }
 
