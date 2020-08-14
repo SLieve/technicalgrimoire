@@ -23,7 +23,6 @@ description: >
     </div>
     <div id="detailContent">
     </div>
-    <img src="/images/Stygian-Helpdesk.png">
   </div>
   <div class="stygian-log">
     <div class="stygian-buttons">
