@@ -29,6 +29,7 @@ description: >
 <li>It must be a collection of books or similar written works. A library, archive, or perhaps a particularly large bookshop.</li>
 <li>It must be large enough that you can’t see all of it from the entrance.</li> 
 <li>Somebody must have died there (you can kill somebody and an entrance will appear).</li>
+</ul>
 <p>Any such space will contain an entrance to the Stygian Library. Any collection of books might contain an entrance if the information inside is interesting or potent enough.</p>
   <p>The entrance to the Library is a simple thing. Somewhere in the library, there will be an unmarked door. It is invariably locked. It is probably hidden, perhaps behind a shelf against the wall, beneath wallpaper, in rooms the public are barred from entering, or under a painting or sign. Find it, unlock it, and on the other side the rows of shelves continue.</p>
     </div>
