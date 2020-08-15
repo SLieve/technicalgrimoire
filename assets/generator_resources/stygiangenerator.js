@@ -27,10 +27,10 @@ function getRoom(logRoom) {
   document.getElementById("encounterContent").innerHTML = "";
 
   //build the room text
-  document.getElementById("roomContent").innerHTML = "<h3>Room: " + stygian.locations[logRoom[0]].title + "</h3>" + "<p>" + stygian.locations[logRoom[0]].description + "</p>" + hrHTML;
+  document.getElementById("roomContent").innerHTML = "<h2>" + stygian.locations[logRoom[0]].title + "</h2>" + "<p>" + stygian.locations[logRoom[0]].description + "</p>" + hrHTML;
 
   //build the detail text
-  document.getElementById("detailContent").innerHTML = "<h3>Detail: " + stygian.details[logRoom[1]].title + "</h3>" + "<p>" + stygian.details[logRoom[1]].description + "</p>";
+  document.getElementById("detailContent").innerHTML = "<h2>Detail: " + stygian.details[logRoom[1]].title + "</h2>" + "<p>" + stygian.details[logRoom[1]].description + "</p>";
 
   //scroll to top
   window.scrollTo(0,0);
@@ -40,9 +40,9 @@ function newEvent(visitor) {
   rand20 = getRandomInt(0,20);
   visitorHTML = ""
   if (visitor) {
-    visitorHTML = "<h3><span style=\"color:cornflowerblue;\">Visitor</span> Event</h3>";
+    visitorHTML = "<h2><span style=\"color:cornflowerblue;\">Visitor</span> Event</h2>";
   } else {
-    visitorHTML = "<h3><span style=\"color:crimson;\">Intruder</span> Event</h3>";
+    visitorHTML = "<h2><span style=\"color:crimson;\">Intruder</span> Event</h2>";
   }
   eventDescription = visitorHTML + "<p>" + stygian.events[rand20].description + "</p>";
   encounters = "";
@@ -61,20 +61,18 @@ function newEvent(visitor) {
       nextEncounter = stygian.intruderEncounters[depth20];
     }
     
-    encounters = encounters + "<h3>" + nextEncounter.title + "<small> pg " + nextEncounter.page + "</small></h3><p><i>" + nextEncounter.stats + "</i></p><p> " + nextEncounter.description + "</p>";
+    encounters = encounters + "<h3>" + nextEncounter.title + "</h3><p><i>" + nextEncounter.stats + "</i></p><p> " + nextEncounter.description + "</p>";
   }
 
-  if (visitor) {
-      document.getElementById("encounterContent").innerHTML = eventDescription + encounters + hrHTML;
-    } else {
-      document.getElementById("encounterContent").innerHTML = eventDescription + encounters + hrHTML;
-    }
+  document.getElementById("encounterContent").innerHTML = eventDescription + encounters + hrHTML;
   
-    //scroll to top
+  //scroll to top
   window.scrollTo(0,0);
 }
 
 function goDeeper() {
+  document.getElementById("deeperButton").innerHTML = "Go Deeper";
+
   currentLayer = currentLayer + 1;
 
   nextRoomNum = getRandomInt(currentLayer, currentLayer + 20);
