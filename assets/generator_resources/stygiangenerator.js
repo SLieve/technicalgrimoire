@@ -27,10 +27,10 @@ function getRoom(logRoom) {
   document.getElementById("encounterContent").innerHTML = "";
 
   //build the room text
-  document.getElementById("roomContent").innerHTML = "<h2>" + stygian.locations[logRoom[0]].title + "</h2>" + "<p>" + stygian.locations[logRoom[0]].description + "</p>" + hrHTML;
+  document.getElementById("roomContent").innerHTML = "<h2 style=\"margin-top: 10px;\" >" + stygian.locations[logRoom[0]].title + "</h2>" + "<p>" + stygian.locations[logRoom[0]].description + "</p>" + hrHTML;
 
   //build the detail text
-  document.getElementById("detailContent").innerHTML = "<h2>Detail: " + stygian.details[logRoom[1]].title + "</h2>" + "<p>" + stygian.details[logRoom[1]].description + "</p>";
+  document.getElementById("detailContent").innerHTML = "<h2 style=\"margin-top: 10px;\" >Detail: " + stygian.details[logRoom[1]].title + "</h2>" + "<p>" + stygian.details[logRoom[1]].description + "</p>";
 
   //scroll to top
   window.scrollTo(0,0);
@@ -40,9 +40,9 @@ function newEvent(visitor) {
   rand20 = getRandomInt(0,20);
   visitorHTML = ""
   if (visitor) {
-    visitorHTML = "<h2><span style=\"color:cornflowerblue;\">Visitor</span> Event</h2>";
+    visitorHTML = "<h2 style=\"margin-top: 10px;\"><span style=\"color:cornflowerblue;\">Visitor</span> Event</h2>";
   } else {
-    visitorHTML = "<h2><span style=\"color:crimson;\">Intruder</span> Event</h2>";
+    visitorHTML = "<h2 style=\"margin-top: 10px;\"><span style=\"color:crimson;\">Intruder</span> Event</h2>";
   }
   eventDescription = visitorHTML + "<p>" + stygian.events[rand20].description + "</p>";
   encounters = "";

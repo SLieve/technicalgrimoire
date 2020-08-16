@@ -16,14 +16,14 @@ description: >
     <div id="encounterContent">
     </div>
     <div id="roomContent">
-      <h2 id="roomName">Welcome</h2>
+      <h2 style="margin-top: 10px;" id="roomName">Welcome</h2>
       <p>The Stygian Library is an adventure designed for old school roleplaying games written by <a href="https://twitter.com/DyingStylishly">Emmy ‘Cavegirl’ Allen</a>.</p>
       <p>After you've bought a copy of the book, you can use the buttons to generate levels and events.</p>
       <p><a href="https://www.kickstarter.com/projects/soulmuppet/the-stygian-library-remastered">Get it here.</a></p>
       <hr class="stygian-hr">
     </div>
     <div id="detailContent">
-    <h2>Finding the Entrance</h2>
+    <h2 style="margin-top: 10px;" >Finding the Entrance</h2>
     <p>Only a few locations form a proper connection to the Library and thus can be used to access the place. The requirements are:</p>
     <ul>
 <li>It must be a collection of books or similar written works. A library, archive, or perhaps a particularly large bookshop.</li>
