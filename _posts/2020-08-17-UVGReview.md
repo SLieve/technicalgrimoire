@@ -30,13 +30,11 @@ What the HECK is a "glyptodon"? It's not defined anywhere else in the book, and 
 
 They basically ended up fighting Cousin It from Adams Family.
 
-![cousin_itt](http://gph.is/2jv6QLU)
-
 But YOUR glyptodon might be completely different. For me, the name and the other weirdness of UVG provide enough context to build monsters and locations from these ideas in the book. But for you, that may not be enough. 
 
 ## Audio Prep Demonstration
 
-I've recoreded live audio of my game prep so you can get a sense of what I'm thinking WHILE I'm thinking it. You can listen to it using the player below.
+I've recoreded live audio of my game prep so you can get a sense of what I'm thinking WHILE I'm thinking it. Below the audio is the spread of UVG that I used for my 3 hour game session. I didn't use ANY other part of the book; *just this single spread* to run a fun adventure.
 
 I hope you enjoy this little experiment, and I hope it gives you a better idea of how UVG can be used to propel your adventures into weird and unexpected place.
 
