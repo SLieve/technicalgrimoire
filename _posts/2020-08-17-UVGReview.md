@@ -28,7 +28,7 @@ What the HECK is a "glyptodon"? It's not defined anywhere else in the book, and 
 
 > A glyptodon is a mass of hair that ambles about the plains. It's hard to tell what shape or structure it has underneath all that hair, but the occasional wing or tail can be seen peeking out from under its mane.
 
-They basically ended up fighting Cousin It from Adams Family.
+They basically ended up fighting Cousin Itt from Adams Family.
 
 But YOUR glyptodon might be completely different. For me, the name and the other weirdness of UVG provide enough context to build monsters and locations from these ideas in the book. But for you, that may not be enough. 
 
@@ -48,4 +48,4 @@ I hope you enjoy this little experiment, and I hope it gives you a better idea o
     </audio>
 </figure>
 
-![images/posts/UVG-vomish.png](/images/posts/UVG-vomish.png)
+[![images/posts/UVG-vomish.png](/images/posts/UVG-vomish.png)](/images/posts/UVG-vomish.png)
