@@ -33,7 +33,7 @@ I call these brewings "ceremonies" because I am a moron. I am not a [tea master]
 5. Develop my [gongfu brewing](https://www.reddit.com/r/tea/wiki/faq/gongfucha#wiki_an_introduction_to_gongfu_tea) skills.
 
 
-Here are some pictures of my setup; it's a pretty sloppy combination of like 3 different gongfu tea sets I've scavenged from various sources.
+Here are some pictures of my setup; it's a pretty sloppy combination of like 3 different tea sets I've scavenged from various sources.
 
 |[![/images/posts/Tea1-setup.jpg](/images/posts/Tea1-setup.jpg)](/images/posts/Tea1-setup.jpg){target="_blank}|[![/images/posts/Tea1-pot.jpg](/images/posts/Tea1-pot.jpg)](/images/posts/Tea1-pot.jpg){target="_blank}|[![/images/posts/Tea1-vessel.jpg](/images/posts/Tea1-vessel.jpg)](/images/posts/Tea1-vessel.jpg){target="_blank}|
 
