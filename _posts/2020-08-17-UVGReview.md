@@ -48,4 +48,4 @@ I hope you enjoy this little experiment, and I hope it gives you a better idea o
     </audio>
 </figure>
 
-[![images/posts/UVG-vomish.png](/images/posts/UVG-vomish.png)](/images/posts/UVG-vomish.png)
+[![images/posts/UVG-vomish.png](/images/posts/UVG-vomish.png)](/images/posts/UVG-vomish.png){target="_blank}
