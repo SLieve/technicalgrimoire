@@ -1,16 +1,16 @@
 ---
 title: "Technical Tea 1: The Basics"
 layout: post
-date: 2020-08-25
+date: 2020-08-24
 categories: Personal
 tags: tea review
-published: false
+published: true
 image: images/posts/Tea1-setup.jpg
 ---
 
 I decided to pursue fancy tea because it was the cheapest hobby that makes me an insufferable snob. 
 
-Seriously. For $20 you can pick up some 25 year aged [Fengqing Shu Tuo  Pu'erh](https://meileaf.com/tea/black-yunnan-tuo/) that will make you feel like an emperor.
+Seriously. For $20 you can pick up some 25 year aged [Fengqing Shu Tuo Pu'erh](https://meileaf.com/tea/black-yunnan-tuo/) that will make you feel like an emperor.
 
 Despite my nefarious motivations, tea has brought me a surprising amount of joy and satisfaction ([and even a roleplaying game!](/patreon)). Brewing tea forces me to slow down and indulge my senses; the look of the leaves, the smell of the brew, and the taste of the tea itself. 
 
@@ -87,6 +87,4 @@ The only white tea I currently have is a generic blend that came in a gift packa
 
 I hope you enjoyed this peek into the world of tea. Next time I'll be reviewing some of my favorite blends and will have more info about their histories (it's hard to track the history of a generic tea blend).
 
-Let me know if there are any varities of tea YOU would like to see in the future?
-
-
+Let me know if there are any varities of tea YOU would like to see in the future!
