@@ -35,7 +35,7 @@ I call these brewings "ceremonies" because I am a moron. I am not a [tea master]
 
 Here are some pictures of my setup; it's a pretty sloppy combination of like 3 different tea sets I've scavenged from various sources.
 
-|[![/images/posts/Tea1-setup.jpg](/images/posts/Tea1-setup.jpg)](/images/posts/Tea1-setup.jpg){target="_blank}|[![/images/posts/Tea1-pot.jpg](/images/posts/Tea1-pot.jpg)](/images/posts/Tea1-pot.jpg){target="_blank}|[![/images/posts/Tea1-vessel.jpg](/images/posts/Tea1-vessel.jpg)](/images/posts/Tea1-vessel.jpg){target="_blank}|
+|![/images/posts/Tea1-setup.jpg](/images/posts/Tea1-setup.jpg)|![/images/posts/Tea1-pot.jpg](/images/posts/Tea1-pot.jpg)|![/images/posts/Tea1-vessel.jpg](/images/posts/Tea1-vessel.jpg)|
 
 ## The Six Types
 
@@ -65,7 +65,7 @@ I expect this frankenstein blend to have a much lighter mint flavor mixed with s
 
 > ProTip: Green tea should be brewed at less than boiling. I take a pot of boiling water and add a dash of cold water [as described here](https://www.youtube.com/watch?v=spTBscGMG2c) to modify the temperature.
 
-|[![/images/posts/Tea1-green.jpg](/images/posts/Tea1-green.jpg)](/images/posts/Tea1-green.jpg){target="_blank}|[![/images/posts/Tea1-greenMess.jpg](/images/posts/Tea1-greenMess.jpg)](/images/posts/Tea1-greenMess.jpg){target="_blank}|
+|![/images/posts/Tea1-green.jpg](/images/posts/Tea1-green.jpg)|![/images/posts/Tea1-greenMess.jpg](/images/posts/Tea1-greenMess.jpg)|
 
 ### Red Tea (Black Tea)
 
@@ -73,15 +73,14 @@ Now we'll try some [Assam Golden Tips](https://www.eldenstreettea.com/the-tea-sh
 
 The "golden" part means that there is a high content of the young, golden tips or buds. Tips are particularly rich in the substances that create the aroma, taste and flavour of the tea.
 
-[![/images/posts/Tea1-golden.jpg](/images/posts/Tea1-golden.jpg)](/images/posts/Tea1-golden.jpg){target="_blank}
-|[![/images/posts/Tea1-goldencolor.jpg](/images/posts/Tea1-goldencolor.jpg)](/images/posts/Tea1-goldencolor.jpg){target="_blank}|[![/images/posts/Tea1-goldencolor2.jpg](/images/posts/Tea1-goldencolor2.jpg)](/images/posts/Tea1-goldencolor2.jpg){target="_blank}|
+|![/images/posts/Tea1-golden.jpg](/images/posts/Tea1-golden.jpg)|![/images/posts/Tea1-goldencolor.jpg](/images/posts/Tea1-goldencolor.jpg)|![/images/posts/Tea1-goldencolor2.jpg](/images/posts/Tea1-goldencolor2.jpg)|
 
 ### White Tea
 
 The only white tea I currently have is a generic blend that came in a gift package. I haven't actually tried much of it, so we'll go on this journey together.
 
-|[![/images/posts/Tea1-white.jpg](/images/posts/Tea1-white.jpg)](/images/posts/Tea1-white.jpg){target="_blank}|[![/images/posts/Tea1-whitehand.jpg](/images/posts/Tea1-whitehand.jpg)](/images/posts/Tea1-whitehand.jpg){target="_blank}|
-|[![/images/posts/Tea1-whitecolor1.jpg](/images/posts/Tea1-whitecolor1.jpg)](/images/posts/Tea1-whitecolor1.jpg){target="_blank}|[![/images/posts/Tea1-whitecolor2.jpg](/images/posts/Tea1-whitecolor2.jpg)](/images/posts/Tea1-whitecolor2.jpg){target="_blank}|
+|![/images/posts/Tea1-white.jpg](/images/posts/Tea1-white.jpg)|![/images/posts/Tea1-whitehand.jpg](/images/posts/Tea1-whitehand.jpg)|
+|![/images/posts/Tea1-whitecolor1.jpg](/images/posts/Tea1-whitecolor1.jpg)|![/images/posts/Tea1-whitecolor2.jpg](/images/posts/Tea1-whitecolor2.jpg)|
 
 ## Conclusion
 
