@@ -18,7 +18,7 @@ I've been a tea snob for years, but I haven't really taken the plunge to discuss
 
 ## Disclaimer
 
-Thanks to colonialism tea is a surprisingly tricky subject to talk about. British tea is a [corruption](https://www.aljazeera.com/indepth/opinion/british-colonialism-ruined-perfect-cup-tea-170918113331476.html), a lot of popular marketing of "mystical asian blends", and african teas are basically ignored.
+Thanks to colonialism tea is a surprisingly tricky subject to talk about. British tea is a [corruption](https://www.aljazeera.com/indepth/opinion/british-colonialism-ruined-perfect-cup-tea-170918113331476.html), racial marketing tries to sell "mystical asian blends", and african teas are basically ignored.
 
 I'm a pasty white guy who is NOT qualified to speak on the history or culture of the teas I enjoy. I'm hoping these reviews will encourage me to grow in my understanding.
 
