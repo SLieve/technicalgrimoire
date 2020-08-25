@@ -1,13 +1,13 @@
-var xmlhttp = new XMLHttpRequest();
-xmlhttp.onreadystatechange = function () {
+var pet_xmlhttp = new XMLHttpRequest();
+pet_xmlhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     pets = JSON.parse(this.responseText);
   }
 };
-xmlhttp.open("GET", "/assets/generator_resources/petgenerator.json", true);
-xmlhttp.send();
+pet_xmlhttp.open("GET", "/assets/generator_resources/petgenerator.json", true);
+pet_xmlhttp.send();
 
-function adopt() {
+function pet_adopt() {
   loco = pets.Locomotion[Math.floor(Math.random() * pets.Locomotion.length)];
   abil = pets.Abilities[Math.floor(Math.random() * pets.Abilities.length)];
   quir = pets.Quirks[Math.floor(Math.random() * pets.Quirks.length)];

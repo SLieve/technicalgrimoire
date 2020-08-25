@@ -35,7 +35,7 @@ These are brave and true creatures who have dedicated themselves to their owners
 
 <div class="row" style="justify-content: space-around !important;margin-bottom:30px;">
   <div class="col-md-5 col noPadding">
-  <a class="btn btn-black" onclick="adopt()">
+  <a class="btn btn-black" onclick="pet_adopt()">
   <h2 class="tightSpacing">Adopt a Pet</h2></a></div>
 </div>
 

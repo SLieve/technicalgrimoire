@@ -1,17 +1,17 @@
-var xmlhttp = new XMLHttpRequest();
-xmlhttp.onreadystatechange = function () {
+var blb_xmlhttp = new XMLHttpRequest();
+blb_xmlhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     blb = JSON.parse(this.responseText);
   }
 };
-xmlhttp.open("GET", "/assets/generator_resources/leftburied.json", true);
-xmlhttp.send();
+blb_xmlhttp.open("GET", "/assets/generator_resources/leftburied.json", true);
+blb_xmlhttp.send();
 
-var CHARname = "Test";
+var blb_CHARname = "Test";
 
-function generate() {
-  CHARname = blb.LeftBuried.Names[Math.floor(Math.random() * blb.LeftBuried.Names.length)];
-  var name = CHARname;
+function blb_generate() {
+  blb_CHARname = blb.LeftBuried.Names[Math.floor(Math.random() * blb.LeftBuried.Names.length)];
+  var name = blb_CHARname;
   document.getElementById("charName").innerHTML = "Name: " + name;
 
   var stats = blb.LeftBuried.Stats[Math.floor(Math.random() * blb.LeftBuried.Stats.length)];
@@ -81,8 +81,9 @@ function generate() {
   document.getElementById("leftburiedCard").style = "display:block";
 }
 
-function saveCharacterIMG() {
-  imageName = CHARname;
+function blb_saveCharacterIMG() {
+  document.getElementById("downloadBTN").style = "display:none;";
+  imageName = blb_CHARname;
   window.scrollTo(window.pageXOffset, 0);
   var container = document.getElementById("leftburiedCard");
   useWidth = container.offsetWidth;
@@ -100,4 +101,5 @@ function saveCharacterIMG() {
     link.target = '_blank';
     link.click();
   });
+  document.getElementById("downloadBTN").style = "display:initial;";
 }

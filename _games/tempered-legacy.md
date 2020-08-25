@@ -62,12 +62,12 @@ Click the buttons below to create thousands of unique weapons that use the Tempe
 
 <div class="row centerButtons">
   <div class="col-md-6 col-12">
-    <button class="btn tempered-btn notransition" onclick="generate()">
+    <button class="btn tempered-btn notransition" onclick="tl_generate()">
       <h3 id="wpnBtn">Generate a Weapon</h3>
     </button>
   </div>
     <div class="col-md-6 col-12">
-    <button class="btn tempered-btn notransition" onclick="generate('slot')">
+    <button class="btn tempered-btn notransition" onclick="tl_generate('slot')">
       <h3 id="slotBtn">Generate a Slot</h3>
     </button>
   </div>
@@ -76,7 +76,7 @@ Click the buttons below to create thousands of unique weapons that use the Tempe
 <div class="container generatorCard" id="weaponCard" style="display:none;">
   <div style="display:flex;justify-content:space-between;">
     <h2 id="weaponName" style="margin-top:0px;">Silver Rapier</h2>
-    <button id="downloadBTN" class="btn tempered-btn-sm data-html2canvas-ignore" onclick="saveWeaponIMG()" style="min-width:160px;margin-bottom:auto;">
+    <button id="downloadBTN" class="btn tempered-btn-sm data-html2canvas-ignore" onclick="tl_saveWeaponIMG()" style="min-width:160px;margin-bottom:auto;">
       <p>DOWNLOAD</p>
     </button>
   </div>
@@ -107,7 +107,6 @@ mutations](https://coinsandscrolls.blogspot.com/2019/11/osr-1d1000-mutations.htm
 
 Everything on this page is protected under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-<script async src="/assets/js/html2pdf.bundle.min.js" language="javascript" type="text/javascript"></script>
 <script async src="/assets/js/mods-eng-basic.js" language="javascript" type="text/javascript"></script>
 <script async src="/assets/js/tracery.js" language="javascript" type="text/javascript"></script>
 <script async src="/assets/generator_resources/temperedgenerators.js" language="javascript" type="text/javascript"></script>

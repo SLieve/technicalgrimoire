@@ -13,7 +13,7 @@ Best Left Buried is an fantasy horror game that threatens your characters' sanit
 
 <div class="row centerButtons">
   <div class="col-6">
-    <button id="CharButton" class="btn leftburied-btn" onclick="generate()">
+    <button id="CharButton" class="btn leftburied-btn" onclick="blb_generate()">
       <h3>Generate Character</h3>
     </button>
   </div>
@@ -22,7 +22,7 @@ Best Left Buried is an fantasy horror game that threatens your characters' sanit
 <div class="container leftburiedCard" id="leftburiedCard">
     <div style="display:flex;justify-content:space-between;">
   <h2 id="charName">John the Monster</h2>
-    <button id="downloadBTN" class="btn leftburied-btn-sm data-html2canvas-ignore" onclick="saveCharacterIMG()" style="width:160px;margin-bottom:auto;">
+    <button id="downloadBTN" class="btn leftburied-btn-sm data-html2canvas-ignore" onclick="blb_saveCharacterIMG()" style="width:160px;margin-bottom:auto;">
       <p style="margin-bottom: 0;">DOWNLOAD</p>
     </button>
   </div>
@@ -49,5 +49,4 @@ Best Left Buried is an fantasy horror game that threatens your characters' sanit
 
 Commissioned by [SoulMuppet Publishing](https://www.drivethrurpg.com/browse/pub/13749/SoulMuppet-Publishing).
 
-<script async src="/assets/js/html2canvas.min.js"></script>
 <script async src="/assets/generator_resources/leftburied.js" charset="utf-8"></script>

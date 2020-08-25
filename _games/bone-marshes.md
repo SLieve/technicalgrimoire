@@ -35,7 +35,7 @@ Also check out the Bone Marshes sequel: [Marsh Goons](/marsh-goons)!
     </a>
   </div>
   <div class="col-6">
-    <button id="CharButton" class="btn bonemarshes-btn" onclick="generate()">
+    <button id="CharButton" class="btn bonemarshes-btn" onclick="bm_generate()">
       <h3>Generate Character</h3>
     </button>  
     </div>
@@ -45,7 +45,7 @@ Also check out the Bone Marshes sequel: [Marsh Goons](/marsh-goons)!
 <div class="container bonemarshesCard" id="charCard">
   <div style="display:flex;justify-content:space-between;">
     <h2 id="charName" style="margin-top:0px;">Johnny</h2>
-    <button id="downloadBTN" class="btn bonemarshes-btn-sm data-html2canvas-ignore" onclick="saveCharacterIMG()" style="width:160px;margin-bottom:auto;">
+    <button id="downloadBTN" class="btn bonemarshes-btn-sm data-html2canvas-ignore" onclick="bm_saveCharacterIMG()" style="width:160px;margin-bottom:auto;">
       <p style="margin-bottom: 0;">DOWNLOAD</p>
     </button>
   </div>
@@ -108,5 +108,4 @@ The Bone Marshes is a three part adventure module, each of which can be run sepa
 ![BM_Marketing_6.png](/images/posts/BM_Marketing_6.png)
 ![BM_Marketing_7.png](/images/posts/BM_Marketing_7.png)
 
-<script async src="/assets/js/html2canvas.min.js"></script>
 <script async src="/assets/generator_resources/bm_generator.js" charset="utf-8"></script>

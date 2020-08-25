@@ -1,13 +1,13 @@
-var xmlhttp = new XMLHttpRequest();
-xmlhttp.onreadystatechange = function () {
+var wy_xmlhttp = new XMLHttpRequest();
+wy_xmlhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     wyrd = JSON.parse(this.responseText);
   }
 };
-xmlhttp.open("GET", "/assets/generator_resources/wyrdhunt.json", true);
-xmlhttp.send();
+wy_xmlhttp.open("GET", "/assets/generator_resources/wyrdhunt.json", true);
+wy_xmlhttp.send();
 
-function showMap() {
+function wy_showMap() {
   document.getElementById("locationCard").style = "margin-bottom: 30px";
   if (document.getElementById("locBtn").innerText.includes("Generate Map")) {
   /*generate the hunt name and hook*/
@@ -74,11 +74,11 @@ function showMap() {
     document.getElementById("encounterCard").style = "display:none";
     document.getElementById("locationCard").style = "margin-bottom: 30px";
   } else {
-    saveMap();
+    wy_saveMap();
   }
 }
 
-function nextEncounter() {
+function wy_nextEncounter() {
 
     if (document.getElementById("locBtn").innerText.includes("Generate Map")) {
       document.getElementById("locationCard").style = "display:none";
@@ -124,16 +124,16 @@ document.getElementById("encounterCard").innerHTML = encounterText;
   
 }
 
-function searchBody() {
+function wy_searchBody() {
   document.getElementById("lootBox").innerHTML = wyrd.searchBody[Math.floor(Math.random() * wyrd.searchBody.length)];
 }
 
-function artifact() {
+function wy_artifact() {
   var artifact = wyrd.artifacts[Math.floor(Math.random() * wyrd.artifacts.length)];
   document.getElementById("lootBox").innerHTML = "<h3 class=\"tightSpacing\">" + artifact.name + "</h3>" + artifact.description;
   }
 
-function spell() {
+function wy_spell() {
   var spell = wyrd.spells[Math.floor(Math.random() * wyrd.spells.length)];
   var spellText = "<h3 class=\"tightSpacing\">" + spell.name + "</h3>" +
     "<strong>Spell Level:</strong> " + spell.level +
@@ -153,11 +153,11 @@ function spell() {
   document.getElementById("lootBox").innerHTML = spellText;
 }
 
-function mutation() {
+function wy_mutation() {
   document.getElementById("lootBox").innerHTML = wyrd.mutations[Math.floor(Math.random() * wyrd.mutations.length)];
 }
 
-function saveMap() {
+function wy_saveMap() {
   imageName = "WyrdMap.png";
   window.scrollTo(window.pageXOffset, 0);
   document.getElementById("mapNav").style = "display:none;";

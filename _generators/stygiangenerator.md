@@ -37,9 +37,9 @@ description: >
   </div>
   <div class="stygian-log">
     <div class="stygian-buttons">
-        <button id="deeperButton" class="stygian-button" type="button" onclick="goDeeper()">Enter the Library</button>
-        <button class="stygian-button" type="button" onclick="newEvent(true)"><span style="color:cornflowerblue;">Visitor</span> Event</button>
-        <button class="stygian-button" type="button" onclick="newEvent(false)"><span style="color:crimson;">Intruder</span> Event</button>
+        <button id="deeperButton" class="stygian-button" type="button" onclick="sty_goDeeper()">Enter the Library</button>
+        <button class="stygian-button" type="button" onclick="sty_newEvent(true)"><span style="color:cornflowerblue;">Visitor</span> Event</button>
+        <button class="stygian-button" type="button" onclick="sty_newEvent(false)"><span style="color:crimson;">Intruder</span> Event</button>
     </div>
     <hr class="stygian-hr-dark">
     <div>
