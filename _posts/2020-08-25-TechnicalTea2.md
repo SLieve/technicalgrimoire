@@ -1,11 +1,11 @@
 ---
 title: "Technical Tea 2: My Faves"
 layout: post
-date: 2020-08-25
+date: 2020-09-02
 categories: Personal
 tags: tea review
-published: false
-image: images/posts/Tea1-setup.jpg
+published: true
+image: images/posts/Tea2.jpg
 ---
 
 Last time we looked at three of the six [categories of tea](https://teaepicure.com/tea-classification/). 
@@ -28,51 +28,34 @@ I call these brewings "ceremonies" because I am a moron. I am not a [tea master]
 All three of today's teas come from [Elden Street Tea Shop](https://www.eldenstreettea.com/) which was recommended to me by a friend.
 
  - [**Emperor Pu'erh**](https://www.eldenstreettea.com/teas.html?store-page=Emperor-Puerh-Aged-4-years-p190919414) - Aged 4 years. Elemental earthly with chestnut notes. Smooth finish.
- - **Organic Lapsang** - A smooth crisp character with the remarkable and heady aroma of a pine and oak wood fire. Cup tends bright with reddish hues.
+ - **Organic Lapsang** - A smooth crisp character with the remarkable and heady aroma of a pine and oak wood fire. Cup tends bright with reddish hues. (this is also from Elden Street, but I couldn't find a link on their site)
  - [**Organic Earl Grey**](https://www.eldenstreettea.com/teas.html?store-page=Organic-Earl-Grey-p190939469) - A classic tea that will never go out of style. Ceylon black tea blended with bergamot and blue cornflowers. A great pairing with milk and sugar.
  
 This review will be a little different. I already drink and enjoy these teas every day! This will be less of a review and more of a chance to ramble about teas I like and some of the history behind them.
 
-<podcast link>
+<figure>
+    <figcaption>Listen to the Tea Review:</figcaption>
+    <audio
+        controls
+        src="/files/Audio/Tea2.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+</figure>
 
 In addition I got this fancy new tea tray to celebrate the podcast! It's WAY easier cleanup than the big one I use for group ceremonies.
 
-<Tea Setup>
-
-## Emperor Pu'erh
-
-Pu'erh tea is aged and packed into cakes. While the tea of often marketed for various health benefits, I am attracted to the strong, rich, earthy flavor of a lot of Pu'erh teas.
-
-Fermented teas are fully oxidized, green teas are unoxidized, and Oolong teas are partially oxidized to varying degrees.
-
-The best known pu'er areas are the Six Great Tea Mountains (Chinese: 六大茶山; pinyin: liù dà chá shān[26]), a group of mountains in Xishuangbanna, Yunnan, renowned for their climates and environments, which not only provide excellent growing conditions for pu'er, but also produce unique taste profiles (akin to terroir in wine) in the produced pu'er tea.
-
-<pictures>
-
-## Lapsang
-
-Lapsang teas are smoked over pine fires giving it a hearty flavor that I love for rainy days and cold mornings.
-
-When told that his Captain Picard character from Star Trek: The Next Generation would drink a lot of tea, Sir Patrick Stewart originally suggested that he drink Lapsang souchong, but the producers were afraid the audience would not know what that was, so the character drank Earl Grey tea instead.[12]
-
-“Souchong” (小种) refers to the fourth and fifth leaves of the tea plant, further away from the more highly prized bud (pekoe) of the tea plant. These leaves are coarser than the leaves closer to the bud and have fewer aromatic compounds. Smoking provides a way to create a marketable product from these less desirable leaves.[2]
-
-It is common for even rather strongly brewed lapsang souchong tea to lack the bitterness common with other tea varieties.
-
-<pictures>
-
+![/images/posts/Tea2_Mess.jpg](/images/posts/Tea2_Mess.jpg)
 
 ## Earl Grey
 
-Earl Grey is simply a rich black tea with added bergamont. It's a classic blend that clashes citrus sweetness with dark bitterness. 
+|![/images/posts/Tea2_Earl1.jpg](/images/posts/Tea2_Earl1.jpg)|![/images/posts/Tea2_Earl2.jpg](/images/posts/Tea2_Earl2.jpg)|![/images/posts/Tea2_Earl3.jpg](/images/posts/Tea2_Earl3.jpg)|
 
-Twinnings has basically claimed ownership of this blend, which is weird.
+## Emperor Pu'erh
 
-tons of legends about the origin
+|![/images/posts/Tea2_Puerh1.jpg](/images/posts/Tea2_Puerh1.jpg)|![/images/posts/Tea2_Puerh2.jpg](/images/posts/Tea2_Puerh2.jpg)|
 
+## Lapsang
 
-
-<pictures>
-
-
-
+|![/images/posts/Tea2_Lapsang1.jpg](/images/posts/Tea2_Lapsang1.jpg)|![/images/posts/Tea2_Lapsang2.jpg](/images/posts/Tea2_Lapsang2.jpg)|
+|![/images/posts/Tea2_Lapsang3.jpg](/images/posts/Tea2_Lapsang3.jpg)|![/images/posts/Tea2_Lapsang4.jpg](/images/posts/Tea2_Lapsang4.jpg)|
