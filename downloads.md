@@ -81,7 +81,7 @@ description: >
       <h3 class="project-card-title">
         <a target="_blank" href="/files/boneHatch.pdf" class="flip-title">My Bones are Ready to Hatch!</a>
       </h3>
-      <legend class="project-card-text fine faded">A Gross Alternative to Death for RPGs</legend>
+      <legend class="project-card-text fine faded">A Gross Alternative to Death for RPGs<br><a href="https://angela-quidam.itch.io/des-os-proches-de-leclosion">French Version</a></legend>
     </article>
   </div> 
 </div>
