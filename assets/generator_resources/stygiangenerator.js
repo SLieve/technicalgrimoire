@@ -43,12 +43,13 @@ function sty_newEvent(sty_visitor) {
   } else {
     visitorHTML = "<h2 style=\"margin-top: 10px;\"><span style=\"color:crimson;\">Intruder</span> Event</h2>";
   }
+  console.log(rand20);
   eventDescription = visitorHTML + "<p>" + stygian.events[rand20].description + "</p>";
   encounters = "";
   nextEncounter = "";
 
   for (i = 0; i < stygian.events[rand20].encounters; i++) {
-    depth20 = rand20 + sty_currentLayer;
+    depth20 = sty_getRandomInt(0,20) + sty_currentLayer;
 
     if (depth20 >= 34) {
       depth20 = Math.floor(Math.random() * 20) + Math.floor(Math.random() * 10) + 1 + Math.floor(Math.random() * 6) - 2;
