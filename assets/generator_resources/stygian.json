@@ -281,19 +281,19 @@
   ],
   "events": [
     {
-      "description": "Something turns up; it’s unfriendly:",
+      "description": "Something turns up; it’s unfriendly...",
       "encounters": 1
     },
     {
-      "description": "Something turns up; it’s merely curious:",
+      "description": "Something turns up; it’s merely curious...",
       "encounters": 1
     },
     {
-      "description": "Something is disturbed while eating or reading:",
+      "description": "Something is disturbed while eating or reading...",
       "encounters": 1
     },
     {
-      "description": "A fight or argument spills into the Location. They’re already fighting each other before the players get involved.",
+      "description": "A fight or argument spills into the Location. They’re already fighting each other before the players get involved!",
       "encounters": 2
     },
     {
@@ -301,11 +301,11 @@
       "encounters": 1
     },
     {
-      "description": "Something turns up, badly injured, totally lost or otherwise at a disadvantage:",
+      "description": "Something turns up, badly injured, totally lost or otherwise at a disadvantage.",
       "encounters": 1
     },
     {
-      "description": "Something is returning to its home, office, etc., and is surprised to find the PCs here:",
+      "description": "Something is returning to its home, office, etc., and is surprised to find the PCs here.",
       "encounters": 1
     },
     {
