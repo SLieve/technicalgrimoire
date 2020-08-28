@@ -60,7 +60,7 @@ function sty_newEvent(sty_visitor) {
       nextEncounter = stygian.intruderEncounters[depth20];
     }
     
-    encounters = encounters + "<h3>" + nextEncounter.title + "</h3><p><i>" + nextEncounter.stats + "</i></p><p> " + nextEncounter.description + "</p>";
+    encounters = encounters + "<h3>" + nextEncounter.title + "</h3><p> " + nextEncounter.description + "</p>";
   }
 
   document.getElementById("encounterContent").innerHTML = eventDescription + encounters + sty_hrHTML;
