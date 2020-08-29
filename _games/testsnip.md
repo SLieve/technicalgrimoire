@@ -23,7 +23,7 @@ published: true
       data-item-id="tempered-legacy" 
       data-item-price="5.00"
       data-item-url="/sniptest"
-      data-item-file-guid="123"
+      data-item-file-guid="Y2Q2ZTBhMDgtYzNmNy00MTAxLWE4ZWItNGE0NzljMzljMTE3NjM3MzQyMjA2MzU1NzMxNzgx"
       data-item-description="Tempered Legacy is a magic item supplement for fantasy RPGs. The powers of these items are locked behind the regrets of previous owners."
       data-item-image="/images/Tempered-Print1.jpg" 
       data-item-name="Tempered Legacy">
