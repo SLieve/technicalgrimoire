@@ -36,7 +36,3 @@ published: true
     </a>
   </div>
 </div>
-
-<!-- snipcart code -->
-<div hidden id="snipcart" data-api-key="Y2Q2ZTBhMDgtYzNmNy00MTAxLWE4ZWItNGE0NzljMzljMTE3NjM3MzQyMjA2MzU1NzMxNzgx"></div>
-<script async src="https://cdn.snipcart.com/themes/v3.0.20/default/snipcart.js" language="javascript" type="text/javascript"></script>
