@@ -1,7 +1,7 @@
 ---
 title: "Technical Tea 2: My Faves"
 layout: post
-date: 2020-09-02
+date: 2020-09-01
 categories: Personal
 tags: tea review
 published: true

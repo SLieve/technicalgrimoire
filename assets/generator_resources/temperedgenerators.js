@@ -9,15 +9,25 @@ grammar.flatten("#creature.a.capitalizeAll#") = A Horse
 grammar.flatten("#random-100-200.calc#") = 137
 */
 
-var tl_xmlhttp = new XMLHttpRequest();
-tl_xmlhttp.onreadystatechange = function () {
-  if (this.readyState == 4 && this.status == 200) {
-    tempered = JSON.parse(this.responseText);
-  }
-};
+//get the json file and parse it
+fetch('/assets/generator_resources/tempered.json')
+  .then(
+    function(response) {
+      if (response.status !== 200) {
+        console.log('Looks like there was a problem. Status Code: ' +
+          response.status);
+        return;
+      }
 
-tl_xmlhttp.open("GET", "/assets/generator_resources/tempered.json", true);
-tl_xmlhttp.send();
+      // Examine the text in the response
+      response.json().then(function(data) {
+        tempered = data;
+      });
+    }
+  )
+  .catch(function(err) {
+    console.log('Fetch Error :-S', err);
+  });
 
 var tl_Wielder = "Lemuria";
 var tl_WeaponName = "Excaliber";

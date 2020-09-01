@@ -1,11 +1,22 @@
-var blb_xmlhttp = new XMLHttpRequest();
-blb_xmlhttp.onreadystatechange = function () {
-  if (this.readyState == 4 && this.status == 200) {
-    blb = JSON.parse(this.responseText);
-  }
-};
-blb_xmlhttp.open("GET", "/assets/generator_resources/leftburied.json", true);
-blb_xmlhttp.send();
+//get the json file and parse it
+fetch('/assets/generator_resources/leftburied.json')
+  .then(
+    function(response) {
+      if (response.status !== 200) {
+        console.log('Looks like there was a problem. Status Code: ' +
+          response.status);
+        return;
+      }
+
+      // Examine the text in the response
+      response.json().then(function(data) {
+        blb = data;
+      });
+    }
+  )
+  .catch(function(err) {
+    console.log('Fetch Error :-S', err);
+  });
 
 var blb_CHARname = "Test";
 

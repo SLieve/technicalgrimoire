@@ -3,14 +3,25 @@
  * Expand the text descriptions of each creature
  */
 
-var mg_xmlhttp = new XMLHttpRequest();
-mg_xmlhttp.onreadystatechange = function () {
-  if (this.readyState == 4 && this.status == 200) {
-    mg = JSON.parse(this.responseText);
-  }
-};
-mg_xmlhttp.open("GET", "/assets/generator_resources/mg_generator.json", true);
-mg_xmlhttp.send();
+//get the json file and parse it
+fetch('/assets/generator_resources/mg_generator.json')
+  .then(
+    function(response) {
+      if (response.status !== 200) {
+        console.log('Looks like there was a problem. Status Code: ' +
+          response.status);
+        return;
+      }
+
+      // Examine the text in the response
+      response.json().then(function(data) {
+        mg = data;
+      });
+    }
+  )
+  .catch(function(err) {
+    console.log('Fetch Error :-S', err);
+  });
 
 mg_CHARname = "Jane";
 

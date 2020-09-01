@@ -1,11 +1,22 @@
-var pet_xmlhttp = new XMLHttpRequest();
-pet_xmlhttp.onreadystatechange = function () {
-  if (this.readyState == 4 && this.status == 200) {
-    pets = JSON.parse(this.responseText);
-  }
-};
-pet_xmlhttp.open("GET", "/assets/generator_resources/petgenerator.json", true);
-pet_xmlhttp.send();
+//get the json file and parse it
+fetch('/assets/generator_resources/petgenerator.json')
+  .then(
+    function(response) {
+      if (response.status !== 200) {
+        console.log('Looks like there was a problem. Status Code: ' +
+          response.status);
+        return;
+      }
+
+      // Examine the text in the response
+      response.json().then(function(data) {
+        pets = data;
+      });
+    }
+  )
+  .catch(function(err) {
+    console.log('Fetch Error :-S', err);
+  });
 
 function pet_adopt() {
   loco = pets.Locomotion[Math.floor(Math.random() * pets.Locomotion.length)];

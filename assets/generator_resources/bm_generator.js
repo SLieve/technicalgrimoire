@@ -3,14 +3,25 @@
  * Expand the text descriptions of each creature
  */
 
-var bm_xmlhttp = new XMLHttpRequest();
-bm_xmlhttp.onreadystatechange = function () {
-  if (this.readyState == 4 && this.status == 200) {
-    bm = JSON.parse(this.responseText);
-  }
-};
-bm_xmlhttp.open("GET", "/assets/generator_resources/bm_generator.json", true);
-bm_xmlhttp.send();
+//get the json file and parse it
+fetch('/assets/generator_resources/bm_generator.json')
+  .then(
+    function(response) {
+      if (response.status !== 200) {
+        console.log('Looks like there was a problem. Status Code: ' +
+          response.status);
+        return;
+      }
+
+      // Examine the text in the response
+      response.json().then(function(data) {
+        bm = data;
+      });
+    }
+  )
+  .catch(function(err) {
+    console.log('Fetch Error :-S', err);
+  });
 
 function bm_rollStats(){
       var die1 = Math.floor(Math.random() * 6) + 1;

@@ -3,14 +3,25 @@
  * Expand the text descriptions of each creature
  */
 
-var hsi_xmlhttp = new XMLHttpRequest();
-hsi_xmlhttp.onreadystatechange = function () {
-  if (this.readyState == 4 && this.status == 200) {
-    hsi = JSON.parse(this.responseText);
-  }
-};
-hsi_xmlhttp.open("GET", "/assets/generator_resources/hsi.json", true);
-hsi_xmlhttp.send();
+//get the json file and parse it
+fetch('/assets/generator_resources/hsi.json')
+  .then(
+    function(response) {
+      if (response.status !== 200) {
+        console.log('Looks like there was a problem. Status Code: ' +
+          response.status);
+        return;
+      }
+
+      // Examine the text in the response
+      response.json().then(function(data) {
+        hsi = data;
+      });
+    }
+  )
+  .catch(function(err) {
+    console.log('Fetch Error :-S', err);
+  });
 
 function hsi_threedsix(jsonList) {
   /*We don't add +1 because we'll be referencing tables, which start at 0*/
