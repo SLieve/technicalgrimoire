@@ -17,7 +17,7 @@ Play as a Robot, Mutant, or a Magical Golem; someone who can’t die and quickly
 
 <div class="row centerButtons">
   <div class="col-md-6 col-12">
-<a class="btn wyrd-btn" href="https://gum.co/bmUI" target="_blank"><h3>PDF: Free</h3></a>
+    <button class="btn wyrd-btn" onclick="location.href='/files/Kintsugi_Digital.pdf'" type="button">Download PDF</button>
   </div>
 </div>
 

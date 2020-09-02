@@ -18,7 +18,15 @@ Mythic Mortals is a Tabletop Roleplaying Game where you and your friends play as
 
 <div class="row centerButtons">
   <div class="col-md-4 col-12">
-<a class="btn wyrd-btn" href="https://gum.co/rCInq" target="_blank"><h3>PDF: $10</h3></a>
+<a class="btn wyrd-btn snipcart-add-item" 
+      data-item-id="mythic-mortals-pdf" 
+      data-item-price="10.00"
+      data-item-url="/mythic-mortals"
+      data-item-description="Includes the PDF. Mythic Mortals is a Tabletop Roleplaying Game where you and your friends play as your real-world selves suddenly granted unstable powers."
+      data-item-image="/images/posts/MM_Cover_Digital.jpg" 
+      data-item-name="Mythic Mortal (PDF)"
+      data-item-file-guid="72a53354-2c34-4542-a6d2-1db834cd23ac">
+      <h3>PDF: $10</h3></a>
   </div>
   <div class="col-md-4 col-12">
     <a class="btn wyrd-btn" href="http://www.drivethrurpg.com/product/178248/Mythic-Mortals" target="_blank">
@@ -26,7 +34,15 @@ Mythic Mortals is a Tabletop Roleplaying Game where you and your friends play as
     </a>
   </div>
     <div class="col-md-4 col-12">
-<a class="btn wyrd-btn" href="https://gum.co/HMmyu" target="_blank"><h3>Expansion: $5</h3></a>
+<a class="btn wyrd-btn snipcart-add-item" 
+      data-item-id="mythic-mortals-multiplied" 
+      data-item-price="5.00"
+      data-item-url="/mythic-mortals"
+      data-item-description="Includes the PDF. The Multiplied expansion features 4 deadly Bosses, an adventure set in ancient times by Emily Care Boss, an epic 3-part adventure set in space by Stephanie Bryant, and 6 new classes!"
+      data-item-image="/images/posts/Multiplied-Cover-593x768.jpg" 
+      data-item-name="Mythic Mortals Multiplied Expansion (PDF)"
+      data-item-file-guid="e86f550e-b382-48f4-8541-b4120fe9e5a7">
+      <h3>Expansion: $5</h3></a>
   </div>
 </div>
 

@@ -20,11 +20,9 @@ A Sci-Fi horror adventure for the [Dread system](/david/extremely-interesting-ro
 
 <div class="row">
   <div class="col-md-6 col-12 tightSpacing buttonWrapper">
-<a class="btn wyrd-btn" href="https://gum.co/ivYRx" target="_blank"><h3>Get the PDF</h3></a>
+<button class="btn wyrd-btn" onclick="location.href='/files/OnlytheFood-Digital.pdf'" type="button">Download PDF</button>
 </div>
 </div>
-
-
 
  * [Creepy, atmospheric audio](https://drive.google.com/open?id=1VmqucXbk79hvqvR7vnnFC15Bs8aC5JMS) for the broken AI. Brilliantly produced by Robert Freeman.
  * [**Maps, audio recordings, character sheets, and more stuff**](http://www.supernovembergames.com/tomes-of-tomes/2016/10/1/dread-only-the-food-and-aliens) made by Tomer Gurantz. Makes it even easier to jump into a game and draw in your players.

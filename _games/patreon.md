@@ -20,9 +20,7 @@ _I have suspended my Patreon for the time being. I might come back to it later, 
 
 <div class="row centerButtons">
   <div class="col-md-6 col-12">
-    <a class="btn wyrd-btn" href="https://gum.co/FvZBy" target="_blank">
-      <h3>Download</h3>
-    </a>
+    <button class="btn wyrd-btn" onclick="location.href='/files/Patreon_Exposions.zip'" type="button">Download Explosions</button>
   </div>
  </div>
 

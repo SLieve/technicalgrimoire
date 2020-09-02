@@ -22,11 +22,20 @@ Also check out the Bone Marshes sequel: [Marsh Goons](/marsh-goons)!
 
 <div class="row centerButtons">
   <div class="col-md-6 col-6">
-<a class="btn bonemarshes-btn" href="https://gum.co/lCpIs" target="_blank"><h3>PDF: $10</h3></a>
+<a class="btn bonemarshes-btn snipcart-add-item" 
+      data-item-id="bone-marshes-pdf" 
+      data-item-price="10.00"
+      data-item-url="/bone-marshes"
+      data-item-description="Includes the PDF. The Bone Marshes is a tabletop adventure about getting lost in a burning marsh. It’s tailor-made for groups that enjoy exploring complex spaces and drawing maps."
+      data-item-image="/images/posts/bonemarshes_KS.jpg" 
+      data-item-name="Bone Marshes (PDF)"
+      data-item-file-guid="920a72b3-b68d-4495-9a90-27bf94fc9800">
+      <h3>Download the PDF: $10</h3>
+    </a>
   </div>
   <div class="col-md-6 col-6">
     <a class="btn bonemarshes-btn" href="https://www.drivethrurpg.com/product/275159/Bone-Marshes" target="_blank">
-      <h3>Print+PDF: $20</h3>
+      <h3>Order the Book (Print+PDF): $20</h3>
     </a>
   </div>
   <div class="col-md-6 col-6">

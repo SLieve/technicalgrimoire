@@ -46,7 +46,7 @@ The 64 page Zine contains:
       data-item-description="Includes the PDF. Tempered Legacy is a magic item supplement for fantasy RPGs. The powers of these items are locked behind the regrets of previous owners."
       data-item-image="/images/Tempered-Print1.jpg" 
       data-item-name="Tempered Legacy (PDF)"
-      data-item-file-guid="d74a93bb-89a1-4937-b7be-402ad0665347">
+      data-item-file-guid="4a850c3d-58de-4e91-a38a-c02f2a233ab1">
       <h3>Download the PDF: $5</h3>
     </a>
   </div>
@@ -58,7 +58,7 @@ The 64 page Zine contains:
       data-item-description="Includes a printed zine and a PDF. Tempered Legacy is a magic item supplement for fantasy RPGs. The powers of these items are locked behind the regrets of previous owners."
       data-item-image="/images/Tempered-Print1.jpg" 
       data-item-name="Tempered Legacy (Print+PDF)"
-      data-item-file-guid="d74a93bb-89a1-4937-b7be-402ad0665347"
+      data-item-file-guid="4a850c3d-58de-4e91-a38a-c02f2a233ab1"
       data-item-weight="111"
       data-item-length="23"
       data-item-width="16"

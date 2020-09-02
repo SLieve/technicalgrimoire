@@ -20,10 +20,33 @@ In Marsh Goons your inventory is your life, and the mud keeps weighing you down!
 
 <div class="row centerButtons">
   <div class="col-md-6 col-12">
-  	<a class="btn bonemarshes-btn notransition" href="https://gum.co/zeiWo" target="_blank"><h3>Download the Zine (PDF): $5</h3></a>
+    <a class="btn bonemarshes-btn snipcart-add-item" 
+      data-item-id="marsh-goons-pdf" 
+      data-item-price="5.00"
+      data-item-url="/marsh-goons"
+      data-item-description="Includes the PDF. Marsh Goons is the complete package: adventure, rules, items, dungeons, monsters, all packed into 36 pages."
+      data-item-image="/images/MG_cover.jpg" 
+      data-item-name="Marsh Goons (PDF)"
+      data-item-file-guid="b6bfc4aa-9af8-4382-bc1a-0e7e82b4d43b">
+      <h3>Download the PDF: $5</h3>
+    </a>
   </div>
   <div class="col-md-6 col-12">
-  	<a class="btn bonemarshes-btn notransition" href="https://gum.co/RgeGH" target="_blank"><h3>Order the Zine (Print+PDF): $10</h3></a>
+       <a class="btn bonemarshes-btn snipcart-add-item" 
+      data-item-id="marsh-goons-print" 
+      data-item-price="5.00"
+      data-item-url="/marsh-goons"
+      data-item-description="Includes a printed zine and the PDF. Marsh Goons is the complete package: adventure, rules, items, dungeons, monsters, all packed into 36 pages."
+      data-item-image="/images/MG_cover.jpg" 
+      data-item-name="Marsh Goons (Print + PDF)"
+      data-item-file-guid="b6bfc4aa-9af8-4382-bc1a-0e7e82b4d43b"
+      data-item-weight="61"
+      data-item-length="23"
+      data-item-width="16"
+      data-item-height="3"
+      data-item-shippable="true">
+      <h3>Order the Zine (Print+PDF): $10</h3>
+    </a>
   </div>
 </div>
 

@@ -19,12 +19,33 @@ Clink is a tabletop RPG about drifters, the creeds that bring them together, and
 
 <div class="row centerButtons">
   <div class="col-md-6 col-12">
-<a class="btn clink-btn" href="https://gum.co/EXxjT" target="_blank"><h3>PDF: $10</h3>
+<a class="btn clink-btn snipcart-add-item" 
+      data-item-id="clink-pdf" 
+      data-item-price="10.00"
+      data-item-url="/clink"
+      data-item-description="Includes the PDF. Clink is a tabletop RPG about drifters, the creeds that bring them together, and the history that drives them apart."
+      data-item-image="/images/posts/96596be4d776c79c68af7ff462b9599f_original.jpg" 
+      data-item-name="Clink (PDF)"
+      data-item-file-guid="4a5a7ba9-c84f-4f55-ae79-0c3948d9c246">
+      <h3>Download the PDF: $10</h3>
     </a>
   </div>
   <div class="col-md-6 col-12">
-<a class="btn clink-btn" href="https://gum.co/weEI" target="_blank"><h3>Print+PDF: $20</h3>
-</a>
+<a class="btn clink-btn snipcart-add-item" 
+      data-item-id="clink-print" 
+      data-item-price="20.00"
+      data-item-url="/clink"
+      data-item-description="Includes a printed copy and a PDF. Clink is a tabletop RPG about drifters, the creeds that bring them together, and the history that drives them apart."
+      data-item-image="/images/posts/96596be4d776c79c68af7ff462b9599f_original.jpg" 
+      data-item-name="Clink (Print + PDF)"
+      data-item-file-guid="4a5a7ba9-c84f-4f55-ae79-0c3948d9c246"
+      data-item-weight="161"
+      data-item-length="23"
+      data-item-width="16"
+      data-item-height="3"
+      data-item-shippable="true">
+      <h3>Order the Book (Print+PDF): $20</h3>
+    </a>
   </div>
 </div>
 
