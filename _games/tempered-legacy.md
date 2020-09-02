@@ -39,10 +39,33 @@ The 64 page Zine contains:
 
 <div class="row centerButtons">
   <div class="col-md-6 col-12">
-  	<a class="btn tempered-btn notransition" href="https://gum.co/HnQeI" target="_blank"><h3>Download the Zine (PDF): $5</h3></a>
+    <a class="btn tempered-btn notransition snipcart-add-item" 
+      data-item-id="tempered-legacy-pdf" 
+      data-item-price="5.00"
+      data-item-url="/tempered-legacy"
+      data-item-description="Includes the PDF. Tempered Legacy is a magic item supplement for fantasy RPGs. The powers of these items are locked behind the regrets of previous owners."
+      data-item-image="/images/Tempered-Print1.jpg" 
+      data-item-name="Tempered Legacy (PDF)"
+      data-item-file-guid="d74a93bb-89a1-4937-b7be-402ad0665347">
+      <h3>Download the PDF: $5</h3>
+    </a>
   </div>
   <div class="col-md-6 col-12">
-  	<a class="btn tempered-btn notransition" href="https://gum.co/GVZjRc" target="_blank"><h3>Order the Zine (Print+PDF): $10</h3></a>
+    <a class="btn tempered-btn notransition snipcart-add-item" 
+      data-item-id="tempered-legacy-print" 
+      data-item-price="10.00"
+      data-item-url="/tempered-legacy"
+      data-item-description="Includes a printed zine and a PDF. Tempered Legacy is a magic item supplement for fantasy RPGs. The powers of these items are locked behind the regrets of previous owners."
+      data-item-image="/images/Tempered-Print1.jpg" 
+      data-item-name="Tempered Legacy (Print+PDF)"
+      data-item-file-guid="d74a93bb-89a1-4937-b7be-402ad0665347"
+      data-item-weight="111"
+      data-item-length="23"
+      data-item-width="16"
+      data-item-height="3"
+      data-item-shippable="true">
+      <h3>Order the Zine (Print+PDF): $10</h3>
+    </a>
   </div>
 </div>
 
