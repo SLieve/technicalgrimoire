@@ -1,3 +1,18 @@
+/* Simple Forms */
+.formCard {
+  background-color: #282e31;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: black 10px;
+  box-shadow: 5px 5px 6px darkgray;
+}
+
+.formCard div{
+  display: flex;
+  justify-content: space-between;
+}
+
 /* Shopping Cart */
 .snipcart-checkout {
   width: auto;

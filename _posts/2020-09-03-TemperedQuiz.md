@@ -16,7 +16,7 @@ Take the Tempered Weapon Quiz below to discover the form of your soul-blade-mind
 
 If you can't be honest with your inner weapon, then you'll never know the truth.
 
-<form action="" method="">
+<form action="" method="" class="formCard">
   <div class="form-example">
     <label for="toes">What is your favorite toe? </label>
     <input type="text" name="toe">
