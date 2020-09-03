@@ -28,8 +28,8 @@ function quiz_generate(text) {
   grammar = tracery.createGrammar(tempered);
   grammar.addModifiers(baseEngModifiers);
 
-
   quiz_generateWeapon();
+  document.getElementById("wpnBtn").innerHTML = "Discover your Inner Weapon...Again?";
 
 }
 
@@ -38,8 +38,6 @@ function quiz_generateWeapon() {
   tl_WeaponName = grammar.flatten("#nameTemplate#");
   document.getElementById("weaponName").innerHTML = tl_WeaponName;
 
-  document.getElementById("temperedSlots").innerHTML = tl_createSlot(3);
-
   tl_WeaponType = grammar.flatten("#weapon#"); //generate weapon type
   //A dagger #description#
   descrip = AvsAnSimple.query(tl_WeaponType) + " " + tl_WeaponType + " " + grammar.flatten("#description#");
@@ -47,15 +45,12 @@ function quiz_generateWeapon() {
 
   document.getElementById("weaponImg").src = "/images/TemperedWeapons/" +
     tl_WeaponType.replace(/ /g, "_") + ".png";
-  tl_setWeaponColors();
-
-  document.getElementById("interacting").innerHTML =
-    '<p class="h3 tightSpacing">Interacting With Slots</p><p><img class="temperedicon" style="margin-left: 10px;margin-right: 10px;" src="/images/TemperedWeapons/icon-unlocked.png"><strong>Unlock A Slot</strong>.</p><p>When you fulfill the regret of a previous owner, you unlock that Slot and gain access to the Spell/Knowledge/Enchantment.</p><p><img class="temperedicon" style="margin-left: 10px;margin-right: 10px;" src="/images/TemperedWeapons/icon-shaking-hands.png"><strong>Help An Ally</strong>.</p><p>After you help an ally unlock one of their Slots, you may use the "Slot Generator" to replace any Slot in your own weapon with one from the generator.</p><p><img class="temperedicon" style="margin-left: 10px;margin-right: 10px;" src="/images/TemperedWeapons/icon-skull-crossed-bones.png"><strong>Character Death</strong>.</p><p>When a character dies they can choose to have some aspect of themselves stored in the item. Create a new slot based on the character that just died, lock it behind a Regret, and add it to the weapon.</p>';
+    quiz_setWeaponColors();
   document.getElementById("weaponCard").style = ""; //reveal the card
 }
 
 //change the colors, and sometimes flip the weapon sideways
-function tl_setWeaponColors() {
+function quiz_setWeaponColors() {
   random = Math.random();
   if (random >= .5) {
     flipped = 1;
@@ -71,7 +66,7 @@ function tl_setWeaponColors() {
   document.getElementById("weaponImg").style = bgstyle + ");transform: scaleX(" + flipped + ");";
 }
 
-function tl_saveWeaponIMG() {
+function quiz_saveWeaponIMG() {
   imageName = tl_WeaponName;
   if (tl_WeaponName == "this weapon") {
     imageName = Wielder + "'s Slot";
