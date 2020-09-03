@@ -4,14 +4,16 @@
   color: white;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: black 10px;
   box-shadow: 5px 5px 6px darkgray;
+  margin: auto;
+  margin-bottom:30px;
+  width:75%;
 }
 
 .formCard div{
-  display: flex;
-  justify-content: space-between;
+  display: grid;
   margin: 20px;
+  padding: 10px;
 }
 
 /* Shopping Cart */
