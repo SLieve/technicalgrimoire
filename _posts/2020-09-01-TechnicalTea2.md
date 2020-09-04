@@ -8,7 +8,7 @@ published: true
 image: images/posts/Tea2.jpg
 ---
 
-Last time we looked at three of the six [categories of tea](https://teaepicure.com/tea-classification/). 
+In [**episode one**](/david/2020/08/TechnicalTea1) we looked at three of the six [categories of tea](https://teaepicure.com/tea-classification/). 
  - **The green tea** was rather bitter (but that could have been because I over-steeped it)
  - **The black tea** was smooth and bold
  - **The white tea** was...not good. It smelled nice, but tasted bland and empty.
