@@ -87,3 +87,5 @@ The only white tea I currently have is a generic blend that came in a gift packa
 I hope you enjoyed this peek into the world of tea. Next time I'll be reviewing some of my favorite blends and will have more info about their histories (it's hard to track the history of a generic tea blend).
 
 Let me know if there are any varities of tea YOU would like to see in the future!
+
+### [Watch episode 2](/david/2020/09/TechnicalTea2)
