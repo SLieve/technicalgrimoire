@@ -19,7 +19,12 @@ Play as a Robot, Mutant, or a Magical Golem; someone who can’t die and quickly
   <div class="col-md-6 col-12">
     <button class="btn wyrd-btn" onclick="location.href='/files/Kintsugi_Digital.pdf'" type="button">Download PDF</button>
   </div>
+  <div class="col-md-6 col-12">
+    <button class="btn wyrd-btn" onclick="location.href='/files/KINTSUGI_VF.pdf'" type="button">Version française</button>
+	<i>Created by Psychogere (Beru#2128 on Discord)</i>
+  </div>
 </div>
+
 
 > "Can't recommend it enough. Free, easy to run RPG about immortals learning from their mistakes." - [Tyler Crumrine](https://mobile.twitter.com/uhcoolguy)
 

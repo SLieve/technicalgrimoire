@@ -52,7 +52,7 @@ function tl_generateSlot() {
   document.getElementById("slotBtn").innerHTML = "Generate another Slot";
 
   document.getElementById("weaponName").innerHTML = "New Slot:";
-  document.getElementById("interacting").innerHTML = "";
+  //document.getElementById("interacting").innerHTML = "";
   document.getElementById("weaponDesc").innerHTML = "Use this Slot for Trinkets or to replace an existing Slot in your weapon after you helped an ally, or to add on to your weapon.";
   document.getElementById("weaponImg").style = "display:none;";
   document.getElementById("temperedSlots").innerHTML = tl_createSlot(1);
@@ -78,8 +78,8 @@ function tl_generateWeapon() {
     tl_WeaponType.replace(/ /g, "_") + ".png";
   tl_setWeaponColors();
 
-  document.getElementById("interacting").innerHTML =
-    '<p class="h3 tightSpacing">Interacting With Slots</p><p><img class="temperedicon" style="margin-left: 10px;margin-right: 10px;" src="/images/TemperedWeapons/icon-unlocked.png"><strong>Unlock A Slot</strong>.</p><p>When you fulfill the regret of a previous owner, you unlock that Slot and gain access to the Spell/Knowledge/Enchantment.</p><p><img class="temperedicon" style="margin-left: 10px;margin-right: 10px;" src="/images/TemperedWeapons/icon-shaking-hands.png"><strong>Help An Ally</strong>.</p><p>After you help an ally unlock one of their Slots, you may use the "Slot Generator" to replace any Slot in your own weapon with one from the generator.</p><p><img class="temperedicon" style="margin-left: 10px;margin-right: 10px;" src="/images/TemperedWeapons/icon-skull-crossed-bones.png"><strong>Character Death</strong>.</p><p>When a character dies they can choose to have some aspect of themselves stored in the item. Create a new slot based on the character that just died, lock it behind a Regret, and add it to the weapon.</p>';
+  //document.getElementById("interacting").innerHTML =
+  //  '<p class="h3 tightSpacing">Interacting With Slots</p><p><img class="temperedicon" style="margin-left: 10px;margin-right: 10px;" src="/images/TemperedWeapons/icon-unlocked.png"><strong>Unlock A Slot</strong>.</p><p>When you fulfill the regret of a previous owner, you unlock that Slot and gain access to the Spell/Knowledge/Enchantment.</p><p><img class="temperedicon" style="margin-left: 10px;margin-right: 10px;" src="/images/TemperedWeapons/icon-shaking-hands.png"><strong>Help An Ally</strong>.</p><p>After you help an ally unlock one of their Slots, you may use the "Slot Generator" to replace any Slot in your own weapon with one from the generator.</p><p><img class="temperedicon" style="margin-left: 10px;margin-right: 10px;" src="/images/TemperedWeapons/icon-skull-crossed-bones.png"><strong>Character Death</strong>.</p><p>When a character dies they can choose to have some aspect of themselves stored in the item. Create a new slot based on the character that just died, lock it behind a Regret, and add it to the weapon.</p>';
   document.getElementById("weaponCard").style = ""; //reveal the card
 }
 

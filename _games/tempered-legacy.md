@@ -37,6 +37,10 @@ The 64 page Zine contains:
 - Different templates for making your own Regrets.
 - and more!
 
+> "I think it's an incredible book to pick up if you ever want to introduce more compelling magic items into your game, that could be fantasy, sci-fi, or anywhere in-between." - [Omnimyth Press](https://omnimyth.press/review-tempered-legacy/)
+
+> "Tempered Legacy is a fun and new way to give life to magic items. The system-neutral approach provides a universal platform from which to work, and adapting this framework to any fantasy roleplaying game should be as easy as one, two, three…" - [Rolling Boxcars](https://rollingboxcars.com/2020/08/31/unlocking-potential-a-review-of-tempered-legacy/)
+
 <div class="row centerButtons">
   <div class="col-md-6 col-12">
     <a class="btn tempered-btn notransition snipcart-add-item" 
@@ -107,7 +111,7 @@ Click the buttons below to create thousands of unique weapons that use the Tempe
   <p><img id="weaponImg" src="/images/TemperedWeapons/Sword.png" style="background: black; width: 100%;"></p>
   <div id="temperedSlots">
   </div>
-  <div id="interacting"></div>
+  <!--<div id="interacting"></div>-->
 </div>
 
 **Thanks to:**
