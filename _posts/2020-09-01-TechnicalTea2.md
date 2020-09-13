@@ -25,14 +25,6 @@ I call these brewings "ceremonies" because I am a moron. I am not a [tea master]
 
 ## Today's Picks
 
-All three of today's teas come from [Elden Street Tea Shop](https://www.eldenstreettea.com/) which was recommended to me by a friend.
-
- - [**Emperor Pu'erh**](https://www.eldenstreettea.com/teas.html?store-page=Emperor-Puerh-Aged-4-years-p190919414) - Aged 4 years. Elemental earthly with chestnut notes. Smooth finish.
- - **Organic Lapsang** - A smooth crisp character with the remarkable and heady aroma of a pine and oak wood fire. Cup tends bright with reddish hues. (this is also from Elden Street, but I couldn't find a link on their site)
- - [**Organic Earl Grey**](https://www.eldenstreettea.com/teas.html?store-page=Organic-Earl-Grey-p190939469) - A classic tea that will never go out of style. Ceylon black tea blended with bergamot and blue cornflowers. A great pairing with milk and sugar.
- 
-This review will be a little different. I already drink and enjoy these teas every day! This will be less of a review and more of a chance to ramble about teas I like and some of the history behind them.
-
 <figure>
     <figcaption>Listen to the Tea Review:</figcaption>
     <audio
@@ -42,6 +34,14 @@ This review will be a little different. I already drink and enjoy these teas eve
             <code>audio</code> element.
     </audio>
 </figure>
+
+All three of today's teas come from [Elden Street Tea Shop](https://www.eldenstreettea.com/) which was recommended to me by a friend.
+
+ - [**Emperor Pu'erh**](https://www.eldenstreettea.com/teas.html?store-page=Emperor-Puerh-Aged-4-years-p190919414) - Aged 4 years. Elemental earthly with chestnut notes. Smooth finish.
+ - **Organic Lapsang** - A smooth crisp character with the remarkable and heady aroma of a pine and oak wood fire. Cup tends bright with reddish hues. (this is also from Elden Street, but I couldn't find a link on their site)
+ - [**Organic Earl Grey**](https://www.eldenstreettea.com/teas.html?store-page=Organic-Earl-Grey-p190939469) - A classic tea that will never go out of style. Ceylon black tea blended with bergamot and blue cornflowers. A great pairing with milk and sugar.
+ 
+This review will be a little different. I already drink and enjoy these teas every day! This will be less of a review and more of a chance to ramble about teas I like and some of the history behind them.
 
 In addition I got this fancy new tea tray to celebrate the podcast! It's WAY easier cleanup than the big one I use for group ceremonies.
 

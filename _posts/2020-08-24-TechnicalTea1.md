@@ -39,12 +39,6 @@ Here are some pictures of my setup; it's a pretty sloppy combination of like 3 d
 
 ## The Six Types
 
-For this first series we'll be sampling three of the six [categories of tea](https://teaepicure.com/tea-classification/). There are, of course, hundreds of other varieties and sub-varieties, but these are a good place to start.
-
-Quick caveat that my tea stash is starting to run low, so we'll start by reviewing my hodgepodge of leftovers, and maybe in a few weeks we can shop for some new teas to try.
-
-Listen to the tea tastings and check out some of the pictures and links below.
-
 <figure>
     <figcaption>Listen to the Tea Review:</figcaption>
     <audio
@@ -54,6 +48,12 @@ Listen to the tea tastings and check out some of the pictures and links below.
             <code>audio</code> element.
     </audio>
 </figure>
+
+For this first series we'll be sampling three of the six [categories of tea](https://teaepicure.com/tea-classification/). There are, of course, hundreds of other varieties and sub-varieties, but these are a good place to start.
+
+Quick caveat that my tea stash is starting to run low, so we'll start by reviewing my hodgepodge of leftovers, and maybe in a few weeks we can shop for some new teas to try.
+
+Listen to the tea tastings and check out some of the pictures and links below.
 
 ### Green Tea
 
