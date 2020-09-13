@@ -27,7 +27,7 @@ The more blobs you shoot, the more difficult the game gets. If you miss, Game Ov
 <h2 style="text-align:center;" id="jengaScore"></h2>
 
 <div id="jenga-div">
-    <canvas id="jenga-canvas" resize="true" width="100%" height="100%"></canvas>
+    <canvas id="jenga-canvas" resize="true" width="1000" height="1000"></canvas>
 </div>
 
 If you have feedback on tweaking the difficult or settings please let me know!
@@ -38,10 +38,18 @@ If you have feedback on tweaking the difficult or settings please let me know!
   body {
     background-color: #313131;
     color: #F5F5F5;
+        height: 100%;
   }
   body a {
     color: #F5F5F5;
   }
+
+/* Scale canvas with resize attribute to full size */
+canvas[resize] {
+    width: 100%;
+    height: 100%;
+      background-color:#313131;
+}
   </style>
 
 <script async src="/assets/js/paper-full.js" type="text/javascript"></script>
