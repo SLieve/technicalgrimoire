@@ -21,13 +21,13 @@ The more blobs you shoot, the more difficult the game gets. If you miss, Game Ov
   <a class="btn btn-black" style="background-color:#6c3483;" onclick="window.throwBalls('star', 3, 80, 10)"><h3 class="tightSpacing">StarCrossed</h3>Large, fast blobs</a></div>
 
   <div class="col-md-4 col noPadding">
-  <a class="btn btn-black" style="background-color:#196f3d;" onclick="window.throwBalls('star', 9, 30, 3)"><h3 class="tightSpacing">Wretched</h3>Small, slow blobs</a></div>
+  <a class="btn btn-black" style="background-color:#196f3d;" onclick="window.throwBalls('wretched', 9, 30, 3)"><h3 class="tightSpacing">Wretched</h3>Small, slow blobs</a></div>
 </div>
 
 <h2 style="text-align:center;" id="jengaScore"></h2>
 
-<div id="jenga-div" style="width:100%;height:100%;">
-    <canvas id="jenga-canvas" resize="true"></canvas>
+<div id="jenga-div">
+    <canvas id="jenga-canvas" resize="true" width="100%" height="100%"></canvas>
 </div>
 
 If you have feedback on tweaking the difficult or settings please let me know!
