@@ -185,6 +185,7 @@ secondLayer.activate();
   var balls = [];
 
   window.throwBalls = function(gameName, numBalls, ballSize, ballSpeed) {
+    document.getElementById('jenga-buttons').style="display:none;";
     document.getElementById("jengaScore").innerHTML = "Press Enter to Shoot Blobs";
     gameType = gameName;
 

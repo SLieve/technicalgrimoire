@@ -15,13 +15,13 @@ The more blobs you shoot, the more difficult the game gets. If you miss, Game Ov
 
 <div id="jenga-buttons" class="row" style="justify-content: space-around !important;margin-bottom:30px;">
   <div class="col-md-4 col noPadding">
-  <a class="btn btn-black" style="background-color:#922b21;" id="dread-btn"><h3 class="tightSpacing">Dread</h3>Default Settings</a></div>
+  <a class="btn btn-black" style="background-color:#922b21;" onclick="window.throwBalls('dread', 6, 60, 6)"><h3 class="tightSpacing">Dread</h3>Default Settings</a></div>
 
   <div class="col-md-4 col noPadding">
-  <a class="btn btn-black" style="background-color:#6c3483;" id="star-btn"><h3 class="tightSpacing">StarCrossed</h3>Large, fast blobs</a></div>
+  <a class="btn btn-black" style="background-color:#6c3483;" onclick="window.throwBalls('star', 3, 80, 10)"><h3 class="tightSpacing">StarCrossed</h3>Large, fast blobs</a></div>
 
   <div class="col-md-4 col noPadding">
-  <a class="btn btn-black" style="background-color:#196f3d;" id="wretched-btn"><h3 class="tightSpacing">Wretched</h3>Small, slow blobs</a></div>
+  <a class="btn btn-black" style="background-color:#196f3d;" onclick="window.throwBalls('star', 9, 30, 3)"><h3 class="tightSpacing">Wretched</h3>Small, slow blobs</a></div>
 </div>
 
 <h2 style="text-align:center;" id="jengaScore"></h2>
@@ -47,32 +47,3 @@ If you have feedback on tweaking the difficult or settings please let me know!
 <script async src="/assets/js/paper-full.js" type="text/javascript"></script>
 
 <script async src="/assets/generator_resources/tensionMinigame.js" type="text/paperscript" canvas="jenga-canvas" hidpi="off"></script>
-
-<script type="text/javascript">
-//throwBalls("game",number, size, Maxspeed)
-
-window.onload = function() {
-document.getElementById('dread-btn').onclick = function() {
-window.deleteBalls();
-window.throwBalls("dread", 6, 60, 6);
-document.getElementById('jenga-buttons').style="display:none;";
-};
-document.getElementById('star-btn').onclick = function() {
-window.deleteBalls();
-window.throwBalls("star", 3, 80, 10);
-document.getElementById('jenga-buttons').style="display:none;";
-};
-document.getElementById('wretched-btn').onclick = function() {
-window.deleteBalls();
-window.throwBalls("wretched", 9, 30, 3);
-document.getElementById('jenga-buttons').style="display:none;";
-};
-};
-
-//Disable spacebar scroll!
-window.addEventListener('keydown', function(e) {
-  if(e.keyCode == 32 && e.target == document.body) {
-    e.preventDefault();
-  }
-});
-</script>
