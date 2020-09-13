@@ -193,11 +193,11 @@ secondLayer.activate();
     if (gameType == "dread") {
       ballColors = [new Color(255, 255, 255), new Color(204, 0, 0)];
     } else if (gameType == "star") {
-      ballColors = [new Color(255, 0, 255), new Color(240, 248, 255)];
+      ballColors = [new Color(255, 255, 255), new Color(255, 0, 0), new Color(0, 255, 0), new Color(0, 0, 255), new Color(255, 255, 0), new Color(0, 255, 255), new Color(255, 0, 255), new Color(192, 192, 192), new Color(128, 128, 128), new Color(128, 0, 0), new Color(128, 128, 0), new Color(0, 128, 0), new Color(128, 0, 128), new Color(0, 128, 128), new Color(0, 0, 128)];
     } else if (gameType == "wretched") {
       ballColors = [new Color(152, 251, 152), new Color(0, 255, 255), new Color(25, 111, 61)];
     } else {
-      ballColors = [new Color(255, 255, 255), new Color(255, 0, 0), new Color(0, 255, 0), new Color(0, 0, 255), new Color(255, 255, 0), new Color(0, 255, 255), new Color(255, 0, 255), new Color(192, 192, 192), new Color(128, 128, 128), new Color(128, 0, 0), new Color(128, 128, 0), new Color(0, 128, 0), new Color(128, 0, 128), new Color(0, 128, 128), new Color(0, 0, 128)];
+      ballColors = [new Color(255, 255, 255)];
     }
 
     for (var i = 0; i < numBalls; i++) {
@@ -247,7 +247,7 @@ secondLayer.activate();
         score = score + 1;
         document.getElementById("jengaScore").innerHTML = "Score: " + score;
       } else {
-        document.getElementById("jengaScore").innerHTML = "Game Over! Refresh to play again.";
+        document.getElementById("jengaScore").innerHTML = "You Missed! Refresh to play again.";
         deleteBalls();
       }
     }
