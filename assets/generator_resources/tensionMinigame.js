@@ -187,7 +187,7 @@ secondLayer.activate();
   //throwBalls("dread", 10, 60, 10);
 
   window.throwBalls = function(gameName, numBalls, ballSize, ballSpeed) {
-    document.getElementById("jengaScore").innerHTML = "Press Spacebar to Shoot Blobs";
+    document.getElementById("jengaScore").innerHTML = "Press Enter to Shoot Blobs";
     gameType = gameName;
 
     if (gameType == "dread") {
@@ -225,7 +225,7 @@ secondLayer.activate();
 
   //SPACEBAR
   tool.onKeyDown = function (event) {
-    if (event.key == 'space') {
+    if (event.key == 'enter') {
       blobHit = false;
       for (var i = 0; i < balls.length - 1; i++) {
         if (balls[i].path.contains(view.center)) {
