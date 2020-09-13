@@ -26,7 +26,7 @@ The more blobs you shoot, the more difficult the game gets. If you miss, Game Ov
 
 <h2 style="text-align:center;" id="jengaScore"></h2>
 
-<div id="jenga-div">
+<div id="jenga-div" style="width:100%;height:100%;">
     <canvas id="jenga-canvas" resize="true"></canvas>
 </div>
 
