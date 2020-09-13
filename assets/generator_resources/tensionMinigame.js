@@ -72,11 +72,11 @@ secondLayer.activate();
   
   // kynd.info 2014
 
-  function Ball(r, p, v, color) {
+  function Ball(r, p, v, speed, color) {
     this.radius = r;
     this.point = p;
     this.vector = v;
-    this.maxVec = 15;
+    this.maxVec = speed;
     this.numSegment = Math.floor(r / 3 + 2);
     this.boundOffset = [];
     this.boundOffsetBuff = [];
@@ -184,18 +184,16 @@ secondLayer.activate();
   var score = 0;
   var balls = [];
 
-  //throwBalls("dread", 10, 60, 10);
-
   window.throwBalls = function(gameName, numBalls, ballSize, ballSpeed) {
     document.getElementById("jengaScore").innerHTML = "Press Enter to Shoot Blobs";
     gameType = gameName;
 
     if (gameType == "dread") {
-      ballColors = [new Color(255, 255, 255), new Color(204, 0, 0)];
+      ballColors = [new Color("#a93226"), new Color("#c0392b"), new Color("#cd6155"), new Color("#ecf0f1"), new Color("#d0d3d4"), new Color("#f2f3f4")];
     } else if (gameType == "star") {
-      ballColors = [new Color(255, 255, 255), new Color(255, 0, 0), new Color(0, 255, 0), new Color(0, 0, 255), new Color(255, 255, 0), new Color(0, 255, 255), new Color(255, 0, 255), new Color(192, 192, 192), new Color(128, 128, 128), new Color(128, 0, 0), new Color(128, 128, 0), new Color(0, 128, 0), new Color(128, 0, 128), new Color(0, 128, 128), new Color(0, 0, 128)];
+      ballColors = [new Color("#dc2285"), new Color("#8a2b85"), new Color("#613187"), new Color("#d62e35"), new Color("#234459"), new Color("#fce6cc"), new Color("#f9bec6")];
     } else if (gameType == "wretched") {
-      ballColors = [new Color(152, 251, 152), new Color(0, 255, 255), new Color(25, 111, 61)];
+      ballColors = [new Color("#547547"), new Color("#557946"), new Color("#3f6c75"), new Color("#94b9c4"), new Color("#89a982"), new Color("#6b9aa4")];
     } else {
       ballColors = [new Color(255, 255, 255)];
     }
@@ -204,10 +202,10 @@ secondLayer.activate();
       position = Point.random() * view.size;
       vector = new Point({
         angle: 360 * Math.random(),
-        length: Math.random() * ballSpeed
+        length: Math.random() * 10
       });
       radius = Math.random() * 60 + ballSize;
-      balls.push(new Ball(radius, position, vector, ballColors[Math.floor(Math.random() * ballColors.length)]));
+      balls.push(new Ball(radius, position, vector, ballSpeed, ballColors[Math.floor(Math.random() * ballColors.length)]));
     }
   }
 
@@ -230,10 +228,8 @@ secondLayer.activate();
       for (var i = 0; i < balls.length - 1; i++) {
         if (balls[i].path.contains(view.center)) {
           var oldBall = balls.splice(i, 1); //remove the ball from list
-          // add 3 smaller ones if not smaller
-          if (oldBall[0].radius > 20){
-            window.throwBalls(gameType, 3, 20, 15)
-          }
+          // split it into 2 smaller balls
+            window.throwBalls(gameType, 2, oldBall[0].radius / 2, oldBall[0].speed)
           //fade out old ball
           oldTween = oldBall[0].path.tween({
             'opacity': 0
@@ -262,5 +258,86 @@ secondLayer.activate();
     for (var i = 0, l = balls.length; i < l; i++) {
       balls[i].iterate();
     }
+  }
+
+  function onResize(event) {
+    secondLayer.activate();
+
+  //CROSSHAIRS
+  targetIn.remove();
+  targetIn = new Path.Circle(view.center, 25);
+  targetIn.strokeColor = 'white';
+  targetIn.strokeWidth = 6;
+
+  targetOut.remove();
+  targetOut = new Path.Circle(view.center, 25);
+  targetOut.strokeColor = 'black';
+  targetOut.strokeWidth = 3;
+
+  cross1.remove();
+  cross1 = new Path.Line({
+    from: [view.center.x + 15, view.center.y - 15],
+    to: [view.center.x + 5, view.center.y - 5],
+    strokeColor: 'white',
+    strokeWidth: 4
+  });
+
+  cross1dark.remove();
+  cross1dark = new Path.Line({
+    from: [view.center.x + 15, view.center.y - 15],
+    to: [view.center.x + 5, view.center.y - 5],
+    strokeColor: 'black',
+    strokeWidth: 2
+  });
+
+  cross2.remove();
+  cross2 = new Path.Line({
+    from: [view.center.x + 15, view.center.y + 15],
+    to: [view.center.x + 5, view.center.y + 5],
+    strokeColor: 'white',
+    strokeWidth: 4
+  });
+
+  cross2dark.remove();
+  cross2dark = new Path.Line({
+    from: [view.center.x + 15, view.center.y + 15],
+    to: [view.center.x + 5, view.center.y + 5],
+    strokeColor: 'black',
+    strokeWidth: 2
+  });
+
+  cross3.remove();
+  cross3 = new Path.Line({
+    from: [view.center.x - 15, view.center.y - 15],
+    to: [view.center.x - 5, view.center.y - 5],
+    strokeColor: 'white',
+    strokeWidth: 4
+  });
+
+  cross3dark.remove();
+  cross3dark = new Path.Line({
+    from: [view.center.x - 15, view.center.y - 15],
+    to: [view.center.x - 5, view.center.y - 5],
+    strokeColor: 'black',
+    strokeWidth: 2
+  });
+
+  cross4.remove();
+  cross4 = new Path.Line({
+    from: [view.center.x - 15, view.center.y + 15],
+    to: [view.center.x - 5, view.center.y + 5],
+    strokeColor: 'white',
+    strokeWidth: 4
+  });
+
+  cross4dark.remove();
+  cross4dark = new Path.Line({
+    from: [view.center.x - 15, view.center.y + 15],
+    to: [view.center.x - 5, view.center.y + 5],
+    strokeColor: 'black',
+    strokeWidth: 2
+  });
+
+  firstLayer.activate();
   }
 
