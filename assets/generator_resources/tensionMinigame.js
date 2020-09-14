@@ -200,15 +200,15 @@ window.newGame = function (gameName, numBalls, ballSize){
   gameType = gameName;
   if (gameType == "dread") {
     ballColors = [new Color("#a93226"), new Color("#c0392b"), new Color("#cd6155"), new Color("#ecf0f1"), new Color("#d0d3d4"), new Color("#f2f3f4")];
-    ballSpeed = 3;
+    ballSpeed = 6;
     ballSquish = 0.015;
   } else if (gameType == "star") {
     ballColors = [new Color("#d9328b"), new Color("#ffffff"), new Color("#c794c1"), new Color("#eddfec"), new Color("#cfafd2"), new Color("#eddfeb"), new Color("#e6c0d7"), new Color("#f3bf77"), new Color("#6f519c"), new Color("#a27ab2")];
     ballSquish = 0.005;
-    ballSpeed = 5;
+    ballSpeed = 10;
   } else if (gameType == "wretched") {
     ballColors = [new Color("#6dbeaf"), new Color("#5faf9e"), new Color("#b1fcfe"), new Color("#a2fcfe"), new Color("#72fafc"), new Color("#82d3be")];
-    ballSpeed = 2;
+    ballSpeed = 4;
     ballSquish = 0.03;
   } else {
     ballColors = [new Color(255, 255, 255)];
@@ -223,9 +223,9 @@ throwBalls = function (numBalls, ballSize) {
     position = Point.random() * view.size;
     vector = new Point({
       angle: 360 * Math.random(),
-      length: Math.random() * 3
+      length: Math.random() * 10
     });
-    radius = Math.random() * 60 + ballSize;
+    radius = Math.random() * 30 + ballSize;
     balls.push(new Ball(radius, position, vector, ballColors[Math.floor(Math.random() * ballColors.length)]));
   }
 }
@@ -258,7 +258,7 @@ tool.onKeyDown = function (event) {
       score = score + 1;
       document.getElementById("jengaScore").innerHTML = "Press Enter to Shoot Blobs<br>Score: " + score;
       //add two smaller balls
-      window.throwBalls(2, oldBall[0].radius / 2);
+      window.throwBalls(2, oldBall[0].radius / 3);
     } else {
       document.getElementById("jengaScore").innerHTML = "Game Over!<br>Score: " + score;
       deleteBalls();

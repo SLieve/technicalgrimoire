@@ -14,13 +14,13 @@ A minigame that requires similar hand-eye coordination as pulling Jenga blocks. 
 <div id="jenga-buttons" class="row" style="justify-content: space-around !important;margin-bottom:30px;">
   <!-- throwBalls(gameName, numBalls, ballSize, ballSpeed) -->
   <div class="col-md-4 col">
-  <a class="btn jenga-dread-btn" onclick="window.newGame('dread', 6, 60)"><h3 class="tightSpacing">Dread</h3>Default Settings</a></div>
+  <a class="btn jenga-dread-btn" onclick="window.newGame('dread', 7, 60)"><h3 class="tightSpacing">Dread</h3>Default Settings</a></div>
 
   <div class="col-md-4 col">
-  <a class="btn jenga-star-btn" onclick="window.newGame('star', 3, 80)"><h3 class="tightSpacing">StarCrossed</h3>Large, fast blobs</a></div>
+  <a class="btn jenga-star-btn" onclick="window.newGame('star', 5, 80)"><h3 class="tightSpacing">StarCrossed</h3>Large, fast blobs</a></div>
 
   <div class="col-md-4 col">
-  <a class="btn jenga-wretched-btn" onclick="window.newGame('wretched', 9, 30)"><h3 class="tightSpacing">Wretched</h3>Small, slow blobs</a></div>
+  <a class="btn jenga-wretched-btn" onclick="window.newGame('wretched', 10, 40)"><h3 class="tightSpacing">Wretched</h3>Small, slow blobs</a></div>
 </div>
 
 <h2 style="text-align:center;" id="jengaScore">Select a Game Type above to begin.</h2>
