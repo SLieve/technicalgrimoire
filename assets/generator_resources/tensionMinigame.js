@@ -72,11 +72,11 @@ firstLayer.activate();
 
 // kynd.info 2014
 
-function Ball(r, p, v, speed, color) {
+function Ball(r, p, v, color) {
   this.radius = r;
   this.point = p;
   this.vector = v;
-  this.maxVec = speed;
+  this.maxVec = ballSpeed;
   this.numSegment = Math.floor(r / 3 + 2);
   this.boundOffset = [];
   this.boundOffsetBuff = [];
@@ -139,7 +139,7 @@ Ball.prototype = {
     var dist = this.point.getDistance(b.point);
     if (dist < this.radius + b.radius && dist != 0) {
       var overlap = this.radius + b.radius - dist;
-      var direc = (this.point - b.point).normalize(overlap * 0.0015);
+      var direc = (this.point - b.point).normalize(overlap * ballSquish);
       this.vector += direc;
       b.vector -= direc;
 
@@ -189,27 +189,35 @@ Ball.prototype = {
 var gameType = "dread"; //the global game type to remember.
 var balls = [];
 var score = 0;
+var ballColors = [];
+var ballSpeed = 0;
+var ballSquish = 0.015;
 
-window.newGame = function (gameName, numBalls, ballSize, ballSpeed){
+window.newGame = function (gameName, numBalls, ballSize){
   deleteBalls();
   score = 0;
   document.getElementById("jengaScore").innerHTML = "Press Enter to Shoot Blobs<br>";
   gameType = gameName;
-  throwBalls(numBalls, ballSize, ballSpeed);
-}
-
-throwBalls = function (numBalls, ballSize, ballSpeed) {
-  firstLayer.activate();
-
   if (gameType == "dread") {
     ballColors = [new Color("#a93226"), new Color("#c0392b"), new Color("#cd6155"), new Color("#ecf0f1"), new Color("#d0d3d4"), new Color("#f2f3f4")];
+    ballSpeed = 3;
+    ballSquish = 0.015;
   } else if (gameType == "star") {
     ballColors = [new Color("#d9328b"), new Color("#ffffff"), new Color("#c794c1"), new Color("#eddfec"), new Color("#cfafd2"), new Color("#eddfeb"), new Color("#e6c0d7"), new Color("#f3bf77"), new Color("#6f519c"), new Color("#a27ab2")];
+    ballSquish = 0.005;
+    ballSpeed = 5;
   } else if (gameType == "wretched") {
     ballColors = [new Color("#6dbeaf"), new Color("#5faf9e"), new Color("#b1fcfe"), new Color("#a2fcfe"), new Color("#72fafc"), new Color("#82d3be")];
+    ballSpeed = 2;
+    ballSquish = 0.03;
   } else {
     ballColors = [new Color(255, 255, 255)];
   }
+  throwBalls(numBalls, ballSize);
+}
+
+throwBalls = function (numBalls, ballSize) {
+  firstLayer.activate();
 
   for (i = 0; i < numBalls; i++) {
     position = Point.random() * view.size;
@@ -218,7 +226,7 @@ throwBalls = function (numBalls, ballSize, ballSpeed) {
       length: Math.random() * 3
     });
     radius = Math.random() * 60 + ballSize;
-    balls.push(new Ball(radius, position, vector, ballSpeed, ballColors[Math.floor(Math.random() * ballColors.length)]));
+    balls.push(new Ball(radius, position, vector, ballColors[Math.floor(Math.random() * ballColors.length)]));
   }
 }
 
@@ -248,11 +256,11 @@ tool.onKeyDown = function (event) {
     //SCORING STUFF
     if (blobHit) {
       score = score + 1;
-      document.getElementById("jengaScore").innerHTML = "Score: " + score + "<br>" ;
+      document.getElementById("jengaScore").innerHTML = "Press Enter to Shoot Blobs<br>Score: " + score;
       //add two smaller balls
-      window.throwBalls(2, oldBall[0].radius / 2, oldBall[0].maxVec);
+      window.throwBalls(2, oldBall[0].radius / 2);
     } else {
-      document.getElementById("jengaScore").innerHTML = "Score: " + score + "<br>You Missed! Start a new game?";
+      document.getElementById("jengaScore").innerHTML = "Game Over!<br>Score: " + score;
       deleteBalls();
     }
   }
