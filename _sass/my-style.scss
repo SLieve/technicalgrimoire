@@ -1,3 +1,43 @@
+// Jenga Buttons
+.jenga-dread-btn {
+  color: whitesmoke;
+  background: #922b21;
+  width:100%;
+  border-radius: initial;
+  border:1px solid whitesmoke;
+}
+
+.jenga-dread-btn:hover {
+  color: whitesmoke;
+  background: darkslategrey;
+}
+
+.jenga-star-btn {
+  color: whitesmoke;
+  background: #6c3483;
+  width:100%;
+  border-radius: initial;
+  border:1px solid whitesmoke;
+}
+
+.jenga-star-btn:hover {
+  color: whitesmoke;
+  background: darkslategrey;
+}
+
+.jenga-wretched-btn {
+  color: whitesmoke;
+  background: #196f3d;
+  width:100%;
+  border-radius: initial;
+  border:1px solid whitesmoke;
+}
+
+.jenga-wretched-btn:hover {
+  color: whitesmoke;
+  background: darkslategrey;
+}
+
 /* Simple Forms */
 .formCard {
   background-color: #282e31;
