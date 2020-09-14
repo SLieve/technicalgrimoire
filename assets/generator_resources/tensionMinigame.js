@@ -252,7 +252,7 @@ tool.onKeyDown = function (event) {
       //add two smaller balls
       window.throwBalls(2, oldBall[0].radius / 2, oldBall[0].maxVec);
     } else {
-      document.getElementById("jengaScore").innerHTML = "You Missed! Start a new game?";
+      document.getElementById("jengaScore").innerHTML = "Score: " + score + "<br>You Missed! Start a new game?";
       deleteBalls();
     }
   }
