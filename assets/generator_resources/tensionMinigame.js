@@ -139,7 +139,7 @@ Ball.prototype = {
     var dist = this.point.getDistance(b.point);
     if (dist < this.radius + b.radius && dist != 0) {
       var overlap = this.radius + b.radius - dist;
-      var direc = (this.point - b.point).normalize(overlap * 0.15);
+      var direc = (this.point - b.point).normalize(overlap * 0.0015);
       this.vector += direc;
       b.vector -= direc;
 
