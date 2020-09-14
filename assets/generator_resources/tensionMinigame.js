@@ -193,7 +193,7 @@ var score = 0;
 window.newGame = function (gameName, numBalls, ballSize, ballSpeed){
   deleteBalls();
   score = 0;
-  document.getElementById("jengaScore").innerHTML = "Press Enter to Shoot Blobs";
+  document.getElementById("jengaScore").innerHTML = "Press Enter to Shoot Blobs<br>";
   gameType = gameName;
   throwBalls(numBalls, ballSize, ballSpeed);
 }
@@ -248,7 +248,7 @@ tool.onKeyDown = function (event) {
     //SCORING STUFF
     if (blobHit) {
       score = score + 1;
-      document.getElementById("jengaScore").innerHTML = "Score: " + score;
+      document.getElementById("jengaScore").innerHTML = "Score: " + score + "<br>" ;
       //add two smaller balls
       window.throwBalls(2, oldBall[0].radius / 2, oldBall[0].maxVec);
     } else {
