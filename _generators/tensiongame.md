@@ -1,15 +1,15 @@
 ---
 date: 2020-09-12
 layout: full-page
-title: Tension Mini-game for Tabletop RPGs
+title: Tension Minigame
 permalink: tensiongame
 published: true
 image: /images/posts/jenga-colorful.jpg
 description: >
-  A hand-eye coordination game similar to Jenga.
+  A hand-eye coordination game similar to Jenga
 ---
 
-A mini-game that requires similar hand-eye coordination as pulling Jenga blocks. The more blobs you shoot, the more difficult things get. If you miss, Game Over! 
+A minigame that requires similar hand-eye coordination as pulling Jenga blocks. The more blobs you shoot, the more difficult things get. If you miss, Game Over! 
 
 <div id="jenga-buttons" class="row" style="justify-content: space-around !important;margin-bottom:30px;">
   <!-- throwBalls(gameName, numBalls, ballSize, ballSpeed) -->
@@ -23,7 +23,7 @@ A mini-game that requires similar hand-eye coordination as pulling Jenga blocks.
   <a class="btn jenga-wretched-btn" onclick="window.newGame('wretched', 9, 30, 2)"><h3 class="tightSpacing">Wretched</h3>Small, slow blobs</a></div>
 </div>
 
-<h2 style="text-align:center;" id="jengaScore"></h2>
+<h2 style="text-align:center;" id="jengaScore">Select a Game Type above to begin.</h2>
 
 <div id="jenga-div">
     <canvas id="jenga-canvas" resize="true"></canvas>
@@ -31,11 +31,15 @@ A mini-game that requires similar hand-eye coordination as pulling Jenga blocks.
 
 ### Explanation
 
-Playing Jenga is mostly an exercise in patience. Especially for the first few pulls, as long as you're willing to check for the loose blocks it's trivial. 
+I want to play games like Dread, Star Crossed, and The Wretched. But I don't have a Jenga tower, and I couldn't play it remotely with friends...so I made my own version.
 
-Unlike Jenga there's no way to play this game together; but I still find it a better replacement than raw statistical methods.
+This minigame is less concerned with replicating the statical patterns of Jenga, and more focused on replicating the feel, the **tension** of playing Jenga.
 
-If you have suggestions for tweaking the game to make it more suitable, please let me know!
+Pulling blocks is mostly an exercise in patience. For the first few pulls there are plenty of loose bricks to choose from. After a dozen pulls, things start to get tricky.
+
+Unlike Jenga individual players don't impact one another. I recommend each player share their game screen to simulate this group tension.
+
+If you have suggestions for improving the game, please let me know!
 
 <p><i>Cover Image by <a href="https://pixabay.com/users/thekurupi-3657708/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4027763">Fernando FLeitas</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4027763">Pixabay</a></i></p>
 
