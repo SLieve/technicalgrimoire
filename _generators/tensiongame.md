@@ -13,13 +13,13 @@ A mini-game that requires similar hand-eye coordination as pulling Jenga blocks.
 
 <div id="jenga-buttons" class="row" style="justify-content: space-around !important;margin-bottom:30px;">
   <!-- throwBalls(gameName, numBalls, ballSize, ballSpeed) -->
-  <div class="col-md-4 col noPadding">
+  <div class="col-md-4 col">
   <a class="btn jenga-dread-btn" onclick="window.newGame('dread', 6, 60, 3)"><h3 class="tightSpacing">Dread</h3>Default Settings</a></div>
 
-  <div class="col-md-4 col noPadding">
+  <div class="col-md-4 col">
   <a class="btn jenga-star-btn" onclick="window.newGame('star', 3, 80, 5)"><h3 class="tightSpacing">StarCrossed</h3>Large, fast blobs</a></div>
 
-  <div class="col-md-4 col noPadding">
+  <div class="col-md-4 col">
   <a class="btn jenga-wretched-btn" onclick="window.newGame('wretched', 9, 30, 2)"><h3 class="tightSpacing">Wretched</h3>Small, slow blobs</a></div>
 </div>
 
