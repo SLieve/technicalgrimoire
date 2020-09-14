@@ -196,7 +196,7 @@ var ballSquish = 0.015;
 window.newGame = function (gameName, numBalls, ballSize){
   deleteBalls();
   score = 0;
-  document.getElementById("jengaScore").innerHTML = "Press Enter to Shoot Blobs<br>";
+  document.getElementById("jengaScore").innerHTML = "Press Enter to Shoot Blobs<br>Score: " + score;
   gameType = gameName;
   if (gameType == "dread") {
     ballColors = [new Color("#a93226"), new Color("#c0392b"), new Color("#cd6155"), new Color("#ecf0f1"), new Color("#d0d3d4"), new Color("#f2f3f4")];
