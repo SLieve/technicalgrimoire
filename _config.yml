@@ -163,7 +163,7 @@ disqus: technicalgrimoire
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
-# tinyletter:            <username>
+tinyletter: davidschirduan
 
 
 # Hydejack Settings
