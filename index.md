@@ -18,7 +18,7 @@ posts_page: /blog
 
 Get alerted about upcoming games, generators, and downloads!
 
-<form style="text-align:center;" action="https://tinyletter.com/davidschirduan" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/davidschirduan', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><input placeholder="Enter Your Email" type="text" style="width:350px;" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /></form>
+<form style="text-align:center;" action="https://tinyletter.com/davidschirduan" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/davidschirduan', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><input placeholder="Enter Your Email" type="text" style="width:350px;" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" style="color:white;border:none;background-color:var(--accent-color);padding: 3px 10px;margin:5px;" value="Subscribe"/></form>
         
 
 ## Recent Blog Posts
