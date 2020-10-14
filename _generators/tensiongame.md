@@ -1,5 +1,5 @@
 ---
-date: 2020-09-12
+date: 2020-07-12
 layout: full-page
 title: Tension Minigame
 permalink: tensiongame

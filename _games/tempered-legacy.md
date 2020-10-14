@@ -17,7 +17,38 @@ redirect_from:
   - "/temperedgenerators"
 ---
 
-Tempered Legacy is a magic item supplement for fantasy RPGs. The powers of these items are locked behind the regrets of previous owners. You can buy the Zine to get started, or just use the Generator below to create unique weapons.
+Tempered Legacy is a magic item supplement for fantasy RPGs. The powers of these items are locked behind the regrets of previous owners. You can buy [the Zine](/tempered-legacy#the-zine) to get started, or just use the Generator below to create unique weapons.
+
+### The Generator
+
+Click the buttons below to create thousands of unique weapons that use the Tempered Legacy framework. Grab the Zine for advice and hand-crafted weapons.
+
+<div class="row centerButtons">
+  <div class="col-md-6 col-12">
+    <button class="btn tempered-btn notransition" onclick="tl_generate()">
+      <h3 id="wpnBtn">Generate a Weapon</h3>
+    </button>
+  </div>
+    <div class="col-md-6 col-12">
+    <button class="btn tempered-btn notransition" onclick="tl_generate('slot')">
+      <h3 id="slotBtn">Generate a Slot</h3>
+    </button>
+  </div>
+</div>
+
+<div class="container generatorCard" id="weaponCard" style="display:none;">
+  <div style="display:flex;justify-content:space-between;">
+    <h2 id="weaponName" style="margin-top:0px;">Silver Rapier</h2>
+    <button id="downloadBTN" class="btn tempered-btn-sm data-html2canvas-ignore" onclick="tl_saveWeaponIMG()" style="min-width:160px;margin-bottom:auto;">
+      <p>DOWNLOAD</p>
+    </button>
+  </div>
+  <p id="weaponDesc">A simple but well-crafted blade</p>
+  <p><img id="weaponImg" src="/images/TemperedWeapons/Sword.png" style="background: black; width: 100%;"></p>
+  <div id="temperedSlots">
+  </div>
+  <!--<div id="interacting"></div>-->
+</div>
 
 ### The Zine
 
@@ -82,37 +113,6 @@ The 64 page Zine contains:
     </tr>
   </tbody>
 </table>
-
-### The Generator
-
-Click the buttons below to create thousands of unique weapons that use the Tempered Legacy framework. Grab the Zine for advice and hand-crafted weapons.
-
-<div class="row centerButtons">
-  <div class="col-md-6 col-12">
-    <button class="btn tempered-btn notransition" onclick="tl_generate()">
-      <h3 id="wpnBtn">Generate a Weapon</h3>
-    </button>
-  </div>
-    <div class="col-md-6 col-12">
-    <button class="btn tempered-btn notransition" onclick="tl_generate('slot')">
-      <h3 id="slotBtn">Generate a Slot</h3>
-    </button>
-  </div>
-</div>
-
-<div class="container generatorCard" id="weaponCard" style="display:none;">
-  <div style="display:flex;justify-content:space-between;">
-    <h2 id="weaponName" style="margin-top:0px;">Silver Rapier</h2>
-    <button id="downloadBTN" class="btn tempered-btn-sm data-html2canvas-ignore" onclick="tl_saveWeaponIMG()" style="min-width:160px;margin-bottom:auto;">
-      <p>DOWNLOAD</p>
-    </button>
-  </div>
-  <p id="weaponDesc">A simple but well-crafted blade</p>
-  <p><img id="weaponImg" src="/images/TemperedWeapons/Sword.png" style="background: black; width: 100%;"></p>
-  <div id="temperedSlots">
-  </div>
-  <!--<div id="interacting"></div>-->
-</div>
 
 **Thanks to:**
 
