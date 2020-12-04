@@ -13,7 +13,7 @@ I've ordered this list like a meal. Start with the Appetizers and then try some 
 
 I don't use a music streaming service. I like to OWN things, even if it's just a collection of digital files. [Bandcamp](https://bandcamp.com/) is my store of choice. I get to directly support cool creators and the clever tagging features helps me find weird, niche stuff. I can't say if these songs are available on Spondora or Goopple YouTunes or whatever.
 
-It it's [BANDCAMP FRIDAY](https://isitbandcampfriday.com/) then all the bandcamp fees are waived and your money goes DIRECTLY to the artists.
+If it's [BANDCAMP FRIDAY](https://isitbandcampfriday.com/) then all the bandcamp fees are waived and your money goes DIRECTLY to the artists.
 
 ## Table of Contents
 {:.no_toc}
