@@ -86,7 +86,7 @@ The 64 page Zine contains:
     </a>
   </div>
   <div class="col-md-6 col-12">
-    <a class="btn tempered-btn notransition snipcart-add-item" 
+    <!--<a class="btn tempered-btn notransition snipcart-add-item" 
       data-item-id="tempered-legacy-print" 
       data-item-price="10.00"
       data-item-url="/tempered-legacy"
@@ -98,9 +98,9 @@ The 64 page Zine contains:
       data-item-length="23"
       data-item-width="16"
       data-item-height="3"
-      data-item-shippable="true">
-      <h3>Order the Zine (Print+PDF): $10</h3>
-    </a>
+      data-item-shippable="true">-->
+      <h3>Order the Zine (Print+PDF): SOLD OUT</h3>
+    <!--</a>-->
   </div>
 </div>
 
