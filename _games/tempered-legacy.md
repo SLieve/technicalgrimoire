@@ -99,7 +99,7 @@ The 64 page Zine contains:
       data-item-width="16"
       data-item-height="3"
       data-item-shippable="true">-->
-      <h3>Order the Zine (Print+PDF): SOLD OUT</h3>
+      <h3>Print copies SOLD OUT</h3>
     <!--</a>-->
   </div>
 </div>
