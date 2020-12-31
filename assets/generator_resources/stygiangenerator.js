@@ -28,6 +28,8 @@ var sty_data = {
   currentLayer: -1,
 };
 
+document.getElementById("fileElem")
+  .addEventListener('change', loadLibrary, false);
 
 function sty_getRandomInt(min, max) {
   min = Math.ceil(min);
@@ -123,6 +125,33 @@ function sty_updateLog() {
   var printLibraryButtonHtml = "<div class=\"logItem\"><a onclick=\"printLibrary()\"><p><span class=\"logLevel\" style=\"color:lightgreen;\">S</span> Save this Libary<br><i>as PDF</i></p></a></div>";
   var saveLibraryButtonHtml = "<div class=\"logItem\"><a onclick=\"saveLibrary()\"><p><span class=\"logLevel\" style=\"color:lightgreen;\">S</span> Save this Libary<br><i>as a data file</i></p></a></div>";
   document.getElementById("logContent").innerHTML = logHTML + printLibraryButtonHtml + saveLibraryButtonHtml;
+}
+
+function saveLibrary() {
+    var d = document.createElement("a");
+    var file = new Blob([JSON.stringify(sty_data)], {type: "text/plain"});
+    d.href = URL.createObjectURL(file);
+    d.download = "stygianlibrary";
+    d.click();
+}
+
+function sty_runLoadLibrary() {
+  var fileElem = document.getElementById("fileElem");
+  fileElem.click();
+}
+
+function loadLibrary(e) {
+  console.log("Loading file");
+  var file = e.target.files[0];
+  if (!file) {
+    return;
+  }
+  var reader = new FileReader();
+  reader.onload = function(e) {
+    sty_data = JSON.parse(e.target.result);
+    sty_updateLog();
+  };
+  reader.readAsText(file);
 }
 
 function printLibrary() {

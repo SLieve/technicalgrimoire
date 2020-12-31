@@ -11,6 +11,7 @@ description: >
   A mobile-friendly generator for the Stygian Library.
 ---
 
+<input type="file" id="fileElem" style="display:none">
 <div class="stygian-card">
   <div class="stygian-text" id="stygian-complete">
     <div id="encounterContent">
