@@ -18,12 +18,16 @@ fetch('/assets/generator_resources/stygian.json')
     console.log('Fetch Error :-S', err);
   });
 
-var sty_currentLayer = -1;
 var sty_hrHTML = "<hr class=\"stygian-hr\">";
 
-//A list of number sets tracking the previous rooms and details. 
-//used when backtracking: [level, nextRoomNum, nextDetailNum]
-var sty_locationLog = [];
+var sty_data = {
+  //A list of lists of number sets tracking the previous rooms and details. 
+  //One list of rooms per layer.
+  //Used when backtracking: [nextRoomNum, nextDetailNum]
+  locationLog: [],
+  currentLayer: -1,
+};
+
 
 function sty_getRandomInt(min, max) {
   min = Math.ceil(min);
@@ -31,14 +35,15 @@ function sty_getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
 }
 
-function sty_getRoom(location) {
-
+function sty_getRoom(layer, index) {
   document.getElementById("encounterContent").innerHTML = "";
 
+  sty_data.currentLayer = layer;
+  var location = sty_data.locationLog[layer][index];
   console.log(location);
 
   //build the level text
-  document.getElementById("levelContent").innerHTML = "<h2 style=\"margin-top: 10px;\" >Level " +location[0] + ": " + stygian.locations[location[1]].title + "</h2><p>" + stygian.locations[location[1]].description + "</p>" + sty_hrHTML + "<h2 style=\"margin-top: 10px;\" >Detail: " + stygian.details[location[2]].title + "</h2><p>" + stygian.details[location[2]].description + "</p>";
+  document.getElementById("levelContent").innerHTML = "<h2 style=\"margin-top: 10px;\" >Level " + layer + ": " + stygian.locations[location[0]].title + "</h2><p>" + stygian.locations[location[0]].description + "</p>" + sty_hrHTML + "<h2 style=\"margin-top: 10px;\" >Detail: " + stygian.details[location[1]].title + "</h2><p>" + stygian.details[location[1]].description + "</p>";
 
   //scroll to top
   window.scrollTo(0,0);
@@ -58,7 +63,7 @@ function sty_newEvent(sty_visitor) {
   nextEncounter = "";
 
   for (i = 0; i < stygian.events[rand20].encounters; i++) {
-    depth20 = sty_getRandomInt(0,20) + sty_currentLayer;
+    depth20 = sty_getRandomInt(0,20) + sty_data.currentLayer;
 
     if (depth20 >= 34) {
       depth20 = Math.floor(Math.random() * 20) + Math.floor(Math.random() * 10) + 1 + Math.floor(Math.random() * 6) - 2;
@@ -81,11 +86,10 @@ function sty_newEvent(sty_visitor) {
 
 function sty_goDeeper() {
   document.getElementById("deeperButton").innerHTML = "Go Deeper";
+  sty_data.currentLayer = sty_data.currentLayer + 1;
 
-  sty_currentLayer = sty_currentLayer + 1;
-
-  nextRoomNum = sty_getRandomInt(sty_currentLayer, sty_currentLayer + 20);
-  nextDetailNum = sty_getRandomInt(sty_currentLayer, sty_currentLayer + 20);
+  nextRoomNum = sty_getRandomInt(sty_data.currentLayer, sty_data.currentLayer + 20);
+  nextDetailNum = sty_getRandomInt(sty_data.currentLayer, sty_data.currentLayer + 20);
 
   //If above 35, then re-roll
   if (nextRoomNum >= 34)
@@ -96,20 +100,24 @@ function sty_goDeeper() {
     nextDetailNum = 34;
 
   //add this to the log
-  sty_locationLog.push([sty_currentLayer+1, nextRoomNum, nextDetailNum]);
+  if (sty_data.locationLog.length <= sty_data.currentLayer) {
+    sty_data.locationLog.push([]);
+  }
+  sty_data.locationLog[sty_data.currentLayer].push([nextRoomNum, nextDetailNum]);
 
-  sty_getRoom(sty_locationLog[sty_locationLog.length - 1]);
+  sty_getRoom(sty_data.currentLayer, sty_data.locationLog[sty_data.currentLayer].length - 1);
 
   sty_updateLog();
 }
 
 function sty_updateLog() {
-
   logHTML = "";
-  lvlCounter = 0;
 
-  for (const location of sty_locationLog) {
-    logHTML = logHTML + "<div class=\"logItem\"><a onclick=\"sty_getRoom(["+location+"])\"><p><span class=\"logLevel\">" + location[0] + "</span> " + stygian.locations[location[1]].title + "<br><i>" + stygian.details[location[2]].title + "</i></p></a></div>";
+  for (var layer = 0; layer < sty_data.locationLog.length; ++layer) {
+    for (var index = 0; index < sty_data.locationLog[layer].length; ++index) {
+      var location = sty_data.locationLog[layer][index];
+      logHTML += "<div class=\"logItem\"><a onclick=\"sty_getRoom("+layer+","+index+")\"><p><span class=\"logLevel\">" + layer + "</span> " + stygian.locations[location[0]].title + "<br><i>" + stygian.details[location[1]].title + "</i></p></a></div>";
+    }
   }
 
   document.getElementById("logContent").innerHTML = logHTML + "<div class=\"logItem\"><a onclick=\"printLibrary()\"><p><span class=\"logLevel\" style=\"color:lightgreen;\">S</span> Save this Libary<br><i>as PDF</i></p></a></div>";
@@ -123,11 +131,11 @@ function printLibrary() {
   document.getElementById("encounterContent").innerHTML = "";
   document.getElementById("stygian-img").style = "display:none;";
 
-  for (const location of sty_locationLog) {
-
-    //build the level text
-    printHTML = printHTML + "<h2 style=\"margin-top: 10px;\" >Level " + location[0] + ": " + stygian.locations[location[1]].title + "</h2>" + "<p>" + stygian.locations[location[1]].description + "</p><h2 style=\"margin-top: 10px;\" >Detail: " + stygian.details[location[2]].title + "</h2>" + "<p>" + stygian.details[location[2]].description + "</p>" + sty_hrHTML;
-
+  for (var layer = 0; layer < sty_data.locationLog.length; ++layer) {
+    for (const location of sty_data.locationLog[layer]) {
+      //build the level text
+      printHTML = printHTML + "<h2 style=\"margin-top: 10px;\" >Level " + layer + ": " + stygian.locations[location[0]].title + "</h2>" + "<p>" + stygian.locations[location[0]].description + "</p><h2 style=\"margin-top: 10px;\" >Detail: " + stygian.details[location[1]].title + "</h2>" + "<p>" + stygian.details[location[1]].description + "</p>" + sty_hrHTML;
+    }
   }
 
   document.getElementById("levelContent").innerHTML = printHTML;
@@ -150,7 +158,7 @@ function printLibrary() {
     callback: function (doc) {
       doc.save("stygian-generated.pdf");
       //set back to latest location
-      latestRoom = sty_locationLog[sty_locationLog.length - 1];
+      latestRoom = sty_data.locationLog[sty_data.locationLog.length - 1];
       sty_getRoom(latestRoom);
       document.getElementById("stygian-img").style = "max-height: 300px;float:right;margin-right: -20px;margin-bottom: -20px;";
       container.style.maxWidth = null;
